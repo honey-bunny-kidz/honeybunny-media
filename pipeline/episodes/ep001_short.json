@@ -1,0 +1,24 @@
+{
+  "id": "ep001_short",
+  "title": "Ollie Owl's Sleepy Secret",
+  "scenes": [
+    {"bg": "oak", "title": "Can't Sleep?", "subtitle": "Try Ollie Owl's sleepy secret!",
+     "cast": [{"id": "honey", "x": 0.28}, {"id": "ollie", "x": 0.52, "y": 0.50}], "lead": 0.4, "tail": 0.4,
+     "lines": [{"who": "narrator", "text": "Can't fall asleep? Try Ollie Owl's sleepy secret!"}]},
+    {"bg": "oak",
+     "cast": [{"id": "honey", "x": 0.28}, {"id": "ollie", "x": 0.52, "y": 0.50}], "lead": 0.3,
+     "lines": [
+      {"who": "ollie", "text": "Hoo, hoo! Take a big, slow breath in, like smelling a pretty flower."},
+      {"who": "ollie", "text": "Then let it out slowly, like blowing on a dandelion."},
+      {"who": "narrator", "text": "Breathe in.", "pause": 2.0},
+      {"who": "narrator", "text": "And breathe out.", "pause": 2.2},
+      {"who": "narrator", "text": "Breathe in.", "pause": 2.0},
+      {"who": "narrator", "text": "And breathe out.", "pause": 2.2},
+      {"who": "honey", "text": "Ahh. I feel so calm and sleepy."},
+      {"who": "ollie", "text": "Hoo, hoo. Goodnight, little friends!"}
+     ], "tail": 0.6},
+    {"bg": "oak", "title": "Sweet Dreams!", "subtitle": "Full story on Honey Bunny Kidz",
+     "cast": [{"id": "honey", "x": 0.28, "sleep": true}, {"id": "ollie", "x": 0.52, "y": 0.50}], "lead": 0.3,
+     "lines": [{"who": "narrator", "text": "Watch the full bedtime story on Honey Bunny Kidz!"}], "tail": 1.5}
+  ]
+}
