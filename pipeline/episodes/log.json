@@ -1,0 +1,7 @@
+[
+  {"id": "ep001", "date": "2026-10-23", "type": "bedtime story", "title": "Honey Bunny Can't Sleep",
+   "short": "Ollie Owl's Sleepy Secret", "characters": ["honey", "mama", "dotty", "ollie", "moon"],
+   "lesson": "calming down for sleep: counting, slow breathing, saying goodnight",
+   "files": ["videos/ep001_full.mp4", "videos/ep001_short.mp4"],
+   "buffer_post_ids": ["6adb3b29da167f50268b4973", "6adb3b3bfe8ae6dfd455d6d7", "6adb3b5ae4169c55aac08e3c"]}
+]
