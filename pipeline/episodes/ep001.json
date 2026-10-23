@@ -1,90 +1,371 @@
 {
-  "id": "ep001",
-  "title": "Honey Bunny Can't Sleep",
-  "scenes": [
-    {"bg": "day", "title": "Honey Bunny Can't Sleep", "subtitle": "A Bedtime Story  •  Honey Bunny Kidz",
-     "cast": [{"id": "honey", "x": 0.5}], "lead": 0.8, "tail": 1.2,
-     "lines": [{"who": "narrator", "text": "Honey Bunny Kidz presents: Honey Bunny Can't Sleep!"}]},
-
-    {"bg": "bedroom",
-     "cast": [{"id": "honey", "x": 0.300, "y": 0.903}, {"id": "mama", "x": 0.76}],
-     "lines": [
-      {"who": "narrator", "text": "Once upon a time, in a cozy little home under a big oak tree, lived a fluffy little bunny named Honey."},
-      {"who": "narrator", "text": "Honey had soft, sandy fur, long floppy ears, and a pretty pink bow."},
-      {"who": "narrator", "text": "It was bedtime. Mama Bunny tucked Honey into her warm, snuggly bed."},
-      {"who": "mama", "text": "Goodnight, my little Honey. Sweet dreams."},
-      {"who": "honey", "text": "Goodnight, Mama!"},
-      {"who": "narrator", "text": "The little night light glowed soft and yellow. Honey closed her eyes. Then, she opened them again."},
-      {"who": "honey", "text": "Mama, I am not sleepy at all!"},
-      {"who": "narrator", "text": "She wiggled her nose. She wiggled her ears. She wiggled her tiny toes. But she still was not sleepy."},
-      {"who": "honey", "text": "Mama, how do my friends fall asleep?"},
-      {"who": "mama", "text": "Let's take a little peek outside together, and ask them. Then, straight back to bed."},
-      {"who": "honey", "text": "Yay! Thank you, Mama!"}
-     ]},
-
-    {"bg": "night",
-     "cast": [{"id": "mama", "x": 0.12}, {"id": "honey", "x": 0.28}, {"id": "dotty", "x": 0.70, "y": 0.87}],
-     "lines": [
-      {"who": "narrator", "text": "Mama Bunny held Honey's paw, and they peeked outside. The stars were twinkling, and the meadow was quiet and calm."},
-      {"who": "narrator", "text": "By the little pond, they saw Dotty the Duckling, snuggled in her nest."},
-      {"who": "honey", "text": "Hello, Dotty! How do you fall asleep?"},
-      {"who": "dotty", "text": "Hello, Honey! I count the twinkly stars. Let's count them together!"},
-      {"who": "narrator", "text": "Can you count with Dotty? Ready?"},
-      {"who": "dotty", "text": "One.", "pause": 0.9},
-      {"who": "honey", "text": "Two.", "pause": 0.9},
-      {"who": "dotty", "text": "Three.", "pause": 0.9},
-      {"who": "honey", "text": "Four.", "pause": 0.9},
-      {"who": "dotty", "text": "Five!", "pause": 1.0},
-      {"who": "dotty", "text": "Ooh, counting makes me feel so sleepy. Goodnight, Honey."},
-      {"who": "honey", "text": "Goodnight, Dotty!"}
-     ]},
-
-    {"bg": "oak",
-     "cast": [{"id": "mama", "x": 0.10}, {"id": "honey", "x": 0.25}, {"id": "ollie", "x": 0.62, "y": 0.495}],
-     "lines": [
-      {"who": "narrator", "text": "Up in the big oak tree sat Ollie the Owl, with big, round, friendly eyes."},
-      {"who": "honey", "text": "Hello, Ollie! How do you fall asleep?"},
-      {"who": "ollie", "text": "Hoo, hoo! Owls sleep in the daytime, little one. But I know a sleepy secret."},
-      {"who": "ollie", "text": "Take a big, slow breath in, like smelling a pretty flower. Then let it out, slowly, like blowing on a dandelion."},
-      {"who": "narrator", "text": "Let's try it too. Breathe in.", "pause": 2.2},
-      {"who": "narrator", "text": "And breathe out.", "pause": 2.4},
-      {"who": "narrator", "text": "One more time. Breathe in.", "pause": 2.2},
-      {"who": "narrator", "text": "And breathe out.", "pause": 2.4},
-      {"who": "honey", "text": "Ahh. My body feels soft and calm."},
-      {"who": "ollie", "text": "Hoo, hoo. That's the way. Goodnight, Honey."},
-      {"who": "honey", "text": "Thank you, Ollie! Goodnight!"}
-     ]},
-
-    {"bg": "night",
-     "cast": [{"id": "mama", "x": 0.14}, {"id": "honey", "x": 0.30}, {"id": "moon", "x": 0.72, "y": 0.62, "scale": 1.5}],
-     "lines": [
-      {"who": "narrator", "text": "Then Honey looked up at the big, round Moon, smiling down from the sky."},
-      {"who": "honey", "text": "Mister Moon, how do you help everyone sleep?"},
-      {"who": "moon", "text": "I shine my soft, gentle light, so the night is never too dark. And I watch over all the little ones while they dream."},
-      {"who": "honey", "text": "Thank you, Mister Moon!"},
-      {"who": "mama", "text": "Now, little one, it's time to go back to bed."}
-     ]},
-
-    {"bg": "bedroom",
-     "cast": [{"id": "honey", "x": 0.300, "y": 0.903}, {"id": "mama", "x": 0.76}],
-     "lines": [
-      {"who": "narrator", "text": "Mama Bunny tucked Honey back into her cozy bed, snug as a bug in a rug."},
-      {"who": "mama", "text": "Let's say goodnight to everything."},
-      {"who": "narrator", "text": "Goodnight, stars. Goodnight, Dotty. Goodnight, Ollie. Goodnight, Moon."},
-      {"who": "narrator", "text": "Goodnight, soft pillow. And goodnight, warm blanket."},
-      {"who": "honey", "text": "Goodnight, Mama. I love you."},
-      {"who": "mama", "text": "I love you too, my little Honey."}
-     ]},
-
-    {"bg": "bedroom",
-     "cast": [{"id": "honey", "x": 0.300, "y": 0.903, "sleep": true}, {"id": "mama", "x": 0.76}],
-     "lines": [
-      {"who": "narrator", "text": "Honey took one big, slow breath, and drifted off to sleep."},
-      {"who": "narrator", "text": "And now, it's time for you to sleep too, little one. Close your eyes, take a slow breath, and have the sweetest dreams."}
-     ], "tail": 1.5},
-
-    {"bg": "bedroom", "title": "Sweet Dreams!", "subtitle": "See you next time on Honey Bunny Kidz",
-     "cast": [{"id": "honey", "x": 0.300, "y": 0.903, "sleep": true}],
-     "lines": [{"who": "narrator", "text": "Goodnight!"}], "tail": 4.0}
+ "id": "ep001",
+ "title": "Honey Bunny Can't Sleep",
+ "scenes": [
+  {
+   "bg": "day",
+   "title": "Honey Bunny Can't Sleep",
+   "subtitle": "A Bedtime Story  •  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Honey Bunny Can't Sleep!"
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "mama",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Once upon a time, in a cozy little home under a big oak tree, lived a fluffy little bunny named Honey."
+    },
+    {
+     "who": "narrator",
+     "text": "Honey had soft, sandy fur, long floppy ears, and a pretty pink bow."
+    },
+    {
+     "who": "narrator",
+     "text": "It was bedtime. Mama Bunny tucked Honey into her warm, snuggly bed."
+    },
+    {
+     "who": "mama",
+     "text": "Goodnight, my little Honey. Sweet dreams."
+    },
+    {
+     "who": "honey",
+     "text": "Goodnight, Mama!"
+    },
+    {
+     "who": "narrator",
+     "text": "The little night light glowed soft and yellow. Honey closed her eyes. Then, she opened them again."
+    },
+    {
+     "who": "honey",
+     "text": "Mama, I am not sleepy at all!"
+    },
+    {
+     "who": "narrator",
+     "text": "She wiggled her nose. She wiggled her ears. She wiggled her tiny toes. But she still was not sleepy."
+    },
+    {
+     "who": "honey",
+     "text": "Mama, how do my friends fall asleep?"
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a little peek outside together, and ask them. Then, straight back to bed."
+    },
+    {
+     "who": "honey",
+     "text": "Yay! Thank you, Mama!"
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "honey",
+     "x": 0.28
+    },
+    {
+     "id": "dotty",
+     "x": 0.7,
+     "y": 0.87
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama Bunny held Honey's paw, and they peeked outside. The stars were twinkling, and the meadow was quiet and calm."
+    },
+    {
+     "who": "narrator",
+     "text": "By the little pond, they saw Dotty the Duckling, snuggled in her nest."
+    },
+    {
+     "who": "honey",
+     "text": "Hello, Dotty! How do you fall asleep?"
+    },
+    {
+     "who": "dotty",
+     "text": "Hello, Honey! I count the twinkly stars. Let's count them together!"
+    },
+    {
+     "who": "narrator",
+     "text": "Can you count with Dotty? Ready?"
+    },
+    {
+     "who": "dotty",
+     "text": "One.",
+     "pause": 0.9
+    },
+    {
+     "who": "honey",
+     "text": "Two.",
+     "pause": 0.9
+    },
+    {
+     "who": "dotty",
+     "text": "Three.",
+     "pause": 0.9
+    },
+    {
+     "who": "honey",
+     "text": "Four.",
+     "pause": 0.9
+    },
+    {
+     "who": "dotty",
+     "text": "Five!",
+     "pause": 1.0
+    },
+    {
+     "who": "dotty",
+     "text": "Ooh, counting makes me feel so sleepy. Goodnight, Honey."
+    },
+    {
+     "who": "honey",
+     "text": "Goodnight, Dotty!"
+    }
+   ]
+  },
+  {
+   "bg": "oak",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.1
+    },
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Up in the big oak tree sat Ollie the Owl, with big, round, friendly eyes."
+    },
+    {
+     "who": "honey",
+     "text": "Hello, Ollie! How do you fall asleep?"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Owls sleep in the daytime, little one. But I know a sleepy secret."
+    },
+    {
+     "who": "ollie",
+     "text": "Take a big, slow breath in, like smelling a pretty flower. Then let it out, slowly, like blowing on a dandelion."
+    },
+    {
+     "who": "narrator",
+     "text": "Let's try it too. Breathe in.",
+     "pause": 2.2
+    },
+    {
+     "who": "narrator",
+     "text": "And breathe out.",
+     "pause": 2.4
+    },
+    {
+     "who": "narrator",
+     "text": "One more time. Breathe in.",
+     "pause": 2.2
+    },
+    {
+     "who": "narrator",
+     "text": "And breathe out.",
+     "pause": 2.4
+    },
+    {
+     "who": "honey",
+     "text": "Ahh. My body feels soft and calm."
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo. That's the way. Goodnight, Honey."
+    },
+    {
+     "who": "honey",
+     "text": "Thank you, Ollie! Goodnight!"
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.62,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Honey looked up at the big, round Moon, smiling down from the sky."
+    },
+    {
+     "who": "honey",
+     "text": "Mister Moon, how do you help everyone sleep?"
+    },
+    {
+     "who": "moon",
+     "text": "I shine my soft, gentle light, so the night is never too dark. And I watch over all the little ones while they dream."
+    },
+    {
+     "who": "honey",
+     "text": "Thank you, Mister Moon!"
+    },
+    {
+     "who": "mama",
+     "text": "Now, little one, it's time to go back to bed."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "mama",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama Bunny tucked Honey back into her cozy bed, snug as a bug in a rug."
+    },
+    {
+     "who": "mama",
+     "text": "Let's say goodnight to everything."
+    },
+    {
+     "who": "narrator",
+     "text": "Goodnight, stars. Goodnight, Dotty. Goodnight, Ollie. Goodnight, Moon."
+    },
+    {
+     "who": "narrator",
+     "text": "Goodnight, soft pillow. And goodnight, warm blanket."
+    },
+    {
+     "who": "honey",
+     "text": "Goodnight, Mama. I love you."
+    },
+    {
+     "who": "mama",
+     "text": "I love you too, my little Honey."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    },
+    {
+     "id": "mama",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey took one big, slow breath, and drifted off to sleep."
+    },
+    {
+     "who": "narrator",
+     "text": "And now, it's time for you to sleep too, little one. Close your eyes, take a slow breath, and have the sweetest dreams."
+    }
+   ],
+   "tail": 1.5
+  },
+  {
+   "bg": "bedroom",
+   "title": "Sweet Dreams!",
+   "subtitle": "See you next time on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Goodnight!"
+    }
+   ],
+   "tail": 4.0
+  }
+ ],
+ "thumbnail": {
+  "text": "Can't Sleep?",
+  "badge": "Bedtime Story",
+  "bg": "night",
+  "cast": [
+   {
+    "id": "honey",
+    "mouth": 2
+   },
+   {
+    "id": "dotty"
+   },
+   {
+    "id": "ollie",
+    "scale": 0.8
+   }
   ]
+ }
 }

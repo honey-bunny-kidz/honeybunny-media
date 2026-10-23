@@ -15,7 +15,7 @@ curl -sL -o /home/claude/hb/models/kokoro.onnx $B/kokoro-v1.0.onnx
 curl -sL -o /home/claude/hb/models/voices.bin  $B/voices-v1.0.bin
 
 # 3. pipeline code
-cp /home/claude/honeybunny-media/pipeline/*.py /home/claude/hb/
+cp /home/claude/honeybunny-media/pipeline/*.py /home/claude/hb/   # tts.py art.py render.py thumbnail.py
 mkdir -p /home/claude/hb/episodes && cp /home/claude/honeybunny-media/pipeline/episodes/*.json /home/claude/hb/episodes/
 
 # 4. render
@@ -31,3 +31,13 @@ python3 render.py episodes/epNNN_short.json out/epNNN_short.mp4 vertical
 - Episode JSON: scenes with bg, optional title/subtitle (title card), cast [{id,x,y,scale,flip,sleep}], lines [{who,text,pause}].
 - Bedroom: Honey in bed uses x=0.300, y=0.903 (landscape).
 - Unknown words: tts.MISSING lists them; add phonemes to the D.update({...}) line in tts.py.
+
+## Thumbnails
+- render.py automatically writes `out/<name>_thumb.jpg` (1280x720 landscape, or 1080x1920 for the vertical Short) via thumbnail.py and shows it as the first 0.5 s of the video, so platforms that pick a frame (Shorts, Reels) still get the thumbnail as the cover.
+- Control it with a "thumbnail" block in the episode JSON:
+  `"thumbnail": {"text": "Can't Sleep?", "badge": "Bedtime Story", "bg": "night", "cast": [{"id": "honey", "mouth": 2}, {"id": "dotty"}, {"id": "ollie", "scale": 0.8}]}`
+  - text: 2-4 BIG words, a question or exclamation that makes a parent curious (not the full title).
+  - badge: "Bedtime Story" (purple), "Adventure Story" (green) or "Sing-Along Rhyme" (orange).
+  - cast: 1-3 characters, the star first with mouth 2 (excited face); use characters from the episode.
+  - Run `python3 thumbnail.py episodes/epNNN.json out/test_thumb.jpg` and Read the image before rendering: text readable, faces fully visible, no overlap with text.
+- Copy thumbnails to `thumbnails/` in the repo. Public URL: https://raw.githubusercontent.com/honey-bunny-kidz/honeybunny-media/main/thumbnails/FILE

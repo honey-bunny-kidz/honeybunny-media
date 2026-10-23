@@ -2,7 +2,8 @@
 import json, math, re, subprocess, sys, textwrap
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
-import art, tts
+import art, tts, thumbnail
+COVER = 0.5  # seconds the thumbnail is shown as the opening frame
 
 FPS = 24
 SR = tts.SR
@@ -133,6 +134,10 @@ def render(ep_path, out_path, vertical=False):
     print("duration", round(total, 1), "s; unknown words:", sorted(tts.MISSING), flush=True)
     mus = music(len(voice) / SR)
     mix = voice / (np.abs(voice).max() + 1e-9) * 0.92 + mus * 0.11
+    thumb_path = re.sub(r'\.mp4$', '', out_path) + '_thumb.jpg'
+    thumbnail.make(ep, thumb_path, vertical=vertical)
+    cover = Image.open(thumb_path).convert('RGB').resize((W, H))
+    mix = np.concatenate([np.zeros(int(COVER * SR)), mix])
     tts.save_wav(out_path + ".wav", mix / np.abs(mix).max() * 0.95)
 
     cache_bg, cache_spr, cache_txt = {}, {}, {}
@@ -152,6 +157,8 @@ def render(ep_path, out_path, vertical=False):
                            "-af", "loudnorm=I=-16:TP=-1.5", "-shortest", "-movflags", "+faststart", out_path],
                           stdin=subprocess.PIPE)
     ground = 0.74 if vertical else 0.86
+    for _ in range(int(COVER * FPS)):
+        ff.stdin.write(cover.tobytes())
     nframes = int(total * FPS)
     si = 0
     for fi in range(nframes):
