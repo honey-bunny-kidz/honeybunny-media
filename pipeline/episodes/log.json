@@ -1,7 +1,62 @@
 [
-  {"id": "ep001", "date": "2026-10-23", "type": "bedtime story", "title": "Honey Bunny Can't Sleep",
-   "short": "Ollie Owl's Sleepy Secret", "characters": ["honey", "mama", "dotty", "ollie", "moon"],
-   "lesson": "calming down for sleep: counting, slow breathing, saying goodnight",
-   "files": ["videos/ep001_full.mp4", "videos/ep001_short.mp4"],
-   "buffer_post_ids": ["6adb3b29da167f50268b4973", "6adb3b3bfe8ae6dfd455d6d7", "6adb3b5ae4169c55aac08e3c"]}
+ {
+  "id": "ep001",
+  "date": "2026-10-23",
+  "type": "bedtime story",
+  "title": "Honey Bunny Can't Sleep",
+  "short": "Ollie Owl's Sleepy Secret",
+  "characters": [
+   "honey",
+   "mama",
+   "dotty",
+   "ollie",
+   "moon"
+  ],
+  "lesson": "calming down for sleep: counting, slow breathing, saying goodnight",
+  "files": [
+   "videos/ep001_full.mp4",
+   "videos/ep001_short.mp4"
+  ],
+  "buffer_post_ids": [
+   "6adb3b29da167f50268b4973",
+   "6adb3b3bfe8ae6dfd455d6d7",
+   "6adb3b5ae4169c55aac08e3c"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep001_thumb.jpg",
+   "thumbnails/ep001_short_thumb.jpg"
+  ]
+ },
+ {
+  "id": "ep002",
+  "date": "2026-10-24",
+  "type": "kids story",
+  "title": "Mimi Kitten and the Rolling Yarn Ball",
+  "short": "Find the Colors with Mimi Kitten",
+  "characters": [
+   "mimi",
+   "honey",
+   "dotty",
+   "yarn"
+  ],
+  "lesson": "colors (red, yellow, blue, pink) and sharing toys with friends",
+  "thumbnail_text": [
+   "Where Did It Go?",
+   "Find The Colors!"
+  ],
+  "files": [
+   "videos/ep002_full.mp4",
+   "videos/ep002_short.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep002_thumb.jpg",
+   "thumbnails/ep002_short_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6adc0f39e4be8a4d863622b6",
+   "6adc0f3d8b3d437ddc96c133",
+   "6adc0f420b5343d0705db8e7"
+  ],
+  "youtube_long": "manual upload by user"
+ }
 ]
