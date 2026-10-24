@@ -9,7 +9,7 @@ FPS = 24
 SR = tts.SR
 FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 VOICES = {"narrator": ("af_heart", 0.84), "honey": ("af_sky", 0.92), "mama": ("af_bella", 0.86),
-          "dotty": ("af_nicole", 0.95), "ollie": ("bm_fable", 0.86), "moon": ("bm_george", 0.82)}
+          "dotty": ("af_nicole", 0.95), "ollie": ("bm_fable", 0.86), "moon": ("bm_george", 0.82), "mimi": ("af_sky", 0.90, 1.13)}
 
 
 def sentences(t):
@@ -66,9 +66,9 @@ def build_timeline(ep):
         chunks = []
         t += sc.get("lead", 0.9)
         for ln in sc["lines"]:
-            v, sp = VOICES[ln["who"]]
+            v, sp, *pt = VOICES[ln["who"]]
             for k, s in enumerate(sentences(ln["text"])):
-                a = tts.synth(s, v, sp)
+                a = tts.synth(s, v, sp, pt[0] if pt else 1.0)
                 chunks.append(dict(who=ln["who"], text=s, t0=t, t1=t + len(a) / SR, audio=a))
                 t += len(a) / SR + (0.35 if k < len(sentences(ln["text"])) - 1 else ln.get("pause", 0.75))
         t += sc.get("tail", 1.0)
@@ -132,7 +132,8 @@ def render(ep_path, out_path, vertical=False):
     W, H = (1080, 1920) if vertical else (1920, 1080)
     scenes, voice, total = build_timeline(ep)
     print("duration", round(total, 1), "s; unknown words:", sorted(tts.MISSING), flush=True)
-    mus = music(len(voice) / SR)
+    mus = music(len(voice) / SR + 0.1)[: len(voice)]
+    mus = np.pad(mus, (0, len(voice) - len(mus)))
     mix = voice / (np.abs(voice).max() + 1e-9) * 0.92 + mus * 0.11
     thumb_path = re.sub(r'\.mp4$', '', out_path) + '_thumb.jpg'
     thumbnail.make(ep, thumb_path, vertical=vertical)
@@ -201,7 +202,7 @@ def render(ep_path, out_path, vertical=False):
             if cur["text"] not in cache_txt:
                 cache_txt[cur["text"]] = text_box(cur["text"], W, H, vertical)
             tb = cache_txt[cur["text"]]
-            frame.alpha_composite(tb, ((W - tb.width) // 2, int(H * (0.80 if vertical else 0.97) - tb.height)))
+            frame.alpha_composite(tb, ((W - tb.width) // 2, int(H * 0.30) if vertical else int(H * 0.97 - tb.height)))
         # fades at scene edges
         a = min(1, (t - sc["t0"]) / 0.5, (sc["t1"] - t) / 0.5)
         rgb = frame.convert("RGB")

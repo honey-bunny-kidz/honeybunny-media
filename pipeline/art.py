@@ -146,12 +146,92 @@ def moon(eyes="closed", m=0, h=300):
     return finish(im, (int(h * W / H), h))
 
 
+def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420):
+    W, H = 900, 1000
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    F, P = fur + (255,), patch + (255,)
+    # curly tail
+    d.arc([560, 560, 820, 860], 200, 470, fill=OUT, width=52)
+    d.arc([560, 560, 820, 860], 200, 470, fill=P, width=38)
+    # feet + body
+    for side in (-1, 1):
+        E(d, 450 + side * 95, 950, 80, 42, F)
+    E(d, 450, 790, 185, 175, F)
+    E(d, 450, 820, 110, 120, (255, 250, 244, 255), w=0)
+    for side in (-1, 1):
+        E(d, 450 + side * 120, 880, 48, 62, F)
+        for t in (-1, 0, 1):
+            d.line([450 + side * 120 + t * 16, 920, 450 + side * 120 + t * 16, 940], fill=OUT, width=5)
+    # ears
+    for side in (-1, 1):
+        bx = 450 + side * 175
+        d.polygon([(bx - side * 95, 250), (bx + side * 70, 70), (bx + side * 90, 310)], fill=P if side < 0 else F, outline=OUT, width=7)
+        d.polygon([(bx - side * 55, 245), (bx + side * 60, 125), (bx + side * 68, 285)], fill=(255, 180, 195, 255))
+    # head
+    E(d, 450, 420, 285, 235, F)
+    d.ellipse([205, 250, 425, 480], fill=P)                   # round orange patch over left eye
+    d.ellipse([165, 185, 735, 655], outline=OUT, width=7)
+    for k in (-1, 0, 1):  # forehead stripes
+        d.line([450 + k * 40, 195, 450 + k * 30, 250], fill=(240, 160, 100, 255), width=12)
+    for side in (-1, 1):
+        eye(d, 450 + side * 110, 410, 50, eyes)
+    cheeks(im, [(300, 500), (600, 500)], 52, 30)
+    d = ImageDraw.Draw(im)
+    d.polygon([(425, 470), (475, 470), (450, 498)], fill=(245, 125, 150, 255), outline=OUT, width=4)
+    for side in (-1, 1):  # whiskers
+        for k in (-1, 0, 1):
+            d.line([450 + side * 130, 505 + k * 22, 450 + side * 250, 490 + k * 40], fill=OUT, width=5)
+    mouth(d, 450, 520, 0.85, m)
+    # pink collar with bell
+    d.arc([300, 560, 600, 680], 20, 160, fill=(255, 105, 160, 255), width=26)
+    E(d, 450, 690, 26, 26, (255, 215, 80, 255), w=5)
+    return finish(im, (int(h * W / H), h))
+
+
+def yarn(eyes="open", m=0, h=150):
+    W = H = 400
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    E(d, 200, 200, 170, 170, (255, 130, 180, 255))
+    for k in range(-3, 4):
+        d.arc([60 + k * 10, 60 - k * 25, 340 + k * 10, 340 + k * 25], 200, 340, fill=(230, 90, 150, 255), width=8)
+    d.arc([40, 150, 360, 520], 250, 300, fill=(230, 90, 150, 255), width=8)
+    d.line([300, 330, 390, 390], fill=(230, 90, 150, 255), width=9)
+    return finish(im, (h, h))
+
+
+def sunflower(d, x, ground, H, s=1.0):
+    d.line([x, ground, x, ground - H * 0.42 * s], fill=(90, 160, 80), width=int(14 * s))
+    d.ellipse([x - 70 * s, ground - H * 0.27 * s, x - 5, ground - H * 0.23 * s], fill=(110, 185, 95))
+    cy = ground - H * 0.45 * s
+    for k in range(14):
+        a = k * math.pi * 2 / 14
+        px, py = x + math.cos(a) * 62 * s, cy + math.sin(a) * 62 * s
+        d.ellipse([px - 30 * s, py - 30 * s, px + 30 * s, py + 30 * s], fill=(255, 205, 40))
+    d.ellipse([x - 45 * s, cy - 45 * s, x + 45 * s, cy + 45 * s], fill=(150, 95, 50))
+
+
+def rose_bush(d, x, ground, H, s=1.0):
+    for dx, dy, r in ((0, 0.10, 0.11), (-0.09, 0.06, 0.08), (0.09, 0.06, 0.08)):
+        cx, cy, rr = x + dx * H, ground - dy * H * s, r * H * s
+        d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr * 0.7], fill=(80, 160, 90))
+    rnd = random.Random(int(x))
+    for _ in range(9):
+        fx, fy = x + rnd.uniform(-0.15, 0.15) * H * s, ground - rnd.uniform(0.04, 0.19) * H * s
+        r = 0.022 * H * s
+        d.ellipse([fx - r, fy - r, fx + r, fy + r], fill=(235, 60, 80))
+        d.ellipse([fx - r * 0.45, fy - r * 0.45, fx + r * 0.45, fy + r * 0.45], fill=(200, 35, 60))
+
+
 CHARS = {
     "honey": dict(fn=bunny, kw=dict(), h=0.44),
     "mama": dict(fn=bunny, kw=dict(fur=(246, 228, 205), bow=False), h=0.54),
     "dotty": dict(fn=duckling, kw=dict(), h=0.28),
     "ollie": dict(fn=owl, kw=dict(), h=0.36),
     "moon": dict(fn=moon, kw=dict(), h=0.30),
+    "mimi": dict(fn=kitten, kw=dict(), h=0.40),
+    "yarn": dict(fn=yarn, kw=dict(), h=0.12),
 }
 
 
@@ -234,6 +314,28 @@ def background(kind, W, H):
             d.ellipse([W * 0.55, H * (ground - 0.03), W * 0.95, H * (ground + 0.07)], fill=(70, 110, 170))
             d.ellipse([W * 0.6, H * (ground - 0.01), W * 0.9, H * (ground + 0.05)], fill=(90, 135, 190))
         flowers(d, W, H, ground * H, 40, 2, night=True)
+    elif kind in ("garden", "garden_pond", "porch"):
+        im = grad(W, H, (165, 220, 252), (240, 248, 255))
+        d = ImageDraw.Draw(im)
+        d.ellipse([W * 0.06, H * 0.06, W * 0.06 + H * 0.15, H * 0.21], fill=(255, 232, 120))
+        for i in range(3):
+            cloud(d, rnd.uniform(W * 0.25, W * 0.85), rnd.uniform(H * 0.05, H * 0.25), H / 1000, (255, 255, 255))
+        hills(d, W, H, ground - 0.12, 0.07, (160, 220, 150), 2)
+        if kind == "porch":  # little cottage
+            hx, hw = W * (0.66 if W > H else 0.5), min(W, H) * 0.55
+            d.rectangle([hx - hw / 2, H * (ground - 0.42), hx + hw / 2, H * ground], fill=(255, 225, 190))
+            d.polygon([(hx - hw * 0.62, H * (ground - 0.40)), (hx, H * (ground - 0.66)), (hx + hw * 0.62, H * (ground - 0.40))], fill=(220, 100, 110))
+            d.rounded_rectangle([hx - hw * 0.12, H * (ground - 0.26), hx + hw * 0.12, H * ground], 30, fill=(150, 100, 70))
+            for wx in (hx - hw * 0.33, hx + hw * 0.33):
+                d.rectangle([wx - hw * 0.1, H * (ground - 0.32), wx + hw * 0.1, H * (ground - 0.18)], fill=(150, 205, 245), outline=(255, 255, 255), width=6)
+        hills(d, W, H, ground - 0.02, 0.04, (125, 200, 115), 4)
+        if kind == "garden":
+            rose_bush(d, W * (0.62 if W > H else 0.75), H * ground, H)
+            sunflower(d, W * (0.88 if W > H else 0.2), H * ground, H)
+        if kind == "garden_pond":
+            d.ellipse([W * 0.5, H * (ground - 0.03), W * 0.97, H * (ground + 0.08)], fill=(80, 150, 230))
+            d.ellipse([W * 0.55, H * (ground - 0.01), W * 0.92, H * (ground + 0.06)], fill=(110, 180, 245))
+        flowers(d, W, H, ground * H, 55, 5)
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)

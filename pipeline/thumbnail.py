@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 import art
 
 FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
-BADGE_COLORS = {"bedtime": (120, 90, 220), "rhyme": (240, 110, 60), "adventure": (40, 170, 120)}
+BADGE_COLORS = {"bedtime": (120, 90, 220), "rhyme": (240, 110, 60), "adventure": (40, 170, 120), "kids": (30, 150, 215)}
 
 
 def _outlined(d, xy, text, font, fill, outline, width):

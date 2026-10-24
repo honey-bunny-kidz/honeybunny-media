@@ -8,7 +8,7 @@ VOCAB = CFG["vocab"]
 D = {}
 for f in ("us_silver", "us_gold"):
     D.update(json.load(open(f"{ROOT}/hexgrad/misaki/misaki/data/{f}.json")))
-D.update({"Kidz": "kˈɪdz", "kidz": "kˈɪdz", "hoo": "hˈu", "Hoo": "hˈu", "Ollie": "ˈɑli", "Dotty": "dˈɑɾi"})
+D.update({"Kidz": "kˈɪdz", "kidz": "kˈɪdz", "hoo": "hˈu", "Hoo": "hˈu", "Ollie": "ˈɑli", "Dotty": "dˈɑɾi", "Mimi": "mˈimi", "meow": "miˈW", "Meow": "miˈW", "purr": "pˈɜɹ", "Purr": "pˈɜɹ"})
 VOICES = np.load(f"{ROOT}/hb/models/voices.bin")
 _sess = None
 SR = 24000
@@ -59,17 +59,22 @@ def phonemize(text):
     return "".join(out).strip()
 
 
-def synth(text, voice="af_heart", speed=0.88):
+def synth(text, voice="af_heart", speed=0.88, pitch=1.0):
     global _sess
     if _sess is None:
         _sess = ort.InferenceSession(f"{ROOT}/hb/models/kokoro.onnx")
     ph = phonemize(text)
     toks = [VOCAB[c] for c in ph if c in VOCAB][:500]
     style = VOICES[voice][len(toks)]
+    speed = speed / pitch
     audio = _sess.run(None, {"tokens": np.array([[0, *toks, 0]], dtype=np.int64),
                              "style": style.astype(np.float32),
                              "speed": np.array([speed], dtype=np.float32)})[0]
-    return np.asarray(audio).reshape(-1)
+    a = np.asarray(audio, dtype=np.float64).reshape(-1)
+    if pitch != 1.0:  # raise pitch by resampling (synth slower first so the pace stays the same)
+        n = int(len(a) / pitch)
+        a = np.interp(np.linspace(0, len(a) - 1, n), np.arange(len(a)), a)
+    return a
 
 
 def save_wav(path, audio):
