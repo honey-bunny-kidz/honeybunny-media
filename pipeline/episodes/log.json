@@ -58,5 +58,35 @@
    "6adc0f420b5343d0705db8e7"
   ],
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep003",
+  "date": "2026-10-25",
+  "type": "bedtime story",
+  "title": "Lulu Lamb's First Sleepover",
+  "short": "Count the Thank-Yous with Lulu Lamb",
+  "characters": [
+   "lulu",
+   "honey",
+   "mama",
+   "dotty",
+   "mimi",
+   "moon"
+  ],
+  "lesson": "gratitude: saying thank you, counting 1-5, feeling shy in a new place",
+  "thumbnail_text": [
+   "First Sleepover!",
+   "Count With Lulu!"
+  ],
+  "files": [
+   "videos/ep003_full.mp4",
+   "videos/ep003_short.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep003_thumb.jpg",
+   "thumbnails/ep003_short_thumb.jpg"
+  ],
+  "buffer_post_ids": [],
+  "youtube_long": "manual upload by user"
  }
 ]

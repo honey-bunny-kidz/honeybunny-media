@@ -189,6 +189,51 @@ def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420):
     return finish(im, (int(h * W / H), h))
 
 
+def lamb(eyes="open", m=0, h=400):
+    W, H = 900, 1000
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    WOOL, FACE, LEG = (253, 251, 246, 255), (255, 232, 214, 255), (150, 118, 120, 255)
+
+    def puff(circles):
+        for (x, y, r) in circles:
+            E(d, x, y, r, r, WOOL, w=7)
+        for (x, y, r) in circles:
+            E(d, x, y, r - 7, r - 7, WOOL, w=0)
+    # little legs
+    for side in (-1, 1):
+        d.rounded_rectangle([450 + side * 95 - 34, 820, 450 + side * 95 + 34, 985], 30, fill=LEG, outline=OUT, width=7)
+    # fluffy body
+    body = [(450, 715, 140)] + [(450 + 195 * math.cos(a), 720 + 118 * math.sin(a), 78)
+                                 for a in [k * math.pi * 2 / 11 for k in range(11)]]
+    puff(body)
+    # floppy ears
+    for side in (-1, 1):
+        ear = Image.new("RGBA", (300, 160), (0, 0, 0, 0))
+        ed = ImageDraw.Draw(ear)
+        E(ed, 150, 80, 120, 52, FACE)
+        E(ed, 150 + side * 15, 80, 78, 28, (255, 180, 195, 255), w=0)
+        ear = ear.rotate(side * -22, resample=Image.BICUBIC, expand=True)
+        im.alpha_composite(ear, (int(450 + side * 265 - ear.width / 2), int(350 - ear.height / 2)))
+    d = ImageDraw.Draw(im)
+    # face
+    E(d, 450, 430, 230, 215, FACE)
+    # wool tuft on top
+    puff([(450 + dx, 215 + dy, r) for dx, dy, r in ((-95, 40, 70), (0, 0, 85), (95, 40, 70), (-50, 70, 60), (50, 70, 60))])
+    # lavender bow
+    bx, by = 585, 225
+    d.polygon([(bx, by), (bx - 70, by - 48), (bx - 70, by + 48)], fill=(185, 150, 245, 255), outline=OUT, width=7)
+    d.polygon([(bx, by), (bx + 70, by - 48), (bx + 70, by + 48)], fill=(185, 150, 245, 255), outline=OUT, width=7)
+    E(d, bx, by, 22, 22, (215, 190, 255, 255))
+    for side in (-1, 1):
+        eye(d, 450 + side * 95, 420, 44, eyes)
+    cheeks(im, [(315, 505), (585, 505)], 48, 28)
+    d = ImageDraw.Draw(im)
+    E(d, 450, 492, 22, 15, (240, 120, 140, 255), w=5)
+    mouth(d, 450, 525, 0.85, m)
+    return finish(im, (int(h * W / H), h))
+
+
 def yarn(eyes="open", m=0, h=150):
     W = H = 400
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -232,6 +277,7 @@ CHARS = {
     "moon": dict(fn=moon, kw=dict(), h=0.30),
     "mimi": dict(fn=kitten, kw=dict(), h=0.40),
     "yarn": dict(fn=yarn, kw=dict(), h=0.12),
+    "lulu": dict(fn=lamb, kw=dict(), h=0.40),
 }
 
 
@@ -336,6 +382,23 @@ def background(kind, W, H):
             d.ellipse([W * 0.5, H * (ground - 0.03), W * 0.97, H * (ground + 0.08)], fill=(80, 150, 230))
             d.ellipse([W * 0.55, H * (ground - 0.01), W * 0.92, H * (ground + 0.06)], fill=(110, 180, 245))
         flowers(d, W, H, ground * H, 55, 5)
+    elif kind == "sunset":
+        im = grad(W, H, (125, 115, 200), (255, 190, 150))
+        d = ImageDraw.Draw(im)
+        sx, sy, sr = W * (0.3 if W > H else 0.5), H * (ground - 0.13), min(W, H) * 0.16
+        glow = Image.new("RGBA", (W, H), (255, 220, 150, 0))
+        ImageDraw.Draw(glow).ellipse([sx - sr * 2.2, sy - sr * 2.2, sx + sr * 2.2, sy + sr * 2.2], fill=(255, 220, 150, 120))
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(70)))
+        d = ImageDraw.Draw(im)
+        d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=(255, 175, 95))
+        for i in range(4):
+            cloud(d, rnd.uniform(0, W * 0.85), rnd.uniform(H * 0.06, H * 0.3), H / 950, (255, 200, 210))
+        for _ in range(int(25 * W * H / (1920 * 1080))):
+            stars.append((rnd.uniform(0, W), rnd.uniform(0, H * 0.18), rnd.uniform(1.2, 2.6), rnd.uniform(0, 6.28)))
+        hills(d, W, H, ground - 0.12, 0.08, (200, 160, 175), 1)
+        tree(d, W, H, W * (0.82 if W > H else 0.8), False)
+        hills(d, W, H, ground - 0.02, 0.05, (125, 175, 120), 3)
+        flowers(d, W, H, ground * H, 55, 9)
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)
