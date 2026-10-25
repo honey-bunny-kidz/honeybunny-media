@@ -86,7 +86,11 @@
    "thumbnails/ep003_thumb.jpg",
    "thumbnails/ep003_short_thumb.jpg"
   ],
-  "buffer_post_ids": [],
+  "buffer_post_ids": [
+   "6addcabd0b5343d070c47039",
+   "6addcac43d5b27036bc5784c",
+   "6addcac9e4be8a4d869d5a8d"
+  ],
   "youtube_long": "manual upload by user"
  }
 ]
