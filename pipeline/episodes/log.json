@@ -92,5 +92,38 @@
    "6addcac9e4be8a4d869d5a8d"
   ],
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep004",
+  "date": "2026-10-26",
+  "type": "sing-along rhyme",
+  "title": "The Wiggle Waggle Song",
+  "short": "Wiggle Like Pip Puppy",
+  "characters": [
+   "pip",
+   "honey",
+   "dotty",
+   "mimi",
+   "lulu"
+  ],
+  "lesson": "moving our bodies (hop, waddle, tiptoe, jump, wiggle), taking turns, everyone is special; calm breathing",
+  "thumbnail_text": [
+   "Can You Wiggle?",
+   "Wag Like Pip!"
+  ],
+  "files": [
+   "videos/ep004_full.mp4",
+   "videos/ep004_short.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep004_thumb.jpg",
+   "thumbnails/ep004_short_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6adf1cd30f7767cbe7c5e5e9",
+   "6adf1cd9fce97d27e50fe5da",
+   "6adf1cde78f6291673b9bad8"
+  ],
+  "youtube_long": "manual upload by user"
  }
 ]
