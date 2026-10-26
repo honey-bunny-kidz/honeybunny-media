@@ -56,6 +56,7 @@ def make(ep, out_path, vertical=False):
     for i, c in enumerate(cast):
         scale = c.get("scale", 1.0) * (1.45 if i == 0 else 1.15)
         spr = art.sprites(c["id"], ref, scale)[("open", c.get("mouth", 2 if i == 0 else 0))]
+        spr = spr.transpose(Image.FLIP_LEFT_RIGHT) if c.get("flip") else spr
         if not vertical:
             cx = W * (0.72 + (i - (n - 1) / 2) * 0.22)
             bottom = H * (1.02 if c["id"] != "ollie" else 0.95)
@@ -68,11 +69,13 @@ def make(ep, out_path, vertical=False):
     if n > 1:  # draw the main character last (on top)
         c = cast[0]
         spr = art.sprites(c["id"], ref, c.get("scale", 1.0) * 1.45)[("open", c.get("mouth", 2))]
+        spr = spr.transpose(Image.FLIP_LEFT_RIGHT) if c.get("flip") else spr
         cx = W * (0.72 - (n - 1) / 2 * 0.22) if not vertical else W * (0.5 - (n - 1) / 2 * 0.34)
         bg.alpha_composite(spr, (int(cx - spr.width / 2), int(H * (1.02 if not vertical else 0.97) - spr.height)))
     elif n == 1:
         c = cast[0]
         spr = art.sprites(c["id"], ref, c.get("scale", 1.0) * 1.45)[("open", c.get("mouth", 2))]
+        spr = spr.transpose(Image.FLIP_LEFT_RIGHT) if c.get("flip") else spr
         cx = W * 0.70 if not vertical else W * 0.5
         bg.alpha_composite(spr, (int(cx - spr.width / 2), int(H * (1.02 if not vertical else 0.97) - spr.height)))
 

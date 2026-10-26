@@ -234,6 +234,51 @@ def lamb(eyes="open", m=0, h=400):
     return finish(im, (int(h * W / H), h))
 
 
+def puppy(eyes="open", m=0, h=400):
+    W, H = 900, 1000
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    FUR, LIGHT, EAR = (238, 190, 120, 255), (255, 243, 225, 255), (176, 116, 78, 255)
+    # happy wagging tail
+    d.arc([590, 560, 830, 800], 175, 335, fill=OUT, width=52)
+    d.arc([590, 560, 830, 800], 175, 335, fill=FUR, width=38)
+    # feet + body
+    for side in (-1, 1):
+        E(d, 450 + side * 100, 950, 85, 44, FUR)
+        E(d, 450 + side * 100, 958, 50, 22, LIGHT, w=0)
+    E(d, 450, 790, 190, 178, FUR)
+    E(d, 450, 820, 112, 125, LIGHT, w=0)
+    for side in (-1, 1):
+        E(d, 450 + side * 125, 880, 50, 64, FUR)
+    # head
+    E(d, 450, 420, 280, 240, FUR)
+    E(d, 340, 330, 70, 60, (225, 170, 100, 255), w=0)          # little patch above eye
+    # floppy ears hanging down
+    for side in (-1, 1):
+        ear = Image.new("RGBA", (220, 380), (0, 0, 0, 0))
+        ed = ImageDraw.Draw(ear)
+        E(ed, 110, 190, 88, 170, EAR)
+        ear = ear.rotate(side * 14, resample=Image.BICUBIC, expand=True)
+        im.alpha_composite(ear, (int(450 + side * 265 - ear.width / 2), int(410 - ear.height / 2)))
+    d = ImageDraw.Draw(im)
+    # muzzle
+    E(d, 450, 520, 140, 100, LIGHT, w=6)
+    for side in (-1, 1):
+        eye(d, 450 + side * 105, 400, 46, eyes)
+    cheeks(im, [(295, 510), (605, 510)], 50, 28)
+    d = ImageDraw.Draw(im)
+    E(d, 450, 478, 40, 28, (70, 45, 50, 255), w=0)               # nose
+    E(d, 462, 470, 12, 8, (255, 255, 255, 200), w=0)
+    mouth(d, 450, 535, 0.85, m)
+    # blue collar with gold star tag
+    d.arc([290, 560, 610, 690], 20, 160, fill=(90, 160, 240, 255), width=28)
+    cx, cy, r = 450, 700, 30
+    pts = [(cx + (r if k % 2 == 0 else r * 0.45) * math.cos(-math.pi / 2 + k * math.pi / 5),
+            cy + (r if k % 2 == 0 else r * 0.45) * math.sin(-math.pi / 2 + k * math.pi / 5)) for k in range(10)]
+    d.polygon(pts, fill=(255, 215, 80, 255), outline=OUT, width=4)
+    return finish(im, (int(h * W / H), h))
+
+
 def yarn(eyes="open", m=0, h=150):
     W = H = 400
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -278,6 +323,7 @@ CHARS = {
     "mimi": dict(fn=kitten, kw=dict(), h=0.40),
     "yarn": dict(fn=yarn, kw=dict(), h=0.12),
     "lulu": dict(fn=lamb, kw=dict(), h=0.40),
+    "pip": dict(fn=puppy, kw=dict(), h=0.40),
 }
 
 
@@ -382,6 +428,43 @@ def background(kind, W, H):
             d.ellipse([W * 0.5, H * (ground - 0.03), W * 0.97, H * (ground + 0.08)], fill=(80, 150, 230))
             d.ellipse([W * 0.55, H * (ground - 0.01), W * 0.92, H * (ground + 0.06)], fill=(110, 180, 245))
         flowers(d, W, H, ground * H, 55, 5)
+    elif kind == "meadow":
+        im = grad(W, H, (130, 205, 250), (250, 245, 225))
+        d = ImageDraw.Draw(im)
+        # soft rainbow arc
+        rx, ry, rr = W * 0.5, H * (ground - 0.05), min(W, H) * (0.62 if W > H else 0.55)
+        bands = [(255, 150, 150), (255, 200, 130), (255, 240, 140), (160, 225, 150), (150, 200, 255), (200, 170, 245)]
+        rain = Image.new("RGBA", (W, H), (200, 200, 230, 0))
+        rd = ImageDraw.Draw(rain)
+        bw = rr * 0.07
+        for i, c in enumerate(bands):
+            r = rr - i * bw
+            rd.ellipse([rx - r, ry - r, rx + r, ry + r], outline=c + (200,), width=int(bw) + 2)
+        im.alpha_composite(rain.filter(ImageFilter.GaussianBlur(3)))
+        d = ImageDraw.Draw(im)
+        d.ellipse([W * 0.84, H * 0.05, W * 0.84 + H * 0.14, H * 0.19], fill=(255, 225, 110))
+        for i in range(3):
+            cloud(d, rnd.uniform(0, W * 0.75), rnd.uniform(H * 0.05, H * 0.22), H / 1000, (255, 255, 255))
+        hills(d, W, H, ground - 0.10, 0.07, (170, 225, 140), 5)
+        hills(d, W, H, ground - 0.01, 0.04, (130, 205, 110), 6)
+        # tulips along the back
+        for k in range(9):
+            tx = W * (0.04 + k * 0.118) + rnd.uniform(-20, 20)
+            ty = H * (ground - 0.03) + rnd.uniform(-10, 10)
+            s = H / 1080
+            d.line([tx, ty, tx, ty - 70 * s], fill=(90, 160, 80), width=int(8 * s) + 1)
+            c = rnd.choice([(255, 120, 150), (255, 200, 80), (200, 140, 240), (255, 160, 90)])
+            d.pieslice([tx - 24 * s, ty - 112 * s, tx + 24 * s, ty - 64 * s], 0, 180, fill=c)
+            d.polygon([(tx - 24 * s, ty - 88 * s), (tx - 12 * s, ty - 118 * s), (tx, ty - 92 * s), (tx + 12 * s, ty - 118 * s), (tx + 24 * s, ty - 88 * s)], fill=c)
+        # butterflies
+        for k in range(4):
+            bx, by, s = rnd.uniform(W * 0.05, W * 0.95), rnd.uniform(H * 0.25, H * 0.5), H / 1080
+            c = rnd.choice([(255, 170, 210), (170, 210, 255), (255, 220, 120)])
+            for side in (-1, 1):
+                d.ellipse([bx + side * 22 * s - 18 * s, by - 20 * s, bx + side * 22 * s + 18 * s, by + 6 * s], fill=c)
+                d.ellipse([bx + side * 16 * s - 11 * s, by + 2 * s, bx + side * 16 * s + 11 * s, by + 20 * s], fill=c)
+            d.line([bx, by - 16 * s, bx, by + 16 * s], fill=(95, 62, 72), width=int(5 * s) + 1)
+        flowers(d, W, H, ground * H, 55, 11)
     elif kind == "sunset":
         im = grad(W, H, (125, 115, 200), (255, 190, 150))
         d = ImageDraw.Draw(im)

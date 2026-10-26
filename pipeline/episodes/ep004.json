@@ -1,0 +1,518 @@
+{
+ "id": "ep004",
+ "title": "The Wiggle Waggle Song",
+ "thumbnail": {
+  "text": "Can You Wiggle?",
+  "badge": "Sing-Along Rhyme",
+  "bg": "meadow",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2
+   },
+   {
+    "id": "honey"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "meadow",
+   "title": "The Wiggle Waggle Song",
+   "subtitle": "A Sing-Along Rhyme  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: The Wiggle Waggle Song! Sing along with Honey and friends!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "One sunny morning, Honey Bunny hopped to the rainbow meadow."
+    },
+    {
+     "who": "narrator",
+     "text": "There she met a new friend. A little puppy named Pip, with a waggy tail and a shiny blue collar."
+    },
+    {
+     "who": "pip",
+     "text": "Woof woof! Hello! I'm Pip! Do you want to play with me?"
+    },
+    {
+     "who": "honey",
+     "text": "Hello, Pip! Let's sing the Wiggle Waggle Song! Everyone can join in!"
+    },
+    {
+     "who": "pip",
+     "text": "Yay! How does it go?"
+    },
+    {
+     "who": "honey",
+     "text": "Each friend shows a fun move, and we all copy. Are you ready?"
+    },
+    {
+     "who": "pip",
+     "text": "Ready! Woof!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.12
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.5
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    },
+    {
+     "id": "pip",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Here comes the song! Everybody, sing with us!",
+     "pause": 0.9
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Clap your hands and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Then sit softly on the ground.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "day",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.35
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Me first! Watch me hop!"
+    },
+    {
+     "who": "narrator",
+     "text": "Honey Bunny hops so high.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Hop, hop, hop, up to the sky!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Can you hop like me? Hop, hop, hop! One, two, three!"
+    },
+    {
+     "who": "pip",
+     "text": "Hop, hop, hop! I can do it too!"
+    }
+   ]
+  },
+  {
+   "bg": "garden",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack quack! My turn! Watch me waddle!"
+    },
+    {
+     "who": "narrator",
+     "text": "Dotty Duckling waddles slow.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Waddle, waddle, there we go!",
+     "pause": 0.6
+    },
+    {
+     "who": "dotty",
+     "text": "Flap your arms like little wings! Quack, quack, quack, the duckling sings!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.12
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.5
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    },
+    {
+     "id": "pip",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Now, all together!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Clap your hands and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Then sit softly on the ground.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "porch",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.28
+    },
+    {
+     "id": "lulu",
+     "x": 0.46
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Meow! My turn! I love to stretch!"
+    },
+    {
+     "who": "narrator",
+     "text": "Mimi Kitten stretches long.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Stretch up tall and hum our song.",
+     "pause": 0.6
+    },
+    {
+     "who": "mimi",
+     "text": "Now tiptoe, tiptoe, soft and slow. Tiptoe, tiptoe, round we go!"
+    }
+   ]
+  },
+  {
+   "bg": "day",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.35
+    },
+    {
+     "id": "mimi",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! My turn! I can jump!"
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu Lamb jumps in the sun.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Jump, jump, jump! Oh, what fun!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Bounce like me, from one to three! Jump, jump, jump, and smile with me!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.12
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.5
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    },
+    {
+     "id": "pip",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Sing it again, little friends!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Clap your hands and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Then sit softly on the ground.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Now it's my turn! Woof woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "Pip the Puppy wags his tail.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, without fail!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip",
+     "text": "Wiggle your hips from side to side. Wiggle, waggle, nice and wide!"
+    },
+    {
+     "who": "honey",
+     "text": "Great wiggles, Pip! You are so good at waggling!"
+    },
+    {
+     "who": "pip",
+     "text": "Thank you, Honey! I'm so happy I have new friends!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.12
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.5
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    },
+    {
+     "id": "pip",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Hopping, waddling, stretching, jumping, and wiggling."
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend moves in their own special way. And every way is wonderful!"
+    },
+    {
+     "who": "narrator",
+     "text": "Now let's slow down, little friends. Take a big breath in.",
+     "pause": 1.4
+    },
+    {
+     "who": "narrator",
+     "text": "And breathe out, slowly. Ahhh.",
+     "pause": 1.0
+    },
+    {
+     "who": "narrator",
+     "text": "One last time, nice and soft.",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Clap your hands and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Then sit softly on the ground.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.55
+    },
+    {
+     "id": "dotty",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Thank you for singing and dancing with us!"
+    },
+    {
+     "who": "pip",
+     "text": "Bye bye! See you next time! Woof woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, bye bye! Come back soon to Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ],
+   "tail": 1.8
+  }
+ ]
+}
