@@ -1,5 +1,5 @@
 """Render a Honey Bunny Kidz episode JSON into an MP4 (landscape or vertical)."""
-import json, math, re, subprocess, sys, textwrap
+import json, math, os, re, subprocess, sys, textwrap
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import art, tts, thumbnail
@@ -156,7 +156,7 @@ def render(ep_path, out_path, vertical=False):
 
     ff = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                            "-r", str(FPS), "-i", "-", "-i", out_path + ".wav", "-c:v", "libx264", "-preset", "veryfast",
-                           "-crf", "21", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+                           "-crf", os.environ.get("HB_CRF", "21"), "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
                            "-af", "loudnorm=I=-16:TP=-1.5", "-shortest", "-movflags", "+faststart", out_path],
                           stdin=subprocess.PIPE)
     ground = 0.74 if vertical else 0.86

@@ -41,3 +41,13 @@ python3 render.py episodes/epNNN_short.json out/epNNN_short.mp4 vertical
   - cast: 1-3 characters, the star first with mouth 2 (excited face); use characters from the episode. Add "flip": true to mirror a character (e.g. so Pip's tail doesn't cover a friend).
   - Run `python3 thumbnail.py episodes/epNNN.json out/test_thumb.jpg` and Read the image before rendering: text readable, faces fully visible, no overlap with text.
 - Copy thumbnails to `thumbnails/` in the repo. Public URL: https://raw.githubusercontent.com/honey-bunny-kidz/honeybunny-media/main/thumbnails/FILE
+
+## Extra Shorts (3 per episode)
+- Each episode gets `epNNN_short.json`, `epNNN_short2.json` and `epNNN_short3.json`, each a self-contained vertical Short (30–58 s) with a DIFFERENT hook and its own "thumbnail" block:
+  short = guess-who/guess-what hook; short2 = learn-along (count, colors, shapes, big/small, animal sound) with a pause for the viewer; short3 = song/chorus or funniest moment, sing-along.
+- Render each with `python3 render.py episodes/epNNN_short2.json out/epNNN_short2.mp4 vertical` (writes out/epNNN_short2_thumb.jpg).
+
+## Weekly compilation (Sundays)
+- `python3 compile.py episodes/compNNN.json "Title" "Thumb Words" "Kids Stories" BG ep001 ep002 ...` builds one long episode with fresh host bridges between stories (ask-and-pause), then
+  `HB_CRF=26 python3 render.py episodes/compNNN.json out/compNNN.mp4` (crf 26 keeps ~40 min under GitHub's 100 MB limit).
+- Badge containing "Bedtime" makes night-time breathing bridges (good for bedtime compilations).
