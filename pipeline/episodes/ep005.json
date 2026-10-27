@@ -1,0 +1,559 @@
+{
+ "id": "ep005",
+ "title": "Honey's Pumpkin Patch Party",
+ "thumbnail": {
+  "text": "Honey's Pumpkin Surprise!",
+  "badge": "Kids Story",
+  "bg": "pumpkin_patch",
+  "cast": [
+   {
+    "id": "honey",
+    "mouth": 2
+   },
+   {
+    "id": "pumpkinpip",
+    "scale": 1.15
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "pumpkin_patch",
+   "title": "Honey's Pumpkin Patch Party",
+   "subtitle": "A Kids Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Honey's Pumpkin Patch Party!"
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a cool, sunny autumn day. Crunchy leaves were falling, red, orange and yellow."
+    },
+    {
+     "who": "narrator",
+     "text": "Honey Bunny and Mama Bunny walked to the pumpkin patch together."
+    },
+    {
+     "who": "honey",
+     "text": "Look, Mama! So many pumpkins! Hello, friends! What color are the pumpkins?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Orange! Yes! Bright orange pumpkins!"
+    },
+    {
+     "who": "mama",
+     "text": "Today is our pumpkin party. Let's invite all our friends!"
+    },
+    {
+     "who": "honey",
+     "text": "Hooray! A pumpkin party!"
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.42
+    },
+    {
+     "id": "mimi",
+     "x": 0.66
+    },
+    {
+     "id": "pumpkin",
+     "x": 0.86,
+     "scale": 1.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Here come Dotty Duckling and Mimi Kitten!"
+    },
+    {
+     "who": "dotty",
+     "text": "Quack quack! Hello, Honey!"
+    },
+    {
+     "who": "mimi",
+     "text": "Meow! Can we pick pumpkins too?"
+    },
+    {
+     "who": "honey",
+     "text": "Yes! Everyone can pick one pumpkin."
+    },
+    {
+     "who": "mimi",
+     "text": "I like this big one! Look how big it is!"
+    },
+    {
+     "who": "narrator",
+     "text": "Mimi found a big, round pumpkin."
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.35
+    },
+    {
+     "id": "pumpkin",
+     "x": 0.5,
+     "scale": 0.6
+    },
+    {
+     "id": "honey",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "And I like this tiny one. It is just my size! Quack!"
+    },
+    {
+     "who": "honey",
+     "text": "Mimi's pumpkin is big. Dotty's pumpkin is small."
+    },
+    {
+     "who": "honey",
+     "text": "Can you find the small pumpkin? Point to it!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "There it is! The little pumpkin, next to Dotty. Well done!"
+    },
+    {
+     "who": "narrator",
+     "text": "Big or small, every pumpkin is special."
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "pumpkin",
+     "x": 0.2,
+     "scale": 1.6
+    },
+    {
+     "id": "pumpkin",
+     "x": 0.35,
+     "scale": 1.6
+    },
+    {
+     "id": "pumpkin",
+     "x": 0.5,
+     "scale": 1.6
+    },
+    {
+     "id": "pumpkin",
+     "x": 0.65,
+     "scale": 1.6
+    },
+    {
+     "id": "pumpkin",
+     "x": 0.8,
+     "scale": 1.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The friends put their pumpkins in a row. Let's count them together!",
+     "pause": 0.9
+    },
+    {
+     "who": "narrator",
+     "text": "One.",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Two.",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Three.",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Four.",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Five!",
+     "pause": 0.9
+    },
+    {
+     "who": "narrator",
+     "text": "How many pumpkins are there?",
+     "pause": 2.0
+    },
+    {
+     "who": "narrator",
+     "text": "Five pumpkins! Great counting!"
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22
+    },
+    {
+     "id": "mimi",
+     "x": 0.42
+    },
+    {
+     "id": "pumpkinpip",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then, something funny happened. A big pumpkin started to walk!"
+    },
+    {
+     "who": "mimi",
+     "text": "Oh! A walking pumpkin!"
+    },
+    {
+     "who": "pumpkinpip",
+     "text": "Hello, friends! Happy pumpkin party!"
+    },
+    {
+     "who": "honey",
+     "text": "Who is in the pumpkin costume? Look! A waggy tail, and little paws."
+    },
+    {
+     "who": "honey",
+     "text": "Who has a waggy tail? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "pumpkinpip",
+     "text": "Woof woof!"
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was Pip Puppy! He took off his costume with a big smile."
+    },
+    {
+     "who": "pip",
+     "text": "Surprise! It's me, Pip! I am a pumpkin puppy!"
+    },
+    {
+     "who": "honey",
+     "text": "Pip! What a fun costume! You made us giggle!"
+    },
+    {
+     "who": "mimi",
+     "text": "Hee hee! You are the best pumpkin, Pip!"
+    },
+    {
+     "who": "pip",
+     "text": "But oh! I was in my costume. I did not pick a pumpkin."
+    },
+    {
+     "who": "honey",
+     "text": "That's okay, Pip. I picked two pumpkins. You can have one of mine!"
+    },
+    {
+     "who": "pip",
+     "text": "Thank you, Honey! Sharing is so kind. Woof!"
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.25
+    },
+    {
+     "id": "pumpkin",
+     "x": 0.5,
+     "scale": 1.4
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Now it was time to make pumpkin faces."
+    },
+    {
+     "who": "mama",
+     "text": "Cutting pumpkins is a grown-up job. I will do the cutting. You can tell me what face to make."
+    },
+    {
+     "who": "honey",
+     "text": "Should we make a happy face, or a sleepy face? What do you think?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "A happy, smiley face! Yes!"
+    },
+    {
+     "who": "mama",
+     "text": "Two triangle eyes, and a big smile. Here we go!"
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.15
+    },
+    {
+     "id": "pumpkin_smile",
+     "x": 0.33,
+     "scale": 1.5
+    },
+    {
+     "id": "pumpkin_smile",
+     "x": 0.5,
+     "scale": 2.0
+    },
+    {
+     "id": "pumpkin_smile",
+     "x": 0.67,
+     "scale": 1.5
+    },
+    {
+     "id": "pip",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Ta-da! The pumpkins have smiley faces!"
+    },
+    {
+     "who": "pip",
+     "text": "They are smiling at us! Woof!"
+    },
+    {
+     "who": "honey",
+     "text": "What shape are the pumpkin eyes? Can you say it?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Triangles! Triangle eyes!"
+    },
+    {
+     "who": "narrator",
+     "text": "Everyone smiled back at the happy pumpkins."
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.14
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.46
+    },
+    {
+     "id": "pip",
+     "x": 0.62
+    },
+    {
+     "id": "pumpkin_smile",
+     "x": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then the friends had a little pumpkin party song. Sing along!",
+     "pause": 0.9
+    },
+    {
+     "who": "narrator",
+     "text": "Pumpkin, pumpkin, round and bright,",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "smiling in the autumn light.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Big ones, small ones, one, two, three,",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "share a pumpkin, friends with me!",
+     "pause": 1.0
+    },
+    {
+     "who": "dotty",
+     "text": "Quack! Let's sing it again!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Pumpkin, pumpkin, round and bright,",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "smiling in the autumn light!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The sun was going down. It was time to go home with Mama."
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a big, slow breath. Smell the pumpkin pie.",
+     "pause": 1.4
+    },
+    {
+     "who": "mama",
+     "text": "And blow out, slowly. Ahhh.",
+     "pause": 1.2
+    },
+    {
+     "who": "honey",
+     "text": "Thank you, Mama. That was the best pumpkin party!"
+    },
+    {
+     "who": "honey",
+     "text": "What was your favorite part? The walking pumpkin? The smiley faces?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "I liked sharing with my friends the best!"
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "title": "The End",
+   "subtitle": "Big or small, sharing makes us all happy!",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.5,
+   "tail": 1.6,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Big or small, sharing makes us all happy. Bye bye, friends! See you next time on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

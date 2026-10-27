@@ -10,7 +10,8 @@ SR = tts.SR
 FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 VOICES = {"narrator": ("af_heart", 0.84), "honey": ("af_sky", 0.92), "mama": ("af_bella", 0.86),
           "dotty": ("af_nicole", 0.95), "ollie": ("bm_fable", 0.86), "moon": ("bm_george", 0.82), "mimi": ("af_sky", 0.90, 1.13),
-          "lulu": ("bf_lily", 0.90, 1.12), "pip": ("am_puck", 0.92, 1.12)}
+          "lulu": ("bf_lily", 0.90, 1.12), "pip": ("am_puck", 0.92, 1.12),
+          "pumpkinpip": ("am_puck", 0.92, 1.12)}
 
 
 def sentences(t):

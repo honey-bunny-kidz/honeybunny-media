@@ -1,0 +1,158 @@
+{
+ "id": "ep005_short",
+ "title": "Guess Who's in the Pumpkin?",
+ "thumbnail": {
+  "text": "Guess Who, Honey?!",
+  "badge": "Kids Story",
+  "bg": "pumpkin_patch",
+  "cast": [
+   {
+    "id": "pumpkinpip",
+    "mouth": 2,
+    "flip": true,
+    "scale": 0.82
+   },
+   {
+    "id": "honey",
+    "scale": 0.95
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "pumpkinpip",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Guess who's in the pumpkin costume?",
+     "pause": 0.6
+    },
+    {
+     "who": "pumpkinpip",
+     "text": "Hello, friends! Happy pumpkin party!"
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pumpkinpip",
+     "x": 0.68
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Look! A waggy tail, and little paws!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Who has a waggy tail? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "pumpkinpip",
+     "text": "Woof woof!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It's Pip Puppy!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Surprise! I am a pumpkin puppy!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! What a fun costume, Pip!"
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "pumpkin_smile",
+     "x": 0.3
+    },
+    {
+     "id": "pumpkin_smile",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Pumpkin, pumpkin, round and bright,",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "smiling in the autumn light!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "title": "Pumpkin Party!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

@@ -291,6 +291,74 @@ def yarn(eyes="open", m=0, h=150):
     return finish(im, (h, h))
 
 
+def _pumpkin_body(d, cx, cy, rx, ry, col=(255, 150, 50, 255), rib=(235, 120, 35, 255)):
+    """Round cartoon pumpkin made of overlapping lobes."""
+    for k, f in ((-2, 0.55), (2, 0.55), (-1, 0.75), (1, 0.75), (0, 0.6)):
+        E(d, cx + k * rx * 0.24, cy, rx * f, ry, col)
+    for k in (-1, 1):
+        d.arc([cx + k * rx * 0.24 - rx * 0.2, cy - ry * 0.95, cx + k * rx * 0.24 + rx * 0.2, cy + ry * 0.95], 100 if k < 0 else -80, 260 if k < 0 else 80, fill=rib, width=6)
+
+
+def _stem(d, cx, top, s):
+    d.polygon([(cx - 22 * s, top + 10 * s), (cx - 12 * s, top - 60 * s), (cx + 18 * s, top - 70 * s), (cx + 22 * s, top + 10 * s)],
+              fill=(110, 150, 70, 255), outline=OUT, width=6)
+    E(d, cx + 70 * s, top - 30 * s, 55 * s, 26 * s, (120, 190, 90, 255), w=6)
+    d.arc([cx - 60 * s, top - 80 * s, cx + 10 * s, top - 10 * s], 180, 320, fill=(110, 170, 80, 255), width=7)
+
+
+def pumpkin(eyes="open", m=0, h=150, face=None):
+    W, H = 600, 520
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    _pumpkin_body(d, 300, 320, 260, 185)
+    _stem(d, 300, 145, 1.0)
+    if face == "smile":
+        dark = (120, 55, 30, 255)
+        glow = (255, 220, 110, 255)
+        for side in (-1, 1):
+            d.polygon([(300 + side * 95, 250), (300 + side * 55, 320), (300 + side * 135, 320)], fill=glow, outline=dark, width=6)
+        d.chord([180, 300, 420, 450], 15, 165, fill=glow, outline=dark, width=6)
+        d.rectangle([285, 400, 315, 440], fill=(255, 150, 50, 255))
+    return finish(im, (int(h * W / H), h))
+
+
+def pumpkin_suit(eyes="open", m=0, h=420):
+    """A friend dressed up in a big pumpkin costume (Pip inside: puppy feet, waggy tail, peeking eyes)."""
+    W, H = 1000, 1000
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    FUR = (238, 190, 120, 255)
+    d.arc([740, 430, 950, 640], 140, 330, fill=OUT, width=52)       # waggy tail peeking out
+    d.arc([740, 430, 950, 640], 140, 330, fill=FUR, width=38)
+    for side in (-1, 1):
+        E(d, 450 + side * 110, 950, 85, 44, FUR)
+        E(d, 450 + side * 110, 958, 50, 22, (255, 243, 225, 255), w=0)
+    _pumpkin_body(d, 450, 600, 340, 320)
+    _stem(d, 450, 285, 1.5)
+    # peek window with eyes
+    E(d, 450, 520, 210, 105, (238, 190, 120, 255), ol=(150, 75, 30, 255), w=10)
+    for side in (-1, 1):
+        eye(d, 450 + side * 90, 515, 44, eyes)
+    cheeks(im, [(320, 560), (580, 560)], 40, 22)
+    d = ImageDraw.Draw(im)
+    E(d, 450, 552, 26, 18, (70, 45, 50, 255), w=0)
+    # costume smile (opens when talking)
+    if m == 0:
+        d.arc([360, 640, 540, 740], 15, 165, fill=(150, 75, 30, 255), width=12)
+    else:
+        hh = 30 + 18 * m
+        d.chord([370, 670 - hh, 530, 690 + hh], 0, 180, fill=(150, 50, 70, 255), outline=(150, 75, 30, 255), width=8)
+    return finish(im, (int(h * W / H), h))
+
+
+def autumn_tree(d, W, H, x, ground, s=1.0, cols=((255, 160, 60), (245, 110, 70), (255, 205, 80)), sw=None):
+    sw = sw or s
+    d.rectangle([x - W * 0.03 * sw, H * (ground - 0.55 * s), x + W * 0.03 * sw, H * ground], fill=(130, 85, 60))
+    for i, (dx, dy, r) in enumerate(((0, 0.62, 0.12), (-0.08, 0.52, 0.09), (0.08, 0.52, 0.09), (0, 0.45, 0.1), (-0.05, 0.7, 0.08), (0.06, 0.68, 0.08))):
+        cx, cy, rr = x + dx * W * sw, H * (ground - dy * s), r * W * sw
+        d.ellipse([cx - rr, cy - rr * 0.85, cx + rr, cy + rr * 0.85], fill=cols[i % len(cols)])
+
+
 def sunflower(d, x, ground, H, s=1.0):
     d.line([x, ground, x, ground - H * 0.42 * s], fill=(90, 160, 80), width=int(14 * s))
     d.ellipse([x - 70 * s, ground - H * 0.27 * s, x - 5, ground - H * 0.23 * s], fill=(110, 185, 95))
@@ -324,6 +392,9 @@ CHARS = {
     "yarn": dict(fn=yarn, kw=dict(), h=0.12),
     "lulu": dict(fn=lamb, kw=dict(), h=0.40),
     "pip": dict(fn=puppy, kw=dict(), h=0.40),
+    "pumpkin": dict(fn=pumpkin, kw=dict(), h=0.13),
+    "pumpkin_smile": dict(fn=pumpkin, kw=dict(face="smile"), h=0.13),
+    "pumpkinpip": dict(fn=pumpkin_suit, kw=dict(), h=0.42),
 }
 
 
@@ -465,6 +536,52 @@ def background(kind, W, H):
                 d.ellipse([bx + side * 16 * s - 11 * s, by + 2 * s, bx + side * 16 * s + 11 * s, by + 20 * s], fill=c)
             d.line([bx, by - 16 * s, bx, by + 16 * s], fill=(95, 62, 72), width=int(5 * s) + 1)
         flowers(d, W, H, ground * H, 55, 11)
+    elif kind == "pumpkin_patch":
+        im = grad(W, H, (150, 205, 245), (255, 228, 185))
+        d = ImageDraw.Draw(im)
+        d.ellipse([W * 0.08, H * 0.07, W * 0.08 + H * 0.14, H * 0.21], fill=(255, 220, 110))
+        for i in range(3):
+            cloud(d, rnd.uniform(W * 0.25, W * 0.85), rnd.uniform(H * 0.05, H * 0.22), H / 1000, (255, 250, 245))
+        hills(d, W, H, ground - 0.14, 0.07, (225, 195, 130), 2)
+        if W > H:
+            autumn_tree(d, W, H, W * 0.1, ground - 0.08, 0.9)
+            autumn_tree(d, W, H, W * 0.9, ground - 0.09, 1.0, ((245, 110, 70), (255, 185, 70), (230, 140, 60)))
+        else:
+            autumn_tree(d, W, H, W * 0.12, ground - 0.08, 0.62, sw=1.5)
+            autumn_tree(d, W, H, W * 0.88, ground - 0.09, 0.68, ((245, 110, 70), (255, 185, 70), (230, 140, 60)), sw=1.6)
+        hills(d, W, H, ground - 0.04, 0.035, (170, 195, 105), 4)
+        # wooden fence
+        fy0, fy1 = H * (ground - 0.15), H * (ground - 0.04)
+        step = W / 14
+        for k in range(15):
+            fx = k * step + step * 0.3
+            d.rounded_rectangle([fx - 9, fy0, fx + 9, fy1], 6, fill=(205, 150, 105))
+        for fy in (fy0 + (fy1 - fy0) * 0.25, fy0 + (fy1 - fy0) * 0.65):
+            d.rectangle([0, fy - 7, W, fy + 7], fill=(190, 135, 95))
+        # hay bale
+        hx, hy, hw = W * (0.8 if W > H else 0.72), H * (ground - 0.02), min(W, H) * 0.18
+        d.rounded_rectangle([hx - hw / 2, hy - hw * 0.55, hx + hw / 2, hy], 20, fill=(240, 205, 110), outline=(200, 160, 80), width=5)
+        for k in range(1, 4):
+            d.line([hx - hw / 2 + 10, hy - hw * 0.55 * k / 4, hx + hw / 2 - 10, hy - hw * 0.55 * k / 4], fill=(215, 175, 85), width=4)
+        d.rectangle([0, H * ground, W, H], fill=(150, 175, 90))
+        hills(d, W, H, ground + 0.01, 0.02, (150, 175, 90), 7)
+        # pumpkins in the patch with curly vines
+        s = H / 1080
+        spots = [(0.05, 0.02, 0.9), (0.21, 0.07, 0.7), (0.38, 0.02, 0.55), (0.62, 0.08, 0.65), (0.95, 0.03, 1.0), (0.72, 0.0, 0.5), (0.5, 0.11, 0.8)]
+        if W < H:
+            spots = [(0.1, 0.05, 1.0), (0.35, 0.12, 0.8), (0.9, 0.06, 1.1), (0.65, 0.16, 0.9)]
+        for (px, py, ps) in spots:
+            x, y = W * px, H * (ground + py)
+            d.arc([x - 120 * s, y - 40 * s, x + 30 * s, y + 30 * s], 160, 340, fill=(100, 150, 70), width=int(6 * s) + 1)
+            pr = 70 * s * ps
+            for k, f in ((-1, 0.62), (1, 0.62), (0, 0.7)):
+                d.ellipse([x + k * pr * 0.35 - pr * f, y - pr * 0.75, x + k * pr * 0.35 + pr * f, y + pr * 0.15], fill=(250, 145, 50), outline=(205, 105, 35), width=3)
+            d.rectangle([x - 6 * s * ps, y - pr * 0.95, x + 6 * s * ps, y - pr * 0.7], fill=(110, 150, 70))
+        # falling leaves
+        for k in range(10):
+            lx, ly = rnd.uniform(0, W), rnd.uniform(H * 0.1, H * (ground - 0.2))
+            c = rnd.choice([(255, 160, 60), (240, 110, 70), (255, 205, 80)])
+            d.ellipse([lx - 14 * s, ly - 8 * s, lx + 14 * s, ly + 8 * s], fill=c)
     elif kind == "sunset":
         im = grad(W, H, (125, 115, 200), (255, 190, 150))
         d = ImageDraw.Draw(im)
