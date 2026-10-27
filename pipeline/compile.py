@@ -1,7 +1,7 @@
 """Build a long compilation episode (30-45 min) from several episode JSONs, with fresh host bridges.
 
 Usage: python3 compile.py OUT.json "Compilation Title" "Thumb Words" BADGE BG ep001 ep002 ...
-Then: HB_CRF=26 python3 render.py OUT.json out/compNNN.mp4   (crf 26 keeps 40 min under ~90 MB for GitHub)
+Then: HB_CRF=29 python3 render.py OUT.json out/compNNN.mp4   (crf 29 keeps ~40 min under ~95 MB for GitHub)
 Bridges are new scenes (a host introduces each story with an ask-and-pause question), so the
 compilation is more than a plain re-upload. Episode title cards are kept so viewers see each story name.
 """

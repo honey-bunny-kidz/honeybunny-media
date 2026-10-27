@@ -49,5 +49,5 @@ python3 render.py episodes/epNNN_short.json out/epNNN_short.mp4 vertical
 
 ## Weekly compilation (Sundays)
 - `python3 compile.py episodes/compNNN.json "Title" "Thumb Words" "Kids Stories" BG ep001 ep002 ...` builds one long episode with fresh host bridges between stories (ask-and-pause), then
-  `HB_CRF=26 python3 render.py episodes/compNNN.json out/compNNN.mp4` (crf 26 keeps ~40 min under GitHub's 100 MB limit).
+  `HB_CRF=29 python3 render.py episodes/compNNN.json out/compNNN.mp4` (tested: 11 min = 30 MB at crf 26, so use crf 29 to keep ~40 min under GitHub's 100 MB limit; re-encode at crf 31 if still over 95 MB).
 - Badge containing "Bedtime" makes night-time breathing bridges (good for bedtime compilations).
