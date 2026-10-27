@@ -125,5 +125,40 @@
    "6adf1cde78f6291673b9bad8"
   ],
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep005",
+  "date": "2026-10-27",
+  "type": "kids story (seasonal)",
+  "trend": "KIDS (seasonal) - calendar row 2026-10-27; seasonal moment + ask-and-pause + Shorts guess-who hook",
+  "title": "Honey's Pumpkin Patch Party",
+  "short": "Guess Who's in the Pumpkin?",
+  "characters": [
+   "honey",
+   "mama",
+   "dotty",
+   "mimi",
+   "pip",
+   "pumpkinpip"
+  ],
+  "lesson": "big and small, counting 1-5, triangle shapes, sharing (Honey shares a pumpkin with Pip); grown-ups do the carving; calm breath",
+  "thumbnail_text": [
+   "Honey's Pumpkin Surprise!",
+   "Guess Who, Honey?!"
+  ],
+  "files": [
+   "videos/ep005_full.mp4",
+   "videos/ep005_short.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep005_thumb.jpg",
+   "thumbnails/ep005_short_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae06ee1158d7a72af918cd9",
+   "6ae06ee7421e91122f79a17e",
+   "6ae06eee2464aa57c857cf40"
+  ],
+  "youtube_long": "manual upload by user"
  }
 ]
