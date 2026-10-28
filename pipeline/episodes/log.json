@@ -160,5 +160,64 @@
    "6ae06eee2464aa57c857cf40"
   ],
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep006",
+  "date": "2026-10-28",
+  "type": "bedtime story",
+  "trend": "BED - calendar row 2026-10-28; ask-and-pause sound guessing (x5) + calm breathing + Shorts question hooks",
+  "title": "Ollie Owl's Night-Time Sounds",
+  "short": "Who Says Hoo-Hoo?",
+  "short_titles": [
+   "Who Says Hoo-Hoo? 🦉 Guess the Night Sound with Honey Bunny & Ollie Owl #shorts",
+   "Count the Ribbits with Ollie Owl! 🐸 Frog Sound Game for Toddlers #shorts",
+   "Night Sounds Lullaby 🌙 Sing & Move with Ollie Owl | Bedtime Song for Kids #shorts"
+  ],
+  "characters": [
+   "ollie",
+   "honey",
+   "mama",
+   "moon",
+   "cricket",
+   "frog"
+  ],
+  "lesson": "listening to nature sounds (cricket, wind, frog, owl), owls are awake at night, counting 1-3, quiet is calming; calm breathing for sleep",
+  "thumbnail_text": [
+   "Ollie's Night Game!",
+   "Honey Hears Hoo-Hoo!",
+   "Ollie Counts Ribbits!",
+   "Sing With Ollie!"
+  ],
+  "files": [
+   "videos/ep006_full.mp4",
+   "videos/ep006_short.mp4",
+   "videos/ep006_short2.mp4",
+   "videos/ep006_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep006_thumb.jpg",
+   "thumbnails/ep006_short_thumb.jpg",
+   "thumbnails/ep006_short2_thumb.jpg",
+   "thumbnails/ep006_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae1c2235719a3c4c80d7c2d",
+   "6ae1c22b979a56d9e579f066",
+   "6ae1c23091b138e3084d0c01",
+   "6ae1c23426cf140c4c833de1",
+   "6ae1c239979a56d9e579f2e5",
+   "6ae1c23d5719a3c4c80d8209",
+   "6ae1c2445719a3c4c80d841d"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae1c2235719a3c4c80d7c2d",
+   "short2_fb": "6ae1c22b979a56d9e579f066",
+   "short_yt": "6ae1c23091b138e3084d0c01",
+   "short_fb": "6ae1c23426cf140c4c833de1",
+   "short3_yt": "6ae1c239979a56d9e579f2e5",
+   "short3_fb": "6ae1c23d5719a3c4c80d8209",
+   "full_fb": "6ae1c2445719a3c4c80d841d"
+  },
+  "youtube_long": "manual upload by user"
  }
 ]
