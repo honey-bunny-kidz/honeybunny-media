@@ -1,0 +1,180 @@
+{
+ "id": "ep006_short3",
+ "title": "Night Sounds Lullaby",
+ "thumbnail": {
+  "text": "Sing With Ollie!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "night",
+  "cast": [
+   {
+    "id": "ollie",
+    "mouth": 2
+   },
+   {
+    "id": "cricket",
+    "scale": 2.2,
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Can you move like the night? Let's sing and do the actions!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "cricket",
+     "x": 0.62,
+     "scale": 1.8
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.2,
+   "lines": [
+    {
+     "who": "cricket",
+     "sfx": "cricket",
+     "text": "",
+     "dur": 1.2,
+     "pause": 0.2
+    },
+    {
+     "who": "narrator",
+     "text": "Chirp, chirp, little cricket, singing low. Rub your hands, like this!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.2,
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "wind",
+     "text": "",
+     "dur": 1.4,
+     "pause": 0.2
+    },
+    {
+     "who": "narrator",
+     "text": "Whoosh, whoosh, little wind, soft and slow. Wave your arms, side to side!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "frog",
+     "x": 0.75,
+     "y": 0.8,
+     "scale": 1.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.2,
+   "lines": [
+    {
+     "who": "frog",
+     "sfx": "frog",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.2
+    },
+    {
+     "who": "narrator",
+     "text": "Ribbit, ribbit, little frog, by the pool. Hop, hop, hop!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.27
+    },
+    {
+     "id": "ollie",
+     "x": 0.72
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Hoo, hoo, little owl, the night is cool. Flap your wings, slowly!",
+     "pause": 1.2
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! Now, a big sleepy stretch, and a yawn. Aaah.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "title": "Night Sounds Song",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.27
+    },
+    {
+     "id": "ollie",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

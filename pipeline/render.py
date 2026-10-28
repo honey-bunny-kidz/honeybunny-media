@@ -60,6 +60,53 @@ def music(seconds):
     return out / (np.abs(out).max() + 1e-9)
 
 
+def sfx(kind, dur=1.8):
+    """Soft, original synthesized nature sounds (no samples)."""
+    n = int(dur * SR)
+    t = np.arange(n) / SR
+    rng = np.random.default_rng(3)
+    if kind == "cricket":  # gentle chirp-chirp-chirp
+        gate = np.zeros(n)
+        for c0 in np.arange(0.05, dur - 0.3, 0.5):
+            for k in range(3):
+                s0 = int((c0 + k * 0.045) * SR)
+                L = int(0.028 * SR)
+                gate[s0:s0 + L] += np.hanning(L)
+        a = np.sin(2 * np.pi * 4300 * t) * gate * 0.22
+    elif kind == "wind":  # soft whoosh: band-passed noise with slow swells
+        x = np.fft.rfft(rng.standard_normal(n))
+        f = np.fft.rfftfreq(n, 1 / SR)
+        x *= np.exp(-((f - 450) / 260) ** 2)
+        a = np.fft.irfft(x, n)
+        a /= np.abs(a).max() + 1e-9
+        a *= (0.15 + 0.85 * np.sin(np.pi * t / dur) ** 2) * 0.45
+    elif kind == "frog":  # cute two-part "rib-bit" croaks
+        a = np.zeros(n)
+        for c0 in np.arange(0.05, dur - 0.35, 0.6):
+            for k, (f0, L) in enumerate(((210, 0.11), (260, 0.13))):
+                s0 = int((c0 + k * 0.16) * SR)
+                tt = np.arange(int(L * SR)) / SR
+                fr = f0 * (1 + 0.25 * tt / L)
+                ph = 2 * np.pi * np.cumsum(fr) / SR
+                w = (np.sin(ph) + 0.5 * np.sin(2 * ph) + 0.3 * np.sin(3 * ph)) * (0.55 + 0.45 * np.sin(2 * np.pi * 45 * tt))
+                w *= np.hanning(len(tt)) * 0.3
+                a[s0:s0 + len(w)] += w[: max(0, min(len(w), n - s0))]
+    elif kind == "owl":  # soft hoo... hoo
+        a = np.zeros(n)
+        for c0, L in ((0.05, 0.45), (0.75, 0.6)):
+            s0 = int(c0 * SR)
+            tt = np.arange(int(L * SR)) / SR
+            fr = 390 * (1 - 0.08 * tt / L) * (1 + 0.01 * np.sin(2 * np.pi * 6 * tt))
+            w = np.sin(2 * np.pi * np.cumsum(fr) / SR) * np.sin(np.pi * tt / L) ** 1.5 * 0.4
+            a[s0:s0 + len(w)] += w[: max(0, min(len(w), n - s0))]
+    else:
+        raise ValueError(kind)
+    fade = int(0.05 * SR)
+    a[:fade] *= np.linspace(0, 1, fade)
+    a[-fade:] *= np.linspace(1, 0, fade)
+    return a
+
+
 def build_timeline(ep):
     """Synthesize all lines; return scenes with absolute timing and the voice track."""
     t, voice, scenes = 0.0, [], []
@@ -68,6 +115,11 @@ def build_timeline(ep):
         chunks = []
         t += sc.get("lead", 0.9)
         for ln in sc["lines"]:
+            if ln.get("sfx"):  # sound effect; optional "text" is shown as a caption only
+                a = sfx(ln["sfx"], ln.get("dur", 1.8))
+                chunks.append(dict(who=ln.get("who", "sfx"), text=ln.get("text", ""), t0=t, t1=t + len(a) / SR, audio=a))
+                t += len(a) / SR + ln.get("pause", 0.6)
+                continue
             v, sp, *pt = VOICES[ln["who"]]
             for k, s in enumerate(sentences(ln["text"])):
                 a = tts.synth(s, v, sp, pt[0] if pt else 1.0)
@@ -200,7 +252,7 @@ def render(ep_path, out_path, vertical=False):
             frame.alpha_composite(fg)
         if sc["overlay"] is not None:
             frame.alpha_composite(sc["overlay"])
-        if cur is not None and not sc.get("title"):
+        if cur is not None and cur["text"] and not sc.get("title"):
             if cur["text"] not in cache_txt:
                 cache_txt[cur["text"]] = text_box(cur["text"], W, H, vertical)
             tb = cache_txt[cur["text"]]

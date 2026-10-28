@@ -382,6 +382,69 @@ def rose_bush(d, x, ground, H, s=1.0):
         d.ellipse([fx - r * 0.45, fy - r * 0.45, fx + r * 0.45, fy + r * 0.45], fill=(200, 35, 60))
 
 
+def cricket(eyes="open", m=0, h=150):
+    """Tiny friendly cricket: round green body, big head, curly antennae, little legs."""
+    W, H = 900, 760
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    G, LG, DG = (130, 205, 95, 255), (190, 235, 150, 255), (95, 165, 70, 255)
+    # back jumping legs
+    for x0 in (560, 640):
+        d.line([x0, 560, x0 + 110, 420, x0 + 150, 690], fill=OUT, width=34, joint="curve")
+        d.line([x0, 560, x0 + 110, 420, x0 + 150, 690], fill=DG, width=20, joint="curve")
+    # little front legs
+    for x0 in (330, 420):
+        d.line([x0, 600, x0 - 20, 700], fill=OUT, width=24)
+        d.line([x0, 600, x0 - 20, 700], fill=DG, width=12)
+    E(d, 530, 540, 230, 150, G)                       # body
+    E(d, 560, 470, 170, 70, DG, w=5)                  # folded wings
+    d.line([440, 470, 690, 470], fill=(80, 140, 60, 255), width=5)
+    # antennae
+    d.arc([120, 20, 380, 300], 200, 300, fill=OUT, width=10)
+    d.arc([200, -20, 470, 260], 210, 300, fill=OUT, width=10)
+    E(d, 140, 115, 18, 18, (255, 220, 110, 255), w=4)
+    E(d, 235, 55, 18, 18, (255, 220, 110, 255), w=4)
+    E(d, 310, 430, 200, 185, G)                       # head
+    E(d, 310, 500, 120, 70, LG, w=0)
+    for side in (-1, 1):
+        eye(d, 310 + side * 78, 400, 42, eyes)
+    cheeks(im, [(200, 490), (420, 490)], 36, 20)
+    d = ImageDraw.Draw(im)
+    mouth(d, 310, 500, 0.7, m)
+    return finish(im, (int(h * W / H), h))
+
+
+def frog(eyes="open", m=0, h=200):
+    """Cute little green frog with big eyes on top and a wide smile."""
+    W, H = 900, 820
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    G, LG, DG = (120, 200, 110, 255), (205, 240, 170, 255), (95, 170, 90, 255)
+    for side in (-1, 1):                              # back legs
+        E(d, 450 + side * 270, 690, 150, 95, DG)
+        E(d, 450 + side * 330, 775, 95, 34, G)
+    E(d, 450, 560, 300, 230, G)                       # body
+    E(d, 450, 630, 190, 150, LG, w=0)
+    for side in (-1, 1):                              # front feet
+        E(d, 450 + side * 120, 780, 70, 32, G)
+    E(d, 450, 380, 320, 200, G)                       # head
+    for side in (-1, 1):                              # eye bumps
+        E(d, 450 + side * 165, 220, 115, 110, G)
+        E(d, 450 + side * 165, 225, 82, 80, (255, 255, 255, 255), w=0)
+        eye(d, 450 + side * 165, 230, 46, eyes)
+    cheeks(im, [(250, 430), (650, 430)], 52, 30)
+    d = ImageDraw.Draw(im)
+    for side in (-1, 1):
+        E(d, 450 + side * 30, 360, 8, 6, (70, 120, 65, 255), w=0)
+    if m == 0:
+        d.arc([300, 340, 600, 470], 25, 155, fill=OUT, width=10)
+    else:
+        hh = 30 + 26 * m
+        d.chord([310, 420 - hh * 0.3, 590, 430 + hh], 0, 180, fill=(150, 50, 70, 255), outline=OUT, width=8)
+        E(d, 450, 425 + hh * 0.8, 60, hh * 0.25, (245, 130, 150, 255), w=0)
+    return finish(im, (int(h * W / H), h))
+
+
 CHARS = {
     "honey": dict(fn=bunny, kw=dict(), h=0.44),
     "mama": dict(fn=bunny, kw=dict(fur=(246, 228, 205), bow=False), h=0.54),
@@ -395,6 +458,8 @@ CHARS = {
     "pumpkin": dict(fn=pumpkin, kw=dict(), h=0.13),
     "pumpkin_smile": dict(fn=pumpkin, kw=dict(face="smile"), h=0.13),
     "pumpkinpip": dict(fn=pumpkin_suit, kw=dict(), h=0.42),
+    "cricket": dict(fn=cricket, kw=dict(), h=0.12),
+    "frog": dict(fn=frog, kw=dict(), h=0.16),
 }
 
 
@@ -599,6 +664,50 @@ def background(kind, W, H):
         tree(d, W, H, W * (0.82 if W > H else 0.8), False)
         hills(d, W, H, ground - 0.02, 0.05, (125, 175, 120), 3)
         flowers(d, W, H, ground * H, 55, 9)
+    elif kind == "night_garden":
+        # Honey's cottage porch at night: glowing window, lantern, oak tree, little pond, fireflies
+        im = grad(W, H, (28, 30, 85), (120, 85, 150))
+        d = ImageDraw.Draw(im)
+        land = W > H
+        for _ in range(int(120 * W * H / (1920 * 1080))):
+            stars.append((rnd.uniform(0, W), rnd.uniform(0, H * (ground - 0.3)), rnd.uniform(1.5, 3.6), rnd.uniform(0, 6.28)))
+        hills(d, W, H, ground - 0.13, 0.07, (50, 80, 120), 2)
+        tree(d, W, H, W * (0.74 if land else 0.62), True)
+        # cottage on the left with a warm window
+        hx, hw = W * (0.1 if land else 0.12), min(W, H) * (0.42 if land else 0.36)
+        top = H * (ground - (0.40 if land else 0.26))
+        d.rectangle([hx - hw / 2, top, hx + hw / 2, H * ground], fill=(150, 120, 140))
+        d.polygon([(hx - hw * 0.62, top + 6), (hx, top - hw * 0.45), (hx + hw * 0.62, top + 6)], fill=(150, 70, 95))
+        wy = top + (H * ground - top) * 0.22
+        ww = hw * 0.26
+        glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(glow).ellipse([hx + hw * 0.18 - ww * 2, wy - ww * 1.4, hx + hw * 0.18 + ww * 2, wy + ww * 2.6], fill=(255, 210, 120, 90))
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(40)))
+        d = ImageDraw.Draw(im)
+        d.rectangle([hx + hw * 0.18 - ww / 2, wy, hx + hw * 0.18 + ww / 2, wy + ww * 1.1], fill=(255, 220, 140), outline=(110, 80, 90), width=6)
+        d.line([hx + hw * 0.18, wy, hx + hw * 0.18, wy + ww * 1.1], fill=(110, 80, 90), width=5)
+        d.rounded_rectangle([hx - hw * 0.32, H * (ground - 0.2 if land else ground - 0.13), hx - hw * 0.06, H * ground], 20, fill=(110, 75, 70))
+        # porch lantern
+        lx, ly = hx + hw * 0.5, top + (H * ground - top) * 0.45
+        glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(glow).ellipse([lx - H * 0.12, ly - H * 0.12, lx + H * 0.12, ly + H * 0.12], fill=(255, 215, 130, 110))
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(35)))
+        d = ImageDraw.Draw(im)
+        d.rounded_rectangle([lx - H * 0.018, ly - H * 0.03, lx + H * 0.018, ly + H * 0.03], 8, fill=(255, 225, 140), outline=(110, 80, 90), width=4)
+        hills(d, W, H, ground - 0.02, 0.04, (45, 110, 95), 3)
+        d.rectangle([0, H * ground, W, H], fill=(45, 110, 95))
+        # little pond with lily pads
+        px0, px1 = (W * 0.80, W * 1.02) if land else (W * 0.55, W * 1.05)
+        py = H * (ground + 0.05)
+        d.ellipse([px0, py - H * 0.035, px1, py + H * 0.05], fill=(70, 105, 170))
+        d.ellipse([px0 + W * 0.02, py - H * 0.02, px1 - W * 0.02, py + H * 0.035], fill=(95, 135, 195))
+        for k in range(3):
+            lx2 = px0 + (px1 - px0) * (0.25 + k * 0.25)
+            d.pieslice([lx2 - H * 0.025, py - H * 0.01, lx2 + H * 0.025, py + H * 0.02], 30, 330, fill=(80, 150, 90))
+        flowers(d, W, H, ground * H, 40, 13, night=True)
+        # fireflies (twinkle like stars)
+        for _ in range(9):
+            stars.append((rnd.uniform(W * 0.25, W * 0.95), rnd.uniform(H * (ground - 0.32), H * (ground - 0.05)), rnd.uniform(3, 5), rnd.uniform(0, 6.28)))
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)
