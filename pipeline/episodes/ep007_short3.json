@@ -1,0 +1,147 @@
+{
+ "id": "ep007_short3",
+ "title": "The Shape Song!",
+ "thumbnail": {
+  "text": "Sing Shapes With Pip!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "meadow",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2
+   },
+   {
+    "id": "honey",
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "ball",
+     "x": 0.75
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Can you draw a circle in the air? Get your finger ready!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip",
+     "text": "Circle, circle, round and round. Draw a circle, round and round!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "block",
+     "x": 0.72
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Square, square, one, two, three, four. Draw a square, then draw some more!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "sandwich",
+     "x": 0.75,
+     "scale": 1.2
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Now put your fingers together, like a little roof.",
+     "pause": 1.5
+    },
+    {
+     "who": "honey",
+     "text": "Triangle, triangle, one, two, three. Make a triangle, just like me!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Shapes, shapes, everywhere! Shapes, shapes, here and there!"
+    },
+    {
+     "who": "honey",
+     "text": "Yay! You drew all the shapes! Wiggle your tail like Pip!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "title": "The Shape Song!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

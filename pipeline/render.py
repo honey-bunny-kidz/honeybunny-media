@@ -1,7 +1,7 @@
 """Render a Honey Bunny Kidz episode JSON into an MP4 (landscape or vertical)."""
 import json, math, os, re, subprocess, sys, textwrap
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import art, tts, thumbnail
 COVER = 0.5  # seconds the thumbnail is shown as the opening frame
 
@@ -247,6 +247,16 @@ def render(ep_path, out_path, vertical=False):
                 bob += math.sin(t * 9) * H * 0.003
             x = int(c["x"] * W - im.width / 2)
             y = int(c.get("y", ground) * H - im.height + bob)
+            if c.get("glow"):  # soft pulsing highlight behind a found object
+                gk = ("glow", im.width, im.height)
+                if gk not in cache_spr:
+                    g = Image.new("RGBA", (im.width * 2, im.height * 2), (0, 0, 0, 0))
+                    ImageDraw.Draw(g).ellipse([im.width * 0.35, im.height * 0.35, im.width * 1.65, im.height * 1.65], fill=(255, 240, 150, 210))
+                    cache_spr[gk] = g.filter(ImageFilter.GaussianBlur(max(6, im.width // 10)))
+                g = cache_spr[gk]
+                pul = 0.75 + 0.25 * math.sin(t * 4)
+                ga = g.copy(); ga.putalpha(Image.eval(g.getchannel("A"), lambda v, p=pul: int(v * p)))
+                frame.alpha_composite(ga, (max(0, x - im.width // 2), max(0, y - im.height // 2)))
             frame.alpha_composite(im, (max(-im.width + 1, x), max(-im.height + 1, y)))
         if fg is not None:
             frame.alpha_composite(fg)

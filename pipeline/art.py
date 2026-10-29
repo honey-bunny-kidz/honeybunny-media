@@ -445,6 +445,62 @@ def frog(eyes="open", m=0, h=200):
     return finish(im, (int(h * W / H), h))
 
 
+def ball(eyes="open", m=0, h=150):
+    """Pip's red play ball: a big CIRCLE."""
+    W = H = 400
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    E(d, 200, 200, 180, 180, (240, 80, 80, 255), w=9)
+    d.arc([40, 90, 360, 330], 200, 340, fill=(255, 255, 255, 255), width=26)
+    d.arc([40, 70, 360, 310], 20, 160, fill=(255, 210, 90, 255), width=26)
+    E(d, 120, 110, 34, 22, (255, 255, 255, 200), w=0)
+    return finish(im, (h, h))
+
+
+def block(eyes="open", m=0, h=150):
+    """A blue toy block: a SQUARE with a yellow star."""
+    W = H = 400
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([20, 20, 380, 380], 26, fill=(95, 160, 240, 255), outline=OUT, width=10)
+    d.rounded_rectangle([55, 55, 345, 345], 18, outline=(170, 210, 255, 255), width=10)
+    pts = []
+    for k in range(10):
+        a = -math.pi / 2 + k * math.pi / 5
+        r = 110 if k % 2 == 0 else 46
+        pts.append((200 + r * math.cos(a), 210 + r * math.sin(a)))
+    d.polygon(pts, fill=(255, 215, 80, 255), outline=OUT, width=7)
+    return finish(im, (h, h))
+
+
+def sandwich(eyes="open", m=0, h=150):
+    """A triangle jam sandwich: a TRIANGLE."""
+    W, H = 460, 400
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    tri = [(230, 28), (24, 376), (436, 376)]
+    d.polygon(tri, fill=(225, 165, 95, 255))
+    d.line(tri + [tri[0]], fill=OUT, width=12, joint="curve")
+    d.polygon([(230, 82), (72, 350), (388, 350)], fill=(255, 246, 225, 255))
+    for (x, y, r) in ((230, 255, 62), (180, 300, 40), (285, 300, 44), (230, 315, 40)):
+        E(d, x, y, r, r * 0.8, (235, 90, 120, 255), w=0)
+    E(d, 212, 238, 14, 10, (255, 170, 190, 255), w=0)
+    return finish(im, (int(h * W / H), h))
+
+
+def swing_set(d, W, H, x, ground, s):
+    """A-frame swing set (triangle legs) with a little seat."""
+    top, half = H * (ground - 0.36 * s), H * 0.17 * s
+    col = (235, 120, 110)
+    for cx in (x - H * 0.2 * s, x + H * 0.2 * s):
+        d.line([(cx, top), (cx - half * 0.7, H * ground)], fill=col, width=int(16 * s) + 2)
+        d.line([(cx, top), (cx + half * 0.7, H * ground)], fill=col, width=int(16 * s) + 2)
+    d.line([(x - H * 0.22 * s, top), (x + H * 0.22 * s, top)], fill=(240, 175, 90), width=int(18 * s) + 2)
+    for k in (-1, 1):
+        d.line([(x + k * H * 0.06 * s, top), (x + k * H * 0.06 * s, H * (ground - 0.1 * s))], fill=(150, 120, 110), width=int(5 * s) + 2)
+    d.rounded_rectangle([x - H * 0.08 * s, H * (ground - 0.11 * s), x + H * 0.08 * s, H * (ground - 0.085 * s)], 8, fill=(120, 190, 240))
+
+
 CHARS = {
     "honey": dict(fn=bunny, kw=dict(), h=0.44),
     "mama": dict(fn=bunny, kw=dict(fur=(246, 228, 205), bow=False), h=0.54),
@@ -460,6 +516,9 @@ CHARS = {
     "pumpkinpip": dict(fn=pumpkin_suit, kw=dict(), h=0.42),
     "cricket": dict(fn=cricket, kw=dict(), h=0.12),
     "frog": dict(fn=frog, kw=dict(), h=0.16),
+    "ball": dict(fn=ball, kw=dict(), h=0.15),
+    "block": dict(fn=block, kw=dict(), h=0.15),
+    "sandwich": dict(fn=sandwich, kw=dict(), h=0.13),
 }
 
 
@@ -708,6 +767,34 @@ def background(kind, W, H):
         # fireflies (twinkle like stars)
         for _ in range(9):
             stars.append((rnd.uniform(W * 0.25, W * 0.95), rnd.uniform(H * (ground - 0.32), H * (ground - 0.05)), rnd.uniform(3, 5), rnd.uniform(0, 6.28)))
+    elif kind == "playground":
+        im = grad(W, H, (140, 210, 252), (245, 250, 235))
+        d = ImageDraw.Draw(im)
+        for cx, cy in ((0.30, 0.10), (0.68, 0.06), (0.86, 0.17)):
+            cloud(d, W * cx, H * cy, min(W, H) / 1050, (255, 255, 255))
+        sx, sy, sr = W * (0.55 if W > H else 0.62), H * (0.20 if W > H else 0.14), min(W, H) * 0.075
+        d.ellipse([sx - sr * 1.35, sy - sr * 1.35, sx + sr * 1.35, sy + sr * 1.35], fill=(255, 240, 170))
+        d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=(255, 215, 90))
+        hills(d, W, H, ground - 0.13, 0.07, (165, 222, 150), 8)
+        land = W > H
+        tree(d, W, H, W * (0.08 if land else 0.1), False)
+        swing_set(d, W, H, W * (0.83 if land else 0.78), ground - 0.02, 1.0 if land else 0.75)
+        hills(d, W, H, ground - 0.02, 0.035, (130, 205, 115), 9)
+        # checkered picnic blanket at the front
+        bx0, bx1 = W * (0.30 if land else 0.12), W * (0.62 if land else 0.75)
+        by0, by1 = H * (ground + 0.03), H * (ground + 0.12)
+        d.polygon([(bx0 + W * 0.03, by0), (bx1 + W * 0.03, by0), (bx1, by1), (bx0, by1)], fill=(255, 255, 255))
+        n = 8
+        for i in range(n):
+            for j in range(3):
+                if (i + j) % 2 == 0:
+                    t0, t1 = j / 3, (j + 1) / 3
+                    def P(u, t):
+                        xl = bx0 + W * 0.03 * (1 - t)
+                        xr = bx1 + W * 0.03 * (1 - t)
+                        return (xl + (xr - xl) * u, by0 + (by1 - by0) * t)
+                    d.polygon([P(i / n, t0), P((i + 1) / n, t0), P((i + 1) / n, t1), P(i / n, t1)], fill=(250, 140, 150))
+        flowers(d, W, H, ground * H, 45, 17)
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)

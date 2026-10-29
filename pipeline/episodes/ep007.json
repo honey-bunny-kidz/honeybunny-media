@@ -1,0 +1,500 @@
+{
+ "id": "ep007",
+ "title": "Pip's Shape Hunt",
+ "thumbnail": {
+  "text": "Can Pip Find Them?",
+  "badge": "Learn Shapes",
+  "bg": "playground",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2
+   },
+   {
+    "id": "sandwich",
+    "scale": 2.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "playground",
+   "title": "Pip's Shape Hunt",
+   "subtitle": "Learn Shapes  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Pip's Shape Hunt!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip",
+     "x": 0.31
+    },
+    {
+     "id": "honey",
+     "x": 0.46
+    },
+    {
+     "id": "dotty",
+     "x": 0.58
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a sunny morning at the playground. Mama Bunny brought a big picnic basket."
+    },
+    {
+     "who": "narrator",
+     "text": "Pip Puppy wagged his tail. Wag, wag, wag!"
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Let's play a game! A shape hunt!"
+    },
+    {
+     "who": "dotty",
+     "text": "A shape hunt? What is that, Pip?"
+    },
+    {
+     "who": "pip",
+     "text": "We look all around for shapes. A circle, a square, and a triangle!"
+    },
+    {
+     "who": "mama",
+     "text": "What a fun idea, Pip. Let's remember the shapes first."
+    },
+    {
+     "who": "mama",
+     "text": "A circle is round, round, round. A square has four sides, all the same. A triangle has three sides and three pointy corners."
+    },
+    {
+     "who": "honey",
+     "text": "Let's find them all before our picnic!"
+    },
+    {
+     "who": "pip",
+     "text": "Will you help us hunt? Yay! Let's go!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.24
+    },
+    {
+     "id": "honey",
+     "x": 0.4
+    },
+    {
+     "id": "ball",
+     "x": 0.64
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "First, a circle. Round, round, round. Hmm."
+    },
+    {
+     "who": "pip",
+     "text": "Can you find a circle? Look all around!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Look up, Pip! The sun is a big, round circle!"
+    },
+    {
+     "who": "pip",
+     "text": "Yes! The sun is a circle! And look down here..."
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.24
+    },
+    {
+     "id": "honey",
+     "x": 0.4
+    },
+    {
+     "id": "ball",
+     "x": 0.64,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "My red ball! It is round, round, round. My ball is a circle too!"
+    },
+    {
+     "who": "narrator",
+     "text": "Pip gave the ball a little push. It rolled and rolled, because circles can roll!"
+    },
+    {
+     "who": "pip",
+     "text": "Can you draw a circle in the air with your finger? Round and round!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Great job! What a lovely circle!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.24
+    },
+    {
+     "id": "dotty",
+     "x": 0.44
+    },
+    {
+     "id": "block",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! My turn! Now we need a square."
+    },
+    {
+     "who": "dotty",
+     "text": "Four sides, all the same. Where can it be?"
+    },
+    {
+     "who": "dotty",
+     "text": "Ooh! What is that blue thing by the swing?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "It is a toy block! Is it a square?"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.24
+    },
+    {
+     "id": "dotty",
+     "x": 0.44
+    },
+    {
+     "id": "block",
+     "x": 0.76,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Let's count the sides together. One, two, three, four!"
+    },
+    {
+     "who": "dotty",
+     "text": "Four sides, all the same. It is a square!"
+    },
+    {
+     "who": "pip",
+     "text": "And what is on the square block? Can you see it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "A little yellow star! Woof, I love stars!"
+    },
+    {
+     "who": "honey",
+     "text": "Can you find a square at your home? Maybe a window, or a book!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Squares are everywhere!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.24
+    },
+    {
+     "id": "honey",
+     "x": 0.4
+    },
+    {
+     "id": "dotty",
+     "x": 0.53
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Now Pip looked for a triangle. He looked by the tree. He looked in the flowers."
+    },
+    {
+     "who": "pip",
+     "text": "Hmm. Three sides and three pointy corners. Where is a triangle?"
+    },
+    {
+     "who": "narrator",
+     "text": "Pip looked and looked, but he could not find one. That's okay, Pip. Let's keep looking!"
+    },
+    {
+     "who": "pip",
+     "text": "I will keep trying! Sniff, sniff!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip",
+     "x": 0.28
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    },
+    {
+     "id": "dotty",
+     "x": 0.8
+    },
+    {
+     "id": "sandwich",
+     "x": 0.48,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Picnic time! I made yummy jam sandwiches."
+    },
+    {
+     "who": "pip",
+     "text": "Wait! Look at the sandwich! What shape is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "A triangle! Three sides and three corners! Woof, woof!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's count the corners. One, two, three!"
+    },
+    {
+     "who": "honey",
+     "text": "And look at the swing, Pip! The swing legs make triangles too!"
+    },
+    {
+     "who": "pip",
+     "text": "We found a circle, a square, and a triangle! We did it!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip",
+     "x": 0.28
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    },
+    {
+     "id": "dotty",
+     "x": 0.8
+    },
+    {
+     "id": "sandwich",
+     "x": 0.48,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Pip had two sandwich halves. He looked at Dotty."
+    },
+    {
+     "who": "pip",
+     "text": "Dotty, do you want one of my triangles? Sharing is fun!"
+    },
+    {
+     "who": "dotty",
+     "text": "Thank you, Pip! You are a kind friend."
+    },
+    {
+     "who": "honey",
+     "text": "Look! Our picnic blanket has lots of little squares!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's play a shape riddle. Round, round, round, and it can roll. What shape is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "A circle!"
+    },
+    {
+     "who": "mama",
+     "text": "Four sides, all the same. What shape is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "A square!"
+    },
+    {
+     "who": "mama",
+     "text": "Three sides and three pointy corners. What shape is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "A triangle! Hooray!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.24
+    },
+    {
+     "id": "honey",
+     "x": 0.4
+    },
+    {
+     "id": "dotty",
+     "x": 0.54
+    },
+    {
+     "id": "ball",
+     "x": 0.68
+    },
+    {
+     "id": "block",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Let's sing our shape song! Use your finger and draw with me!"
+    },
+    {
+     "who": "pip",
+     "text": "Circle, circle, round and round. Draw a circle, round and round!"
+    },
+    {
+     "who": "dotty",
+     "text": "Square, square, one, two, three, four. Draw a square, then draw some more!"
+    },
+    {
+     "who": "honey",
+     "text": "Triangle, triangle, one, two, three. Make a triangle, just like me!"
+    },
+    {
+     "who": "pip",
+     "text": "Shapes, shapes, everywhere! Shapes, shapes, here and there!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip",
+     "x": 0.31
+    },
+    {
+     "id": "honey",
+     "x": 0.46
+    },
+    {
+     "id": "dotty",
+     "x": 0.58
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "After the picnic, the friends sat in the warm sun. They took a big, slow breath in, and a long breath out."
+    },
+    {
+     "who": "pip",
+     "text": "Thank you for hunting shapes with me! Shapes are everywhere."
+    },
+    {
+     "who": "pip",
+     "text": "What shape will you find today? Bye bye, friends! Woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "The end. Watch more stories on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}
