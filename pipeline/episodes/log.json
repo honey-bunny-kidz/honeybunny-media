@@ -219,5 +219,65 @@
    "full_fb": "6ae1c2445719a3c4c80d841d"
   },
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep007",
+  "date": "2026-10-29",
+  "type": "learn-along (shapes)",
+  "trend": "LEARN - calendar row 2026-10-29; ask-and-pause shape finding (x9) + riddle review + Shorts '3-2-1 find it' countdown hook",
+  "title": "Pip's Shape Hunt",
+  "short": "Find the Circle!",
+  "short_titles": [
+   "Find the Circle! 🔴 3-2-1 Shape Game with Pip Puppy | Shapes for Kids #shorts",
+   "How Many Sides? 🟦🔺 Count Shapes with Pip Puppy & Dotty | Learn Shapes for Toddlers #shorts",
+   "The Shape Song 🎶 Draw Shapes in the Air with Pip Puppy | Sing-Along for Toddlers #shorts"
+  ],
+  "characters": [
+   "pip",
+   "honey",
+   "dotty",
+   "mama",
+   "ball",
+   "block",
+   "sandwich"
+  ],
+  "lesson": "shapes (circle, square, triangle), counting sides and corners, shapes are everywhere, sharing a sandwich; calm breath at the end",
+  "thumbnail_text": [
+   "Can Pip Find Them?",
+   "Spot The Circle, Pip!",
+   "How Many Sides, Pip?",
+   "Sing Shapes With Pip!"
+  ],
+  "files": [
+   "videos/ep007_full.mp4",
+   "videos/ep007_short.mp4",
+   "videos/ep007_short2.mp4",
+   "videos/ep007_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep007_thumb.jpg",
+   "thumbnails/ep007_short_thumb.jpg",
+   "thumbnails/ep007_short2_thumb.jpg",
+   "thumbnails/ep007_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae3157abdb1fae7ce350619",
+   "6ae315811b10eea3de26cc5e",
+   "6ae3158668ebd3a1d773cfa4",
+   "6ae3158b22d379d15d9dcccd",
+   "6ae315902180fc76afc0af82",
+   "6ae31595bdb1fae7ce350d18",
+   "6ae3159b2180fc76afc0b5b8"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae3157abdb1fae7ce350619",
+   "short2_fb": "6ae315811b10eea3de26cc5e",
+   "short_yt": "6ae3158668ebd3a1d773cfa4",
+   "short_fb": "6ae3158b22d379d15d9dcccd",
+   "short3_yt": "6ae315902180fc76afc0af82",
+   "short3_fb": "6ae31595bdb1fae7ce350d18",
+   "full_fb": "6ae3159b2180fc76afc0b5b8"
+  },
+  "youtube_long": "manual upload by user"
  }
 ]
