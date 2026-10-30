@@ -324,8 +324,24 @@
    "thumbnails/ep008_short2_thumb.jpg",
    "thumbnails/ep008_short3_thumb.jpg"
   ],
-  "buffer_post_ids": [],
-  "buffer_posts": {},
+  "buffer_post_ids": [
+   "6ae466e1ceb12661efdae442",
+   "6ae466e836e83ed1636aba62",
+   "6ae466ec36e83ed1636abb72",
+   "6ae466f058a62337fb79ded0",
+   "6ae466f536e83ed1636abe01",
+   "6ae466f9ceb12661efdaebbe",
+   "6ae466fd36e83ed1636ac08f"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae466e1ceb12661efdae442",
+   "short2_fb": "6ae466e836e83ed1636aba62",
+   "short_yt": "6ae466ec36e83ed1636abb72",
+   "short_fb": "6ae466f058a62337fb79ded0",
+   "short3_yt": "6ae466f536e83ed1636abe01",
+   "short3_fb": "6ae466f9ceb12661efdaebbe",
+   "full_fb": "6ae466fd36e83ed1636ac08f"
+  },
   "youtube_long": "manual upload by user"
  }
 ]
