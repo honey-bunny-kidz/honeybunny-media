@@ -1,0 +1,670 @@
+{
+ "id": "ep008",
+ "title": "Lulu Lamb's Pumpkin Counting Song",
+ "thumbnail": {
+  "text": "Clap With Lulu!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "autumn_porch",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "scale": 1.15,
+    "x": 0.6
+   },
+   {
+    "id": "p_giggle",
+    "scale": 2.0,
+    "x": 0.86
+   },
+   {
+    "id": "p_sleepy",
+    "scale": 1.5,
+    "x": 0.4
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_porch",
+   "title": "Lulu Lamb's Pumpkin Counting Song",
+   "subtitle": "A Sing-Along Rhyme  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Lulu Lamb's Pumpkin Counting Song! Get your clapping hands ready!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.16
+    },
+    {
+     "id": "mama",
+     "x": 0.33
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a cool autumn afternoon. Crunchy leaves danced on Honey's front porch."
+    },
+    {
+     "who": "lulu",
+     "text": "Mama Bunny, tomorrow is Dress-Up Day! Can we make the porch pretty?"
+    },
+    {
+     "who": "mama",
+     "text": "Yes, Lulu! Let's paint little pumpkins. We use soft brushes and paint. No cutting at all."
+    },
+    {
+     "who": "lulu",
+     "text": "Ooh! And I will make up a counting song. Every time we count, we clap!"
+    },
+    {
+     "who": "lulu",
+     "text": "Can you clap your hands with me? Ready?",
+     "pause": 2.0
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Yay! Great clapping!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.28
+    },
+    {
+     "id": "p_happy",
+     "x": 0.42,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny hopped up with a round, orange pumpkin."
+    },
+    {
+     "who": "honey",
+     "text": "I painted a big smile on mine! It's a happy face!"
+    },
+    {
+     "who": "lulu",
+     "text": "Can you make a happy face too? Show me your biggest smile!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "What a lovely smile!"
+    },
+    {
+     "who": "lulu",
+     "text": "One little pumpkin, orange as the sun. Happy, happy face! Counting is fun!",
+     "pause": 0.5
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.14
+    },
+    {
+     "id": "dotty",
+     "x": 0.28
+    },
+    {
+     "id": "p_happy",
+     "x": 0.42,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.53,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack quack! Here is my pumpkin. It is little, just like me."
+    },
+    {
+     "who": "lulu",
+     "text": "What color is Dotty's pumpkin? Can you say it?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Yellow! Yes! A sunny yellow pumpkin."
+    },
+    {
+     "who": "dotty",
+     "text": "I painted a sleepy face. Yawn! It wants a nap."
+    },
+    {
+     "who": "lulu",
+     "text": "Two little pumpkins, one is yellow too. Sleepy, sleepy face! Yawn, like I do!",
+     "pause": 0.5
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.14
+    },
+    {
+     "id": "mimi",
+     "x": 0.28
+    },
+    {
+     "id": "p_happy",
+     "x": 0.42,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.53,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_silly",
+     "x": 0.64,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Meow! My pumpkin is white, like your soft wool, Lulu!"
+    },
+    {
+     "who": "lulu",
+     "text": "And look at its face! One eye is closed, and the tongue is out!"
+    },
+    {
+     "who": "mimi",
+     "text": "It's a silly face! Hee hee! Can you make a silly face?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Ha ha! So silly!"
+    },
+    {
+     "who": "lulu",
+     "text": "Three little pumpkins, white as milk can be. Silly, silly face! Hee, hee, hee!",
+     "pause": 0.5
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.28
+    },
+    {
+     "id": "p_happy",
+     "x": 0.42,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.53,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_silly",
+     "x": 0.64,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_surprised",
+     "x": 0.75,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Woof woof! Here is my green pumpkin! It has a surprised face. Oh!"
+    },
+    {
+     "who": "lulu",
+     "text": "Round eyes and a round mouth. Oh! Can you say oh, like Pip's pumpkin?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Four little pumpkins, green one by the door. Surprised, surprised face! Oh! Let's count some more!",
+     "pause": 0.5
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "pip",
+     "text": "Four pumpkins! Woof!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.28
+    },
+    {
+     "id": "p_happy",
+     "x": 0.42,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.53,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_silly",
+     "x": 0.64,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_surprised",
+     "x": 0.75,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Oh! My song needs five pumpkins. But I was so busy singing, I forgot to paint mine!"
+    },
+    {
+     "who": "honey",
+     "text": "That's okay, Lulu. We can help you!"
+    },
+    {
+     "who": "narrator",
+     "text": "Mama Bunny brought one more little coral pumpkin. Honey painted the eyes, Dotty painted the cheeks, and Mimi and Pip painted a giggly smile."
+    },
+    {
+     "who": "lulu",
+     "text": "Thank you, friends! When we help each other, it's even more fun."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.14
+    },
+    {
+     "id": "mimi",
+     "x": 0.28
+    },
+    {
+     "id": "p_happy",
+     "x": 0.42,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.53,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_silly",
+     "x": 0.64,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_surprised",
+     "x": 0.75,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_giggle",
+     "x": 0.86,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Here is the last verse. Clap with me!"
+    },
+    {
+     "who": "lulu",
+     "text": "Five little pumpkins, sitting in a line. Giggly, giggly face! Friends make it shine!",
+     "pause": 0.5
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Which pumpkin has a giggly face? Can you point to it?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "There it is! The coral one!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.06,
+     "scale": 0.8
+    },
+    {
+     "id": "lulu",
+     "x": 0.17,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.27,
+     "scale": 0.8
+    },
+    {
+     "id": "p_happy",
+     "x": 0.42,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.53,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_silly",
+     "x": 0.64,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_surprised",
+     "x": 0.75,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    },
+    {
+     "id": "p_giggle",
+     "x": 0.86,
+     "y": 0.805,
+     "scale": 1.6,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Now everybody, sing the whole song together!",
+     "pause": 0.9
+    },
+    {
+     "who": "lulu",
+     "text": "One little pumpkin, orange as the sun. Happy, happy face! Counting is fun!",
+     "pause": 0.4
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Two little pumpkins, one is yellow too. Sleepy, sleepy face! Yawn, like I do!",
+     "pause": 0.4
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Three little pumpkins, white as milk can be. Silly, silly face! Hee, hee, hee!",
+     "pause": 0.4
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Four little pumpkins, green one by the door. Surprised, surprised face! Oh! Let's count some more!",
+     "pause": 0.4
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Five little pumpkins, sitting in a line. Giggly, giggly face! Friends make it shine!",
+     "pause": 0.4
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "One, two, three, four, five!",
+     "pause": 0.4
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap, clap, hooray!",
+     "dur": 1.0,
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "mama",
+     "x": 0.5
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The sun went down, soft and pink. The five pumpkins smiled on the porch."
+    },
+    {
+     "who": "mama",
+     "text": "Let's do a slow pumpkin breath. Breathe in, and make your tummy round like a pumpkin.",
+     "pause": 1.5
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, slowly. Ahhh.",
+     "pause": 1.2
+    },
+    {
+     "who": "lulu",
+     "text": "Which pumpkin face is your favorite? Happy, sleepy, silly, surprised, or giggly?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "I like them all!"
+    },
+    {
+     "who": "pip",
+     "text": "See you tomorrow for Dress-Up Day! Woof!"
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.4
+    },
+    {
+     "id": "pip",
+     "x": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Counting is fun, and helping friends is even better. Bye bye, friends! See you next time on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

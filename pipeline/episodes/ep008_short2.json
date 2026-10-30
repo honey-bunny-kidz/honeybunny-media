@@ -1,0 +1,209 @@
+{
+ "id": "ep008_short2",
+ "title": "Pumpkin Colors!",
+ "thumbnail": {
+  "text": "What Color, Lulu?",
+  "badge": "Learn Colors",
+  "bg": "autumn_porch",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "x": 0.64,
+    "flip": true
+   },
+   {
+    "id": "p_sleepy",
+    "scale": 1.5,
+    "x": 0.2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "p_happy",
+     "x": 0.75,
+     "y": 0.685,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "What color is this pumpkin? Say it with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Orange! Orange like the sun!"
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.72,
+     "y": 0.685,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! What color is my little pumpkin?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Yellow! Sunny yellow!"
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.3
+    },
+    {
+     "id": "p_silly",
+     "x": 0.74,
+     "y": 0.685,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Meow! What color is mine? Can you say it?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "White! Soft white, like Lulu's wool!"
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "p_surprised",
+     "x": 0.74,
+     "y": 0.685,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Woof! And what color is my pumpkin?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Green! Green like the grass!"
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "p_happy",
+     "x": 0.12,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.31,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "p_silly",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "p_surprised",
+     "x": 0.6900000000000001,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "p_giggle",
+     "x": 0.88,
+     "y": 0.685,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Orange, yellow, white, green, and coral! Which color do you like best?",
+     "pause": 1.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "title": "Pumpkin Colors with Lulu!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "p_giggle",
+     "x": 0.75,
+     "y": 0.685,
+     "scale": 1.2
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

@@ -169,9 +169,9 @@
   "title": "Ollie Owl's Night-Time Sounds",
   "short": "Who Says Hoo-Hoo?",
   "short_titles": [
-   "Who Says Hoo-Hoo? 🦉 Guess the Night Sound with Honey Bunny & Ollie Owl #shorts",
-   "Count the Ribbits with Ollie Owl! 🐸 Frog Sound Game for Toddlers #shorts",
-   "Night Sounds Lullaby 🌙 Sing & Move with Ollie Owl | Bedtime Song for Kids #shorts"
+   "Who Says Hoo-Hoo? \ud83e\udd89 Guess the Night Sound with Honey Bunny & Ollie Owl #shorts",
+   "Count the Ribbits with Ollie Owl! \ud83d\udc38 Frog Sound Game for Toddlers #shorts",
+   "Night Sounds Lullaby \ud83c\udf19 Sing & Move with Ollie Owl | Bedtime Song for Kids #shorts"
   ],
   "characters": [
    "ollie",
@@ -228,9 +228,9 @@
   "title": "Pip's Shape Hunt",
   "short": "Find the Circle!",
   "short_titles": [
-   "Find the Circle! 🔴 3-2-1 Shape Game with Pip Puppy | Shapes for Kids #shorts",
-   "How Many Sides? 🟦🔺 Count Shapes with Pip Puppy & Dotty | Learn Shapes for Toddlers #shorts",
-   "The Shape Song 🎶 Draw Shapes in the Air with Pip Puppy | Sing-Along for Toddlers #shorts"
+   "Find the Circle! \ud83d\udd34 3-2-1 Shape Game with Pip Puppy | Shapes for Kids #shorts",
+   "How Many Sides? \ud83d\udfe6\ud83d\udd3a Count Shapes with Pip Puppy & Dotty | Learn Shapes for Toddlers #shorts",
+   "The Shape Song \ud83c\udfb6 Draw Shapes in the Air with Pip Puppy | Sing-Along for Toddlers #shorts"
   ],
   "characters": [
    "pip",
@@ -278,6 +278,54 @@
    "short3_fb": "6ae31595bdb1fae7ce350d18",
    "full_fb": "6ae3159b2180fc76afc0b5b8"
   },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep008",
+  "date": "2026-10-30",
+  "type": "sing-along rhyme",
+  "trend": "SING - calendar row 2026-10-30; original counting song with clap-along, ask-and-pause (x8: clap, smile, colour, silly face, say oh, point, favourite) + Shorts question hooks",
+  "title": "Lulu Lamb's Pumpkin Counting Song",
+  "short": "How Many Pumpkins Can Lulu Count?",
+  "short_titles": [
+   "How Many Pumpkins Can Lulu Count? \ud83c\udf83 Clap & Count to 5 with Lulu Lamb #shorts",
+   "What Color Is the Pumpkin? \ud83c\udf83 Learn Colors with Lulu Lamb | Colors for Toddlers #shorts",
+   "Copy the Pumpkin Faces! \ud83d\ude04 Funny Face Game with Lulu Lamb | Feelings for Kids #shorts"
+  ],
+  "characters": [
+   "lulu",
+   "mama",
+   "honey",
+   "dotty",
+   "mimi",
+   "pip",
+   "p_happy",
+   "p_sleepy",
+   "p_silly",
+   "p_surprised",
+   "p_giggle"
+  ],
+  "lesson": "counting 1-5 with claps, pumpkin colours (orange, yellow, white, green, coral), feelings faces (happy, sleepy, silly, surprised, giggly), helping a friend (everyone paints Lulu's pumpkin); pumpkins painted, never cut; calm pumpkin breath",
+  "thumbnail_text": [
+   "Clap With Lulu!",
+   "How Many, Lulu?",
+   "What Color, Lulu?",
+   "Copy Lulu's Faces!"
+  ],
+  "files": [
+   "videos/ep008_full.mp4",
+   "videos/ep008_short.mp4",
+   "videos/ep008_short2.mp4",
+   "videos/ep008_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep008_thumb.jpg",
+   "thumbnails/ep008_short_thumb.jpg",
+   "thumbnails/ep008_short2_thumb.jpg",
+   "thumbnails/ep008_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [],
+  "buffer_posts": {},
   "youtube_long": "manual upload by user"
  }
 ]

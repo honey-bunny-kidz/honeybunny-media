@@ -1,0 +1,191 @@
+{
+ "id": "ep008_short3",
+ "title": "Pumpkin Faces!",
+ "thumbnail": {
+  "text": "Copy Lulu's Faces!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "pumpkin_patch",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "x": 0.5
+   },
+   {
+    "id": "p_silly",
+    "scale": 1.3,
+    "x": 0.17
+   },
+   {
+    "id": "p_giggle",
+    "scale": 1.3,
+    "x": 0.84
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "p_happy",
+     "x": 0.75,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Can you copy the pumpkin faces? First, a happy face! Big smile!",
+     "pause": 1.5
+    },
+    {
+     "who": "lulu",
+     "text": "Yay!"
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.72,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Now a sleepy face. Close your eyes, and yawn!",
+     "pause": 1.5
+    },
+    {
+     "who": "dotty",
+     "text": "Quack! So sleepy!"
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.3
+    },
+    {
+     "id": "p_silly",
+     "x": 0.74,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Now a silly face! Wink one eye, and stick out your tongue!",
+     "pause": 1.5
+    },
+    {
+     "who": "mimi",
+     "text": "Hee hee!"
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "p_surprised",
+     "x": 0.74,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Now a surprised face! Round eyes, round mouth. Oh!",
+     "pause": 1.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "p_giggle",
+     "x": 0.75,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Last one! A giggly face! Shake your shoulders and giggle. Ha ha ha!",
+     "pause": 1.5
+    },
+    {
+     "who": "lulu",
+     "text": "You made all five faces! Give yourself a clap!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "pumpkin_patch",
+   "title": "Pumpkin Faces with Lulu!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "p_giggle",
+     "x": 0.75,
+     "scale": 1.3
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

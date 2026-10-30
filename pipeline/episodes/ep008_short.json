@@ -1,0 +1,240 @@
+{
+ "id": "ep008_short",
+ "title": "How Many Pumpkins?",
+ "thumbnail": {
+  "text": "How Many, Lulu?",
+  "badge": "Sing-Along Rhyme",
+  "bg": "sunset",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "x": 0.42
+   },
+   {
+    "id": "p_surprised",
+    "scale": 1.6,
+    "x": 0.82
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "p_happy",
+     "x": 0.75,
+     "y": 0.685,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "How many pumpkins will I count? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Let's sing and find out! Clap with me!",
+     "pause": 0.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "p_happy",
+     "x": 0.2,
+     "y": 0.685,
+     "scale": 1.05
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 1.05
+    },
+    {
+     "id": "p_silly",
+     "x": 0.8,
+     "y": 0.685,
+     "scale": 1.05
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "One little pumpkin, orange as the sun!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "lulu",
+     "text": "Two little pumpkins, one is yellow too!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "lulu",
+     "text": "Three little pumpkins, white as milk can be!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.4
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "p_happy",
+     "x": 0.12,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "p_sleepy",
+     "x": 0.31,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "p_silly",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "p_surprised",
+     "x": 0.6900000000000001,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "p_giggle",
+     "x": 0.88,
+     "y": 0.685,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Four little pumpkins, green one by the door!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "lulu",
+     "text": "Five little pumpkins, sitting in a line!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "One, two, three, four, five!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Hooray!",
+     "dur": 1.0,
+     "pause": 0.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "p_giggle",
+     "x": 0.75,
+     "y": 0.685,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Five pumpkins! Did you guess five? Great counting!",
+     "pause": 0.6
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3
+  },
+  {
+   "bg": "autumn_porch",
+   "title": "Lulu's Pumpkin Song!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "p_happy",
+     "x": 0.75,
+     "y": 0.685,
+     "scale": 1.2
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

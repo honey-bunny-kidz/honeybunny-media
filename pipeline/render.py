@@ -99,6 +99,17 @@ def sfx(kind, dur=1.8):
             fr = 390 * (1 - 0.08 * tt / L) * (1 + 0.01 * np.sin(2 * np.pi * 6 * tt))
             w = np.sin(2 * np.pi * np.cumsum(fr) / SR) * np.sin(np.pi * tt / L) ** 1.5 * 0.4
             a[s0:s0 + len(w)] += w[: max(0, min(len(w), n - s0))]
+    elif kind == "clap":  # two soft hand claps
+        a = np.zeros(n)
+        for c0 in np.arange(0.05, dur - 0.2, 0.42):
+            L = int(0.09 * SR)
+            x = np.fft.rfft(rng.standard_normal(L))
+            f = np.fft.rfftfreq(L, 1 / SR)
+            x *= np.exp(-((f - 1400) / 900) ** 2)
+            w = np.fft.irfft(x, L)
+            w = w / (np.abs(w).max() + 1e-9) * np.exp(-np.arange(L) / SR * 45) * 0.5
+            s0 = int(c0 * SR)
+            a[s0:s0 + L] += w[: max(0, min(L, n - s0))]
     else:
         raise ValueError(kind)
     fade = int(0.05 * SR)

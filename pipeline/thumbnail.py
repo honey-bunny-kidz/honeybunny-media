@@ -63,6 +63,8 @@ def make(ep, out_path, vertical=False):
         else:
             cx = W * (0.5 + (i - (n - 1) / 2) * 0.34)
             bottom = H * 0.97
+        if "x" in c:  # optional manual placement
+            cx = W * c["x"]
         if i == 0 and n > 1:  # star of the show sits in front
             continue
         bg.alpha_composite(spr, (int(cx - spr.width / 2), int(bottom - spr.height)))
@@ -71,6 +73,7 @@ def make(ep, out_path, vertical=False):
         spr = art.sprites(c["id"], ref, c.get("scale", 1.0) * 1.45)[("open", c.get("mouth", 2))]
         spr = spr.transpose(Image.FLIP_LEFT_RIGHT) if c.get("flip") else spr
         cx = W * (0.72 - (n - 1) / 2 * 0.22) if not vertical else W * (0.5 - (n - 1) / 2 * 0.34)
+        cx = W * c["x"] if "x" in c else cx
         bg.alpha_composite(spr, (int(cx - spr.width / 2), int(H * (1.02 if not vertical else 0.97) - spr.height)))
     elif n == 1:
         c = cast[0]

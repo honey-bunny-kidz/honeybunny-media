@@ -322,6 +322,58 @@ def pumpkin(eyes="open", m=0, h=150, face=None):
     return finish(im, (int(h * W / H), h))
 
 
+PUMPKIN_COLS = {"orange": ((255, 150, 50, 255), (235, 120, 35, 255)), "yellow": ((255, 214, 80, 255), (232, 180, 50, 255)),
+                "white": ((252, 244, 228, 255), (225, 212, 190, 255)), "green": ((150, 205, 110, 255), (115, 170, 85, 255)),
+                "coral": ((255, 128, 100, 255), (232, 98, 78, 255))}
+
+
+def painted_pumpkin(eyes="open", m=0, h=150, col="orange", face="happy"):
+    """Little pumpkin with a face PAINTED on (no carving): happy, sleepy, silly, surprised, giggle."""
+    W, H = 600, 520
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    c, r = PUMPKIN_COLS[col]
+    _pumpkin_body(d, 300, 320, 260, 185, c, r)
+    _stem(d, 300, 145, 1.0)
+    P = (70, 45, 55, 255)
+    ex, ey, er = 95, 290, 30
+    if face in ("happy", "surprised"):
+        for sd in (-1, 1):
+            rr = er * (1.25 if face == "surprised" else 1.0)
+            E(d, 300 + sd * ex, ey, rr, rr * 1.2, P, w=0)
+            E(d, 300 + sd * ex + rr * 0.3, ey - rr * 0.4, rr * 0.33, rr * 0.33, (255, 255, 255, 255), w=0)
+    elif face in ("sleepy", "giggle"):
+        for sd in (-1, 1):
+            if face == "sleepy":
+                d.arc([300 + sd * ex - 38, ey - 25, 300 + sd * ex + 38, ey + 25], 20, 160, fill=P, width=11)
+            else:
+                d.arc([300 + sd * ex - 38, ey - 15, 300 + sd * ex + 38, ey + 40], 200, 340, fill=P, width=11)
+    elif face == "silly":
+        E(d, 300 - ex, ey, er, er * 1.2, P, w=0)
+        E(d, 300 - ex + 9, ey - 12, 10, 10, (255, 255, 255, 255), w=0)
+        d.line([300 + ex - 36, ey - 18, 300 + ex + 30, ey], fill=P, width=11)
+        d.line([300 + ex - 36, ey + 18, 300 + ex + 30, ey], fill=P, width=11)
+    # pink painted cheeks
+    for sd in (-1, 1):
+        E(d, 300 + sd * 165, 355, 38, 22, (255, 150, 170, 255), w=0)
+    if face == "happy":
+        d.arc([215, 300, 385, 420], 20, 160, fill=P, width=12)
+    elif face == "sleepy":
+        E(d, 300, 385, 22, 26, P, w=0)
+        for k, (zx, zy, zs) in enumerate(((430, 170, 1.0), (480, 120, 0.7))):
+            z = 36 * zs
+            d.line([zx, zy, zx + z, zy, zx, zy + z, zx + z, zy + z], fill=(120, 110, 200, 255), width=8)
+    elif face == "silly":
+        d.chord([220, 320, 380, 420], 0, 180, fill=P)
+        E(d, 315, 418, 34, 30, (250, 120, 150, 255), ol=P, w=6)
+    elif face == "surprised":
+        E(d, 300, 392, 30, 36, P, w=0)
+    elif face == "giggle":
+        d.chord([215, 320, 385, 440], 0, 180, fill=P)
+        E(d, 300, 412, 34, 16, (250, 120, 150, 255), w=0)
+    return finish(im, (int(h * W / H), h))
+
+
 def pumpkin_suit(eyes="open", m=0, h=420):
     """A friend dressed up in a big pumpkin costume (Pip inside: puppy feet, waggy tail, peeking eyes)."""
     W, H = 1000, 1000
@@ -513,6 +565,11 @@ CHARS = {
     "pip": dict(fn=puppy, kw=dict(), h=0.40),
     "pumpkin": dict(fn=pumpkin, kw=dict(), h=0.13),
     "pumpkin_smile": dict(fn=pumpkin, kw=dict(face="smile"), h=0.13),
+    "p_happy": dict(fn=painted_pumpkin, kw=dict(col="orange", face="happy"), h=0.13),
+    "p_sleepy": dict(fn=painted_pumpkin, kw=dict(col="yellow", face="sleepy"), h=0.13),
+    "p_silly": dict(fn=painted_pumpkin, kw=dict(col="white", face="silly"), h=0.13),
+    "p_surprised": dict(fn=painted_pumpkin, kw=dict(col="green", face="surprised"), h=0.13),
+    "p_giggle": dict(fn=painted_pumpkin, kw=dict(col="coral", face="giggle"), h=0.13),
     "pumpkinpip": dict(fn=pumpkin_suit, kw=dict(), h=0.42),
     "cricket": dict(fn=cricket, kw=dict(), h=0.12),
     "frog": dict(fn=frog, kw=dict(), h=0.16),
@@ -795,6 +852,74 @@ def background(kind, W, H):
                         return (xl + (xr - xl) * u, by0 + (by1 - by0) * t)
                     d.polygon([P(i / n, t0), P((i + 1) / n, t0), P((i + 1) / n, t1), P(i / n, t1)], fill=(250, 140, 150))
         flowers(d, W, H, ground * H, 45, 17)
+    elif kind == "autumn_porch":
+        # Honey's cottage front porch on an autumn afternoon: wooden wall, door with leaf wreath,
+        # window, leaf garland, a long low pumpkin shelf, potted yellow flowers, wooden floor, leaves
+        land = W > H
+        im = grad(W, H, (160, 210, 245), (255, 232, 200))
+        d = ImageDraw.Draw(im)
+        s = H / 1080
+        sx = W * 0.86 if land else W * 0.74
+        d.ellipse([sx, H * 0.02, sx + H * 0.1, H * 0.12], fill=(255, 222, 110))
+        for cx, cy in ((0.18, 0.03), (0.55, 0.05)) if land else ((0.25, 0.06), (0.62, 0.13)):
+            cloud(d, W * cx, H * cy, H / 1300, (255, 255, 255))
+        wall_top = H * (ground - (0.62 if land else 0.40))
+        d.rectangle([0, wall_top, W, H * ground], fill=(250, 226, 192))
+        for k in range(1, 14):
+            yy = wall_top + (H * ground - wall_top) * k / 14
+            d.line([0, yy, W, yy], fill=(236, 206, 168), width=max(2, int(3 * s)))
+        d.rectangle([0, wall_top - 18 * s, W, wall_top + 6 * s], fill=(205, 120, 105))
+        # door with a leafy wreath
+        dx, dw = W * (0.2 if land else 0.24), W * (0.13 if land else 0.24)
+        dtop = H * (ground - (0.48 if land else 0.31))
+        d.rounded_rectangle([dx - dw / 2, dtop, dx + dw / 2, H * ground], int(40 * s), fill=(160, 105, 75), outline=(125, 80, 60), width=int(6 * s) + 1)
+        d.ellipse([dx + dw * 0.28 - 9 * s, H * (ground - 0.2) - 9 * s, dx + dw * 0.28 + 9 * s, H * (ground - 0.2) + 9 * s], fill=(255, 210, 90))
+        wx, wy, wr = dx, dtop + (H * ground - dtop) * 0.25, dw * 0.3
+        for k in range(14):
+            a = k / 14 * 6.283
+            cc = [(240, 110, 70), (255, 175, 60), (210, 80, 70), (250, 200, 80)][k % 4]
+            lx, ly = wx + math.cos(a) * wr, wy + math.sin(a) * wr
+            d.ellipse([lx - 22 * s, ly - 13 * s, lx + 22 * s, ly + 13 * s], fill=cc)
+        d.polygon([(wx - 16 * s, wy + wr + 4 * s), (wx, wy + wr - 12 * s), (wx + 16 * s, wy + wr + 4 * s)], fill=(240, 120, 150))
+        # window with flower box
+        if land:
+            for wx2 in (W * 0.80,):
+                ww, wh = W * 0.12, H * 0.17
+                wy2 = H * (ground - 0.47)
+                d.rounded_rectangle([wx2 - ww / 2, wy2, wx2 + ww / 2, wy2 + wh], int(14 * s), fill=(170, 215, 245), outline=(255, 255, 255), width=int(9 * s))
+                d.line([wx2, wy2, wx2, wy2 + wh], fill=(255, 255, 255), width=int(7 * s))
+                d.line([wx2 - ww / 2, wy2 + wh / 2, wx2 + ww / 2, wy2 + wh / 2], fill=(255, 255, 255), width=int(7 * s))
+        # leaf garland
+        gy = wall_top + 30 * s
+        for k in range(int(W / (60 * s)) + 1):
+            gx = k * 60 * s + 20 * s
+            sag = math.sin((k % 6) / 6 * math.pi) * 28 * s
+            cc = [(240, 110, 70), (255, 175, 60), (250, 205, 80), (215, 90, 70)][k % 4]
+            d.ellipse([gx - 20 * s, gy + sag - 12 * s, gx + 20 * s, gy + sag + 12 * s], fill=cc)
+        # long low pumpkin shelf (pumpkins stand on y = ground - 0.055)
+        sx0, sx1 = W * (0.33 if land else 0.06), W * (0.97 if land else 0.94)
+        st = H * (ground - 0.055)
+        d.rounded_rectangle([sx0, st, sx1, st + 22 * s], int(8 * s), fill=(185, 125, 85), outline=(140, 90, 65), width=int(4 * s) + 1)
+        for lx in (sx0 + 30 * s, (sx0 + sx1) / 2, sx1 - 30 * s):
+            d.rectangle([lx - 12 * s, st + 22 * s, lx + 12 * s, H * ground], fill=(165, 110, 75))
+        # potted yellow flowers
+        for px in ((W * 0.04, W * 0.98) if land else (W * 0.05,)):
+            pw = 70 * s
+            d.polygon([(px - pw, H * (ground - 0.075)), (px + pw, H * (ground - 0.075)), (px + pw * 0.75, H * ground), (px - pw * 0.75, H * ground)], fill=(205, 115, 80))
+            for k in range(7):
+                fx2 = px + (k - 3) * 22 * s
+                fy2 = H * (ground - 0.09) - (abs(3 - k) < 2) * 26 * s
+                d.ellipse([fx2 - 22 * s, fy2 - 22 * s, fx2 + 22 * s, fy2 + 22 * s], fill=(255, 205, 60))
+                d.ellipse([fx2 - 8 * s, fy2 - 8 * s, fx2 + 8 * s, fy2 + 8 * s], fill=(220, 140, 60))
+        # wooden porch floor
+        d.rectangle([0, H * ground, W, H], fill=(205, 150, 105))
+        for k in range(8):
+            yy = H * ground + (H - H * ground) * (k / 8) ** 1.3
+            d.line([0, yy, W, yy], fill=(185, 130, 90), width=max(2, int(4 * s)))
+        for k in range(12):
+            lx, ly = rnd.uniform(0, W), rnd.uniform(H * (ground + 0.02), H * 0.99)
+            cc = rnd.choice([(240, 110, 70), (255, 175, 60), (250, 205, 80)])
+            d.ellipse([lx - 16 * s, ly - 9 * s, lx + 16 * s, ly + 9 * s], fill=cc)
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)
