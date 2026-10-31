@@ -45,7 +45,62 @@ def cheeks(layer, pts, rx, ry):
 
 
 # ---------------------------------------------------------------- characters
-def bunny(eyes="open", m=0, fur=(236, 196, 140), inner=(255, 182, 193), bow=True, h=520):
+
+def star_pts(cx, cy, r, ri=None, rot=-math.pi / 2):
+    ri = r * 0.45 if ri is None else ri
+    return [(cx + (r if k % 2 == 0 else ri) * math.cos(rot + k * math.pi / 5),
+             cy + (r if k % 2 == 0 else ri) * math.sin(rot + k * math.pi / 5)) for k in range(10)]
+
+
+def _suit(im, shape, fill, stripes=(), dots=None, ol=OUT):
+    """Paint a costume body over the sprite: shape = ("ellipse", cx, cy, rx, ry) or ("poly", pts).
+    stripes = [(y0, y1, colour)] bands clipped to the shape; dots = (colour, [(x, y, r)])."""
+    lay = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    ld = ImageDraw.Draw(lay)
+    mask = Image.new("L", im.size, 0)
+    md = ImageDraw.Draw(mask)
+    if shape[0] == "ellipse":
+        _, cx, cy, rx, ry = shape
+        box = [cx - rx, cy - ry, cx + rx, cy + ry]
+        ld.ellipse(box, fill=fill); md.ellipse(box, fill=255)
+    else:
+        ld.polygon(shape[1], fill=fill); md.polygon(shape[1], fill=255)
+    for (y0, y1, col) in stripes:
+        ld.rectangle([0, y0, im.width, y1], fill=col)
+    if dots:
+        col, pts = dots
+        for (x, y, r) in pts:
+            ld.ellipse([x - r, y - r * 1.3, x + r, y + r * 1.3], fill=col)
+    lay.putalpha(Image.composite(lay.getchannel("A"), Image.new("L", im.size, 0), mask))
+    im.alpha_composite(lay)
+    d = ImageDraw.Draw(im)
+    if shape[0] == "ellipse":
+        d.ellipse(box, outline=ol, width=7)
+    else:
+        d.polygon(shape[1], outline=ol, width=7)
+    return d
+
+
+def _strawberry_pts(cx, cy, rx, ry, n=60):
+    pts = []
+    for k in range(n):
+        a = 2 * math.pi * k / n
+        s = math.sin(a)
+        pts.append((cx + rx * math.cos(a) * (1 - 0.42 * max(0.0, s) ** 1.5), cy + ry * s * (1.08 if s > 0 else 0.85)))
+    return pts
+
+
+def _leaf_crown(d, cx, cy, s, col=(110, 190, 90, 255)):
+    for k in range(5):
+        a = math.pi + k * math.pi / 4
+        tip = (cx + math.cos(a) * 70 * s, cy + math.sin(a) * 34 * s + 14 * s)
+        l = (cx + math.cos(a - 0.35) * 26 * s, cy + math.sin(a - 0.35) * 14 * s)
+        r = (cx + math.cos(a + 0.35) * 26 * s, cy + math.sin(a + 0.35) * 14 * s)
+        d.polygon([l, tip, r], fill=col, outline=OUT, width=6)
+    E(d, cx, cy, 24 * s, 14 * s, col)
+    d.line([cx, cy - 8 * s, cx + 8 * s, cy - 48 * s], fill=(120, 90, 60, 255), width=int(12 * s))
+
+def bunny(eyes="open", m=0, fur=(236, 196, 140), inner=(255, 182, 193), bow=True, h=520, costume=None):
     W, H = 800, 1160
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     for side in (-1, 1):  # ears on their own layer so they can tilt
@@ -62,6 +117,23 @@ def bunny(eyes="open", m=0, fur=(236, 196, 140), inner=(255, 182, 193), bow=True
     E(d, 400, 915, 130, 150, (255, 244, 225, 255), w=0)
     for side in (-1, 1):
         E(d, 400 + side * 185, 840, 55, 82, fur + (255,))
+    if costume == "strawberry":   # red strawberry suit with yellow seeds and a leafy collar
+        seeds = [(400 + dx, 800 + dy, 11) for dy in (0, 75, 150, 220) for dx in range(-180 + (dy // 75 % 2) * 45, 200, 90)
+                 if abs(dx) < 205 - dy * 0.55]
+        d = _suit(im, ("poly", _strawberry_pts(400, 875, 250, 215)), (238, 62, 82, 255), dots=((255, 225, 110, 255), seeds))
+        for side in (-1, 1):
+            E(d, 400 + side * 246, 850, 44, 58, fur + (255,))
+        for k in range(-3, 4):
+            x = 400 + k * 62
+            d.polygon([(x - 42, 745), (x + 42, 745), (x + k * 12, 830 - abs(k) * 8)], fill=(110, 190, 90, 255), outline=OUT, width=6)
+    elif costume == "pajamas":    # soft blue star pajamas with buttons
+        stars = [(400 + dx, 800 + dy, 9) for dy in (0, 90, 180) for dx in (-140, -50, 50, 140) if not (dy == 0 and abs(dx) < 60)]
+        d = _suit(im, ("ellipse", 400, 880, 215, 215), (178, 205, 250, 255), dots=((255, 255, 255, 235), stars))
+        for side in (-1, 1):
+            E(d, 400 + side * 185, 840, 55, 82, (178, 205, 250, 255))
+            E(d, 400 + side * 185, 905, 40, 18, (255, 255, 255, 255), w=4)
+        for yy in (760, 840, 920):
+            E(d, 400, yy, 15, 15, (255, 215, 120, 255), w=4)
     E(d, 400, 545, 268, 238, fur + (255,))
     for side in (-1, 1):
         eye(d, 400 + side * 98, 525, 44, eyes)
@@ -74,6 +146,8 @@ def bunny(eyes="open", m=0, fur=(236, 196, 140), inner=(255, 182, 193), bow=True
         d.polygon([(bx, by), (bx - 85, by - 55), (bx - 85, by + 55)], fill=(255, 105, 160, 255), outline=OUT, width=7)
         d.polygon([(bx, by), (bx + 85, by - 55), (bx + 85, by + 55)], fill=(255, 105, 160, 255), outline=OUT, width=7)
         E(d, bx, by, 26, 26, (255, 150, 195, 255))
+    if costume == "strawberry":
+        _leaf_crown(d, 400, 312, 2.4)
     return finish(im, (int(h * W / H), h))
 
 
@@ -146,7 +220,7 @@ def moon(eyes="closed", m=0, h=300):
     return finish(im, (int(h * W / H), h))
 
 
-def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420):
+def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420, costume=None):
     W, H = 900, 1000
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
@@ -163,6 +237,11 @@ def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420):
         E(d, 450 + side * 120, 880, 48, 62, F)
         for t in (-1, 0, 1):
             d.line([450 + side * 120 + t * 16, 920, 450 + side * 120 + t * 16, 940], fill=OUT, width=5)
+    if costume == "star":   # big twinkly yellow star suit
+        sp = [(450 + dx, 800 + dy, 9) for (dx, dy) in ((-150, -10), (140, 0), (-60, 90), (70, 110), (0, 20), (-110, 170), (120, 180))]
+        d = _suit(im, ("poly", star_pts(450, 790, 300, 150, rot=-math.pi / 2)), (255, 214, 70, 255), dots=((255, 250, 210, 255), sp))
+        for side in (-1, 1):
+            E(d, 450 + side * 95, 950, 80, 42, F)
     # ears
     for side in (-1, 1):
         bx = 450 + side * 175
@@ -186,6 +265,9 @@ def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420):
     # pink collar with bell
     d.arc([300, 560, 600, 680], 20, 160, fill=(255, 105, 160, 255), width=26)
     E(d, 450, 690, 26, 26, (255, 215, 80, 255), w=5)
+    if costume == "star":   # sparkly headband with a little star
+        d.arc([215, 150, 685, 520], 205, 335, fill=(255, 170, 210, 255), width=22)
+        d.polygon(star_pts(450, 150, 62), fill=(255, 214, 70, 255), outline=OUT, width=6)
     return finish(im, (int(h * W / H), h))
 
 
@@ -234,7 +316,7 @@ def lamb(eyes="open", m=0, h=400):
     return finish(im, (int(h * W / H), h))
 
 
-def puppy(eyes="open", m=0, h=400):
+def puppy(eyes="open", m=0, h=400, costume=None):
     W, H = 900, 1000
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
@@ -250,6 +332,16 @@ def puppy(eyes="open", m=0, h=400):
     E(d, 450, 820, 112, 125, LIGHT, w=0)
     for side in (-1, 1):
         E(d, 450 + side * 125, 880, 50, 64, FUR)
+    if costume == "firefighter":  # pretend firefighter coat (yellow with shiny stripes)
+        COAT = (255, 200, 60, 255)
+        d = _suit(im, ("ellipse", 450, 790, 195, 182), COAT, stripes=[(850, 880, (235, 240, 245, 255)), (880, 888, (200, 205, 215, 255))])
+        for side in (-1, 1):
+            E(d, 450 + side * 128, 875, 54, 68, COAT)
+            d.rectangle([450 + side * 128 - 52, 900, 450 + side * 128 + 52, 918], fill=(235, 240, 245, 255))
+            E(d, 450 + side * 128, 940, 40, 20, FUR, w=5)
+        d.line([450, 640, 450, 960], fill=(210, 150, 40, 255), width=8)
+        for yy in (720, 800):
+            E(d, 450 - 30, yy, 13, 13, (90, 70, 60, 255), w=0)
     # head
     E(d, 450, 420, 280, 240, FUR)
     E(d, 340, 330, 70, 60, (225, 170, 100, 255), w=0)          # little patch above eye
@@ -276,6 +368,12 @@ def puppy(eyes="open", m=0, h=400):
     pts = [(cx + (r if k % 2 == 0 else r * 0.45) * math.cos(-math.pi / 2 + k * math.pi / 5),
             cy + (r if k % 2 == 0 else r * 0.45) * math.sin(-math.pi / 2 + k * math.pi / 5)) for k in range(10)]
     d.polygon(pts, fill=(255, 215, 80, 255), outline=OUT, width=4)
+    if costume == "firefighter":  # soft red pretend helmet with a gold star badge
+        RED, DARK = (236, 70, 70, 255), (196, 45, 55, 255)
+        E(d, 450, 268, 300, 48, DARK)
+        d.chord([255, 70, 645, 400], 180, 360, fill=RED, outline=OUT, width=7)
+        d.line([450, 78, 450, 230], fill=DARK, width=14)
+        d.polygon(star_pts(450, 185, 52), fill=(255, 215, 80, 255), outline=OUT, width=5)
     return finish(im, (int(h * W / H), h))
 
 
@@ -571,6 +669,10 @@ CHARS = {
     "p_surprised": dict(fn=painted_pumpkin, kw=dict(col="green", face="surprised"), h=0.13),
     "p_giggle": dict(fn=painted_pumpkin, kw=dict(col="coral", face="giggle"), h=0.13),
     "pumpkinpip": dict(fn=pumpkin_suit, kw=dict(), h=0.42),
+    "honey_berry": dict(fn=bunny, kw=dict(costume="strawberry", bow=False), h=0.44),
+    "honey_pj": dict(fn=bunny, kw=dict(costume="pajamas"), h=0.44),
+    "pip_fire": dict(fn=puppy, kw=dict(costume="firefighter"), h=0.40),
+    "mimi_star": dict(fn=kitten, kw=dict(costume="star"), h=0.40),
     "cricket": dict(fn=cricket, kw=dict(), h=0.12),
     "frog": dict(fn=frog, kw=dict(), h=0.16),
     "ball": dict(fn=ball, kw=dict(), h=0.15),
@@ -920,6 +1022,61 @@ def background(kind, W, H):
             lx, ly = rnd.uniform(0, W), rnd.uniform(H * (ground + 0.02), H * 0.99)
             cc = rnd.choice([(240, 110, 70), (255, 175, 60), (250, 205, 80)])
             d.ellipse([lx - 16 * s, ly - 9 * s, lx + 16 * s, ly + 9 * s], fill=cc)
+    elif kind == "playroom":
+        # Honey's sunny dress-up playroom: peach polka-dot wall, window, bunting, mirror, costume trunk, rug
+        L = W > H
+        im = grad(W, H, (255, 222, 200), (255, 236, 214))
+        d = ImageDraw.Draw(im)
+        for yy in range(0, int(H * ground), int(H * 0.09)):
+            for xx in range(0, W + 60, int(H * 0.09)):
+                off = (H * 0.045) if (yy // int(H * 0.09)) % 2 else 0
+                d.ellipse([xx + off - 7, yy + H * 0.05 - 7, xx + off + 7, yy + H * 0.05 + 7], fill=(255, 205, 190))
+        # window with afternoon sky and an autumn tree
+        wx0, wx1 = W * (0.36 if L else 0.22), W * (0.64 if L else 0.78)
+        wy0, wy1 = H * (0.14 if L else 0.08), H * (0.52 if L else 0.27)
+        d.rounded_rectangle([wx0 - 16, wy0 - 16, wx1 + 16, wy1 + 16], 18, fill=(255, 250, 240), outline=OUT, width=5)
+        sky = grad(int(wx1 - wx0), int(wy1 - wy0), (140, 200, 250), (215, 238, 255))
+        sd = ImageDraw.Draw(sky)
+        sw_, sh_ = sky.size
+        sd.ellipse([-sw_ * 0.2, sh_ * 0.72, sw_ * 1.2, sh_ * 1.6], fill=(150, 205, 120))
+        sd.rectangle([sw_ * 0.72, sh_ * 0.4, sw_ * 0.77, sh_ * 0.85], fill=(140, 95, 70))
+        for (cx, cy, r, col) in ((0.745, 0.33, 0.2, (255, 160, 60)), (0.66, 0.42, 0.13, (245, 110, 70)), (0.83, 0.42, 0.13, (255, 205, 80))):
+            sd.ellipse([sw_ * cx - sh_ * r, sh_ * cy - sh_ * r, sw_ * cx + sh_ * r, sh_ * cy + sh_ * r], fill=col)
+        sd.ellipse([sw_ * 0.12, sh_ * 0.12, sw_ * 0.12 + sh_ * 0.2, sh_ * 0.32], fill=(255, 225, 120))
+        for (cx, cy) in ((0.38, 0.2), (0.5, 0.16)):
+            sd.ellipse([sw_ * cx - sh_ * 0.12, sh_ * cy - sh_ * 0.05, sw_ * cx + sh_ * 0.12, sh_ * cy + sh_ * 0.05], fill=(255, 255, 255))
+        im.paste(sky, (int(wx0), int(wy0)))
+        d = ImageDraw.Draw(im)
+        d.line([(wx0 + wx1) / 2, wy0, (wx0 + wx1) / 2, wy1], fill=(255, 250, 240), width=12)
+        d.line([wx0, (wy0 + wy1) / 2, wx1, (wy0 + wy1) / 2], fill=(255, 250, 240), width=12)
+        # bunting
+        cols = [(255, 120, 150), (255, 200, 80), (120, 200, 240), (150, 215, 130), (200, 160, 240)]
+        n = 9 if L else 6
+        d.line([0, H * 0.035, W, H * 0.035], fill=(200, 150, 120), width=4)
+        for i in range(n):
+            x = W * (i + 0.5) / n
+            d.polygon([(x - W * 0.03, H * 0.035), (x + W * 0.03, H * 0.035), (x, H * 0.035 + H * 0.07)], fill=cols[i % 5], outline=OUT, width=3)
+        # round mirror on the wall
+        mx, my, mr = W * (0.86 if L else 0.84), H * (0.36 if L else 0.36), H * (0.11 if L else 0.055)
+        d.ellipse([mx - mr - 14, my - mr * 1.3 - 14, mx + mr + 14, my + mr * 1.3 + 14], fill=(255, 190, 210), outline=OUT, width=5)
+        d.ellipse([mx - mr, my - mr * 1.3, mx + mr, my + mr * 1.3], fill=(215, 238, 250))
+        d.line([mx - mr * 0.4, my - mr * 0.7, mx + mr * 0.1, my - mr * 1.1], fill=(255, 255, 255), width=8)
+        # floor + rug
+        d.rectangle([0, H * ground, W, H], fill=(214, 160, 110))
+        for k in range(1, 6):
+            d.line([0, H * ground + k * H * 0.03, W, H * ground + k * H * 0.03], fill=(196, 142, 96), width=2)
+        d.rectangle([0, H * ground - 6, W, H * ground + 4], fill=(240, 200, 160))
+        d.ellipse([W * 0.2, H * (ground + 0.01), W * 0.8, H * (ground + 0.12)], fill=(180, 210, 245), outline=(150, 180, 230), width=6)
+        d.ellipse([W * 0.28, H * (ground + 0.03), W * 0.72, H * (ground + 0.10)], outline=(255, 255, 255), width=5)
+        # dress-up trunk with colourful clothes peeking out (left)
+        tx0, tx1 = W * (0.0 if L else 0.0), W * (0.13 if L else 0.2)
+        ty0 = H * (ground - (0.17 if L else 0.08))
+        for (dx, col) in ((0.2, (255, 120, 150)), (0.5, (150, 215, 130)), (0.8, (255, 200, 80))):
+            x = tx0 + (tx1 - tx0) * dx
+            d.ellipse([x - W * 0.03, ty0 - H * 0.04, x + W * 0.03, ty0 + H * 0.03], fill=col, outline=OUT, width=4)
+        d.rounded_rectangle([tx0 - 10, ty0, tx1, H * ground + 6], 14, fill=(200, 120, 80), outline=OUT, width=5)
+        d.rectangle([tx0 - 10, ty0 + (H * ground - ty0) * 0.35, tx1, ty0 + (H * ground - ty0) * 0.45], fill=(240, 190, 90))
+        d.ellipse([(tx0 + tx1) / 2 - 10, ty0 + (H * ground - ty0) * 0.3, (tx0 + tx1) / 2 + 10, ty0 + (H * ground - ty0) * 0.5], fill=(150, 90, 60))
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)
