@@ -169,9 +169,9 @@
   "title": "Ollie Owl's Night-Time Sounds",
   "short": "Who Says Hoo-Hoo?",
   "short_titles": [
-   "Who Says Hoo-Hoo? \ud83e\udd89 Guess the Night Sound with Honey Bunny & Ollie Owl #shorts",
-   "Count the Ribbits with Ollie Owl! \ud83d\udc38 Frog Sound Game for Toddlers #shorts",
-   "Night Sounds Lullaby \ud83c\udf19 Sing & Move with Ollie Owl | Bedtime Song for Kids #shorts"
+   "Who Says Hoo-Hoo? 🦉 Guess the Night Sound with Honey Bunny & Ollie Owl #shorts",
+   "Count the Ribbits with Ollie Owl! 🐸 Frog Sound Game for Toddlers #shorts",
+   "Night Sounds Lullaby 🌙 Sing & Move with Ollie Owl | Bedtime Song for Kids #shorts"
   ],
   "characters": [
    "ollie",
@@ -228,9 +228,9 @@
   "title": "Pip's Shape Hunt",
   "short": "Find the Circle!",
   "short_titles": [
-   "Find the Circle! \ud83d\udd34 3-2-1 Shape Game with Pip Puppy | Shapes for Kids #shorts",
-   "How Many Sides? \ud83d\udfe6\ud83d\udd3a Count Shapes with Pip Puppy & Dotty | Learn Shapes for Toddlers #shorts",
-   "The Shape Song \ud83c\udfb6 Draw Shapes in the Air with Pip Puppy | Sing-Along for Toddlers #shorts"
+   "Find the Circle! 🔴 3-2-1 Shape Game with Pip Puppy | Shapes for Kids #shorts",
+   "How Many Sides? 🟦🔺 Count Shapes with Pip Puppy & Dotty | Learn Shapes for Toddlers #shorts",
+   "The Shape Song 🎶 Draw Shapes in the Air with Pip Puppy | Sing-Along for Toddlers #shorts"
   ],
   "characters": [
    "pip",
@@ -288,9 +288,9 @@
   "title": "Lulu Lamb's Pumpkin Counting Song",
   "short": "How Many Pumpkins Can Lulu Count?",
   "short_titles": [
-   "How Many Pumpkins Can Lulu Count? \ud83c\udf83 Clap & Count to 5 with Lulu Lamb #shorts",
-   "What Color Is the Pumpkin? \ud83c\udf83 Learn Colors with Lulu Lamb | Colors for Toddlers #shorts",
-   "Copy the Pumpkin Faces! \ud83d\ude04 Funny Face Game with Lulu Lamb | Feelings for Kids #shorts"
+   "How Many Pumpkins Can Lulu Count? 🎃 Clap & Count to 5 with Lulu Lamb #shorts",
+   "What Color Is the Pumpkin? 🎃 Learn Colors with Lulu Lamb | Colors for Toddlers #shorts",
+   "Copy the Pumpkin Faces! 😄 Funny Face Game with Lulu Lamb | Feelings for Kids #shorts"
   ],
   "characters": [
    "lulu",
@@ -341,6 +341,64 @@
    "short3_yt": "6ae466f536e83ed1636abe01",
    "short3_fb": "6ae466f9ceb12661efdaebbe",
    "full_fb": "6ae466fd36e83ed1636ac08f"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep009",
+  "date": "2026-10-31",
+  "type": "bedtime story (seasonal)",
+  "trend": "BED (seasonal) - calendar row 2026-10-31; dress-up play + ask-and-pause (x8: colour, shape, count, guess costume, march, twirl, wave, pajamas, reach up, what would you be) + stretch & calm breath + Shorts question hooks",
+  "title": "Honey Bunny's Dress-Up Day Goodnight",
+  "short": "What Is Pip Dressed As?",
+  "short_titles": [
+   "What Is Pip Dressed As? 🚒 Guess the Costume with Pip Puppy & Honey Bunny #shorts",
+   "How Many Points on Mimi's Star? ⭐ Count to 5 with Mimi Kitten | Colors for Toddlers #shorts",
+   "Dress-Up Parade Song 🍓 March & Twirl with Honey Bunny | Sing-Along for Toddlers #shorts"
+  ],
+  "characters": [
+   "honey_berry",
+   "honey_pj",
+   "pip_fire",
+   "mimi_star",
+   "mama"
+  ],
+  "lesson": "colours (red strawberry, yellow star), counting 1-5 star points, firefighters are helpers, helping a friend (Mimi fixes Pip's helmet), costumes are for play / pajamas for sleep; star stretch + calm breath",
+  "thumbnail_text": [
+   "Honey Dresses Up!",
+   "Guess Pip's Costume!",
+   "Count Mimi's Star!",
+   "March With Honey!"
+  ],
+  "files": [
+   "videos/ep009_full.mp4",
+   "videos/ep009_short.mp4",
+   "videos/ep009_short2.mp4",
+   "videos/ep009_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep009_thumb.jpg",
+   "thumbnails/ep009_short_thumb.jpg",
+   "thumbnails/ep009_short2_thumb.jpg",
+   "thumbnails/ep009_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae5b669ceb491e585eac5dc",
+   "6ae5b670406ab8a018ad5eb7",
+   "6ae5b675ceb491e585eac779",
+   "6ae5b679ceb491e585eac82b",
+   "6ae5b67e406ab8a018ad6100",
+   "6ae5b683406ab8a018ad622c",
+   "6ae5b689ceb491e585eace15"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae5b669ceb491e585eac5dc",
+   "short2_fb": "6ae5b670406ab8a018ad5eb7",
+   "short_yt": "6ae5b675ceb491e585eac779",
+   "short_fb": "6ae5b679ceb491e585eac82b",
+   "short3_yt": "6ae5b67e406ab8a018ad6100",
+   "short3_fb": "6ae5b683406ab8a018ad622c",
+   "full_fb": "6ae5b689ceb491e585eace15"
   },
   "youtube_long": "manual upload by user"
  }
