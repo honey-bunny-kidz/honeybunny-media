@@ -45,7 +45,7 @@ python3 render.py episodes/epNNN_short.json out/epNNN_short.mp4 vertical
 - Copy thumbnails to `thumbnails/` in the repo. Public URL: https://raw.githubusercontent.com/honey-bunny-kidz/honeybunny-media/main/thumbnails/FILE
 
 ## Extra Shorts (3 per episode)
-- Each episode gets `epNNN_short.json`, `epNNN_short2.json` and `epNNN_short3.json`, each a self-contained vertical Short (30–58 s) with a DIFFERENT hook and its own "thumbnail" block:
+- Each episode gets `epNNN_short.json`, `epNNN_short2.json` and `epNNN_short3.json`, each a self-contained vertical Short (15–90 s, aim 45–75 s; never over 90 s, Facebook's Reel limit) with a DIFFERENT hook and its own "thumbnail" block:
   short = guess-who/guess-what hook; short2 = learn-along (count, colors, shapes, big/small, animal sound) with a pause for the viewer; short3 = song/chorus or funniest moment, sing-along.
 - Render each with `python3 render.py episodes/epNNN_short2.json out/epNNN_short2.mp4 vertical` (writes out/epNNN_short2_thumb.jpg).
 
@@ -53,3 +53,10 @@ python3 render.py episodes/epNNN_short.json out/epNNN_short.mp4 vertical
 - `python3 compile.py episodes/compNNN.json "Title" "Thumb Words" "Kids Stories" BG ep001 ep002 ...` builds one long episode with fresh host bridges between stories (ask-and-pause), then
   `HB_CRF=29 python3 render.py episodes/compNNN.json out/compNNN.mp4` (tested: 11 min = 30 MB at crf 26, so use crf 29 to keep ~40 min under GitHub's 100 MB limit; re-encode at crf 31 if still over 95 MB).
 - Badge containing "Bedtime" makes night-time breathing bridges (good for bedtime compilations).
+
+## Shorts & Reels rules (user request, 2026-11-02)
+- **Mobile aspect ratio:** every Short/Reel is rendered vertical 9:16, 1080x1920 (`vertical` flag). Keep faces and text in the safe zone: captions sit at 30% height, characters stand on the ground line (74%); nothing important in the bottom 20% or right-hand 15% (platform buttons cover them).
+- **Length:** 15–90 s (aim 45–75 s). Check with ffprobe; trim lines/pauses if over 90 s, add a moment if under 15 s.
+- **Closed captions:** render.py burns high-contrast captions into every spoken line (Reels and Shorts always show them) and writes `out/<name>.srt` beside each video. Commit the full video's .srt to `videos/` so the user can add it as subtitles in YouTube Studio when uploading by hand.
+- **Short captions:** every post text is short: 1–2 lines (≤ ~150 characters) + one share line + the cross-link line + 5–6 hashtags. Long story explanations only in the YouTube long-video description.
+- **Ask the community to share:** every caption has one warm share line addressed to PARENTS, e.g. "💛 Share with a friend whose little one loves rainy days!" Never put share/subscribe/like asks in the video audio or on screen (made-for-kids rules), and never use giveaway-style engagement bait.

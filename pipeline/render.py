@@ -186,7 +186,7 @@ def text_box(text, W, H, vertical):
     bh = lh * len(lines) + 40
     im = Image.new("RGBA", (int(bw), int(bh)), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-    d.rounded_rectangle([0, 0, bw - 1, bh - 1], 30, fill=(40, 25, 60, 165))
+    d.rounded_rectangle([0, 0, bw - 1, bh - 1], 30, fill=(40, 25, 60, 205))  # high-contrast closed captions
     for i, l in enumerate(lines):
         x = (bw - font.getlength(l)) / 2
         d.text((x + 2, 22 + i * lh + 3), l, font=font, fill=(0, 0, 0, 120))
@@ -216,6 +216,18 @@ def title_card(text, sub, W, H, vertical):
     return im
 
 
+def write_srt(scenes, path):
+    """Closed-caption file (SRT) matching the burned-in subtitles; times include the opening cover frame."""
+    ts = lambda x: "%02d:%02d:%02d,%03d" % (int(x // 3600), int(x % 3600 // 60), int(x % 60), int(round((x % 1) * 1000)) % 1000)
+    out, n = [], 0
+    for sc in scenes:
+        for c in sc["chunks"]:
+            if c["text"]:
+                n += 1
+                out.append(f"{n}\n{ts(c['t0'] + COVER)} --> {ts(c['t1'] + COVER)}\n{c['text']}\n")
+    open(path, "w").write("\n".join(out))
+
+
 def render(ep_path, out_path, vertical=False):
     ep = json.load(open(ep_path))
     W, H = (1080, 1920) if vertical else (1920, 1080)
@@ -229,6 +241,7 @@ def render(ep_path, out_path, vertical=False):
     cover = Image.open(thumb_path).convert('RGB').resize((W, H))
     mix = np.concatenate([np.zeros(int(COVER * SR)), mix])
     tts.save_wav(out_path + ".wav", mix / np.abs(mix).max() * 0.95)
+    write_srt(scenes, re.sub(r'\.mp4$', '', out_path) + '.srt')
 
     cache_bg, cache_spr, cache_txt = {}, {}, {}
     for sc in scenes:
@@ -304,7 +317,7 @@ def render(ep_path, out_path, vertical=False):
             frame.alpha_composite(fg)
         if sc["overlay"] is not None:
             frame.alpha_composite(sc["overlay"])
-        if cur is not None and cur["text"] and not sc.get("title"):
+        if cur is not None and cur["text"] and (not sc.get("title") or not vertical):  # captions on every spoken line
             if cur["text"] not in cache_txt:
                 cache_txt[cur["text"]] = text_box(cur["text"], W, H, vertical)
             tb = cache_txt[cur["text"]]
