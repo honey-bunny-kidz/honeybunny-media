@@ -437,5 +437,64 @@
       "6ae6d52aab019b908742a600"
     ],
     "youtube_long": "manual upload by user"
+  },
+  {
+    "id": "ep010",
+    "date": "2026-11-01",
+    "type": "animal-fact story",
+    "trend": "FACT - calendar row 2026-11-01; real duck fact (preen-gland oil = waterproof feathers, webbed feet) + ask-and-pause (x6: what to wear, wet or dry, puppy shake, duck sound, paddle hands, rainbow colours) + Puddle Jump song + fresh-air breath + Shorts question hooks",
+    "title": "Why Doesn't Dotty Duckling Get Wet?",
+    "short": "Why Do Ducks Stay Dry?",
+    "short_titles": [
+      "Why Do Ducks Stay Dry? 🦆 Dotty Duckling's Secret | Animal Facts for Kids #shorts",
+      "How Many Raindrops? 💧 Count to 5 with Dotty Duckling | Wet or Dry for Toddlers #shorts",
+      "Shake Like Pip Puppy! 💦 Puddle Jump Song | Rainy Day Sing-Along for Toddlers #shorts"
+    ],
+    "characters": [
+      "dotty",
+      "dotty_beads",
+      "honey_rain",
+      "mama",
+      "pip",
+      "pip_drip"
+    ],
+    "lesson": "ducks' waterproof feathers (special oil spread with the beak), webbed feet for paddling, wet vs dry, counting 1-5 raindrops, rainbow colours, dress for the weather (raincoat, boots, stay with a grown-up), everybody is made in a special way",
+    "thumbnail_text": [
+      "Why So Dry, Dotty?",
+      "Dotty's Dry Secret?",
+      "Count Raindrops With Dotty!",
+      "Pip's Big Shake!"
+    ],
+    "files": [
+      "videos/ep010_full.mp4",
+      "videos/ep010_short.mp4",
+      "videos/ep010_short2.mp4",
+      "videos/ep010_short3.mp4"
+    ],
+    "thumbnail_files": [
+      "thumbnails/ep010_thumb.jpg",
+      "thumbnails/ep010_short_thumb.jpg",
+      "thumbnails/ep010_short2_thumb.jpg",
+      "thumbnails/ep010_short3_thumb.jpg"
+    ],
+    "buffer_post_ids": [
+      "6ae706d4cf3a3112f3ec725d",
+      "6ae706dbcf3a3112f3ec74b4",
+      "6ae706e021c807e9d5aeab8b",
+      "6ae706e4cf3a3112f3ec75ed",
+      "6ae706e9ab019b90874ef32f",
+      "6ae706eef0984eef3358d4d1",
+      "6ae706f5ab019b90874ef5ec"
+    ],
+    "buffer_posts": {
+      "short2_yt": "6ae706d4cf3a3112f3ec725d",
+      "short2_fb": "6ae706dbcf3a3112f3ec74b4",
+      "short_yt": "6ae706e021c807e9d5aeab8b",
+      "short_fb": "6ae706e4cf3a3112f3ec75ed",
+      "short3_yt": "6ae706e9ab019b90874ef32f",
+      "short3_fb": "6ae706eef0984eef3358d4d1",
+      "full_fb": "6ae706f5ab019b90874ef5ec"
+    },
+    "youtube_long": "manual upload by user"
   }
 ]
