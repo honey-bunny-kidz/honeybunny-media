@@ -13,7 +13,8 @@ VOICES = {"narrator": ("af_heart", 0.84), "honey": ("af_sky", 0.92), "mama": ("a
           "lulu": ("bf_lily", 0.90, 1.12), "pip": ("am_puck", 0.92, 1.12),
           "pumpkinpip": ("am_puck", 0.92, 1.12),
           "honey_berry": ("af_sky", 0.92), "honey_pj": ("af_sky", 0.92), "pip_fire": ("am_puck", 0.92, 1.12),
-          "mimi_star": ("af_sky", 0.90, 1.13)}
+          "mimi_star": ("af_sky", 0.90, 1.13), "honey_rain": ("af_sky", 0.92), "dotty_beads": ("af_nicole", 0.95),
+          "pip_drip": ("am_puck", 0.92, 1.12)}
 
 
 def sentences(t):
@@ -112,6 +113,27 @@ def sfx(kind, dur=1.8):
             w = w / (np.abs(w).max() + 1e-9) * np.exp(-np.arange(L) / SR * 45) * 0.5
             s0 = int(c0 * SR)
             a[s0:s0 + L] += w[: max(0, min(L, n - s0))]
+    elif kind == "splash":  # soft puddle splash: watery whoosh plus a few bubbly blips
+        x = np.fft.rfft(rng.standard_normal(n))
+        f = np.fft.rfftfreq(n, 1 / SR)
+        x *= np.exp(-((f - 2200) / 1500) ** 2)
+        a = np.fft.irfft(x, n)
+        a = a / (np.abs(a).max() + 1e-9) * np.exp(-t * 5) * 0.35
+        for k, (c0, f0) in enumerate(((0.12, 900), (0.22, 1200), (0.33, 1000), (0.45, 1400))):
+            L = int(0.06 * SR); tt = np.arange(L) / SR
+            w = np.sin(2 * np.pi * np.cumsum(f0 * (1 + 2.5 * tt / 0.06)) / SR) * np.hanning(L) * 0.18
+            s0 = int(c0 * SR); a[s0:s0 + L] += w[: max(0, min(L, n - s0))]
+    elif kind == "rain":  # gentle pitter-patter
+        x = np.fft.rfft(rng.standard_normal(n))
+        f = np.fft.rfftfreq(n, 1 / SR)
+        x *= np.exp(-((f - 3000) / 2500) ** 2)
+        a = np.fft.irfft(x, n)
+        a = a / (np.abs(a).max() + 1e-9) * 0.10
+        for c0 in rng.uniform(0, dur - 0.05, int(dur * 14)):
+            L = int(0.02 * SR); tt = np.arange(L) / SR
+            w = np.sin(2 * np.pi * rng.uniform(1500, 2800) * tt) * np.exp(-tt * 250) * 0.25
+            s0 = int(c0 * SR); a[s0:s0 + L] += w[: max(0, min(L, n - s0))]
+        a *= np.minimum(1, np.minimum(t / 0.4, (dur - t) / 0.4))
     else:
         raise ValueError(kind)
     fade = int(0.05 * SR)
@@ -241,6 +263,13 @@ def render(ep_path, out_path, vertical=False):
             b = 0.55 + 0.45 * math.sin(t * 1.6 + ph)
             rr = r * (0.8 + 0.4 * b)
             d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=(255, 250, int(200 + 55 * b), int(255 * b)))
+        if sc.get("rain"):  # gentle animated rain streaks (behind the characters)
+            for i in range(110 if not vertical else 90):
+                rx = (i * 397.13) % W
+                sp = H * (0.55 + (i % 7) * 0.05)
+                ry = ((i * 211.7) % H + t * sp) % (H * 1.1) - H * 0.05
+                dx = -H * 0.006
+                d.line([rx, ry, rx + dx, ry + H * 0.028], fill=(232, 240, 255), width=3)
         cur = next((c for c in sc["chunks"] if c["t0"] <= t < c["t1"]), None)
         for k, c in enumerate(sc.get("cast", [])):
             spr = cache_spr[(c["id"], c.get("scale", 1.0))]

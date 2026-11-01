@@ -112,7 +112,12 @@ def bunny(eyes="open", m=0, fur=(236, 196, 140), inner=(255, 182, 193), bow=True
         im.alpha_composite(ear, (int(400 + side * 95 - 130), 0))
     d = ImageDraw.Draw(im)
     for side in (-1, 1):
-        E(d, 400 + side * 115, 1080, 95, 48, fur + (255,))
+        if costume == "raincoat":   # shiny red rain boots
+            d.rounded_rectangle([400 + side * 115 - 82, 985, 400 + side * 115 + 82, 1132], 34, fill=(232, 74, 88, 255), outline=OUT, width=7)
+            d.rounded_rectangle([400 + side * 115 - 82, 985, 400 + side * 115 + 82, 1018], 14, fill=(250, 120, 130, 255), outline=OUT, width=6)
+            E(d, 400 + side * 115 - 40, 1070, 12, 30, (255, 255, 255, 150), w=0)
+        else:
+            E(d, 400 + side * 115, 1080, 95, 48, fur + (255,))
     E(d, 400, 880, 215, 215, fur + (255,))
     E(d, 400, 915, 130, 150, (255, 244, 225, 255), w=0)
     for side in (-1, 1):
@@ -134,6 +139,17 @@ def bunny(eyes="open", m=0, fur=(236, 196, 140), inner=(255, 182, 193), bow=True
             E(d, 400 + side * 185, 905, 40, 18, (255, 255, 255, 255), w=4)
         for yy in (760, 840, 920):
             E(d, 400, yy, 15, 15, (255, 215, 120, 255), w=4)
+    elif costume == "raincoat":   # sunny yellow raincoat with big buttons and a pocket
+        COAT = (255, 212, 70, 255)
+        d = _suit(im, ("ellipse", 400, 885, 222, 222), COAT, stripes=[(1040, 1060, (240, 185, 50, 255))])
+        for side in (-1, 1):
+            E(d, 400 + side * 188, 845, 58, 86, COAT)
+            E(d, 400 + side * 188, 920, 36, 20, fur + (255,), w=5)
+        d.line([400, 690, 400, 1100], fill=(225, 170, 40, 255), width=8)
+        for yy in (770, 860, 950):
+            E(d, 430, yy, 16, 16, (90, 160, 230, 255), w=4)
+        d.rounded_rectangle([250, 930, 340, 1000], 14, fill=(250, 196, 55, 255), outline=OUT, width=5)
+        d.polygon([(330, 680), (400, 760), (470, 680)], fill=(240, 185, 50, 255), outline=OUT, width=6)
     E(d, 400, 545, 268, 238, fur + (255,))
     for side in (-1, 1):
         eye(d, 400 + side * 98, 525, 44, eyes)
@@ -151,7 +167,15 @@ def bunny(eyes="open", m=0, fur=(236, 196, 140), inner=(255, 182, 193), bow=True
     return finish(im, (int(h * W / H), h))
 
 
-def duckling(eyes="open", m=0, h=330):
+def _drops(d, pts, col=(120, 190, 250, 255)):
+    """Shiny water drops (teardrop shapes) at (x, y, r)."""
+    for (x, y, r) in pts:
+        d.polygon([(x, y - r * 2.1), (x - r * 0.85, y - r * 0.3), (x + r * 0.85, y - r * 0.3)], fill=col)
+        E(d, x, y, r, r, col, w=4)
+        E(d, x - r * 0.35, y - r * 0.3, r * 0.28, r * 0.28, (255, 255, 255, 230), w=0)
+
+
+def duckling(eyes="open", m=0, h=330, beads=False):
     W, H = 800, 860
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
@@ -170,6 +194,8 @@ def duckling(eyes="open", m=0, h=330):
     op = 10 + 18 * m
     E(d, 380, 405 - op * 0.2, 80, 32, (255, 150, 60, 255))
     E(d, 380, 440 + op * 0.6, 62, 18 + op * 0.7, (255, 135, 50, 255))
+    if beads:   # raindrops sitting on top of waterproof feathers, ready to roll off
+        _drops(d, [(560, 460, 34), (660, 520, 30), (455, 445, 26), (290, 150, 26), (480, 170, 24), (610, 600, 26)])
     return finish(im, (int(h * W / H), h))
 
 
@@ -368,6 +394,10 @@ def puppy(eyes="open", m=0, h=400, costume=None):
     pts = [(cx + (r if k % 2 == 0 else r * 0.45) * math.cos(-math.pi / 2 + k * math.pi / 5),
             cy + (r if k % 2 == 0 else r * 0.45) * math.sin(-math.pi / 2 + k * math.pi / 5)) for k in range(10)]
     d.polygon(pts, fill=(255, 215, 80, 255), outline=OUT, width=4)
+    if costume == "drippy":  # rain-soaked fur: little drops flying off for a big shake
+        _drops(d, [(120, 330, 36), (80, 540, 30), (780, 330, 36), (830, 540, 30), (200, 150, 30), (700, 150, 30), (450, 100, 32)])
+        for (x, y) in ((260, 300), (640, 300), (450, 230)):
+            d.arc([x - 40, y - 40, x + 40, y + 40], 200, 340, fill=(120, 190, 250, 255), width=8)
     if costume == "firefighter":  # soft red pretend helmet with a gold star badge
         RED, DARK = (236, 70, 70, 255), (196, 45, 55, 255)
         E(d, 450, 268, 300, 48, DARK)
@@ -673,6 +703,9 @@ CHARS = {
     "honey_pj": dict(fn=bunny, kw=dict(costume="pajamas"), h=0.44),
     "pip_fire": dict(fn=puppy, kw=dict(costume="firefighter"), h=0.40),
     "mimi_star": dict(fn=kitten, kw=dict(costume="star"), h=0.40),
+    "honey_rain": dict(fn=bunny, kw=dict(costume="raincoat"), h=0.44),
+    "dotty_beads": dict(fn=duckling, kw=dict(beads=True), h=0.28),
+    "pip_drip": dict(fn=puppy, kw=dict(costume="drippy"), h=0.40),
     "cricket": dict(fn=cricket, kw=dict(), h=0.12),
     "frog": dict(fn=frog, kw=dict(), h=0.16),
     "ball": dict(fn=ball, kw=dict(), h=0.15),
@@ -1077,6 +1110,45 @@ def background(kind, W, H):
         d.rounded_rectangle([tx0 - 10, ty0, tx1, H * ground + 6], 14, fill=(200, 120, 80), outline=OUT, width=5)
         d.rectangle([tx0 - 10, ty0 + (H * ground - ty0) * 0.35, tx1, ty0 + (H * ground - ty0) * 0.45], fill=(240, 190, 90))
         d.ellipse([(tx0 + tx1) / 2 - 10, ty0 + (H * ground - ty0) * 0.3, (tx0 + tx1) / 2 + 10, ty0 + (H * ground - ty0) * 0.5], fill=(150, 90, 60))
+    elif kind == "rainy_garden":
+        # soft, friendly rainy morning: lavender-blue sky, puffy rain clouds, cottage, tulips, puddles, duck pond
+        L = W > H
+        im = grad(W, H, (176, 190, 226), (222, 230, 246))
+        d = ImageDraw.Draw(im)
+        for (cx, cy, s_) in ((0.12, 0.10, 1.3), (0.45, 0.06, 1.5), (0.78, 0.12, 1.3), (0.30, 0.22, 0.9), (0.66, 0.26, 0.8)):
+            cloud(d, W * cx - min(W, H) * 0.1, H * cy * (1 if L else 0.6), min(W, H) / 900 * s_, (238, 240, 250))
+        hills(d, W, H, ground - 0.13, 0.07, (150, 205, 150), 2)
+        # Honey's cottage, left (glowing window)
+        hx, hw = W * (0.15 if L else 0.2), min(W, H) * (0.40 if L else 0.36)
+        top = H * (ground - (0.36 if L else 0.21))
+        d.rectangle([hx - hw / 2, top, hx + hw / 2, H * ground], fill=(255, 225, 190))
+        d.polygon([(hx - hw * 0.62, top + 4), (hx, top - hw * 0.42), (hx + hw * 0.62, top + 4)], fill=(220, 100, 110))
+        d.rounded_rectangle([hx - hw * 0.13, H * ground - (H * ground - top) * 0.55, hx + hw * 0.13, H * ground], 24, fill=(150, 100, 70))
+        wx, wy, ws = hx + hw * 0.3, top + (H * ground - top) * 0.3, hw * 0.12
+        d.rectangle([wx - ws, wy - ws, wx + ws, wy + ws], fill=(255, 230, 150), outline=(255, 255, 255), width=5)
+        hills(d, W, H, ground - 0.02, 0.035, (125, 200, 115), 4)
+        # duck pond at the back right
+        px0, px1 = W * (0.62 if L else 0.5), W * (0.99 if L else 1.05)
+        d.ellipse([px0, H * (ground - 0.06), px1, H * (ground + 0.02)], fill=(110, 165, 225))
+        d.ellipse([px0 + W * 0.03, H * (ground - 0.05), px1 - W * 0.03, H * (ground + 0.01)], fill=(140, 190, 240))
+        for k in range(3):  # reeds
+            rx_ = px1 - W * 0.04 - k * W * 0.02
+            d.line([rx_, H * (ground - 0.05), rx_ - 6, H * (ground - 0.14)], fill=(90, 150, 90), width=6)
+            E(d, rx_ - 6, H * (ground - 0.14), 9, 22, (150, 100, 70, 255), w=0)
+        # ground + tulips
+        d.rectangle([0, H * ground, W, H], fill=(120, 196, 112))
+        for k in range(14 if L else 8):
+            tx = W * (0.03 + k * (0.94 / ((14 if L else 8) - 1)))
+            ty = H * (ground + 0.01 + (k % 2) * 0.02)
+            d.line([tx, ty, tx, ty - H * 0.05], fill=(80, 150, 80), width=5)
+            c = [(255, 120, 150), (255, 200, 80), (200, 150, 240), (255, 160, 90)][k % 4]
+            d.polygon([(tx - H * 0.016, ty - H * 0.05), (tx - H * 0.016, ty - H * 0.08), (tx - H * 0.005, ty - H * 0.065),
+                       (tx, ty - H * 0.085), (tx + H * 0.005, ty - H * 0.065), (tx + H * 0.016, ty - H * 0.08), (tx + H * 0.016, ty - H * 0.05)], fill=c)
+        # shiny puddles in the grass (front)
+        for (cx, cw) in (((0.30, 0.13), (0.62, 0.10)) if L else ((0.28, 0.2), (0.72, 0.16))):
+            cy = H * (ground + (0.07 if L else 0.05))
+            d.ellipse([W * (cx - cw), cy - H * 0.025, W * (cx + cw), cy + H * 0.025], fill=(140, 180, 235))
+            d.ellipse([W * (cx - cw * 0.7), cy - H * 0.012, W * (cx + cw * 0.2), cy + H * 0.006], fill=(200, 225, 250))
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)
