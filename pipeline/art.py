@@ -1149,6 +1149,76 @@ def background(kind, W, H):
             cy = H * (ground + (0.07 if L else 0.05))
             d.ellipse([W * (cx - cw), cy - H * 0.025, W * (cx + cw), cy + H * 0.025], fill=(140, 180, 235))
             d.ellipse([W * (cx - cw * 0.7), cy - H * 0.012, W * (cx + cw * 0.2), cy + H * 0.006], fill=(200, 225, 250))
+    elif kind == "stretch_room":
+        # Honey's cosy stretch corner at dusk: lavender wall, arched window with stars, fairy lights,
+        # floor lamp glow, a potted plant, and three pastel stretch mats on a soft round rug.
+        land = W > H
+        im = grad(W, H, (196, 170, 222), (226, 200, 226))
+        d = ImageDraw.Draw(im)
+        for i in range(int(60 * W * H / (1920 * 1080))):  # tiny wallpaper stars
+            x, y = rnd.uniform(0, W), rnd.uniform(H * 0.08, H * (ground - 0.05))
+            r = H * 0.006
+            d.polygon(star_pts(x, y, r, r * 0.45), fill=(240, 226, 248))
+        d.rectangle([0, H * ground, W, H], fill=(200, 150, 112))
+        for k in range(1, 6):  # floor boards
+            y = H * ground + (H - H * ground) * k / 6
+            d.line([0, y, W, y], fill=(184, 134, 98), width=3)
+        d.rectangle([0, H * ground - 10, W, H * ground + 6], fill=(240, 228, 238))  # skirting board
+        # arched window
+        wx, ww = W * (0.5 if land else 0.5), W * (0.16 if land else 0.27)
+        wt, wb = H * (0.12 if land else 0.11), H * (0.52 if land else 0.40)
+        fr = (250, 244, 236)
+        d.rounded_rectangle([wx - ww - 16, wt - 16, wx + ww + 16, wb + 16], int(ww), fill=fr)
+        win = grad(int(2 * ww), int(wb - wt), (30, 34, 92), (120, 86, 150))
+        mask = Image.new("L", win.size, 0)
+        ImageDraw.Draw(mask).rounded_rectangle([0, 0, win.size[0] - 1, win.size[1] - 1], int(ww), fill=255)
+        wd = ImageDraw.Draw(win)  # distant hills inside the window
+        wh = win.size[1]
+        wd.ellipse([-ww * 0.4, wh * 0.78, ww * 1.3, wh * 1.4], fill=(60, 90, 120))
+        wd.ellipse([ww * 0.8, wh * 0.82, ww * 2.4, wh * 1.4], fill=(50, 105, 110))
+        im.paste(win, (int(wx - ww), int(wt)), mask)
+        d = ImageDraw.Draw(im)
+        for _ in range(18):
+            stars.append((rnd.uniform(wx - ww * 0.8, wx + ww * 0.8), rnd.uniform(wt + ww * 0.3, wb - (wb - wt) * 0.28), rnd.uniform(1.5, 3.5), rnd.uniform(0, 6.28)))
+        d.rectangle([wx - ww - 30, wb + 10, wx + ww + 30, wb + 34], fill=fr)  # sill
+        d.line([wx, wt, wx, wb], fill=fr, width=10)
+        d.line([wx - ww, (wt + ww + wb) / 2, wx + ww, (wt + ww + wb) / 2], fill=fr, width=10)
+        # curtains
+        for s in (-1, 1):
+            cx = wx + s * (ww + 40)
+            d.polygon([(cx - 40, wt - 40), (cx + 40, wt - 40), (cx + s * 25 + 30, wb + 60), (cx + s * 25 - 30, wb + 60)], fill=(255, 196, 214))
+        d.rectangle([wx - ww - 110, wt - 52, wx + ww + 110, wt - 38], fill=(190, 140, 110))
+        # fairy lights (twinkle via stars list)
+        for i in range(13):
+            x = W * (0.02 + i * 0.08)
+            y = H * 0.05 + math.sin(i * 1.1) * H * 0.012
+            d.ellipse([x - 3, y - 3, x + 3, y + 3], fill=(120, 100, 120))
+            stars.append((x, y + 9, 6, i * 0.9))
+        d.line([(W * (0.02 + i * 0.08), H * 0.05 + math.sin(i * 1.1) * H * 0.012) for i in range(13)], fill=(120, 100, 120), width=2)
+        # floor lamp (right) with warm glow
+        lx = W * (0.9 if land else 0.88)
+        ly = H * (ground - (0.42 if land else 0.30))
+        glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(glow).ellipse([lx - H * 0.22, ly - H * 0.18, lx + H * 0.22, ly + H * 0.26], fill=(255, 225, 150, 85))
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(50)))
+        d = ImageDraw.Draw(im)
+        d.rectangle([lx - 6, ly, lx + 6, H * ground], fill=(150, 110, 90))
+        d.ellipse([lx - 45, H * ground - 14, lx + 45, H * ground + 8], fill=(150, 110, 90))
+        d.polygon([(lx - 50, ly + 10), (lx + 50, ly + 10), (lx + 32, ly - H * 0.07), (lx - 32, ly - H * 0.07)], fill=(255, 236, 170), outline=OUT, width=4)
+        # potted plant (left)
+        px = W * (0.08 if land else 0.1)
+        pb = H * ground
+        for a, r in ((-0.5, 1.0), (0.0, 1.2), (0.5, 1.0), (-0.9, 0.8), (0.9, 0.8)):
+            ex, ey = px + math.sin(a) * H * 0.06 * r, pb - H * 0.1 - math.cos(a) * H * 0.06 * r
+            d.ellipse([ex - H * 0.022, ey - H * 0.04, ex + H * 0.022, ey + H * 0.04], fill=(110, 185, 120), outline=(70, 140, 90), width=3)
+        d.polygon([(px - H * 0.045, pb - H * 0.09), (px + H * 0.045, pb - H * 0.09), (px + H * 0.033, pb), (px - H * 0.033, pb)], fill=(240, 150, 120), outline=OUT, width=4)
+        # round fluffy rug + three stretch mats (pink, mint, sky)
+        ry0 = H * (ground - 0.012)
+        d.ellipse([W * 0.06, ry0, W * 0.94, ry0 + H * (0.13 if land else 0.09)], fill=(250, 238, 214), outline=(232, 214, 186), width=6)
+        mats = ((0.25, (255, 182, 200)), (0.5, (170, 226, 200)), (0.75, (170, 205, 245))) if land else ((0.22, (255, 182, 200)), (0.5, (170, 226, 200)), (0.78, (170, 205, 245)))
+        for mx, col in mats:
+            mw = W * (0.1 if land else 0.13)
+            d.rounded_rectangle([W * mx - mw, ry0 + H * 0.012, W * mx + mw, ry0 + H * 0.045], 18, fill=col, outline=OUT, width=4)
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)

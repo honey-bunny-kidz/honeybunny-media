@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import art, tts, thumbnail
 COVER = 0.5  # seconds the thumbnail is shown as the opening frame
 
-FPS = 24
+FPS = 30
 SR = tts.SR
 FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 VOICES = {"narrator": ("af_heart", 0.84), "honey": ("af_sky", 0.92), "mama": ("af_bella", 0.86),
@@ -27,6 +27,37 @@ def sentences(t):
     if cur:
         out.append(cur)
     return out
+
+
+def phrases(text, max_words):
+    """Split one spoken sentence into short caption phrases (1-2 lines each), breaking at punctuation first."""
+    parts = [p.strip() for p in re.split(r"(?<=[.!?,;:\u2014])\s+", text) if p.strip()]
+    merged = []
+    for p in parts:  # glue very short bits to the previous phrase when it still fits
+        prev_end = merged and merged[-1][-1] in ".!?"
+        if merged and ((len(p.split()) < 3 and not prev_end) or len(merged[-1].split()) < 2) \
+                and len((merged[-1] + " " + p).split()) <= max_words:
+            merged[-1] += " " + p
+        else:
+            merged.append(p)
+    out = []
+    for p in merged:  # long phrases: split into balanced word groups
+        w = p.split()
+        n = -(-len(w) // max_words)
+        k = -(-len(w) // n)
+        out += [" ".join(w[i:i + k]) for i in range(0, len(w), k)]
+    return out or [text]
+
+
+def caption_cues(c, max_words):
+    """Time each phrase of a spoken chunk in proportion to its length (synced to the TTS audio)."""
+    ps = phrases(c["text"], max_words)
+    wts = [len(p) + 3 for p in ps]
+    tot, t, cues = sum(wts), c["t0"], []
+    for p, w in zip(ps, wts):
+        d = (c["t1"] - c["t0"]) * w / tot
+        cues.append((t, t + d, p)); t += d
+    return cues
 
 
 def music(seconds):
@@ -178,19 +209,36 @@ def build_timeline(ep):
 
 
 def text_box(text, W, H, vertical):
-    fs = 58 if vertical else 46
+    """Closed caption: big white rounded bold text, dark outline, soft translucent box (1-2 lines)."""
+    fs = 66 if vertical else 50
     font = ImageFont.truetype(FONT, fs)
-    lines = textwrap.wrap(text, 24 if vertical else 44)
-    lh = int(fs * 1.25)
-    bw = max(font.getlength(l) for l in lines) + 70
-    bh = lh * len(lines) + 40
+    maxw = W * (0.74 if vertical else 0.7)
+    words, lines = text.split(), [""]
+    for w in words:
+        t = (lines[-1] + " " + w).strip()
+        if font.getlength(t) <= maxw or not lines[-1]:
+            lines[-1] = t
+        else:
+            lines.append(w)
+    while len(lines) > 2:  # never more than 2 lines: shrink the font
+        fs -= 6; font = ImageFont.truetype(FONT, fs)
+        words, lines = text.split(), [""]
+        for w in words:
+            t = (lines[-1] + " " + w).strip()
+            if font.getlength(t) <= maxw * 1.08 or not lines[-1]:
+                lines[-1] = t
+            else:
+                lines.append(w)
+    lh = int(fs * 1.22)
+    sw = max(4, fs // 11)
+    bw = max(font.getlength(l) for l in lines) + 80
+    bh = lh * len(lines) + 44
     im = Image.new("RGBA", (int(bw), int(bh)), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-    d.rounded_rectangle([0, 0, bw - 1, bh - 1], 30, fill=(40, 25, 60, 205))  # high-contrast closed captions
+    d.rounded_rectangle([0, 0, bw - 1, bh - 1], 36, fill=(45, 28, 70, 150))
     for i, l in enumerate(lines):
         x = (bw - font.getlength(l)) / 2
-        d.text((x + 2, 22 + i * lh + 3), l, font=font, fill=(0, 0, 0, 120))
-        d.text((x, 22 + i * lh), l, font=font, fill=(255, 250, 235, 255))
+        d.text((x, 20 + i * lh), l, font=font, fill=(255, 255, 255, 255), stroke_width=sw, stroke_fill=(40, 22, 60, 255))
     return im
 
 
@@ -223,8 +271,9 @@ def write_srt(scenes, path):
     for sc in scenes:
         for c in sc["chunks"]:
             if c["text"]:
-                n += 1
-                out.append(f"{n}\n{ts(c['t0'] + COVER)} --> {ts(c['t1'] + COVER)}\n{c['text']}\n")
+                for (a, b, p) in c["cues"]:
+                    n += 1
+                    out.append(f"{n}\n{ts(a + COVER)} --> {ts(b + COVER)}\n{p}\n")
     open(path, "w").write("\n".join(out))
 
 
@@ -241,7 +290,11 @@ def render(ep_path, out_path, vertical=False):
     cover = Image.open(thumb_path).convert('RGB').resize((W, H))
     mix = np.concatenate([np.zeros(int(COVER * SR)), mix])
     tts.save_wav(out_path + ".wav", mix / np.abs(mix).max() * 0.95)
+    for sc in scenes:
+        for c in sc["chunks"]:
+            c["cues"] = caption_cues(c, 6 if vertical else 11) if c["text"] else []
     write_srt(scenes, re.sub(r'\.mp4$', '', out_path) + '.srt')
+    stills = [float(x) for x in os.environ.get("HB_STILLS", "").split(",") if x]
 
     cache_bg, cache_spr, cache_txt = {}, {}, {}
     for sc in scenes:
@@ -254,7 +307,10 @@ def render(ep_path, out_path, vertical=False):
                 cache_spr[key] = spr
         sc["overlay"] = title_card(sc["title"], sc.get("subtitle"), W, H, vertical) if sc.get("title") else None
 
-    ff = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
+    if stills:  # HB_STILLS="3,10.5": save PNG frames at those times (no cover offset) instead of encoding
+        ff = subprocess.Popen(["cat"], stdin=subprocess.PIPE, stdout=subprocess.DEVNULL)
+    else:
+        ff = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                            "-r", str(FPS), "-i", "-", "-i", out_path + ".wav", "-c:v", "libx264", "-preset", "veryfast",
                            "-crf", os.environ.get("HB_CRF", "21"), "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
                            "-af", "loudnorm=I=-16:TP=-1.5", "-shortest", "-movflags", "+faststart", out_path],
@@ -266,6 +322,8 @@ def render(ep_path, out_path, vertical=False):
     si = 0
     for fi in range(nframes):
         t = fi / FPS
+        if stills and not any(abs(t - x) < 0.5 / FPS for x in stills):
+            continue
         while si < len(scenes) - 1 and t >= scenes[si]["t1"]:
             si += 1
         sc = scenes[si]
@@ -317,17 +375,25 @@ def render(ep_path, out_path, vertical=False):
             frame.alpha_composite(fg)
         if sc["overlay"] is not None:
             frame.alpha_composite(sc["overlay"])
-        if cur is not None and cur["text"] and (not sc.get("title") or not vertical):  # captions on every spoken line
-            if cur["text"] not in cache_txt:
-                cache_txt[cur["text"]] = text_box(cur["text"], W, H, vertical)
-            tb = cache_txt[cur["text"]]
-            frame.alpha_composite(tb, ((W - tb.width) // 2, int(H * 0.30) if vertical else int(H * 0.97 - tb.height)))
+        cue = None
+        if cur is not None and cur["text"]:  # burned-in captions on every spoken line, one short phrase at a time
+            cue = next((p for (a, b, p) in cur["cues"] if a <= t < b), cur["cues"][-1][2])
+        if cue:
+            if cue not in cache_txt:
+                cache_txt[cue] = text_box(cue, W, H, vertical)
+            tb = cache_txt[cue]
+            # vertical: lower-middle safe area (bottom edge at y=1490, above the platform buttons; x 90-990)
+            frame.alpha_composite(tb, ((W - tb.width) // 2, int(H * 0.776 - tb.height) if vertical else int(H * 0.97 - tb.height)))
         # fades at scene edges
         a = min(1, (t - sc["t0"]) / 0.5, (sc["t1"] - t) / 0.5)
         rgb = frame.convert("RGB")
         if a < 1:
             rgb = Image.eval(rgb, lambda v, a=max(a, 0): int(v * a))
-        ff.stdin.write(rgb.tobytes())
+        if stills:
+            if any(abs(t - x) < 0.5 / FPS for x in stills):
+                rgb.save(re.sub(r'\.mp4$', '', out_path) + f"_still_{t:05.1f}.png")
+        else:
+            ff.stdin.write(rgb.tobytes())
         if fi % (FPS * 30) == 0:
             print(f"{t:.0f}s / {total:.0f}s", flush=True)
     ff.stdin.close()
