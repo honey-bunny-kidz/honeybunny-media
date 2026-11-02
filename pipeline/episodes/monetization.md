@@ -18,3 +18,4 @@
 | Week ending | YT subs | YT watch hours (365d) | YT Shorts views (90d) | FB followers | FB reach (7d) | Notes |
 |---|---|---|---|---|---|---|
 | 2026-10-27 (start) | ? | ? | ~27 views total | ? | ~1.7k impressions | first 5 days |
+| 2026-11-02 | ? (not in any tool) | ? (est. <15 h this week) | ~231 views this week (Shorts ~13; ep008 full song 209) | ? | 1,916 impressions, 139 shares, 72 reactions | 25 YT + 25 FB posts. Guess hook best on FB; sing-along full video only YT traction. FB reach fell from 10-29. Pace far behind: need ~125 subs + ~500 watch h per week. comp001 not yet on YouTube. |
