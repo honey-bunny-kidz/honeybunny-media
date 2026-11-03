@@ -1,0 +1,119 @@
+{
+ "id": "ep012_short3",
+ "title": "Row Your Arms with Captain Pip!",
+ "thumbnail": {
+  "text": "Row Along, Pip!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "fort_ship",
+  "cast": [
+   {
+    "id": "pip_captain",
+    "mouth": 2,
+    "scale": 1.15,
+    "flip": true
+   },
+   {
+    "id": "dotty",
+    "scale": 1.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "fort_ship",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.5
+    },
+    {
+     "id": "honey",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_captain",
+     "text": "Ahoy! Can you row your arms like me? Row, row!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Row and row, here we go, over the waves so soft and slow!"
+    },
+    {
+     "who": "dotty",
+     "text": "Rock to the left, rock to the right, our pillow ship is snug and bright!"
+    },
+    {
+     "who": "pip_captain",
+     "text": "Now sway side to side, like a little wave. Can you sway?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.5
+    },
+    {
+     "id": "honey",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_captain",
+     "text": "Uh-oh! A big pretend wave! Splish, splash!",
+     "pause": 0.3
+    },
+    {
+     "who": "narrator",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "splash",
+     "dur": 1.0
+    },
+    {
+     "who": "dotty",
+     "text": "Hee hee! The wave tickled my feathers!"
+    },
+    {
+     "who": "honey",
+     "text": "Let's sing it one more time, nice and soft."
+    },
+    {
+     "who": "honey",
+     "text": "Row and row, here we go, over the waves so soft and slow!"
+    },
+    {
+     "who": "dotty",
+     "text": "Rock to the left, rock to the right, our pillow ship is snug and bright!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

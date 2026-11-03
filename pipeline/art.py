@@ -404,6 +404,11 @@ def puppy(eyes="open", m=0, h=400, costume=None):
         d.chord([255, 70, 645, 400], 180, 360, fill=RED, outline=OUT, width=7)
         d.line([450, 78, 450, 230], fill=DARK, width=14)
         d.polygon(star_pts(450, 185, 52), fill=(255, 215, 80, 255), outline=OUT, width=5)
+    if costume == "captain":  # folded paper captain hat (pretend ship game) with a gold star
+        d.polygon([(250, 250), (650, 250), (450, 28)], fill=(255, 255, 255, 255), outline=OUT, width=8)
+        d.line([(300, 222), (450, 70), (600, 222)], fill=(225, 230, 240, 255), width=6)
+        d.rounded_rectangle([238, 222, 662, 272], 14, fill=(90, 160, 240, 255), outline=OUT, width=7)
+        d.polygon(star_pts(450, 165, 40), fill=(255, 215, 80, 255), outline=OUT, width=5)
     return finish(im, (int(h * W / H), h))
 
 
@@ -668,6 +673,21 @@ def sandwich(eyes="open", m=0, h=150):
     return finish(im, (int(h * W / H), h))
 
 
+def pillow(eyes="open", m=0, h=150, col=(255, 150, 180)):
+    """A soft square cushion with corner tufts and a button (prop)."""
+    W, H = 460, 380
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    dark = tuple(max(0, int(c * 0.82)) for c in col)
+    for (x, y) in ((40, 40), (420, 40), (40, 340), (420, 340)):
+        E(d, x, y, 34, 34, col + (255,), w=7)
+    d.rounded_rectangle([30, 30, 430, 350], 90, fill=col + (255,), outline=OUT, width=9)
+    d.rounded_rectangle([80, 75, 380, 305], 70, outline=dark + (255,), width=6)
+    E(d, 230, 190, 20, 20, dark + (255,), w=5)
+    E(d, 150, 110, 40, 18, (255, 255, 255, 110), w=0)
+    return finish(im, (int(h * W / H), h))
+
+
 def swing_set(d, W, H, x, ground, s):
     """A-frame swing set (triangle legs) with a little seat."""
     top, half = H * (ground - 0.36 * s), H * 0.17 * s
@@ -711,6 +731,11 @@ CHARS = {
     "ball": dict(fn=ball, kw=dict(), h=0.15),
     "block": dict(fn=block, kw=dict(), h=0.15),
     "sandwich": dict(fn=sandwich, kw=dict(), h=0.13),
+    "pip_captain": dict(fn=puppy, kw=dict(costume="captain"), h=0.40),
+    "pillow_pink": dict(fn=pillow, kw=dict(col=(255, 150, 185)), h=0.11),
+    "pillow_blue": dict(fn=pillow, kw=dict(col=(110, 175, 245)), h=0.11),
+    "pillow_yellow": dict(fn=pillow, kw=dict(col=(255, 210, 80)), h=0.11),
+    "pillow_green": dict(fn=pillow, kw=dict(col=(130, 210, 120)), h=0.11),
 }
 
 
@@ -1219,6 +1244,125 @@ def background(kind, W, H):
         for mx, col in mats:
             mw = W * (0.1 if land else 0.13)
             d.rounded_rectangle([W * mx - mw, ry0 + H * 0.012, W * mx + mw, ry0 + H * 0.045], 18, fill=col, outline=OUT, width=4)
+    elif kind in ("living_room", "fort_ship"):
+        # Honey's cosy living room on a rainy day: striped cream wall, big rainy window, green sofa,
+        # lamp glow, bookshelf, wooden floor. "fort_ship" adds the blanket-fort ship: two chairs, a
+        # cardboard-box hull (front edge is a foreground layer, so friends stand IN the boat), a broom
+        # mast with a sheet sail and a star flag, and a blue blanket "sea" with soft wave curls.
+        L = W > H
+        im = grad(W, H, (255, 240, 220), (250, 228, 205))
+        d = ImageDraw.Draw(im)
+        sw = int(W * (0.05 if L else 0.09))
+        for xx in range(0, W, sw * 2):
+            d.rectangle([xx, 0, xx + sw, H * ground], fill=(252, 232, 210))
+        # big window with a soft rainy sky
+        wx0, wx1 = W * (0.33 if L else 0.2), W * (0.67 if L else 0.8)
+        wy0, wy1 = H * (0.1 if L else 0.07), H * (0.5 if L else 0.28)
+        d.rounded_rectangle([wx0 - 18, wy0 - 18, wx1 + 18, wy1 + 18], 20, fill=(255, 252, 245), outline=OUT, width=5)
+        sky = grad(int(wx1 - wx0), int(wy1 - wy0), (170, 180, 225), (215, 220, 240))
+        sd = ImageDraw.Draw(sky)
+        sw_, sh_ = sky.size
+        sd.ellipse([-sw_ * 0.2, sh_ * 0.75, sw_ * 1.2, sh_ * 1.6], fill=(150, 195, 140))
+        for (cx, cy, r) in ((0.25, 0.22, 0.2), (0.45, 0.16, 0.24), (0.7, 0.24, 0.2)):
+            sd.ellipse([sw_ * cx - sh_ * r * 1.4, sh_ * cy - sh_ * r * 0.7, sw_ * cx + sh_ * r * 1.4, sh_ * cy + sh_ * r * 0.7], fill=(235, 238, 250))
+        for i in range(40):
+            x, y = rnd.uniform(0, sw_), rnd.uniform(sh_ * 0.3, sh_ * 0.95)
+            sd.line([x, y, x - 4, y + sh_ * 0.06], fill=(240, 245, 255), width=3)
+        im.paste(sky, (int(wx0), int(wy0)))
+        d = ImageDraw.Draw(im)
+        for i in range(10):  # shiny drops on the glass
+            x, y = rnd.uniform(wx0 + 20, wx1 - 20), rnd.uniform(wy0 + 20, wy1 - 20)
+            r = H * 0.007
+            d.ellipse([x - r, y - r * 1.3, x + r, y + r * 1.3], fill=(250, 252, 255))
+        d.line([(wx0 + wx1) / 2, wy0, (wx0 + wx1) / 2, wy1], fill=(255, 252, 245), width=12)
+        d.line([wx0, (wy0 + wy1) / 2, wx1, (wy0 + wy1) / 2], fill=(255, 252, 245), width=12)
+        # curtains
+        for (x0, x1) in ((wx0 - W * 0.07, wx0 + W * 0.01), (wx1 - W * 0.01, wx1 + W * 0.07)):
+            d.rounded_rectangle([x0, wy0 - 34, x1, wy1 + H * 0.04], 30, fill=(255, 175, 160), outline=OUT, width=4)
+        d.line([wx0 - W * 0.09, wy0 - 34, wx1 + W * 0.09, wy0 - 34], fill=(180, 120, 90), width=10)
+        # lamp glow (left) + bookshelf (right)
+        lx, ly = W * (0.07 if L else 0.1), H * (ground - (0.42 if L else 0.3))
+        glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(glow).ellipse([lx - H * 0.16, ly - H * 0.14, lx + H * 0.16, ly + H * 0.18], fill=(255, 230, 160, 110))
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(45)))
+        d = ImageDraw.Draw(im)
+        d.line([lx, ly, lx, H * ground], fill=(150, 110, 80), width=10)
+        d.polygon([(lx - H * 0.05, ly), (lx + H * 0.05, ly), (lx + H * 0.035, ly - H * 0.07), (lx - H * 0.035, ly - H * 0.07)], fill=(255, 220, 140), outline=OUT)
+        bx0, bx1 = W * (0.86 if L else 0.84), W * (0.98 if L else 1.0)
+        by0 = H * (ground - (0.5 if L else 0.3))
+        d.rectangle([bx0, by0, bx1, H * ground], fill=(200, 140, 95), outline=OUT, width=4)
+        nshelf = 4
+        for k in range(nshelf):
+            y = by0 + (H * ground - by0) * (k + 1) / (nshelf + 0.3)
+            d.line([bx0, y, bx1, y], fill=(150, 100, 70), width=6)
+            x = bx0 + 8
+            for j in range(5):
+                bwid = (bx1 - bx0) * rnd.uniform(0.1, 0.16)
+                bh = (H * ground - by0) / (nshelf + 0.3) * rnd.uniform(0.55, 0.8)
+                col = [(255, 120, 150), (120, 200, 240), (255, 200, 80), (150, 215, 130), (200, 160, 240)][(j + k) % 5]
+                if x + bwid < bx1 - 6:
+                    d.rectangle([x, y - bh, x + bwid, y - 3], fill=col)
+                x += bwid + 4
+        # floor
+        d.rectangle([0, H * ground, W, H], fill=(205, 150, 100))
+        for k in range(1, 6):
+            d.line([0, H * ground + k * H * 0.03, W, H * ground + k * H * 0.03], fill=(188, 134, 88), width=2)
+        d.rectangle([0, H * ground - 6, W, H * ground + 4], fill=(240, 205, 165))
+        if kind == "living_room":
+            # green sofa (left) and a soft round rug
+            sx0, sx1 = W * (0.0 if L else -0.05), W * (0.3 if L else 0.36)
+            sy = H * (ground - (0.2 if L else 0.12))
+            d.rounded_rectangle([sx0, sy - H * (0.1 if L else 0.06), sx1, sy + H * 0.04], 40, fill=(120, 190, 150), outline=OUT, width=5)
+            d.rounded_rectangle([sx0 - 10, sy, sx1 + 20, H * ground + 2], 30, fill=(140, 205, 165), outline=OUT, width=5)
+            d.line([(sx0 + sx1) / 2, sy + 10, (sx0 + sx1) / 2, sy + H * 0.06], fill=(110, 175, 135), width=5)
+            d.ellipse([W * 0.32, H * (ground + 0.015), W * 0.82, H * (ground + 0.12)], fill=(255, 205, 140), outline=(240, 175, 110), width=6)
+            d.ellipse([W * 0.39, H * (ground + 0.035), W * 0.75, H * (ground + 0.1)], outline=(255, 245, 230), width=5)
+        else:
+            # blue blanket sea with wave curls
+            d.rectangle([0, H * (ground + 0.01), W, H], fill=(110, 170, 235))
+            for row in range(3):
+                y = H * (ground + 0.035 + row * 0.04)
+                for k in range(-1, 12):
+                    x = W * (k / 10.0) + (row % 2) * W * 0.05
+                    d.arc([x, y - H * 0.015, x + W * 0.06, y + H * 0.02], 200, 340, fill=(235, 245, 255), width=5)
+            # two little chairs holding up a polka-dot blanket roof
+            hx0, hx1 = W * (0.14 if L else 0.03), W * (0.86 if L else 0.97)
+            ry = H * (ground - (0.5 if L else 0.34))
+            seat = H * (ground - (0.2 if L else 0.13))
+            for cx in (hx0 + W * 0.025, hx1 - W * 0.025):
+                cw = W * (0.035 if L else 0.05)
+                for lx_ in (cx - cw * 0.8, cx + cw * 0.8):
+                    d.line([lx_, seat, lx_, H * ground], fill=(170, 105, 65), width=10)
+                d.rounded_rectangle([cx - cw, ry, cx + cw, seat], 14, fill=(200, 130, 85), outline=OUT, width=4)
+                d.rounded_rectangle([cx - cw * 1.3, seat - H * 0.012, cx + cw * 1.3, seat + H * 0.012], 6, fill=(185, 115, 75), outline=OUT, width=3)
+            sag = H * 0.035
+            top_pts = [(hx0 - W * 0.01 + (hx1 - hx0 + W * 0.02) * k / 30, ry - H * 0.01 + math.sin(k / 30 * math.pi) * sag) for k in range(31)]
+            bot_pts = [(x, y + H * 0.045 + (H * 0.012 if k % 3 == 1 else 0)) for k, (x, y) in enumerate(top_pts)][::-1]
+            d.polygon(top_pts + bot_pts, fill=(190, 160, 235), outline=OUT, width=4)
+            for k in range(2, 30, 3):
+                x, y = top_pts[k]
+                d.ellipse([x - 7, y + H * 0.018, x + 7, y + H * 0.018 + 14], fill=(255, 255, 255))
+            # sheet sail on a broom mast with a star flag (pokes through the blanket)
+            mx = W * 0.5
+            top = H * (0.04 if L else 0.06)
+            d.line([mx, top, mx, H * ground], fill=(190, 130, 80), width=int(H * 0.012))
+            sb = ry - H * 0.03
+            d.polygon([(mx + 10, top + H * 0.03), (mx + 10, sb), (mx + W * (0.18 if L else 0.32), sb)], fill=(255, 255, 250), outline=OUT, width=5)
+            d.polygon([(mx - 10, top + H * 0.05), (mx - 10, sb), (mx - W * (0.13 if L else 0.24), sb)], fill=(255, 220, 150), outline=OUT, width=5)
+            d.polygon([(mx, top), (mx, top + H * 0.035), (mx - W * (0.05 if L else 0.09), top + H * 0.0175)], fill=(255, 120, 150), outline=OUT)
+            # back of the cardboard-box hull
+            hy = H * (ground - (0.1 if L else 0.07))
+            d.rectangle([hx0, hy, hx1, H * ground], fill=(205, 160, 110), outline=OUT, width=4)
+            fg = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            fd = ImageDraw.Draw(fg)
+            fy = H * (ground - (0.05 if L else 0.04))
+            hull = [(hx0 - W * 0.02, fy), (hx1 + W * 0.02, fy), (hx1 - W * 0.04, H * (ground + 0.03)), (hx0 + W * 0.04, H * (ground + 0.03))]
+            fd.polygon(hull, fill=(225, 175, 120), outline=OUT, width=6)
+            fd.line([hx0 + W * 0.02, fy + H * 0.025, hx1 - W * 0.02, fy + H * 0.025], fill=(195, 145, 95), width=4)
+            for k in range(3):  # painted portholes
+                x = hx0 + (hx1 - hx0) * (0.25 + 0.25 * k)
+                r = H * 0.016
+                fd.ellipse([x - r, fy + H * 0.012 - r, x + r, fy + H * 0.012 + r], fill=(150, 200, 250), outline=OUT, width=4)
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)

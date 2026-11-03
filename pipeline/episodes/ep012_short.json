@@ -1,0 +1,104 @@
+{
+ "id": "ep012_short",
+ "title": "Guess What Pip Built?",
+ "thumbnail": {
+  "text": "What Did Pip Make?",
+  "badge": "Kids Story",
+  "bg": "living_room",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2,
+    "scale": 1.15,
+    "flip": true
+   },
+   {
+    "id": "honey",
+    "scale": 0.85
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "living_room",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Guess what I built on this rainy day? Here's a clue. It has a big white sail!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Hmm. Is it a kite?"
+    },
+    {
+     "who": "pip",
+     "text": "Nope! Another clue. It floats on a pretend blue sea!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Is it a boat?"
+    },
+    {
+     "who": "pip",
+     "text": "Almost! Come and see!"
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_captain",
+     "text": "It's a blanket fort ship! Captain Pip, ready to sail!"
+    },
+    {
+     "who": "honey",
+     "text": "Two chairs, a big blanket, a broom, and soft pillows! Wow!"
+    },
+    {
+     "who": "pip_captain",
+     "text": "Mama Bunny helped hold the chairs. What would you build on a rainy day?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_captain",
+     "text": "Come aboard! I'll share a pillow with you."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+{
+ "id": "ep012_short2",
+ "title": "Count the Pillows with Honey Bunny!",
+ "thumbnail": {
+  "text": "How Many Pillows?",
+  "badge": "Learn Colors",
+  "bg": "living_room",
+  "cast": [
+   {
+    "id": "honey",
+    "mouth": 2,
+    "scale": 1.1
+   },
+   {
+    "id": "dotty",
+    "scale": 1.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "living_room",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.2,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.4,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.6,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.8,
+     "y": 0.36,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "How many pillows do you see? Let's count them!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "One, two, three, four! Four soft pillows!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.2,
+     "y": 0.36,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.4,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.6,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.8,
+     "y": 0.36,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Now let's find the colors. Which pillow is pink?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "This one! Pink, like my bow."
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.2,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.4,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.6,
+     "y": 0.36,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.8,
+     "y": 0.36,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Which pillow is yellow, like my feathers?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Yellow! Quack, quack!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.2,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.4,
+     "y": 0.36,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.6,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.8,
+     "y": 0.36,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "And this one is blue, like the sea."
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.2,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.4,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.6,
+     "y": 0.36,
+     "scale": 0.9
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.8,
+     "y": 0.36,
+     "scale": 0.9,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "And this one is green, like the grass."
+    },
+    {
+     "who": "honey",
+     "text": "Four pillows, four colors. One for each friend to share!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

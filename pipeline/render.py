@@ -14,7 +14,7 @@ VOICES = {"narrator": ("af_heart", 0.84), "honey": ("af_sky", 0.92), "mama": ("a
           "pumpkinpip": ("am_puck", 0.92, 1.12),
           "honey_berry": ("af_sky", 0.92), "honey_pj": ("af_sky", 0.92), "pip_fire": ("am_puck", 0.92, 1.12),
           "mimi_star": ("af_sky", 0.90, 1.13), "honey_rain": ("af_sky", 0.92), "dotty_beads": ("af_nicole", 0.95),
-          "pip_drip": ("am_puck", 0.92, 1.12)}
+          "pip_drip": ("am_puck", 0.92, 1.12), "pip_captain": ("am_puck", 0.92, 1.12)}
 
 
 def sentences(t):
