@@ -565,5 +565,77 @@
    "full_fb": "6ae85ba1ca68b566b62f6a57"
   },
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep012",
+  "date": "2026-11-03",
+  "type": "kids story (imaginative play)",
+  "trend": "KIDS - calendar row 2026-11-03; Bluey-style family pretend play (blanket fort ship) + ask-and-pause (x8: what we need, count pillows, pillow colour, who is captain, what should Pip do, row arms, duck sound, spyglass hands) + Row and Row song + ocean breath + Shorts question hooks",
+  "title": "Pip and Mama Bunny's Rainy-Day Fort",
+  "short": "Guess What Pip Built?",
+  "short_titles": [
+   "Guess What Pip Built? 🚢 Captain Pip's Fort #shorts",
+   "How Many Pillows? 🛋️ Count with Honey Bunny #shorts",
+   "Row Along with Captain Pip! 🌊 Sing-Along #shorts"
+  ],
+  "durations_s": {
+   "full": 293.2,
+   "short": 55.4,
+   "short2": 63.9,
+   "short3": 66.9
+  },
+  "characters": [
+   "pip",
+   "pip_captain",
+   "honey",
+   "mama",
+   "dotty",
+   "pillow_pink",
+   "pillow_blue",
+   "pillow_yellow",
+   "pillow_green"
+  ],
+  "lesson": "sharing (Pip shares the pillows and apple slices), counting 1-4, colours (pink, blue, yellow, green), imaginative play on a rainy day, grown-ups help with chairs; ocean breath",
+  "thumbnail_text": [
+   "Ahoy, Captain Pip!",
+   "What Did Pip Make?",
+   "How Many Pillows?",
+   "Row Along, Pip!"
+  ],
+  "files": [
+   "videos/ep012_full.mp4",
+   "videos/ep012_full.srt",
+   "videos/ep012_short.mp4",
+   "videos/ep012_short2.mp4",
+   "videos/ep012_short3.mp4",
+   "videos/ep012_short.srt",
+   "videos/ep012_short2.srt",
+   "videos/ep012_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep012_thumb.jpg",
+   "thumbnails/ep012_short_thumb.jpg",
+   "thumbnails/ep012_short2_thumb.jpg",
+   "thumbnails/ep012_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae9ac0160cabdfd8e275d34",
+   "6ae9ac067eb0fcc141be8841",
+   "6ae9ac0a799612d7fa893949",
+   "6ae9ac0ee49b3ffb03512120",
+   "6ae9ac12e3423332a39df13e",
+   "6ae9ac15e49b3ffb03512360",
+   "6ae9ac197eb0fcc141be9314"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae9ac0160cabdfd8e275d34",
+   "short2_fb": "6ae9ac067eb0fcc141be8841",
+   "short_yt": "6ae9ac0a799612d7fa893949",
+   "short_fb": "6ae9ac0ee49b3ffb03512120",
+   "short3_yt": "6ae9ac12e3423332a39df13e",
+   "short3_fb": "6ae9ac15e49b3ffb03512360",
+   "full_fb": "6ae9ac197eb0fcc141be9314"
+  },
+  "youtube_long": "manual upload by user"
  }
 ]
