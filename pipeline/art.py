@@ -1363,6 +1363,64 @@ def background(kind, W, H):
                 x = hx0 + (hx1 - hx0) * (0.25 + 0.25 * k)
                 r = H * 0.016
                 fd.ellipse([x - r, fy + H * 0.012 - r, x + r, fy + H * 0.012 + r], fill=(150, 200, 250), outline=OUT, width=4)
+    elif kind == "dusk_stage":
+        # golden-hour meadow concert: lavender-peach sky, rising moon, lantern string, big tree-stump stage centre
+        land = W > H
+        im = grad(W, H, (118, 112, 196), (255, 192, 160))
+        d = ImageDraw.Draw(im)
+        mx, my, mr = W * (0.56 if land else 0.52), H * (0.36 if land else 0.34), min(W, H) * 0.07
+        glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(glow).ellipse([mx - mr * 2.4, my - mr * 2.4, mx + mr * 2.4, my + mr * 2.4], fill=(255, 245, 200, 90))
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(40)))
+        d = ImageDraw.Draw(im)
+        d.ellipse([mx - mr, my - mr, mx + mr, my + mr], fill=(255, 246, 205))
+        for _ in range(int(35 * W * H / (1920 * 1080))):
+            stars.append((rnd.uniform(0, W), rnd.uniform(H * 0.03, H * 0.3), rnd.uniform(1.2, 2.8), rnd.uniform(0, 6.28)))
+        for i in range(3):
+            cloud(d, rnd.uniform(0, W * 0.3 if land else W * 0.1), rnd.uniform(H * 0.22, H * 0.38), min(W, H) / 1100, (255, 205, 215))
+        hills(d, W, H, ground - 0.13, 0.08, (190, 150, 190), 4)
+        tree(d, W, H, W * (0.9 if land else 0.92), False)
+        hills(d, W, H, ground - 0.03, 0.05, (130, 185, 125), 6)
+        d.rectangle([0, H * ground, W, H], fill=(120, 180, 115))
+        # big tree-stump stage
+        sx, sw = W * 0.5, W * (0.13 if land else 0.24)
+        top, bot = H * (ground - (0.1 if land else 0.065)), H * (ground + 0.01)
+        eh = sw * 0.32
+        d.rectangle([sx - sw, top, sx + sw, bot], fill=(150, 100, 70))
+        for k in range(1, 6):
+            xx = sx - sw + k * 2 * sw / 6
+            d.line([xx, top + eh * 0.5, xx, bot - 6], fill=(125, 82, 58), width=5)
+        d.ellipse([sx - sw - 12, bot - eh * 0.6, sx + sw + 12, bot + eh * 0.5], fill=(150, 100, 70))
+        d.ellipse([sx - sw, top - eh / 2, sx + sw, top + eh / 2], fill=(222, 178, 130), outline=(150, 100, 70), width=8)
+        for r in (0.7, 0.45, 0.2):
+            d.ellipse([sx - sw * r, top - eh / 2 * r, sx + sw * r, top + eh / 2 * r], outline=(190, 140, 100), width=4)
+        # lantern string with glowing paper lanterns
+        x0, x1 = W * 0.03, W * 0.97
+        yA, sag = H * (0.1 if land else 0.13), H * 0.07
+        d.line([x0, yA - H * 0.02, x0, H * ground], fill=(130, 90, 70), width=10)
+        d.line([x1, yA - H * 0.02, x1, H * ground], fill=(130, 90, 70), width=10)
+        pts = [(x0 + (x1 - x0) * t, yA + sag * 4 * t * (1 - t)) for t in np.linspace(0, 1, 40)]
+        d.line(pts, fill=(110, 80, 70), width=4)
+        cols = [(255, 150, 170), (255, 215, 110), (150, 210, 255), (180, 235, 150), (210, 170, 255)]
+        n = 9 if land else 6
+        glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        gd = ImageDraw.Draw(glow)
+        lan = []
+        for k in range(n):
+            t = (k + 0.5) / n
+            lx, ly = x0 + (x1 - x0) * t, yA + sag * 4 * t * (1 - t) + H * 0.035
+            lr = min(W, H) * 0.028
+            gd.ellipse([lx - lr * 2.5, ly - lr * 2.5, lx + lr * 2.5, ly + lr * 2.5], fill=cols[k % 5] + (110,))
+            lan.append((lx, ly, lr, cols[k % 5]))
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(25)))
+        d = ImageDraw.Draw(im)
+        for lx, ly, lr, c in lan:
+            d.line([lx, ly - lr * 1.6, lx, ly - lr], fill=(110, 80, 70), width=3)
+            d.ellipse([lx - lr, ly - lr, lx + lr, ly + lr * 1.1], fill=c, outline=OUT, width=4)
+            d.line([lx - lr * 0.5, ly - lr * 0.95, lx + lr * 0.5, ly - lr * 0.95], fill=(110, 80, 70), width=5)
+        flowers(d, W, H, ground * H, 55, 21)
+        for _ in range(8):
+            stars.append((rnd.uniform(W * 0.05, W * 0.95), rnd.uniform(H * (ground - 0.3), H * (ground - 0.08)), rnd.uniform(3, 5), rnd.uniform(0, 6.28)))
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)

@@ -369,7 +369,9 @@ def render(ep_path, out_path, vertical=False):
                 g = cache_spr[gk]
                 pul = 0.75 + 0.25 * math.sin(t * 4)
                 ga = g.copy(); ga.putalpha(Image.eval(g.getchannel("A"), lambda v, p=pul: int(v * p)))
-                frame.alpha_composite(ga, (max(0, x - im.width // 2), max(0, y - im.height // 2)))
+                gx, gy = x - im.width // 2, y - im.height // 2
+                ga = ga.crop((max(0, -gx), max(0, -gy), ga.width, ga.height))  # keep the glow centred even near the frame edge
+                frame.alpha_composite(ga, (max(0, gx), max(0, gy)))
             frame.alpha_composite(im, (max(-im.width + 1, x), max(-im.height + 1, y)))
         if fg is not None:
             frame.alpha_composite(fg)
