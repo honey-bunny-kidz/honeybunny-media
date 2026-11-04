@@ -637,5 +637,76 @@
    "full_fb": "6ae9ac197eb0fcc141be9314"
   },
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep013",
+  "date": "2026-11-04",
+  "type": "sing-along rhyme",
+  "trend": "SING - calendar row 2026-11-04; sequel to ep004 Wiggle Waggle Song with new animal-sounds chorus + verses (hoo/flap, baa/bounce, quack/waddle, woof/wag, meow/bow, Honey's quiet nose-wiggle + thump) + ask-and-pause (x8: guess hoo-hoo, say hoo + flap, turn head, say baa, waddle, meow + bow, wiggle nose + thump, favourite sound) + quiet owl breath + Shorts question hooks; new dusk_stage background",
+  "title": "Ollie Owl's Animal Sounds Song",
+  "youtube_title": "Ollie Owl's Animal Sounds Song 🦉 Wiggle Waggle Sing-Along for Kids | Honey Bunny Kidz",
+  "short": "Guess Who Says Baa?",
+  "short_titles": [
+   "Guess Who Says Baa? 🐑 Lulu Lamb Sound Game #shorts",
+   "Who Says Quack? 🦆 Animal Sounds with Ollie Owl #shorts",
+   "Wiggle Your Nose with Honey Bunny! 🐰 Sing-Along #shorts"
+  ],
+  "durations_s": {
+   "full": 349.8,
+   "short": 53.2,
+   "short2": 74.3,
+   "short3": 74.7
+  },
+  "characters": [
+   "ollie",
+   "honey",
+   "lulu",
+   "dotty",
+   "pip",
+   "mimi",
+   "mama"
+  ],
+  "lesson": "animal sounds + actions (owl hoo/flap, lamb baa/bounce, duck quack/waddle, puppy woof/wag, kitten meow/bow), owls wake at dusk and turn their heads far, bunnies are quiet and thump their feet, quiet sounds are special too / everyone has their own way; counting 1-3; calm owl breath",
+  "thumbnail_text": [
+   "Sing Every Sound!",
+   "Guess The Sound!",
+   "Match The Sounds!",
+   "Wiggle Your Nose!"
+  ],
+  "files": [
+   "videos/ep013_full.mp4",
+   "videos/ep013_full.srt",
+   "videos/ep013_short.mp4",
+   "videos/ep013_short2.mp4",
+   "videos/ep013_short3.mp4",
+   "videos/ep013_short.srt",
+   "videos/ep013_short2.srt",
+   "videos/ep013_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep013_thumb.jpg",
+   "thumbnails/ep013_short_thumb.jpg",
+   "thumbnails/ep013_short2_thumb.jpg",
+   "thumbnails/ep013_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6aeafe840eea02ace32b0169",
+   "6aeafe8b1d881477a6190292",
+   "6aeafe8f961fae078ac667e3",
+   "6aeafe921d881477a6190483",
+   "6aeafe97961fae078ac66bd6",
+   "6aeafe9a20b88292aa7a9596",
+   "6aeafe9e9e12e98b309c9e84"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6aeafe840eea02ace32b0169",
+   "short2_fb": "6aeafe8b1d881477a6190292",
+   "short_yt": "6aeafe8f961fae078ac667e3",
+   "short_fb": "6aeafe921d881477a6190483",
+   "short3_yt": "6aeafe97961fae078ac66bd6",
+   "short3_fb": "6aeafe9a20b88292aa7a9596",
+   "full_fb": "6aeafe9e9e12e98b309c9e84"
+  },
+  "youtube_long": "manual upload by user"
  }
 ]
