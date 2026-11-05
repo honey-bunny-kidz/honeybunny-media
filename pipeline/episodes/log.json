@@ -708,5 +708,93 @@
    "full_fb": "6aeafe9e9e12e98b309c9e84"
   },
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep014",
+  "date": "2026-11-05",
+  "type": "interactive learning (opposites)",
+  "trend": "LEARN - calendar row 2026-11-05; opposites big/small, up/down, fast/slow with Lulu (best YT face) + ask-and-pause (x6: point to big ball, who is small, up or down, fast or slow, stretch big/curl small, reach up/touch ground, favourite) + Big and Small song + calm picnic breath + Shorts question hooks; new sunny_hill background + snail/basket props",
+  "title": "Lulu Lamb's Big and Small Picnic",
+  "youtube_title": "Lulu Lamb's Big and Small Picnic 🐑 Learn Opposites for Toddlers | Honey Bunny Kidz",
+  "youtube_description": "Big or small? Up or down? Fast or slow? Play the opposites game with Lulu Lamb, Honey Bunny and Pip Puppy on Sunny Hill — and learn that even the smallest friends can be big helpers.\n💛 Share with a parent who'd love this!\n\n00:00 Picnic on Sunny Hill\n00:41 Which ball is big?\n01:16 Big Mama Bunny, small Dotty\n02:06 Up and down the slide\n02:55 Fast Pip and the slow little snail\n03:50 The Big and Small Song\n04:25 Calm picnic breath\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#KidsLearning #Opposites #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "big and small",
+   "opposites for kids",
+   "opposites for toddlers",
+   "up and down",
+   "fast and slow",
+   "Lulu Lamb",
+   "Honey Bunny Kidz",
+   "preschool learning",
+   "toddler learning video",
+   "kids stories",
+   "cartoon for kids",
+   "learn opposites",
+   "kindness for kids"
+  ],
+  "short": "Which One Is Big?",
+  "short_titles": [
+   "Which One Is Big, Lulu Lamb? 🎈 #shorts",
+   "Up or Down, Pip Puppy? 🛝 Count to 5! #shorts",
+   "Move Like a Snail with Lulu Lamb! 🐌 #shorts"
+  ],
+  "durations_s": {
+   "full": 314.1,
+   "short": 72.6,
+   "short2": 71.6,
+   "short3": 71.4
+  },
+  "characters": [
+   "lulu",
+   "honey",
+   "mama",
+   "pip",
+   "dotty",
+   "snail",
+   "basket",
+   "ball"
+  ],
+  "lesson": "opposites (big/small, up/down, fast/slow), counting 1-5 ladder steps, taking turns on the slide, being gentle with tiny creatures (Pip slows down for the snail), small friends can be big helpers; calm breath",
+  "thumbnail_text": [
+   "Big Or Tiny?",
+   "Point To The Big One!",
+   "Up Or Down, Pip?",
+   "Move Like A Snail!"
+  ],
+  "files": [
+   "videos/ep014_full.mp4",
+   "videos/ep014_full.srt",
+   "videos/ep014_short.mp4",
+   "videos/ep014_short2.mp4",
+   "videos/ep014_short3.mp4",
+   "videos/ep014_short.srt",
+   "videos/ep014_short2.srt",
+   "videos/ep014_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep014_thumb.jpg",
+   "thumbnails/ep014_short_thumb.jpg",
+   "thumbnails/ep014_short2_thumb.jpg",
+   "thumbnails/ep014_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6aec50937f55f8386263afc8",
+   "6aec50997f55f8386263b854",
+   "6aec509da588188369345c58",
+   "6aec50a0e7ed365f893f6116",
+   "6aec50a414cd7d9ba0d988ab",
+   "6aec50a8fc521f06e6926c67",
+   "6aec50ac7f55f8386263bce1"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6aec50937f55f8386263afc8",
+   "short2_fb": "6aec50997f55f8386263b854",
+   "short_yt": "6aec509da588188369345c58",
+   "short_fb": "6aec50a0e7ed365f893f6116",
+   "short3_yt": "6aec50a414cd7d9ba0d988ab",
+   "short3_fb": "6aec50a8fc521f06e6926c67",
+   "full_fb": "6aec50ac7f55f8386263bce1"
+  },
+  "youtube_long": "manual upload by user"
  }
 ]
