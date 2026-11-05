@@ -1,0 +1,228 @@
+{
+ "id": "ep014_short",
+ "title": "Which One Is Big? Lulu Lamb's Big and Small Game",
+ "thumbnail": {
+  "text": "Point To The Big One!",
+  "badge": "Learn Big & Small",
+  "bg": "playground",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2
+   },
+   {
+    "id": "ball",
+    "scale": 1.4,
+    "x": 0.7
+   },
+   {
+    "id": "ball",
+    "scale": 0.5,
+    "x": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sunny_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "ball",
+     "x": 0.55,
+     "scale": 1.6
+    },
+    {
+     "id": "ball",
+     "x": 0.82,
+     "scale": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Which one is big? Can you point to it?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "ball",
+     "x": 0.55,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "ball",
+     "x": 0.82,
+     "scale": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Yes! This red ball is big. Big, big, big!"
+    },
+    {
+     "who": "lulu",
+     "text": "And this one is small. Small, small, small."
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "lulu",
+     "x": 0.5,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Now, who is big? Mama Bunny, or Dotty Duckling?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.22,
+     "scale": 0.8,
+     "glow": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.5,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Mama Bunny is big!"
+    },
+    {
+     "who": "dotty",
+     "text": "Quack! And I am small, just like Lulu."
+    },
+    {
+     "who": "mama",
+     "text": "Big or small, we can all help!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "snail",
+     "x": 0.62,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Last one! Who is the smallest: Honey Bunny, or the tiny snail?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "snail",
+     "x": 0.62,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "The tiny snail! Hello, little friend."
+    },
+    {
+     "who": "lulu",
+     "text": "Small friends see small things. Big or small, we are all special!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "lulu",
+     "x": 0.5,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

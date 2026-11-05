@@ -8,7 +8,7 @@ VOCAB = CFG["vocab"]
 D = {}
 for f in ("us_silver", "us_gold"):
     D.update(json.load(open(f"{ROOT}/hexgrad/misaki/misaki/data/{f}.json")))
-D.update({"Bunnies": "bˈʌniz", "bunnies": "bˈʌniz", "Kidz": "kˈɪdz", "kidz": "kˈɪdz", "hoo": "hˈu", "Hoo": "hˈu", "Ollie": "ˈɑli", "Dotty": "dˈɑɾi", "Mimi": "mˈimi", "meow": "miˈW", "Meow": "miˈW", "purr": "pˈɜɹ", "Purr": "pˈɜɹ", "Splish": "splˈɪʃ", "splish": "splˈɪʃ", "Lulu": "lˈulu", "Hee": "hˈi", "hee": "hˈi", "Shh": "ʃːː", "shh": "ʃːː", "Aaah": "ˈɑɑɑ", "aaah": "ˈɑɑɑ", "twinkliest": "twˈɪŋkᵊliəst", "Pitter": "pˈɪɾəɹ", "pitter": "pˈɪɾəɹ", "puppies": "pˈʌpiz"})
+D.update({"Bunnies": "bˈʌniz", "bunnies": "bˈʌniz", "Kidz": "kˈɪdz", "kidz": "kˈɪdz", "hoo": "hˈu", "Hoo": "hˈu", "Ollie": "ˈɑli", "Dotty": "dˈɑɾi", "Mimi": "mˈimi", "meow": "miˈW", "Meow": "miˈW", "purr": "pˈɜɹ", "Purr": "pˈɜɹ", "Splish": "splˈɪʃ", "splish": "splˈɪʃ", "Lulu": "lˈulu", "Hee": "hˈi", "hee": "hˈi", "Shh": "ʃːː", "shh": "ʃːː", "Aaah": "ˈɑɑɑ", "aaah": "ˈɑɑɑ", "twinkliest": "twˈɪŋkᵊliəst", "Pitter": "pˈɪɾəɹ", "pitter": "pˈɪɾəɹ", "puppies": "pˈʌpiz", "bodies": "bˈɑdiz", "Wheee": "wˈiː", "wheee": "wˈiː"})
 VOICES = np.load(f"{ROOT}/hb/models/voices.bin")
 _sess = None
 SR = 24000

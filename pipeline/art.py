@@ -701,6 +701,81 @@ def swing_set(d, W, H, x, ground, s):
     d.rounded_rectangle([x - H * 0.08 * s, H * (ground - 0.11 * s), x + H * 0.08 * s, H * (ground - 0.085 * s)], 8, fill=(120, 190, 240))
 
 
+def snail(eyes="open", m=0, h=150):
+    """Tiny friendly snail: pastel swirl shell, two eye stalks, little smile (prop, slow)."""
+    W, H = 760, 560
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    BODY, SH, SH2 = (200, 230, 150, 255), (255, 185, 140, 255), (245, 140, 120, 255)
+    d.rounded_rectangle([60, 400, 700, 520], 60, fill=BODY, outline=OUT, width=8)
+    for side in (0, 1):  # eye stalks
+        sx = 560 + side * 90
+        d.line([sx, 410, sx + 20 * (side * 2 - 1) + 10, 150], fill=OUT, width=26)
+        d.line([sx, 410, sx + 20 * (side * 2 - 1) + 10, 150], fill=BODY, width=14)
+        E(d, sx + 20 * (side * 2 - 1) + 10, 140, 52, 52, (255, 255, 255, 255))
+        eye(d, sx + 20 * (side * 2 - 1) + 10, 145, 28, eyes)
+    E(d, 300, 290, 210, 200, SH, w=9)
+    pts = []
+    for k in range(120):
+        a = k / 120 * math.pi * 4.2
+        r = 175 * (1 - k / 135)
+        pts.append((300 + r * math.cos(a), 300 + r * math.sin(a)))
+    d.line(pts, fill=SH2, width=22, joint="curve")
+    E(d, 220, 190, 40, 24, (255, 235, 220, 200), w=0)
+    cheeks(im, [(660, 470)], 26, 16)
+    d = ImageDraw.Draw(im)
+    if m == 0:
+        d.arc([580, 430, 680, 495], 20, 160, fill=OUT, width=8)
+    else:
+        d.chord([590, 445, 680, 470 + 14 * m], 0, 180, fill=(150, 50, 70, 255), outline=OUT, width=6)
+    return finish(im, (int(h * W / H), h))
+
+
+def basket(eyes="open", m=0, h=150):
+    """Wicker picnic basket with a red-checked cloth and a handle (prop)."""
+    W, H = 560, 460
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.arc([110, 20, 450, 330], 180, 360, fill=OUT, width=34)
+    d.arc([110, 20, 450, 330], 180, 360, fill=(205, 150, 90, 255), width=20)
+    d.polygon([(40, 180), (520, 180), (470, 440), (90, 440)], fill=(225, 170, 105, 255))
+    for k in range(1, 5):
+        y = 180 + k * 52
+        d.line([(40 + k * 10, y), (520 - k * 10, y)], fill=(190, 130, 75, 255), width=6)
+    d.line([(40, 180), (520, 180), (470, 440), (90, 440), (40, 180)], fill=OUT, width=9, joint="curve")
+    for i in range(6):  # checked cloth peeking out
+        c = (240, 90, 100, 255) if i % 2 == 0 else (255, 255, 255, 255)
+        d.polygon([(70 + i * 70, 180), (140 + i * 70, 180), (130 + i * 70, 140), (80 + i * 70, 140)], fill=c, outline=OUT)
+    E(d, 380, 135, 40, 38, (230, 60, 70, 255), w=6)  # apple
+    d.line([380, 98, 388, 78], fill=(110, 78, 60, 255), width=7)
+    return finish(im, (int(h * W / H), h))
+
+
+def slide(d, W, H, x, ground, s):
+    """Little playground slide: ladder on the right, platform, wavy yellow chute down to the left.
+    Platform top (where a friend can stand) is at y = ground - 0.26*s (fraction of H), centre x."""
+    top = H * (ground - 0.26 * s)
+    pw = H * 0.075 * s
+    leg = (120, 170, 235)
+    for lx in (x - pw, x + pw):  # posts
+        d.rectangle([lx - 8 * s, top, lx + 8 * s, H * ground], fill=leg)
+    for k in range(1, 6):  # ladder rungs
+        yy = top + k * (H * ground - top) / 6
+        d.line([x - pw, yy, x + pw, yy], fill=(250, 250, 255), width=int(9 * s) + 2)
+    d.rounded_rectangle([x - pw - 14 * s, top - 14 * s, x + pw + 14 * s, top + 10 * s], 8, fill=(240, 120, 130))
+    for lx in (x - pw - 6 * s, x + pw + 6 * s):  # little rails
+        d.line([lx, top - 70 * s, lx, top], fill=(240, 120, 130), width=int(10 * s) + 2)
+    d.line([x - pw - 6 * s, top - 70 * s, x + pw + 6 * s, top - 70 * s], fill=(240, 120, 130), width=int(10 * s) + 2)
+    sx0, sx1 = x - pw, x - pw - H * 0.3 * s
+    pts_top, pts_bot = [], []
+    for t in np.linspace(0, 1, 30):
+        xx = sx0 + (sx1 - sx0) * t
+        yy = top + (H * ground - 10 - top) * (t * t * (3 - 2 * t))
+        pts_top.append((xx, yy - 16 * s)); pts_bot.append((xx, yy + 16 * s))
+    d.polygon(pts_top + pts_bot[::-1], fill=(255, 210, 80))
+    d.line(pts_top, fill=(240, 170, 50), width=int(8 * s) + 2)
+
+
 CHARS = {
     "honey": dict(fn=bunny, kw=dict(), h=0.44),
     "mama": dict(fn=bunny, kw=dict(fur=(246, 228, 205), bow=False), h=0.54),
@@ -736,6 +811,8 @@ CHARS = {
     "pillow_blue": dict(fn=pillow, kw=dict(col=(110, 175, 245)), h=0.11),
     "pillow_yellow": dict(fn=pillow, kw=dict(col=(255, 210, 80)), h=0.11),
     "pillow_green": dict(fn=pillow, kw=dict(col=(130, 210, 120)), h=0.11),
+    "snail": dict(fn=snail, kw=dict(), h=0.09),
+    "basket": dict(fn=basket, kw=dict(), h=0.13),
 }
 
 
@@ -1421,6 +1498,38 @@ def background(kind, W, H):
         flowers(d, W, H, ground * H, 55, 21)
         for _ in range(8):
             stars.append((rnd.uniform(W * 0.05, W * 0.95), rnd.uniform(H * (ground - 0.3), H * (ground - 0.08)), rnd.uniform(3, 5), rnd.uniform(0, 6.28)))
+    elif kind == "sunny_hill":
+        # bright picnic hill: big tree + small sapling (big/small), slide (up/down), stepping-stone path
+        land = W > H
+        im = grad(W, H, (125, 200, 250), (250, 246, 220))
+        d = ImageDraw.Draw(im)
+        sx, sy, sr = W * (0.42 if land else 0.5), H * (0.13 if land else 0.1), min(W, H) * 0.07
+        d.ellipse([sx - sr * 1.4, sy - sr * 1.4, sx + sr * 1.4, sy + sr * 1.4], fill=(255, 242, 175))
+        d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=(255, 216, 95))
+        for cx, cy in ((0.12, 0.08), (0.6, 0.05), (0.78, 0.16)):
+            cloud(d, W * cx, H * cy, min(W, H) / 1100, (255, 255, 255))
+        hills(d, W, H, ground - 0.15, 0.09, (175, 225, 150), 12)
+        # big tree (left) and a small sapling beside it
+        bx = W * (0.07 if land else 0.12)
+        U = H if land else W * 0.7
+        tw, tb = U * 0.035, H * (ground - 0.01)
+        d.rectangle([bx - tw, H * ground - U * 0.42, bx + tw, tb], fill=(120, 85, 62))
+        for dx, dy, r in ((0, -0.5, 0.15), (-0.09, -0.42, 0.11), (0.09, -0.42, 0.11), (0, -0.62, 0.11)):
+            d.ellipse([bx + dx * U - r * U, H * ground + dy * U - r * U * 0.85, bx + dx * U + r * U, H * ground + dy * U + r * U * 0.85], fill=(105, 185, 105))
+        for (ax, ay) in ((-0.06, -0.5), (0.05, -0.45), (0.01, -0.6), (-0.03, -0.4)):
+            d.ellipse([bx + ax * U - 9, H * ground + ay * U - 9, bx + ax * U + 9, H * ground + ay * U + 9], fill=(235, 70, 80))
+        nx = W * (0.2 if land else 0.33)
+        d.rectangle([nx - U * 0.007, H * ground - U * 0.12, nx + U * 0.007, tb], fill=(120, 85, 62))
+        d.ellipse([nx - U * 0.04, H * ground - U * 0.17, nx + U * 0.04, H * ground - U * 0.1], fill=(140, 205, 120))
+        hills(d, W, H, ground - 0.02, 0.035, (130, 205, 112), 13)
+        d.rectangle([0, H * ground, W, H], fill=(128, 204, 110))
+        slide(d, W, H, W * (0.86 if land else 0.8), ground - 0.005, 1.0 if land else 0.8)
+        # stepping-stone path across the front
+        for k in range(7):
+            px = W * (0.08 + k * 0.14)
+            py = H * (ground + 0.035 + 0.02 * math.sin(k * 1.3))
+            d.ellipse([px - H * 0.04, py - H * 0.014, px + H * 0.04, py + H * 0.014], fill=(225, 215, 195))
+        flowers(d, W, H, ground * H, 50, 31)
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)
