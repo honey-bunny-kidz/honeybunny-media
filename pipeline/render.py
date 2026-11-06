@@ -14,7 +14,8 @@ VOICES = {"narrator": ("af_heart", 0.84), "honey": ("af_sky", 0.92), "mama": ("a
           "pumpkinpip": ("am_puck", 0.92, 1.12),
           "honey_berry": ("af_sky", 0.92), "honey_pj": ("af_sky", 0.92), "pip_fire": ("am_puck", 0.92, 1.12),
           "mimi_star": ("af_sky", 0.90, 1.13), "honey_rain": ("af_sky", 0.92), "dotty_beads": ("af_nicole", 0.95),
-          "pip_drip": ("am_puck", 0.92, 1.12), "pip_captain": ("am_puck", 0.92, 1.12)}
+          "pip_drip": ("am_puck", 0.92, 1.12), "pip_captain": ("am_puck", 0.92, 1.12),
+          "mimi_nobell": ("af_sky", 0.90, 1.13)}
 
 
 def sentences(t):
@@ -165,6 +166,15 @@ def sfx(kind, dur=1.8):
             w = np.sin(2 * np.pi * rng.uniform(1500, 2800) * tt) * np.exp(-tt * 250) * 0.25
             s0 = int(c0 * SR); a[s0:s0 + L] += w[: max(0, min(L, n - s0))]
         a *= np.minimum(1, np.minimum(t / 0.4, (dur - t) / 0.4))
+    elif kind == "bell":  # soft little jingle: tiny bell rings with shimmering, fast-decaying partials
+        a = np.zeros(n)
+        for c0 in np.arange(0.05, dur - 0.35, 0.32):
+            for k, (c1, f0) in enumerate(((0.0, 2350), (0.07, 2650), (0.13, 2450))):
+                L = int(0.45 * SR); tt = np.arange(L) / SR
+                w = sum(g * np.sin(2 * np.pi * f0 * p * tt) for p, g in ((1, 1.0), (2.76, 0.35), (5.4, 0.12)))
+                w *= np.exp(-tt * 11) * (1 + 0.15 * np.sin(2 * np.pi * 9 * tt)) * 0.12
+                s0 = int((c0 + c1) * SR)
+                a[s0:s0 + L] += w[: max(0, min(L, n - s0))]
     else:
         raise ValueError(kind)
     fade = int(0.05 * SR)

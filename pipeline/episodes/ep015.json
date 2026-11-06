@@ -1,0 +1,506 @@
+{
+ "id": "ep015",
+ "title": "Ollie Owl Helps Find Mimi's Bell",
+ "thumbnail": {
+  "text": "Where's The Jingle?",
+  "badge": "Bedtime Story",
+  "bg": "mimi_room",
+  "cast": [
+   {
+    "id": "ollie",
+    "mouth": 2,
+    "scale": 1.05
+   },
+   {
+    "id": "mimi_nobell",
+    "scale": 0.95
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "mimi_room",
+   "title": "Ollie Owl Helps Find Mimi's Bell",
+   "subtitle": "Bedtime Story  \u2022  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Ollie Owl Helps Find Mimi's Bell! A cosy bedtime story."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mimi_nobell",
+     "x": 0.44
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The sun went down, and the stars came out. Mimi Kitten had played with Honey all afternoon."
+    },
+    {
+     "who": "narrator",
+     "text": "Now Mama Bunny was walking Mimi home for bed."
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Oh! My collar is so quiet. Where is my little bell?"
+    },
+    {
+     "who": "honey",
+     "text": "Your jingly bell is gone?"
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Yes. I feel a little worried. I love my bell."
+    },
+    {
+     "who": "mama",
+     "text": "It's okay to feel worried, Mimi. When we need help, we can ask a friend."
+    },
+    {
+     "who": "honey",
+     "text": "Who has the best ears at night? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Ollie Owl! Owls can hear tiny sounds in the dark."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mimi_nobell",
+     "x": 0.44
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Hello, friends. Did somebody call me?"
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Ollie, can you help me? My little bell is lost."
+    },
+    {
+     "who": "ollie",
+     "text": "Of course I can help. Owls have very good ears. Let's all be very quiet, and listen."
+    },
+    {
+     "who": "narrator",
+     "text": "Shh. Everyone listened.",
+     "pause": 0.8
+    },
+    {
+     "sfx": "cricket",
+     "text": "Chirp, chirp, chirp!",
+     "dur": 2.0,
+     "pause": 0.5
+    },
+    {
+     "who": "ollie",
+     "text": "Is that the jingle? What makes that sound?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "It's a little cricket! Not a bell."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mimi_nobell",
+     "x": 0.44
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    },
+    {
+     "id": "cricket",
+     "x": 0.8,
+     "y": 0.93,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The little cricket sang in the grass. Then they heard another sound."
+    },
+    {
+     "sfx": "frog",
+     "text": "Ribbit, ribbit!",
+     "dur": 2.0,
+     "pause": 0.5
+    },
+    {
+     "who": "ollie",
+     "text": "Who says ribbit? Can you say it with me?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "A frog! Ribbit! That was funny. But it is not my bell."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mimi_nobell",
+     "x": 0.44
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    },
+    {
+     "id": "frog",
+     "x": 0.9,
+     "y": 0.92
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Mimi, let's think. Where did you have your bell today?"
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "I had my bell at nap time. I curled up in my cosy bed."
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo! Then let's go and listen by your cosy bed."
+    },
+    {
+     "who": "mama",
+     "text": "We'll all go together. I'll walk you home, Mimi."
+    },
+    {
+     "who": "narrator",
+     "text": "So Mama Bunny walked Mimi and Honey to Mimi's cottage, and Ollie flew softly beside them."
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    },
+    {
+     "id": "mama",
+     "x": 0.82
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.545,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mimi's room was warm and cosy. Her round bed had a soft pink cushion."
+    },
+    {
+     "who": "ollie",
+     "text": "Shh. Let's listen very, very carefully."
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "I will pat my blanket. Pat, pat, pat."
+    },
+    {
+     "sfx": "bell",
+     "text": "Jingle, jingle!",
+     "dur": 1.8,
+     "pause": 0.5,
+     "who": "mimi_nobell"
+    },
+    {
+     "who": "ollie",
+     "text": "Did you hear that? What made that sound?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "A jingle! It's Mimi's bell!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.3,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "bell",
+     "x": 0.47,
+     "y": 0.775,
+     "scale": 1.4,
+     "glow": true
+    },
+    {
+     "id": "honey",
+     "x": 0.62
+    },
+    {
+     "id": "mama",
+     "x": 0.82
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.545,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "There it was! The little bell was snuggled in Mimi's blanket, all along."
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "My bell! It was in my bed the whole time!"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! We found it together."
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Thank you, Ollie. Thank you, Honey and Mama. I don't feel worried any more."
+    },
+    {
+     "who": "mama",
+     "text": "When you feel worried, it's good to ask for help. Friends help each other."
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    },
+    {
+     "id": "mama",
+     "x": 0.82
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.545,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama Bunny put the bell back on Mimi's pink collar."
+    },
+    {
+     "sfx": "bell",
+     "text": "Jingle!",
+     "dur": 1.0,
+     "pause": 0.5,
+     "who": "mimi"
+    },
+    {
+     "who": "mimi",
+     "text": "Now my collar sings again! But shh, it's sleepy time."
+    },
+    {
+     "who": "narrator",
+     "text": "Before bed, let's do a sleepy kitten stretch together."
+    },
+    {
+     "who": "mimi",
+     "text": "Can you stretch your arms up high, like a kitten?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Now a big, slow kitten yawn. Aaah.",
+     "pause": 1.5
+    },
+    {
+     "who": "mama",
+     "text": "Smell the flower. Breathe in.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Blow the candle. Breathe out.",
+     "pause": 1.8
+    },
+    {
+     "who": "ollie",
+     "text": "One more time. Breathe in, and breathe out.",
+     "pause": 2.2
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.4,
+     "scale": 0.45
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    },
+    {
+     "id": "mama",
+     "x": 0.82
+    },
+    {
+     "id": "ollie",
+     "x": 0.82,
+     "y": 0.545,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mimi curled up in her cosy bed, with her little bell safe and sound."
+    },
+    {
+     "who": "moon",
+     "text": "Goodnight, Mimi. Goodnight, Ollie. Goodnight, little friends."
+    },
+    {
+     "who": "ollie",
+     "text": "Who helped Mimi find her bell? Can you remember?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Her friends did! When you need help, you can ask a friend."
+    },
+    {
+     "who": "narrator",
+     "text": "Mama Bunny and Honey waved goodnight, and went home to bed too."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Goodnight, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  }
+ ]
+}

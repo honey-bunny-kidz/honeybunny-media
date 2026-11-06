@@ -246,7 +246,7 @@ def moon(eyes="closed", m=0, h=300):
     return finish(im, (int(h * W / H), h))
 
 
-def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420, costume=None):
+def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420, costume=None, bell=True):
     W, H = 900, 1000
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
@@ -290,7 +290,10 @@ def kitten(eyes="open", m=0, fur=(250, 236, 222), patch=(244, 170, 110), h=420, 
     mouth(d, 450, 520, 0.85, m)
     # pink collar with bell
     d.arc([300, 560, 600, 680], 20, 160, fill=(255, 105, 160, 255), width=26)
-    E(d, 450, 690, 26, 26, (255, 215, 80, 255), w=5)
+    if bell:
+        E(d, 450, 690, 26, 26, (255, 215, 80, 255), w=5)
+    else:  # empty little ring where the bell should be
+        d.ellipse([440, 668, 460, 690], outline=(255, 105, 160, 255), width=6)
     if costume == "star":   # sparkly headband with a little star
         d.arc([215, 150, 685, 520], 205, 335, fill=(255, 170, 210, 255), width=22)
         d.polygon(star_pts(450, 150, 62), fill=(255, 214, 70, 255), outline=OUT, width=6)
@@ -751,6 +754,25 @@ def basket(eyes="open", m=0, h=150):
     return finish(im, (int(h * W / H), h))
 
 
+def bell(eyes="open", m=0, h=150):
+    """Mimi's little golden collar bell with a pink bow (prop, no voice)."""
+    W, H = 420, 440
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    for s in (-1, 1):  # pink bow on top
+        d.polygon([(210, 70), (210 + s * 120, 15), (210 + s * 120, 125)], fill=(255, 120, 170, 255), outline=OUT, width=7)
+    E(d, 210, 70, 30, 28, (255, 150, 190, 255), w=6)
+    E(d, 210, 270, 165, 155, (255, 210, 70, 255), w=8)          # round bell
+    d.arc([70, 140, 350, 400], 200, 250, fill=(255, 245, 190, 255), width=18)  # shine
+    d.line([60, 285, 360, 285], fill=(220, 160, 40, 255), width=10)
+    d.ellipse([175, 320, 245, 380], fill=OUT)                    # slot
+    d.rectangle([200, 260, 220, 330], fill=OUT)
+    E(d, 120, 230, 18, 18, (255, 255, 240, 255), w=0)            # sparkle dot
+    return finish(im, (int(h * W / H), h))
+
+
+
+
 def slide(d, W, H, x, ground, s):
     """Little playground slide: ladder on the right, platform, wavy yellow chute down to the left.
     Platform top (where a friend can stand) is at y = ground - 0.26*s (fraction of H), centre x."""
@@ -813,6 +835,8 @@ CHARS = {
     "pillow_green": dict(fn=pillow, kw=dict(col=(130, 210, 120)), h=0.11),
     "snail": dict(fn=snail, kw=dict(), h=0.09),
     "basket": dict(fn=basket, kw=dict(), h=0.13),
+    "bell": dict(fn=bell, kw=dict(), h=0.08),
+    "mimi_nobell": dict(fn=kitten, kw=dict(bell=False), h=0.40),
 }
 
 
@@ -1530,6 +1554,87 @@ def background(kind, W, H):
             py = H * (ground + 0.035 + 0.02 * math.sin(k * 1.3))
             d.ellipse([px - H * 0.04, py - H * 0.014, px + H * 0.04, py + H * 0.014], fill=(225, 215, 195))
         flowers(d, W, H, ground * H, 50, 31)
+    elif kind == "mimi_room":
+        # Mimi Kitten's cosy cottage bedroom at night: mint wall with cream dots, square window with
+        # stars (Moon fits at x=0.74 y=0.36 scale 0.5 landscape / x=0.5 y=0.27 scale 0.55 vertical),
+        # a warm mushroom night-light, a yarn basket, a little star picture, and a big round wicker
+        # kitten bed with a pink cushion and blanket. The bed's front rim is a foreground layer, so
+        # Mimi sits IN it at x=0.36 y=0.80 landscape / x=0.5 y=0.70 vertical (scale 0.9).
+        land = W > H
+        im = grad(W, H, (150, 196, 186), (186, 222, 206))
+        d = ImageDraw.Draw(im)
+        for i in range(int(70 * W * H / (1920 * 1080))):
+            x, y = rnd.uniform(0, W), rnd.uniform(H * 0.03, H * (ground - 0.04))
+            r = H * 0.007
+            d.ellipse([x - r, y - r, x + r, y + r], fill=(214, 236, 222))
+        d.rectangle([0, H * ground, W, H], fill=(190, 140, 105))
+        for k in range(1, 6):
+            y = H * ground + (H - H * ground) * k / 6
+            d.line([0, y, W, y], fill=(172, 124, 92), width=3)
+        d.rectangle([0, H * ground - 10, W, H * ground + 6], fill=(246, 238, 226))
+        # square window with night sky
+        wx, wy = W * (0.74 if land else 0.5), H * (0.32 if land else 0.24)
+        ww, wh = W * (0.11 if land else 0.22), H * (0.2 if land else 0.11)
+        fr = (255, 248, 236)
+        d.rounded_rectangle([wx - ww - 18, wy - wh - 18, wx + ww + 18, wy + wh + 18], 22, fill=fr)
+        win = grad(int(2 * ww), int(2 * wh), (28, 32, 88), (96, 74, 150))
+        im.paste(win, (int(wx - ww), int(wy - wh)))
+        d = ImageDraw.Draw(im)
+        for _ in range(16):
+            stars.append((rnd.uniform(wx - ww * 0.9, wx + ww * 0.9), rnd.uniform(wy - wh * 0.9, wy + wh * 0.9), rnd.uniform(1.5, 3.5), rnd.uniform(0, 6.28)))
+        d.line([wx, wy - wh, wx, wy + wh], fill=fr, width=10)
+        d.line([wx - ww, wy, wx + ww, wy], fill=fr, width=10)
+        d.rectangle([wx - ww - 34, wy + wh + 12, wx + ww + 34, wy + wh + 36], fill=fr)
+        for s in (-1, 1):  # scalloped pink curtains
+            cx = wx + s * (ww + 30)
+            d.polygon([(cx - 36, wy - wh - 40), (cx + 36, wy - wh - 40), (cx + s * 20 + 26, wy + wh + 50), (cx + s * 20 - 26, wy + wh + 50)], fill=(255, 190, 210))
+        d.rectangle([wx - ww - 100, wy - wh - 52, wx + ww + 100, wy - wh - 38], fill=(200, 150, 120))
+        # star picture on the wall
+        px, py = W * (0.12 if land else 0.11), H * (0.3 if land else 0.47)
+        pr = H * (0.07 if land else 0.045)
+        d.rounded_rectangle([px - pr, py - pr, px + pr, py + pr], 12, fill=(255, 236, 200), outline=(200, 150, 120), width=10)
+        d.polygon(star_pts(px, py, pr * 0.6), fill=(255, 205, 80), outline=OUT, width=4)
+        # mushroom night-light with warm glow (right)
+        lx = W * (0.9 if land else 0.86)
+        ly = H * (ground - 0.06)
+        glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(glow).ellipse([lx - H * 0.17, ly - H * 0.17, lx + H * 0.17, ly + H * 0.15], fill=(255, 220, 150, 95))
+        im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(45)))
+        d = ImageDraw.Draw(im)
+        sr = H * (0.03 if land else 0.022)
+        d.rounded_rectangle([lx - sr * 0.45, ly, lx + sr * 0.45, H * ground], 8, fill=(255, 246, 226), outline=OUT, width=4)
+        d.pieslice([lx - sr * 1.4, ly - sr * 1.2, lx + sr * 1.4, ly + sr * 1.2], 180, 360, fill=(255, 150, 140), outline=OUT, width=4)
+        for dx, dy in ((-0.6, -0.5), (0.3, -0.8), (0.75, -0.35)):
+            d.ellipse([lx + dx * sr - 7, ly + dy * sr - 7, lx + dx * sr + 7, ly + dy * sr + 7], fill=(255, 250, 240))
+        # yarn basket (far left)
+        yx = W * (0.07 if land else 0.12)
+        yr = H * (0.045 if land else 0.03)
+        for k, col in enumerate(((150, 190, 250), (255, 170, 200), (255, 215, 110))):
+            ex = yx + (k - 1) * yr * 0.9
+            d.ellipse([ex - yr * 0.6, H * ground - yr * 2.0, ex + yr * 0.6, H * ground - yr * 0.8], fill=col, outline=OUT, width=4)
+        d.rounded_rectangle([yx - yr * 1.7, H * ground - yr * 1.25, yx + yr * 1.7, H * ground], 14, fill=(214, 160, 100), outline=OUT, width=5)
+        # soft round rug
+        d.ellipse([W * 0.1, H * (ground - 0.01), W * 0.9, H * (ground + (0.11 if land else 0.08))], fill=(255, 226, 232), outline=(240, 200, 210), width=6)
+        # round wicker kitten bed: back rim + cushion here, front rim in fg
+        bx = W * (0.36 if land else 0.5)
+        brx = W * (0.15 if land else 0.3)
+        bty = H * (ground - (0.15 if land else 0.09))
+        bby = H * (ground + 0.005)
+        d.ellipse([bx - brx, bty, bx + brx, bby], fill=(214, 160, 100), outline=OUT, width=6)
+        d.ellipse([bx - brx * 0.86, bty + (bby - bty) * 0.12, bx + brx * 0.86, bby - (bby - bty) * 0.2], fill=(255, 180, 205))
+        fg = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        fd = ImageDraw.Draw(fg)
+        rim_t = bty + (bby - bty) * 0.5
+        fd.chord([bx - brx, rim_t - (bby - rim_t), bx + brx, bby], 0, 180, fill=(214, 160, 100), outline=OUT, width=6)
+        for k in range(1, 4):  # wicker weave lines
+            yy = rim_t + (bby - rim_t) * k / 4
+            hw = brx * math.sqrt(max(0, 1 - ((yy - rim_t) / (bby - rim_t)) ** 2))
+            fd.line([bx - hw + 12, yy, bx + hw - 12, yy], fill=(186, 130, 78), width=5)
+        # little lavender blanket folded over the rim
+        fd.rounded_rectangle([bx - brx * 0.55, rim_t - H * 0.012, bx + brx * 0.25, rim_t + (bby - rim_t) * 0.55], 20, fill=(200, 180, 240), outline=OUT, width=5)
+        for k in range(4):
+            ex = bx - brx * 0.45 + k * brx * 0.2
+            fd.ellipse([ex - 8, rim_t + 4, ex + 8, rim_t + 20], fill=(255, 250, 255))
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)
