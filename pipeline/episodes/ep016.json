@@ -1,0 +1,721 @@
+{
+ "id": "ep016",
+ "title": "Pip Puppy's Big Leaf Pile",
+ "thumbnail": {
+  "text": "Ready, Set, JUMP!",
+  "badge": "Kids Story",
+  "bg": "autumn_park",
+  "cast": [
+   {
+    "id": "pip_leafy",
+    "mouth": 2,
+    "scale": 1.05
+   },
+   {
+    "id": "dotty",
+    "x": 0.66
+   },
+   {
+    "id": "honey",
+    "scale": 0.9,
+    "x": 0.86
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "title": "Pip Puppy's Big Leaf Pile",
+   "subtitle": "Kids Story  •  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Pip Puppy's Big Leaf Pile! Let's play in the autumn leaves!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "rake",
+     "x": 0.31
+    },
+    {
+     "id": "honey",
+     "x": 0.5
+    },
+    {
+     "id": "pip",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a cool, sunny autumn day. Mama Bunny took Honey and Pip to the park."
+    },
+    {
+     "who": "narrator",
+     "text": "Leaves were falling from the trees, one by one."
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Look! The leaves are dancing down!"
+    },
+    {
+     "who": "honey",
+     "text": "Swish, swish! Can you wiggle your fingers like falling leaves?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Wiggle, wiggle, down they go!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "sfx": "crunch",
+     "text": "Crunch, crunch!",
+     "dur": 1.6,
+     "pause": 0.5
+    },
+    {
+     "who": "pip",
+     "text": "What sound do the leaves make when I step on them?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Crunch, crunch! The leaves are dry and crunchy."
+    },
+    {
+     "who": "pip",
+     "text": "I have a big idea! Let's make the biggest leaf pile ever!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.22
+    },
+    {
+     "id": "rake",
+     "x": 0.33
+    },
+    {
+     "id": "pip",
+     "x": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "What a fun idea, Pip. A big job is easier when we do it together."
+    },
+    {
+     "who": "pip",
+     "text": "I can do it all by myself! I am super fast!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.38
+    },
+    {
+     "id": "leafpile",
+     "x": 0.64,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Pip pushed the leaves together, very fast. Swish, swish, swish!"
+    },
+    {
+     "who": "pip",
+     "text": "Look! My leaf pile!"
+    },
+    {
+     "who": "pip",
+     "sfx": "wind",
+     "text": "Whoooosh!",
+     "dur": 2.0,
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Oh! A puff of wind blew the little leaf pile away."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.4
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Hey! Come back, leaves! Hee hee!"
+    },
+    {
+     "who": "pip",
+     "text": "Hmm. Maybe a big leaf pile needs lots of helpers."
+    },
+    {
+     "who": "honey",
+     "text": "We can help you, Pip! Let's ask our friends."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "rake",
+     "x": 0.25
+    },
+    {
+     "id": "pip",
+     "x": 0.42
+    },
+    {
+     "id": "dotty",
+     "x": 0.62
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! Can we help too?"
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! I love autumn leaves!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's all work together. I will use the big rake, and you can carry the leaves."
+    },
+    {
+     "who": "pip",
+     "text": "Yay! Thank you, friends!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.24
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.42,
+     "y": 0.62,
+     "scale": 1.6
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.6,
+     "y": 0.62,
+     "scale": 1.6
+    },
+    {
+     "id": "dotty",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "I found a leaf! What colour is my leaf?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Red! A red leaf, like a shiny apple."
+    },
+    {
+     "who": "dotty",
+     "text": "My leaf is the colour of the sun. What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Yellow! A yellow leaf!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.24
+    },
+    {
+     "id": "leaf_orange",
+     "x": 0.42,
+     "y": 0.62,
+     "scale": 1.6
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.6,
+     "y": 0.62,
+     "scale": 1.6
+    },
+    {
+     "id": "pip",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "My leaf is orange, like a pumpkin."
+    },
+    {
+     "who": "pip",
+     "text": "And my leaf is brown, like a cosy tree trunk."
+    },
+    {
+     "who": "honey",
+     "text": "Red, yellow, orange and brown. Autumn is so colourful!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.16
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.32,
+     "y": 0.83
+    },
+    {
+     "id": "leaf_orange",
+     "x": 0.43,
+     "y": 0.8
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.54,
+     "y": 0.83
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.65,
+     "y": 0.8
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.76,
+     "y": 0.83
+    },
+    {
+     "id": "honey",
+     "x": 0.9,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Look at these leaves. How many can you count?",
+     "pause": 2.5
+    },
+    {
+     "who": "pip",
+     "text": "Let's count together. One, two, three, four, five!"
+    },
+    {
+     "who": "honey",
+     "text": "Five leaves! Into the pile they go!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "rake",
+     "x": 0.25
+    },
+    {
+     "id": "leafpile",
+     "x": 0.5,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.76
+    },
+    {
+     "id": "pip",
+     "x": 0.9,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama Bunny raked, and the friends carried leaves. The pile grew bigger and bigger. Let's sing the Leaf Pile Song!"
+    },
+    {
+     "who": "honey",
+     "text": "Crunch, crunch, leaves on the ground! Red and yellow, falling down!"
+    },
+    {
+     "who": "honey",
+     "text": "Rake them up, one, two, three! A big leaf pile for you and me!"
+    },
+    {
+     "who": "pip",
+     "text": "Stomp your feet! Crunch, crunch, crunch!",
+     "pause": 1.5
+    },
+    {
+     "who": "honey",
+     "text": "Crunch, crunch, leaves on the ground! Red and yellow, falling down!"
+    },
+    {
+     "who": "honey",
+     "text": "Rake them up, one, two, three! A big leaf pile for you and me!"
+    },
+    {
+     "who": "pip",
+     "text": "Twirl around like a leaf in the wind!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "leafpile",
+     "x": 0.48
+    },
+    {
+     "id": "dotty",
+     "x": 0.78
+    },
+    {
+     "id": "pip",
+     "x": 0.9,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Wow! Our leaf pile is so big!"
+    },
+    {
+     "who": "mama",
+     "text": "Before we jump, let's check. Only soft leaves, no sticks. And a grown-up is always close by."
+    },
+    {
+     "who": "pip",
+     "text": "Who should jump first? Hmm."
+    },
+    {
+     "who": "pip",
+     "text": "Dotty is the smallest. Dotty, you go first!"
+    },
+    {
+     "who": "dotty",
+     "text": "Thank you, Pip! Quack! Whee!"
+    },
+    {
+     "who": "dotty",
+     "sfx": "crunch",
+     "text": "Crunch!",
+     "dur": 1.0,
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "scale": 0.9
+    },
+    {
+     "id": "leafpile",
+     "x": 0.5
+    },
+    {
+     "id": "mama",
+     "x": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Lulu jumped, and Honey jumped. And then it was Pip's turn. One, two, three, jump!"
+    },
+    {
+     "who": "pip",
+     "sfx": "crunch",
+     "text": "Crunch!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Where did Pip go? Can you see him?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "leafpile",
+     "x": 0.5
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.5,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_leafy",
+     "text": "Here I am! Peekaboo!"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! You have leaves on your ears, Pip!"
+    },
+    {
+     "who": "lulu",
+     "text": "You look like a little leafy tree!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.4
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.6
+    },
+    {
+     "id": "lulu",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's be tall trees. Stand up and reach your arms up high.",
+     "pause": 1.6
+    },
+    {
+     "who": "mama",
+     "text": "Now sway in the wind, slow and gentle.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Let your leaves fall down, down, down.",
+     "pause": 1.5
+    },
+    {
+     "who": "mama",
+     "text": "Breathe in the cool autumn air.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, nice and slow.",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.16
+    },
+    {
+     "id": "rake",
+     "x": 0.27
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.45
+    },
+    {
+     "id": "dotty",
+     "x": 0.65
+    },
+    {
+     "id": "lulu",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_leafy",
+     "text": "Making the leaf pile was the most fun, because we did it together!"
+    },
+    {
+     "who": "mama",
+     "text": "That's right, Pip. When we work together, big jobs are easy and fun."
+    },
+    {
+     "who": "narrator",
+     "text": "Then they raked the leaves into a big pile again, so the next friends could play too."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.28
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "dotty",
+     "x": 0.7
+    },
+    {
+     "id": "lulu",
+     "x": 0.86,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Helping hands make the best leaf piles."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Bye-bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  }
+ ]
+}

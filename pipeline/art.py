@@ -407,6 +407,10 @@ def puppy(eyes="open", m=0, h=400, costume=None):
         d.chord([255, 70, 645, 400], 180, 360, fill=RED, outline=OUT, width=7)
         d.line([450, 78, 450, 230], fill=DARK, width=14)
         d.polygon(star_pts(450, 185, 52), fill=(255, 215, 80, 255), outline=OUT, width=5)
+    if costume == "leafy":  # popped out of the leaf pile: a few leaves stuck on head and ears
+        for (x, y, L, c, r) in ((330, 190, 150, "red", -0.5), (470, 165, 170, "yellow", 0.3), (590, 215, 140, "orange", 0.9),
+                                (190, 520, 120, "orange", -0.2), (710, 540, 120, "red", 0.4)):
+            _leaf(d, x, y, L, c, r)
     if costume == "captain":  # folded paper captain hat (pretend ship game) with a gold star
         d.polygon([(250, 250), (650, 250), (450, 28)], fill=(255, 255, 255, 255), outline=OUT, width=8)
         d.line([(300, 222), (450, 70), (600, 222)], fill=(225, 230, 240, 255), width=6)
@@ -798,6 +802,71 @@ def slide(d, W, H, x, ground, s):
     d.line(pts_top, fill=(240, 170, 50), width=int(8 * s) + 2)
 
 
+LEAF_COLS = {"red": ((235, 80, 70, 255), (190, 50, 50, 255)), "orange": ((255, 150, 50, 255), (220, 110, 30, 255)),
+             "yellow": ((255, 210, 70, 255), (220, 170, 40, 255)), "brown": ((185, 120, 75, 255), (140, 85, 50, 255))}
+
+
+def _leaf_pts(cx, cy, L, wdt, rot):
+    """Maple-ish rounded leaf outline (5 soft lobes) centred at cx, cy, length L, rotated rot rad."""
+    pts = []
+    for k in range(80):
+        a = k / 80 * 2 * math.pi
+        r = 1 + 0.22 * math.cos(5 * a) ** 2 * (1 if math.sin(a) < 0.6 else 0.3)
+        px, py = math.cos(a) * wdt * r, math.sin(a) * L * 0.5 * r
+        pts.append((cx + px * math.cos(rot) - py * math.sin(rot), cy + px * math.sin(rot) + py * math.cos(rot)))
+    return pts
+
+
+def _leaf(d, cx, cy, L, col, rot=0.0, ol=True):
+    fill, vein = LEAF_COLS[col]
+    d.polygon(_leaf_pts(cx, cy, L, L * 0.42, rot), fill=fill, outline=OUT if ol else None, width=max(2, int(L / 30)) if ol else 1)
+    ex, ey = math.sin(-rot) * L * 0.5, math.cos(rot) * L * 0.5
+    d.line([cx - ex * 0.8, cy - ey * 0.8, cx + ex * 1.15, cy + ey * 1.15], fill=vein, width=max(2, int(L / 22)))
+
+
+def leaf(eyes="open", m=0, h=150, col="red"):
+    """One big autumn leaf (prop, no voice) in red / orange / yellow / brown."""
+    W, H = 420, 520
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.line([210, 430, 225, 505], fill=OUT, width=16)
+    d.line([210, 430, 225, 505], fill=LEAF_COLS[col][1], width=8)
+    _leaf(d, 210, 240, 380, col, 0.0)
+    E(d, 150, 170, 26, 16, (255, 255, 255, 120), w=0)  # soft shine
+    return finish(im, (int(h * W / H), h))
+
+
+def leafpile(eyes="open", m=0, h=150):
+    """Big soft mound of colourful autumn leaves. Draw it AFTER a character in the cast list to put
+    that friend IN the pile (only the head peeks out)."""
+    W, H = 1100, 560
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.chord([20, 60, 1080, 1060], 180, 360, fill=(230, 140, 60, 255), outline=OUT, width=9)
+    d.rectangle([28, 545, 1072, 560], fill=(230, 140, 60, 255))
+    rnd = random.Random(11)
+    cols = ["red", "orange", "yellow", "brown", "orange", "yellow"]
+    for i in range(70):
+        a = rnd.uniform(math.pi * 1.04, math.pi * 1.96)
+        rr = rnd.uniform(0.25, 0.97)
+        cx, cy = 550 + math.cos(a) * 520 * rr, 560 + math.sin(a) * 490 * rr
+        _leaf(d, cx, cy, rnd.uniform(70, 110), cols[i % 6], rnd.uniform(0, 6.28))
+    return finish(im, (int(h * W / H), h))
+
+
+def rake(eyes="open", m=0, h=150):
+    """Grown-up's wooden leaf rake, standing up (prop). Mama does the raking."""
+    W, H = 300, 1000
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([135, 20, 165, 820], 14, fill=(200, 145, 95, 255), outline=OUT, width=6)
+    d.polygon([(150, 800), (20, 900), (280, 900)], fill=(120, 190, 120, 255), outline=OUT, width=6)
+    for k in range(7):
+        x = 30 + k * 40
+        d.rounded_rectangle([x - 7, 890, x + 7, 985], 6, fill=(120, 190, 120, 255), outline=OUT, width=4)
+    return finish(im, (int(h * W / H), h))
+
+
 CHARS = {
     "honey": dict(fn=bunny, kw=dict(), h=0.44),
     "mama": dict(fn=bunny, kw=dict(fur=(246, 228, 205), bow=False), h=0.54),
@@ -837,6 +906,13 @@ CHARS = {
     "basket": dict(fn=basket, kw=dict(), h=0.13),
     "bell": dict(fn=bell, kw=dict(), h=0.08),
     "mimi_nobell": dict(fn=kitten, kw=dict(bell=False), h=0.40),
+    "leaf_red": dict(fn=leaf, kw=dict(col="red"), h=0.10),
+    "leaf_orange": dict(fn=leaf, kw=dict(col="orange"), h=0.10),
+    "leaf_yellow": dict(fn=leaf, kw=dict(col="yellow"), h=0.10),
+    "leaf_brown": dict(fn=leaf, kw=dict(col="brown"), h=0.10),
+    "leafpile": dict(fn=leafpile, kw=dict(), h=0.20),
+    "rake": dict(fn=rake, kw=dict(), h=0.36),
+    "pip_leafy": dict(fn=puppy, kw=dict(costume="leafy"), h=0.40),
 }
 
 
@@ -1554,6 +1630,49 @@ def background(kind, W, H):
             py = H * (ground + 0.035 + 0.02 * math.sin(k * 1.3))
             d.ellipse([px - H * 0.04, py - H * 0.014, px + H * 0.04, py + H * 0.014], fill=(225, 215, 195))
         flowers(d, W, H, ground * H, 50, 31)
+    elif kind == "autumn_park":
+        # sunny autumn park: soft blue sky, three autumn trees, a curvy path, a green park bench (right),
+        # scattered fallen leaves on the grass. Add "leaves": true to a scene for gently falling leaves.
+        land = W > H
+        im = grad(W, H, (140, 200, 245), (255, 236, 205))
+        d = ImageDraw.Draw(im)
+        sx, sy, sr = W * (0.5 if land else 0.62), H * (0.12 if land else 0.09), min(W, H) * 0.065
+        d.ellipse([sx - sr * 1.4, sy - sr * 1.4, sx + sr * 1.4, sy + sr * 1.4], fill=(255, 238, 180))
+        d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=(255, 210, 95))
+        for cx, cy in ((0.15, 0.07), (0.72, 0.1)):
+            cloud(d, W * cx, H * cy, min(W, H) / 1100, (255, 252, 248))
+        hills(d, W, H, ground - 0.15, 0.07, (200, 205, 130), 21)
+        if land:
+            autumn_tree(d, W, H, W * 0.08, ground - 0.06, 1.0)
+            autumn_tree(d, W, H, W * 0.33, ground - 0.12, 0.55, ((255, 205, 80), (255, 170, 60), (240, 130, 60)))
+            autumn_tree(d, W, H, W * 0.93, ground - 0.07, 0.95, ((245, 110, 70), (255, 185, 70), (200, 120, 70)))
+        else:
+            autumn_tree(d, W, H, W * 0.1, ground - 0.07, 0.6, sw=1.5)
+            autumn_tree(d, W, H, W * 0.9, ground - 0.08, 0.65, ((245, 110, 70), (255, 185, 70), (200, 120, 70)), sw=1.6)
+        hills(d, W, H, ground - 0.03, 0.03, (150, 200, 110), 22)
+        d.rectangle([0, H * ground, W, H], fill=(140, 195, 100))
+        # curvy sandy path
+        pts_l, pts_r = [], []
+        for k in range(21):
+            tt = k / 20
+            yy = H * (ground - 0.03 + (1 - ground + 0.03) * tt)
+            xx = W * (0.5 + 0.12 * math.sin(tt * 3.0)) 
+            wdt = W * (0.03 + 0.11 * tt) if land else W * (0.05 + 0.2 * tt)
+            pts_l.append((xx - wdt, yy)); pts_r.append((xx + wdt, yy))
+        d.polygon(pts_l + pts_r[::-1], fill=(240, 220, 175))
+        # park bench (right, behind characters)
+        bx, by, bw = W * (0.78 if land else 0.8), H * (ground - 0.01), min(W, H) * 0.22
+        GREEN = (90, 160, 120)
+        for k in range(3):
+            d.rounded_rectangle([bx - bw / 2, by - bw * (0.55 - k * 0.09), bx + bw / 2, by - bw * (0.49 - k * 0.09)], 6, fill=GREEN)
+        d.rounded_rectangle([bx - bw / 2 - 6, by - bw * 0.25, bx + bw / 2 + 6, by - bw * 0.19], 6, fill=GREEN)
+        for lx in (bx - bw * 0.42, bx + bw * 0.42):
+            d.rectangle([lx - 6, by - bw * 0.25, lx + 6, by], fill=(80, 80, 95))
+        # fallen leaves scattered on the grass
+        for i in range(70 if land else 55):
+            lx = rnd.uniform(0, W)
+            ly = H * rnd.uniform(ground - 0.01, 0.995)
+            _leaf(d, lx, ly, H * rnd.uniform(0.018, 0.03), ["red", "orange", "yellow", "brown"][i % 4], rnd.uniform(0, 6.28), ol=False)
     elif kind == "mimi_room":
         # Mimi Kitten's cosy cottage bedroom at night: mint wall with cream dots, square window with
         # stars (Moon fits at x=0.74 y=0.36 scale 0.5 landscape / x=0.5 y=0.27 scale 0.55 vertical),

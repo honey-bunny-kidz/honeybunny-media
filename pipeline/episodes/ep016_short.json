@@ -1,0 +1,193 @@
+{
+ "id": "ep016_short",
+ "title": "Can You Count the Leaves with Pip Puppy?",
+ "thumbnail": {
+  "text": "How Many Leaves?",
+  "badge": "Kids Story",
+  "bg": "autumn_park",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2
+   },
+   {
+    "id": "leaf_red",
+    "scale": 2.4
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.27,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.73,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.2,
+     "y": 0.27
+    },
+    {
+     "id": "leaf_orange",
+     "x": 0.4,
+     "y": 0.21
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.6,
+     "y": 0.29
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.8,
+     "y": 0.22
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.5,
+     "y": 0.37
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Can you count the leaves? Woof!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Look up! Leaves are falling from the trees."
+    },
+    {
+     "who": "pip",
+     "text": "How many leaves can you see? Count them!",
+     "pause": 2.5
+    },
+    {
+     "who": "honey",
+     "text": "One, two, three, four, five!"
+    },
+    {
+     "who": "pip",
+     "text": "Five leaves! Five leaves for our leaf pile!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.18,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.6,
+     "scale": 0.75
+    },
+    {
+     "id": "leafpile",
+     "x": 0.6,
+     "scale": 0.95
+    },
+    {
+     "id": "rake",
+     "x": 0.92,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Our leaf pile is so big now. But wait. The leaves are wiggling!"
+    },
+    {
+     "who": "honey",
+     "sfx": "crunch",
+     "text": "Crunch, crunch!",
+     "dur": 1.4,
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Who is hiding in the leaf pile? Can you guess?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.18,
+     "scale": 0.8
+    },
+    {
+     "id": "leafpile",
+     "x": 0.6,
+     "scale": 0.95
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.6,
+     "scale": 0.8,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_leafy",
+     "text": "It's me, Pip! Peekaboo!"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! You have leaves on your ears, Pip!"
+    },
+    {
+     "who": "pip_leafy",
+     "text": "A big leaf pile is more fun with friends!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.27,
+     "scale": 0.8
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.73,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

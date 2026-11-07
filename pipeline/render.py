@@ -15,7 +15,7 @@ VOICES = {"narrator": ("af_heart", 0.84), "honey": ("af_sky", 0.92), "mama": ("a
           "honey_berry": ("af_sky", 0.92), "honey_pj": ("af_sky", 0.92), "pip_fire": ("am_puck", 0.92, 1.12),
           "mimi_star": ("af_sky", 0.90, 1.13), "honey_rain": ("af_sky", 0.92), "dotty_beads": ("af_nicole", 0.95),
           "pip_drip": ("am_puck", 0.92, 1.12), "pip_captain": ("am_puck", 0.92, 1.12),
-          "mimi_nobell": ("af_sky", 0.90, 1.13)}
+          "mimi_nobell": ("af_sky", 0.90, 1.13), "pip_leafy": ("am_puck", 0.92, 1.12)}
 
 
 def sentences(t):
@@ -175,6 +175,14 @@ def sfx(kind, dur=1.8):
                 w *= np.exp(-tt * 11) * (1 + 0.15 * np.sin(2 * np.pi * 9 * tt)) * 0.12
                 s0 = int((c0 + c1) * SR)
                 a[s0:s0 + L] += w[: max(0, min(L, n - s0))]
+    elif kind == "crunch":  # soft crunchy-leaf steps: short bursts of crackly filtered noise
+        a = np.zeros(n)
+        for c0 in np.arange(0.05, dur - 0.2, 0.42):
+            L = int(0.22 * SR); tt = np.arange(L) / SR
+            w = rng.standard_normal(L) * (rng.random(L) > 0.55)
+            w = np.convolve(w, np.ones(6) / 6, mode="same")
+            w *= np.exp(-tt * 18) * 0.5
+            s0 = int(c0 * SR); a[s0:s0 + L] += w[: max(0, min(L, n - s0))]
     else:
         raise ValueError(kind)
     fade = int(0.05 * SR)
@@ -351,6 +359,12 @@ def render(ep_path, out_path, vertical=False):
                 ry = ((i * 211.7) % H + t * sp) % (H * 1.1) - H * 0.05
                 dx = -H * 0.006
                 d.line([rx, ry, rx + dx, ry + H * 0.028], fill=(232, 240, 255), width=3)
+        if sc.get("leaves"):  # gently falling, swaying autumn leaves (behind the characters)
+            for i in range(14 if not vertical else 12):
+                lx = (i * 151.7) % W + math.sin(t * 1.3 + i) * W * 0.03
+                sp = H * (0.07 + (i % 5) * 0.015)
+                ly = ((i * 233.3) % H + t * sp) % (H * 0.9) - H * 0.05
+                art._leaf(d, lx, ly, H * 0.028, ["red", "orange", "yellow", "brown"][i % 4], t * 0.8 + i, ol=False)
         cur = next((c for c in sc["chunks"] if c["t0"] <= t < c["t1"]), None)
         for k, c in enumerate(sc.get("cast", [])):
             spr = cache_spr[(c["id"], c.get("scale", 1.0))]
