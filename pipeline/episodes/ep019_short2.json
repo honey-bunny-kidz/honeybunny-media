@@ -1,0 +1,167 @@
+{
+ "id": "ep019_short2",
+ "title": "Count to Ten with Pip Puppy",
+ "thumbnail": {
+  "text": "Count to 10!",
+  "badge": "Learn Counting",
+  "bg": "autumn_swings",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2
+   },
+   {
+    "id": "pip"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "lulu_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 9
+    },
+    {
+     "id": "pip",
+     "x": 0.87,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "How many pushes does Lulu get? Can you count to ten with me?",
+     "pause": 2.0
+    }
+   ],
+   "lead": 0.2
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "lulu_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 10
+    },
+    {
+     "id": "mama",
+     "x": 0.13,
+     "scale": 0.75
+    },
+    {
+     "id": "pip",
+     "x": 0.87,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "One. Two. Three.",
+     "pause": 0.8
+    },
+    {
+     "who": "pip",
+     "text": "Four. Five. Six.",
+     "pause": 0.8
+    },
+    {
+     "who": "lulu",
+     "text": "Wheee! Keep counting!"
+    },
+    {
+     "who": "pip",
+     "text": "Seven. Eight. Nine.",
+     "pause": 1.4
+    },
+    {
+     "who": "pip",
+     "text": "What comes after nine?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Ten! Hooray!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 0
+    },
+    {
+     "id": "lulu",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.78,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Ten pushes! Now it's your turn, Pip!"
+    },
+    {
+     "who": "pip",
+     "text": "Thank you, Lulu! Hold up ten fingers with me!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 10
+    },
+    {
+     "id": "lulu",
+     "x": 0.13,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Wheee! Counting and sharing are fun!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ],
+   "tail": 1.2
+  }
+ ]
+}

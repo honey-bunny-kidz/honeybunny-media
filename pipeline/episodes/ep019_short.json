@@ -1,0 +1,160 @@
+{
+ "id": "ep019_short",
+ "title": "Who Is This Leafy Friend?",
+ "thumbnail": {
+  "text": "Who's So Leafy?",
+  "badge": "Kids Story",
+  "bg": "autumn_swings",
+  "cast": [
+   {
+    "id": "pip_leafy",
+    "mouth": 2
+   },
+   {
+    "id": "honey",
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_leafy_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 5
+    },
+    {
+     "id": "honey",
+     "x": 0.13,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Who is this leafy friend on the swing? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Here's a clue. He has floppy ears and a waggy tail!",
+     "pause": 1.6
+    }
+   ],
+   "lead": 0.2
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 9
+    },
+    {
+     "id": "honey",
+     "x": 0.13,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "wind",
+     "text": "Whoosh!",
+     "sfx": "wind",
+     "dur": 1.2,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Woof! It's me, Pip Puppy!"
+    },
+    {
+     "who": "honey",
+     "text": "The wind blew the leaves away! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 0
+    },
+    {
+     "id": "pip",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "lulu",
+     "x": 0.78,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Pip, can I have a turn, please?"
+    },
+    {
+     "who": "pip",
+     "text": "Yes! We take turns. Ten pushes for you, Lulu!"
+    },
+    {
+     "who": "lulu",
+     "text": "Thank you, Pip! You are a good friend."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "lulu_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 9
+    },
+    {
+     "id": "pip",
+     "x": 0.13,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Wheee!"
+    },
+    {
+     "who": "pip",
+     "text": "Taking turns means everyone gets to play!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ],
+   "tail": 1.2
+  }
+ ]
+}

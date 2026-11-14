@@ -1,0 +1,264 @@
+{
+ "id": "ep020_short2",
+ "title": "Count the Sleepy Birds with Pip Puppy",
+ "thumbnail": {
+  "text": "How Many Birds?",
+  "badge": "Learn Counting",
+  "bg": "nest_tree",
+  "cast": [
+   {
+    "id": "birdie",
+    "mouth": 2,
+    "x": 0.5,
+    "y": 0.86,
+    "scale": 2.6
+   },
+   {
+    "id": "pip",
+    "x": 0.2,
+    "scale": 0.8
+   },
+   {
+    "id": "birdie_pink",
+    "x": 0.82,
+    "y": 0.8,
+    "scale": 2.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "nest_tree",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.39,
+     "y": 0.32,
+     "scale": 1.3
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 1.3
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.61,
+     "y": 0.32,
+     "scale": 1.3
+    },
+    {
+     "id": "nest",
+     "x": 0.5,
+     "y": 0.405,
+     "scale": 1.5
+    },
+    {
+     "id": "pip",
+     "x": 0.42,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.75,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie",
+     "sfx": "tweet",
+     "text": "Tweet, tweet!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "How many little birds are in the nest? Count with me!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.39,
+     "y": 0.32,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.61,
+     "y": 0.32,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "nest",
+     "x": 0.5,
+     "y": 0.405,
+     "scale": 1.5
+    },
+    {
+     "id": "pip",
+     "x": 0.42,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.75,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "One, two, three! Three little birds!"
+    },
+    {
+     "who": "honey",
+     "text": "What colour is the first bird? Like the sky!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Blue!"
+    },
+    {
+     "who": "pip",
+     "text": "And this one? Like a flower.",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Pink! And the last one is yellow, like the sun."
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.39,
+     "y": 0.32,
+     "scale": 1.3
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 1.3
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.61,
+     "y": 0.32,
+     "scale": 1.3
+    },
+    {
+     "id": "nest",
+     "x": 0.5,
+     "y": 0.405,
+     "scale": 1.5
+    },
+    {
+     "id": "pip",
+     "x": 0.42,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.75,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Birds fluff up their feathers to stay warm at night."
+    },
+    {
+     "who": "pip",
+     "text": "Can you fluff up like a bird? Puff, puff!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.39,
+     "y": 0.32,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.61,
+     "y": 0.32,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "nest",
+     "x": 0.5,
+     "y": 0.405,
+     "scale": 1.5
+    },
+    {
+     "id": "pip",
+     "x": 0.42,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.75,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Night night, three little birds. Shh!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

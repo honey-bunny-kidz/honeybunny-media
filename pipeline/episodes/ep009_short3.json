@@ -1,0 +1,97 @@
+{
+ "id": "ep009_short3",
+ "title": "The Dress-Up Parade Song",
+ "thumbnail": {
+  "text": "March With Honey!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "sunset",
+  "cast": [
+   {
+    "id": "honey_berry",
+    "mouth": 2
+   },
+   {
+    "id": "mimi_star",
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.3
+    },
+    {
+     "id": "mimi_star",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Can you march like me? Stand up, it's parade time!",
+     "pause": 1.2
+    },
+    {
+     "who": "honey",
+     "text": "March, march, round we go! Dress-up friends all in a row!",
+     "pause": 0.4
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "mimi_star",
+     "text": "Now reach up high, tall like a star. Twinkle your fingers!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.3
+    },
+    {
+     "id": "pip_fire",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_fire",
+     "text": "A strawberry, a fire pup, a twinkly star. Wave hello, wherever you are!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_fire",
+     "text": "Wave with me! Wave, wave!",
+     "pause": 1.8
+    },
+    {
+     "who": "honey",
+     "text": "Now twirl around, slowly, like a spinning top!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "And sit down, flop! Hee hee! Great parade!"
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

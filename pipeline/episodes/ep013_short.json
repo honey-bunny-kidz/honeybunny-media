@@ -1,0 +1,143 @@
+{
+ "id": "ep013_short",
+ "title": "Guess Who Says Baa?",
+ "thumbnail": {
+  "text": "Guess The Sound!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "meadow",
+  "cast": [
+   {
+    "id": "honey",
+    "mouth": 2,
+    "scale": 1.1
+   },
+   {
+    "id": "mimi"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "dusk_stage",
+   "lead": 0.2,
+   "tail": 0.3,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.5,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Guess who says baa?",
+     "pause": 0.3
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Baa!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Can you guess? Who says baa?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "lead": 0.2,
+   "tail": 0.3,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.5,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Here is a clue. Soft white wool, and floppy pink ears!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.28,
+     "scale": 1.0
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "glow": true,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It's Lulu Lamb!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Hello, Honey! Lambs say baa, and we love to bounce!"
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu Lamb says baa, baa, baa.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Bounce up high, then la, la, la!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Can you say baa with me? Then bounce, bounce, bounce!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Great baa-ing! Every friend has a special sound!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.28,
+     "scale": 1.0
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

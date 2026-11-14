@@ -1,0 +1,459 @@
+{
+ "id": "ep011",
+ "title": "Lulu Lamb's Sleepy Animal Stretches",
+ "thumbnail": {
+  "text": "Stretch Like Lulu!",
+  "badge": "Bedtime Story",
+  "bg": "stretch_room",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "scale": 1.15
+   },
+   {
+    "id": "mimi",
+    "scale": 0.95
+   },
+   {
+    "id": "honey_pj",
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "stretch_room",
+   "title": "Lulu Lamb's Sleepy Animal Stretches",
+   "subtitle": "A Bedtime Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Lulu Lamb's Sleepy Animal Stretches."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.62
+    },
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was almost bedtime. The moon peeked in the window, and the stars began to twinkle."
+    },
+    {
+     "who": "narrator",
+     "text": "But Honey Bunny was still hopping! Hop, hop, hop!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Mama, my legs are so wiggly! I can't stop hopping!"
+    },
+    {
+     "who": "mama",
+     "text": "You had a busy, happy day, little one. Now your body needs help to slow down."
+    },
+    {
+     "who": "mama",
+     "text": "What do you think helps a wiggly body feel calm? Hmm?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "A slow, sleepy stretch! And look who came to help."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Lulu Lamb and Mimi Kitten were visiting with their mamas, who were having tea in the kitchen."
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Hello, Honey! We know the best sleepy stretches!"
+    },
+    {
+     "who": "mimi",
+     "text": "Animal stretches! Meow! Do you want to try?"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Yes, please!"
+    },
+    {
+     "who": "lulu",
+     "text": "Everybody, find a soft mat. Pink, green, or blue. Which color mat would you pick?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "I pick the green one! I'm ready!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "First, the kitty stretch! Get on your hands and knees, like a kitty cat."
+    },
+    {
+     "who": "mimi",
+     "text": "Now push your back up high, like a round, round hill. Up, up, up."
+    },
+    {
+     "who": "mimi",
+     "text": "Then let your tummy sink down slowly, and look up at the stars."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Up like a hill, and down like a bowl! That feels nice!"
+    },
+    {
+     "who": "mimi",
+     "text": "Let's do it three times. One. Two. Three.",
+     "pause": 0.9
+    },
+    {
+     "who": "mimi",
+     "text": "Can you make a kitty sound? What does a kitten say?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Meow! Soft and sleepy. Meow."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5,
+     "glow": true
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "My turn! This one is called the sleepy sheep."
+    },
+    {
+     "who": "lulu",
+     "text": "Sit back on your heels, and curl up small, like a soft, woolly ball."
+    },
+    {
+     "who": "lulu",
+     "text": "Rest your head down. Now rock gently. Side to side. Side to side."
+    },
+    {
+     "who": "honey_pj",
+     "text": "I'm a tiny, fluffy cloud!"
+    },
+    {
+     "who": "lulu",
+     "text": "Can you curl up small, like a sleepy sheep? Let's try together.",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Baa. So cosy."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    },
+    {
+     "id": "ollie",
+     "x": 0.6,
+     "y": 0.545,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo-hoo!",
+     "dur": 1.8,
+     "pause": 0.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "Who says hoo-hoo, at the window? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "It's me, Ollie Owl! Good evening, friends! May I show you my owl stretch?"
+    },
+    {
+     "who": "ollie",
+     "text": "Open your arms wide, like big owl wings. Flap them slowly. Flap, and flap."
+    },
+    {
+     "who": "ollie",
+     "text": "Now turn your head gently. This way, and that way. Owls look all around."
+    },
+    {
+     "who": "mimi",
+     "text": "Slow wings make me feel so calm."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25,
+     "glow": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Now I have one! It's the bunny breath!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Bunnies sniff, sniff, sniff with their little noses. Then one long breath out. Ahh."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Let's do it together. Sniff, sniff, sniff. And blow out slowly. Ahh.",
+     "pause": 1.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "How many sniffs did we do? Can you count them?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Three sniffs! One, two, three!"
+    },
+    {
+     "who": "lulu",
+     "text": "My body feels soft and slow now."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    },
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The moon smiled down, and the friends sang a sleepy stretch song."
+    },
+    {
+     "who": "lulu",
+     "text": "Stretch up high, touch the sky. Wave hello to the moon so bright!"
+    },
+    {
+     "who": "mimi",
+     "text": "Kitty arch, and sheep curl small."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Owl wings flap, and that is all!"
+    },
+    {
+     "who": "lulu",
+     "text": "Can you reach up high with us? Stretch, stretch, stretch!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Stretch up high, touch the sky. Goodnight, goodnight, sleep tight!"
+    },
+    {
+     "who": "moon",
+     "text": "What a lovely, sleepy song. Goodnight, little stretchers."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "mama",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Lulu and Mimi waved goodbye, and went home with their mamas."
+    },
+    {
+     "who": "mama",
+     "text": "How does your body feel now, Honey?"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Not wiggly anymore. Just sleepy."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Which stretch did you like best? The kitty, the sheep, the owl, or the bunny?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "I liked them all!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's take one more bunny breath. Sniff, sniff, sniff. And ahh.",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    },
+    {
+     "id": "mama",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "And Honey Bunny drifted off to sleep, cosy and calm."
+    },
+    {
+     "who": "narrator",
+     "text": "When your body feels wiggly, try a sleepy animal stretch, and a slow, soft breath."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Goodnight, little one. Sweet dreams, and see you next time on Honey Bunny Kidz."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "id": "ep018_short",
+ "title": "Who Is This Fluffy Friend?",
+ "thumbnail": {
+  "text": "Guess Who's Floating?",
+  "badge": "Bedtime Story",
+  "bg": "night_garden",
+  "cast": [
+   {
+    "id": "cloudy",
+    "mouth": 2,
+    "scale": 1.0,
+    "x": 0.36,
+    "y": 0.78
+   },
+   {
+    "id": "ollie",
+    "scale": 0.85,
+    "x": 0.74
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "twilight_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "ollie",
+     "x": 0.84,
+     "y": 0.58,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo! Something is floating down. Who is it? Can you guess?",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu",
+     "text": "It's white and fluffy, like my wool!"
+    },
+    {
+     "who": "honey",
+     "text": "It's soft, and it's full of tiny raindrops."
+    },
+    {
+     "who": "ollie",
+     "text": "Is it a sheep? Is it a pillow? What do you think?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "ollie",
+     "x": 0.84,
+     "y": 0.58,
+     "scale": 0.55
+    },
+    {
+     "id": "cloudy",
+     "x": 0.5,
+     "y": 0.4,
+     "scale": 1.15,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "It's a little cloud!"
+    },
+    {
+     "who": "cloudy",
+     "text": "Hello! I'm Cloudy. Aaah. I'm a sleepy little cloud."
+    },
+    {
+     "who": "ollie",
+     "text": "Clouds are made of tiny drops of water. That's why Cloudy has raindrops!"
+    },
+    {
+     "who": "lulu",
+     "text": "Welcome, Cloudy! You can be our new friend."
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "ollie",
+     "x": 0.84,
+     "y": 0.58,
+     "scale": 0.55
+    },
+    {
+     "id": "cloudy",
+     "x": 0.5,
+     "y": 0.4,
+     "scale": 1.15
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

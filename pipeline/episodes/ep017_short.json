@@ -1,0 +1,136 @@
+{
+ "id": "ep017_short",
+ "title": "Guess Whose Toothbrush?",
+ "thumbnail": {
+  "text": "Whose Toothbrush?",
+  "badge": "Sing-Along Rhyme",
+  "bg": "bathroom",
+  "cast": [
+   {
+    "id": "mama",
+    "mouth": 2,
+    "x": 0.3,
+    "scale": 0.9
+   },
+   {
+    "id": "tb_lulu",
+    "scale": 2.6,
+    "x": 0.72
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bathroom",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.3
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.68,
+     "y": 0.6,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Whose toothbrush is this? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Here is a clue. It is lavender, with a fluffy white cloud.",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "One more clue! Her bow is lavender too, and she says baa!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.68,
+     "y": 0.6,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! It's mine! I'm Lulu Lamb!"
+    },
+    {
+     "who": "lulu",
+     "text": "Mama Bunny gave me my very own toothbrush, for sleepovers at Honey's house."
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu forgot her toothbrush at home, so this was a happy surprise!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.74,
+     "y": 0.695
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Let's brush together, slowly. Five little circles. Count with me!"
+    },
+    {
+     "who": "narrator",
+     "text": "One, two, three, four, five!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Now show me your sparkly smile!",
+     "pause": 1.5
+    },
+    {
+     "who": "lulu",
+     "text": "Thank you, Mama Bunny! Saying thank you makes everyone smile."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

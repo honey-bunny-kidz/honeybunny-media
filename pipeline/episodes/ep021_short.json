@@ -1,0 +1,223 @@
+{
+ "id": "ep021_short",
+ "title": "Guess Who's in the Bubbles?",
+ "thumbnail": {
+  "text": "Who's In The Bubbles?",
+  "badge": "Kids Story",
+  "bg": "bath_time",
+  "cast": [
+   {
+    "id": "pip_bubbly",
+    "mouth": 2,
+    "scale": 1.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bath_time",
+   "lead": 0.2,
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.775,
+     "scale": 0.62
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Guess who's hiding in the bubbles?",
+     "pause": 2.0
+    },
+    {
+     "who": "sfx",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.765,
+     "scale": 0.62
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Here's a clue. Two brown, floppy ears!",
+     "pause": 1.4
+    },
+    {
+     "who": "honey",
+     "text": "Another clue. Listen!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Woof, woof!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Who says woof? Can you guess?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "pip_bubbly",
+     "x": 0.5,
+     "y": 0.7,
+     "glow": true
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bubbly",
+     "text": "It's me, Pip Puppy!"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! Pip, you have a bubble crown!"
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "I am King Pip of Bubble Land!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "pip_bubbly",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.15,
+     "y": 0.22,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.85,
+     "y": 0.22,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.13,
+     "y": 0.36,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.87,
+     "y": 0.36,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.5,
+     "y": 0.17,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bubbly",
+     "text": "Big bubbles! Let's count and pop them. Ready?",
+     "pause": 1.4
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "One, two, three, four, five!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_bubbly",
+     "sfx": "pop",
+     "text": "Pop, pop, pop, pop, pop!",
+     "dur": 1.8,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_bubbly",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bubbly",
+     "text": "Bath time is bubbly fun! Woof!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

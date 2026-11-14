@@ -1,0 +1,87 @@
+{
+ "id": "ep009_short",
+ "title": "What Is Pip Dressed As?",
+ "thumbnail": {
+  "text": "Guess Pip's Costume!",
+  "badge": "Kids Story",
+  "bg": "playroom",
+  "cast": [
+   {
+    "id": "pip_fire",
+    "mouth": 2
+   },
+   {
+    "id": "honey_berry",
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "honey",
+     "text": "What is Pip dressed as? Let's guess!"
+    },
+    {
+     "who": "honey",
+     "text": "Clue number one. He has a big red helmet."
+    },
+    {
+     "who": "honey",
+     "text": "Clue number two. A yellow coat with shiny stripes."
+    },
+    {
+     "who": "honey",
+     "text": "Clue number three. He helps people stay safe."
+    },
+    {
+     "who": "honey",
+     "text": "Can you guess? What is Pip?",
+     "pause": 2.2
+    }
+   ]
+  },
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.27
+    },
+    {
+     "id": "pip_fire",
+     "x": 0.7,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_fire",
+     "text": "Woof! I'm a firefighter! A pretend one!"
+    },
+    {
+     "who": "honey",
+     "text": "Yay! Firefighters are brave helpers!"
+    },
+    {
+     "who": "pip_fire",
+     "text": "And I help my friends every day. Who helps you?",
+     "pause": 1.8
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

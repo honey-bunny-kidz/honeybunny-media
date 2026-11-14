@@ -1,0 +1,456 @@
+{
+ "id": "ep009",
+ "title": "Honey Bunny's Dress-Up Day Goodnight",
+ "thumbnail": {
+  "text": "Honey Dresses Up!",
+  "badge": "Bedtime Story",
+  "bg": "playroom",
+  "cast": [
+   {
+    "id": "honey_berry",
+    "mouth": 2,
+    "x": 0.6
+   },
+   {
+    "id": "pip_fire",
+    "x": 0.84,
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "playroom",
+   "title": "Honey Bunny's Dress-Up Day Goodnight",
+   "subtitle": "A Bedtime Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Honey Bunny's Dress-Up Day Goodnight!"
+    }
+   ]
+  },
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.33
+    },
+    {
+     "id": "mama",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Today was Dress-Up Day! Honey Bunny hopped into her playroom in her very own costume."
+    },
+    {
+     "who": "honey",
+     "text": "Mama, look at me! I am round, and I have little yellow seeds, and a green leafy hat!"
+    },
+    {
+     "who": "mama",
+     "text": "Oh my! You are a sweet little strawberry!"
+    },
+    {
+     "who": "honey",
+     "text": "What color is my strawberry costume? Can you tell me?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Red! Yes, it's red! Red like a juicy strawberry."
+    },
+    {
+     "who": "mama",
+     "text": "Your friends are coming over for a dress-up parade. I wonder what they will be?"
+    }
+   ]
+  },
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.3
+    },
+    {
+     "id": "mimi_star",
+     "x": 0.62,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Knock, knock!",
+     "dur": 1.0,
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "In came Mimi Kitten, all yellow and twinkly."
+    },
+    {
+     "who": "mimi_star",
+     "text": "Twinkle, twinkle! Hello, Honey! Can you guess what shape I am?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "You are a star! A big, bright star!"
+    },
+    {
+     "who": "mimi_star",
+     "text": "My star has pointy points. Let's count them together. Ready?",
+     "pause": 1.2
+    },
+    {
+     "who": "mimi_star",
+     "text": "One. Two. Three. Four. Five!",
+     "pause": 0.8
+    },
+    {
+     "who": "honey",
+     "text": "Five points! Mimi, you are the twinkliest star!"
+    }
+   ]
+  },
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.22
+    },
+    {
+     "id": "mimi_star",
+     "x": 0.45
+    },
+    {
+     "id": "pip_fire",
+     "x": 0.72,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Pip Puppy marched in, in a red helmet and a yellow coat with shiny stripes."
+    },
+    {
+     "who": "pip_fire",
+     "text": "Woof! Hello, friends! What am I dressed as? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_fire",
+     "text": "I am a firefighter! A pretend one."
+    },
+    {
+     "who": "mimi_star",
+     "text": "Firefighters are brave helpers. They help people stay safe."
+    },
+    {
+     "who": "pip_fire",
+     "text": "And today, I will help my friends! That's my job."
+    }
+   ]
+  },
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.25
+    },
+    {
+     "id": "pip_fire",
+     "x": 0.5
+    },
+    {
+     "id": "mimi_star",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Time for the dress-up parade! Everyone, round the rug we go!"
+    },
+    {
+     "who": "honey",
+     "text": "March, march, round we go! Dress-up friends all in a row!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_fire",
+     "text": "Can you march with us? Lift your knees up high. March, march!",
+     "pause": 2.2
+    },
+    {
+     "who": "mimi_star",
+     "text": "A strawberry, a fire pup, a twinkly star. Wave hello, wherever you are!",
+     "pause": 0.5
+    },
+    {
+     "who": "honey",
+     "text": "Now twirl around, slowly, like a spinning top. Can you twirl too?",
+     "pause": 2.2
+    },
+    {
+     "who": "sfx",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "pip_fire",
+     "x": 0.42
+    },
+    {
+     "id": "mimi_star",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "But then, wobble, wobble! Pip's big helmet slid down over his eyes."
+    },
+    {
+     "who": "pip_fire",
+     "text": "Oopsie! Everything is dark! I can't see my friends!"
+    },
+    {
+     "who": "mimi_star",
+     "text": "Don't worry, Pip. I can help! I'll push your helmet up, nice and gently."
+    },
+    {
+     "who": "pip_fire",
+     "text": "Peekaboo! I can see again! Thank you, Mimi. You helped the helper!"
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.25
+    },
+    {
+     "id": "pip_fire",
+     "x": 0.5
+    },
+    {
+     "id": "mimi_star",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Soon the sky turned pink. The sun was going down, and it was time to go home with their mamas."
+    },
+    {
+     "who": "pip_fire",
+     "text": "Bye bye, Honey! That was the best parade ever!"
+    },
+    {
+     "who": "mimi_star",
+     "text": "Goodnight, little strawberry! See you tomorrow!"
+    },
+    {
+     "who": "honey",
+     "text": "Bye bye, friends! Can you wave goodbye too? Wave, wave!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey_berry",
+     "x": 0.72
+    },
+    {
+     "id": "mama",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "After bath time, it was nearly bedtime. But Honey was still holding her strawberry costume."
+    },
+    {
+     "who": "honey",
+     "text": "Mama, can I sleep in my strawberry costume? I love being a strawberry."
+    },
+    {
+     "who": "mama",
+     "text": "Costumes are for playing, my sweet. For sleeping, we wear something soft and cosy."
+    },
+    {
+     "who": "mama",
+     "text": "What do we wear to bed? Do you know?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Pajamas!"
+    },
+    {
+     "who": "mama",
+     "text": "That's right! Your costume can rest on the chair, right next to you."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.72
+    },
+    {
+     "id": "mama",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Look, Mama! My soft blue pajamas have little white dots, like tiny stars!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's do our sleepy stretch. Reach up, up, up, tall like Mimi's star. Can you reach up high?",
+     "pause": 2.2
+    },
+    {
+     "who": "mama",
+     "text": "Now curl down small, round like a little strawberry.",
+     "pause": 2.2
+    },
+    {
+     "who": "mama",
+     "text": "And now, a slow breath. Breathe in, like smelling a sweet strawberry.",
+     "pause": 2.2
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, soft and slow. Ahhh.",
+     "pause": 2.4
+    },
+    {
+     "who": "honey",
+     "text": "I feel all floppy and sleepy now."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "mama",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama tucked Honey into her warm bed."
+    },
+    {
+     "who": "honey",
+     "text": "Goodnight, Pip the firefighter. Goodnight, Mimi the star. Goodnight, my strawberry."
+    },
+    {
+     "who": "honey",
+     "text": "If you had a dress-up day, what would you be? A star? A strawberry? Something new?",
+     "pause": 2.2
+    },
+    {
+     "who": "mama",
+     "text": "Goodnight, my little strawberry. I love you."
+    },
+    {
+     "who": "honey",
+     "text": "I love you too, Mama."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    },
+    {
+     "id": "mama",
+     "x": 0.76
+    }
+   ],
+   "tail": 1.5,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "And Honey Bunny drifted off to sleep, dreaming of marching, twirling, and twinkly stars."
+    },
+    {
+     "who": "narrator",
+     "text": "Now it's your turn, little one. Close your eyes, and have the sweetest dreams."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "title": "Sweet Dreams!",
+   "subtitle": "See you next time on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    }
+   ],
+   "tail": 4.0,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Goodnight!"
+    }
+   ]
+  }
+ ]
+}

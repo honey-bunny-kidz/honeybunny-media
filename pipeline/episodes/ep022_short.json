@@ -1,0 +1,186 @@
+{
+ "id": "ep022_short",
+ "title": "What Glows at Night? Guess with Pip Puppy",
+ "thumbnail": {
+  "text": "What Glows?",
+  "badge": "Bedtime Story",
+  "bg": "night_garden",
+  "cast": [
+   {
+    "id": "pip_pj",
+    "mouth": 2,
+    "x": 0.42,
+    "scale": 1.05
+   },
+   {
+    "id": "firefly",
+    "scale": 2.6,
+    "x": 0.82,
+    "y": 0.62
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sleepover_dark",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.5,
+     "scale": 0.95
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "What glows at night? Guess with me!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip_pj",
+     "text": "Clue one. It's big and round, way up in the sky. What is it?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 0.45,
+     "glow": true
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.5,
+     "scale": 0.95
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "The Moon!"
+    },
+    {
+     "who": "moon",
+     "text": "Hello, Pip! I glow all night long."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.4,
+     "scale": 0.95
+    }
+   ],
+   "fireflies": true,
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Clue two. Tiny lights that blink, blink, blink in the grass. What are they?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "fireflies": true,
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.4,
+     "scale": 0.95
+    },
+    {
+     "id": "firefly",
+     "x": 0.78,
+     "y": 0.5,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Fireflies! Their tails glow yellow!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.45,
+     "scale": 0.95
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.82,
+     "y": 0.66,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Clue three. It's a little star, right by my bed. What is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "sfx": "click",
+     "text": "Click!",
+     "dur": 0.6,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.45,
+     "scale": 0.95
+    },
+    {
+     "id": "nightlight",
+     "x": 0.82,
+     "y": 0.66,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "My night light! Now the dark is cosy."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_pj",
+     "text": "Woof! Goodnight, friends!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

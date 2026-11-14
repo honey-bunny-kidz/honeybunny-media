@@ -1,0 +1,103 @@
+{
+ "id": "ep010_short2",
+ "title": "Count the Raindrops with Dotty",
+ "thumbnail": {
+  "text": "Count Raindrops With Dotty!",
+  "badge": "Learn Counting",
+  "bg": "garden_pond",
+  "cast": [
+   {
+    "id": "dotty_beads",
+    "mouth": 2,
+    "x": 0.36,
+    "scale": 1.2
+   },
+   {
+    "id": "pip_drip",
+    "x": 0.74,
+    "scale": 0.8
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "garden_pond",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "dotty_beads",
+     "x": 0.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_beads",
+     "text": "How many raindrops are on my back? Let's count them! Ready?",
+     "pause": 1.2
+    },
+    {
+     "who": "dotty_beads",
+     "text": "One. Two. Three. Four. Five!",
+     "pause": 0.8
+    },
+    {
+     "who": "dotty_beads",
+     "text": "How many raindrops? Can you tell me?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_beads",
+     "text": "Five raindrops! Roll, roll, roll!"
+    }
+   ]
+  },
+  {
+   "bg": "garden_pond",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "pip_drip",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Look at Pip! Is Pip wet, or dry?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_drip",
+     "text": "Wet! So drippy!"
+    },
+    {
+     "who": "pip_drip",
+     "text": "Is Dotty wet, or dry?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Dry! Wet and dry are opposites!"
+    },
+    {
+     "who": "dotty",
+     "text": "What does a duck say? Say it with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! Great job!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

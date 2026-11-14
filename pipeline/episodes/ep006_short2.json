@@ -1,0 +1,158 @@
+{
+ "id": "ep006_short2",
+ "title": "Count the Ribbits!",
+ "thumbnail": {
+  "text": "Ollie Counts Ribbits!",
+  "badge": "Bedtime Story",
+  "bg": "night_garden",
+  "cast": [
+   {
+    "id": "frog",
+    "mouth": 2,
+    "scale": 1.7
+   },
+   {
+    "id": "ollie",
+    "scale": 0.85
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "frog",
+     "x": 0.75,
+     "y": 0.8,
+     "scale": 1.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "How many ribbits can you count?",
+     "pause": 0.3
+    },
+    {
+     "who": "frog",
+     "sfx": "frog",
+     "text": "Ribbit, ribbit, ribbit!",
+     "dur": 2.0,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.3
+    },
+    {
+     "id": "frog",
+     "x": 0.75,
+     "y": 0.8,
+     "scale": 1.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Let's count with the little frog. Ready?",
+     "pause": 0.5
+    },
+    {
+     "who": "ollie",
+     "text": "One.",
+     "pause": 0.7
+    },
+    {
+     "who": "ollie",
+     "text": "Two.",
+     "pause": 0.7
+    },
+    {
+     "who": "ollie",
+     "text": "Three!",
+     "pause": 0.8
+    },
+    {
+     "who": "ollie",
+     "text": "How many ribbits? Can you say it?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Three ribbits! Great counting!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "frog",
+     "x": 0.75,
+     "y": 0.8,
+     "scale": 1.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "honey",
+     "text": "What color is the little frog?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Green! A happy green frog!"
+    },
+    {
+     "who": "honey",
+     "text": "Now you say ribbit like the frog!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Ribbit! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "title": "Count the Ribbits!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.3
+    },
+    {
+     "id": "frog",
+     "x": 0.72,
+     "scale": 1.4
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

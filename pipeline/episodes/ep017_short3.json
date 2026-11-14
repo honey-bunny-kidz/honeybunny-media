@@ -1,0 +1,148 @@
+{
+ "id": "ep017_short3",
+ "title": "Bubble Beard",
+ "thumbnail": {
+  "text": "Bubble Beard!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "bathroom",
+  "cast": [
+   {
+    "id": "lulu_foam",
+    "mouth": 2,
+    "x": 0.6
+   },
+   {
+    "id": "honey_pj",
+    "x": 0.22
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bathroom",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu_foam",
+     "x": 0.74,
+     "y": 0.695
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Why does Lulu have a bubble beard? Hee hee!"
+    },
+    {
+     "who": "lulu_foam",
+     "text": "I brushed so fast! Brush, brush, brush. Done!"
+    },
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "brush",
+     "dur": 1.2
+    },
+    {
+     "who": "honey_pj",
+     "text": "Too fast, Lulu! Little bubbles went everywhere!"
+    },
+    {
+     "who": "lulu_foam",
+     "text": "Baa ha ha! Teeth like slow brushing. Let's sing our brushing song!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "tb_honey",
+     "x": 0.38,
+     "y": 0.65
+    },
+    {
+     "id": "lulu",
+     "x": 0.74,
+     "y": 0.695
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Hold up your finger like a toothbrush. Ready?",
+     "pause": 2.0
+    },
+    {
+     "who": "narrator",
+     "text": "Brush, brush, round and round!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Top teeth, bottom teeth, all around!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Little circles, soft and slow.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Sparkly smile, and off we go!",
+     "pause": 0.9
+    },
+    {
+     "who": "lulu",
+     "text": "Now open wide, like a big yawn. Ahhh!",
+     "pause": 2.0
+    },
+    {
+     "who": "narrator",
+     "text": "Back teeth, chewing teeth, way inside.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Open your mouth, and open wide!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "Show me your sparkly smile!",
+     "pause": 1.5
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

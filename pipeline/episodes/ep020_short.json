@@ -1,0 +1,188 @@
+{
+ "id": "ep020_short",
+ "title": "Where Does the Bunny Sleep?",
+ "thumbnail": {
+  "text": "Where's the Bunny?",
+  "badge": "Learn Animals",
+  "bg": "burrow_bank",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2,
+    "x": 0.3
+   },
+   {
+    "id": "wildbun",
+    "x": 0.74,
+    "scale": 1.1
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "burrow_bank",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "burrow_front",
+     "x": 0.4,
+     "y": 0.8,
+     "scale": 0.75
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Where does the bunny sleep? Up in a tree, or down in a hole? Point to it!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "burrow_bank",
+   "cast": [
+    {
+     "id": "wildbun",
+     "x": 0.4,
+     "y": 0.755,
+     "scale": 1.0,
+     "sleep": true,
+     "glow": true
+    },
+    {
+     "id": "burrow_front",
+     "x": 0.4,
+     "y": 0.8,
+     "scale": 0.75
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Down in the hole! Shh, a baby bunny is sleeping."
+    },
+    {
+     "who": "pip",
+     "text": "Bunnies sleep in a burrow, a cosy home under the ground."
+    }
+   ]
+  },
+  {
+   "bg": "owl_tree",
+   "cast": [
+    {
+     "id": "hole_rim",
+     "x": 0.35,
+     "y": 0.44,
+     "scale": 0.6
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Now, who sleeps in this tree hole? Guess!",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo, hoo!",
+     "dur": 1.5,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "owl_tree",
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.35,
+     "y": 0.405,
+     "scale": 0.45,
+     "glow": true
+    },
+    {
+     "id": "hole_rim",
+     "x": 0.35,
+     "y": 0.44,
+     "scale": 0.6
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "It's me, Ollie Owl! Good evening! I just woke up!"
+    },
+    {
+     "who": "pip",
+     "text": "Owls sleep in the day, and wake up at night!"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo hoo! Goodnight, Pip!"
+    }
+   ]
+  },
+  {
+   "bg": "owl_tree",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.35,
+     "y": 0.405,
+     "scale": 0.45
+    },
+    {
+     "id": "hole_rim",
+     "x": 0.35,
+     "y": 0.44,
+     "scale": 0.6
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

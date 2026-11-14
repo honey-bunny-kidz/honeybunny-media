@@ -1,0 +1,158 @@
+{
+ "id": "ep015_short2",
+ "title": "Guess the Night Sound with Ollie Owl",
+ "thumbnail": {
+  "text": "Chirp Or Ribbit?",
+  "badge": "Learn Animal Sounds",
+  "bg": "night_garden",
+  "cast": [
+   {
+    "id": "ollie",
+    "mouth": 2,
+    "scale": 1.05
+   },
+   {
+    "id": "frog",
+    "scale": 1.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "night_garden",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "ollie",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo! What sound is that? Listen!",
+     "pause": 0.3
+    },
+    {
+     "sfx": "cricket",
+     "text": "Chirp, chirp!",
+     "dur": 2.0,
+     "pause": 0.5
+    },
+    {
+     "who": "ollie",
+     "text": "Who says chirp, chirp? Can you guess?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "ollie",
+     "x": 0.8
+    },
+    {
+     "id": "cricket",
+     "x": 0.5,
+     "y": 0.69,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "A cricket! Crickets sing chirp, chirp at night."
+    },
+    {
+     "sfx": "frog",
+     "text": "Ribbit, ribbit!",
+     "dur": 2.0,
+     "pause": 0.5
+    },
+    {
+     "who": "ollie",
+     "text": "Who says ribbit? Say it with me! Ribbit!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "ollie",
+     "x": 0.8
+    },
+    {
+     "id": "frog",
+     "x": 0.5,
+     "y": 0.69,
+     "scale": 1.0,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "A little green frog! Frogs say ribbit."
+    },
+    {
+     "sfx": "owl",
+     "text": "Hoo, hoo!",
+     "dur": 1.6,
+     "pause": 0.5,
+     "who": "ollie"
+    },
+    {
+     "who": "ollie",
+     "text": "And who says hoo-hoo? It's me, Ollie Owl! Can you say hoo-hoo?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Hoo-hoo! Great listening, friends! Chirp, ribbit, hoo!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "ollie",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

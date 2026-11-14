@@ -1,0 +1,187 @@
+{
+ "id": "ep018_short3",
+ "title": "Pitter Patter! The Little Cloud Song",
+ "thumbnail": {
+  "text": "Pitter Patter!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "twilight_hill",
+  "cast": [
+   {
+    "id": "honey",
+    "mouth": 2,
+    "x": 0.3
+   },
+   {
+    "id": "cloudy_light",
+    "scale": 1.0,
+    "x": 0.73,
+    "y": 0.74
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "twilight_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "cloudy",
+     "x": 0.64,
+     "y": 0.42,
+     "scale": 1.1
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.63,
+     "y": 0.765,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Can you make rain with your fingers? Hold up your hands!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Wiggle, wiggle, wiggle! Pitter, patter! Let's sing with Cloudy!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "cloudy",
+     "x": 0.64,
+     "y": 0.42,
+     "scale": 1.1
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.63,
+     "y": 0.765,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "cloudy",
+     "text": "Pitter, patter, little rain."
+    },
+    {
+     "who": "cloudy",
+     "text": "Drink up, flowers, grow again!"
+    },
+    {
+     "who": "honey",
+     "text": "Puff up, Cloudy, light and high."
+    },
+    {
+     "who": "honey",
+     "text": "Float to sleep up in the sky!",
+     "pause": 1.0
+    },
+    {
+     "who": "honey",
+     "text": "Now stretch your arms up high, like a fluffy cloud!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.64,
+     "y": 0.42,
+     "scale": 1.1
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.63,
+     "y": 0.765,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "One more time, wiggle your fingers and sing!"
+    },
+    {
+     "who": "cloudy_light",
+     "text": "Pitter, patter, little rain. Drink up, flowers, grow again!"
+    },
+    {
+     "who": "honey",
+     "text": "Puff up, Cloudy, light and high. Float to sleep up in the sky!",
+     "pause": 0.6
+    },
+    {
+     "who": "cloudy_light",
+     "text": "Wheee! I feel as light as a feather!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.62,
+     "y": 0.3,
+     "scale": 0.6,
+     "sleep": true
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.63,
+     "y": 0.765,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Goodnight, Cloudy! Great singing, friends!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

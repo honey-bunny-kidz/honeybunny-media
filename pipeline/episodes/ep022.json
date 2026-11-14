@@ -1,0 +1,889 @@
+{
+ "id": "ep022",
+ "title": "Pip and the Night Light",
+ "thumbnail": {
+  "text": "Hello, Night Light!",
+  "badge": "Bedtime Story",
+  "bg": "sleepover_dark",
+  "cast": [
+   {
+    "id": "pip_pj",
+    "mouth": 2,
+    "x": 0.68,
+    "scale": 1.1
+   },
+   {
+    "id": "nightlight",
+    "scale": 2.4,
+    "x": 0.89,
+    "y": 0.99
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sleepover_room",
+   "lead": 0.2,
+   "banner": "Pip and the Night Light",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.3
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Psst! What glows at night? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Let's find out at our sleepover, Pip!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "My very first sleepover! Woof, woof!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_room",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Pajamas on. Teeth brushed. Time for bed, little ones."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Night night, lamp!"
+    },
+    {
+     "who": "mama",
+     "sfx": "click",
+     "text": "Click!",
+     "dur": 0.6,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Oh! It's very dark now."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Hmm. I'm not sure I like the dark."
+    },
+    {
+     "who": "mama",
+     "text": "That's okay, Pip. I'm right here. Let's look for the cosy lights of the night!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "shadow_bunny",
+     "x": 0.34,
+     "y": 0.66,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Ooh, look! A big shape on the wall, with long, long ears! Who could it be?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "It's me! It's my shadow! Wiggle, wiggle!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "shadow_puppy",
+     "x": 0.34,
+     "y": 0.66,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "My turn! Floppy ears and a waggy tail. Who is this shadow?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "It's Pip! Woof, woof!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Shadows are silly, not scary!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55,
+     "glow": true
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Pip, look out the window! Who is glowing up there?",
+     "pause": 2.0
+    },
+    {
+     "who": "moon",
+     "text": "Hello, Pip! I'm the Moon. I glow softly, all night long."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Hello, Moon! You look so cosy."
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "What shape am I tonight? Draw it in the air with your finger!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "A circle! Round and round and round!"
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.55,
+     "scale": 1.0
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.3,
+     "scale": 1.5,
+     "glow": true
+    },
+    {
+     "id": "star_pink",
+     "x": 0.3,
+     "y": 0.17,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Count my stars with me, Pip!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "One!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Two!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.55,
+     "scale": 1.0
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.3,
+     "scale": 1.5
+    },
+    {
+     "id": "star_pink",
+     "x": 0.3,
+     "y": 0.17,
+     "scale": 1.5
+    },
+    {
+     "id": "star_blue",
+     "x": 0.7,
+     "y": 0.17,
+     "scale": 1.5,
+     "glow": true
+    },
+    {
+     "id": "star_friend",
+     "x": 0.87,
+     "y": 0.3,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Three!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Four!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.55,
+     "scale": 1.0
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.3,
+     "scale": 1.5
+    },
+    {
+     "id": "star_pink",
+     "x": 0.3,
+     "y": 0.17,
+     "scale": 1.5
+    },
+    {
+     "id": "star_blue",
+     "x": 0.7,
+     "y": 0.17,
+     "scale": 1.5
+    },
+    {
+     "id": "star_friend",
+     "x": 0.87,
+     "y": 0.3,
+     "scale": 1.5
+    },
+    {
+     "id": "star_pink",
+     "x": 0.5,
+     "y": 0.2,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "And one more, way up high! How many stars are there now?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Five! Five twinkly stars!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Let's make twinkle fingers, like stars! Open, close, open, close!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Twinkle, twinkle! My paws are little stars!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo... hoo...",
+     "dur": 1.8,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "What was that? Who says hoo-hoo at night?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Let's peek outside together. Stay close to me."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.15
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.47
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495,
+     "scale": 0.8,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Good evening, Pip! It's me, Ollie Owl!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Ollie! You're awake?"
+    },
+    {
+     "who": "ollie",
+     "text": "Owls are awake at night. We sleep in the day!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "fireflies": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.15
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.47
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495,
+     "scale": 0.8
+    },
+    {
+     "id": "firefly",
+     "x": 0.8,
+     "y": 0.72,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Look! Little lights are blinking in the grass. Blink, blink!"
+    },
+    {
+     "who": "ollie",
+     "text": "Those are fireflies! Their tails glow. What colour is their light?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Yellow! A soft yellow glow!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.42
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495,
+     "scale": 0.8
+    },
+    {
+     "id": "mama",
+     "x": 0.15
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.28
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Can I tell you a secret, Pip? The big, bright day is too sunny for my sleepy eyes!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Really? You feel a little unsure too?"
+    },
+    {
+     "who": "ollie",
+     "text": "Yes! So I snuggle in my cosy tree, and then I feel brave."
+    },
+    {
+     "who": "pip_pj",
+     "text": "I can find my cosy too! Thank you, Ollie!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.3
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.66
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "I have a little something for you, Pip. A star night light, all your own."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Can I turn it on? Ready? Count with me. One, two, three!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "sfx": "click",
+     "text": "Click!",
+     "dur": 0.6,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.3
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.66
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Wow! My star is glowing! The dark feels soft and cosy now."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Now you have a little star inside, and a big moon outside!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "I made a Night Light Song! Sing it with me!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Glow, glow, little night light. Soft and yellow, warm and bright."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Moon is round, and stars say hi. Fireflies blink, and owls fly by."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Glow, glow, little night light. Cosy, cosy, sleepy night.",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.32,
+     "y": 0.91
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.32,
+     "y": 0.95,
+     "scale": 1.5
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's do sleepy puppy breaths. Breathe in slowly, like smelling a warm cookie.",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, like blowing a dandelion. Whoosh.",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Stretch your arms up, like a star. Now curl up small, like a sleepy puppy.",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Yawn. I'm a sleepy puppy."
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.32,
+     "y": 0.91
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.32,
+     "y": 0.95,
+     "scale": 1.5
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Goodnight, Moon. Goodnight, Ollie. Goodnight, little night light."
+    },
+    {
+     "who": "moon",
+     "text": "Goodnight, Pip. I'll glow all night long."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Can you whisper goodnight too?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.32
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "One more time! Make twinkle fingers and sing! Glow, glow, little night light. Cosy, cosy, sleepy night.",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy has a chilly day, and a big, big achoo!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_pj",
+     "text": "Woof! Goodnight, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "id": "ep018_short2",
+ "title": "Count the Thirsty Flowers with Lulu Lamb",
+ "thumbnail": {
+  "text": "How Many Flowers?",
+  "badge": "Learn Colors",
+  "bg": "twilight_hill",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "scale": 1.0,
+    "x": 0.27
+   },
+   {
+    "id": "flowers_happy",
+    "scale": 1.1,
+    "x": 0.72
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "twilight_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.63,
+     "y": 0.765,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "How many flowers are in Honey's garden? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "One, two, three! Three flowers."
+    },
+    {
+     "who": "lulu",
+     "text": "But they look droopy. They are thirsty!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.63,
+     "y": 0.765,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "The first flower is red. Can you say red?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "What color is the next flower?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Yellow! And what color is the last one?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Blue! Red, yellow, blue."
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "rain": true,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "cloudy",
+     "x": 0.64,
+     "y": 0.42,
+     "scale": 1.1
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.63,
+     "y": 0.765,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "cloudy",
+     "text": "I can share my rain! Pitter, patter."
+    },
+    {
+     "sfx": "rain",
+     "text": "Pitter, patter, pitter, patter.",
+     "dur": 2.2,
+     "pause": 0.5,
+     "who": "cloudy"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.64,
+     "y": 0.42,
+     "scale": 1.1
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.63,
+     "y": 0.765,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Look! Three happy flowers, standing up tall. Thank you, Cloudy!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

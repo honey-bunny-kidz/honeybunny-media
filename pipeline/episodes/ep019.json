@@ -1,0 +1,828 @@
+{
+ "id": "ep019",
+ "title": "Pip Puppy Takes Turns on the Swing",
+ "thumbnail": {
+  "text": "Whose Turn Next?",
+  "badge": "Kids Story",
+  "bg": "autumn_swings",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2,
+    "x": 0.5
+   },
+   {
+    "id": "lulu",
+    "x": 0.72
+   },
+   {
+    "id": "dotty",
+    "scale": 0.85,
+    "x": 0.89
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 13
+    },
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Wheee! Higher, higher! Can you swing your arms like me?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Pip! Can I have a turn, please?"
+    },
+    {
+     "who": "pip",
+     "text": "Not yet! I want to swing all day long!"
+    }
+   ],
+   "lead": 0.2,
+   "banner": "Pip Puppy Takes Turns on the Swing"
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 6
+    },
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "But there is only one swing. And I want a turn too."
+    },
+    {
+     "who": "honey",
+     "text": "Me too!"
+    },
+    {
+     "who": "dotty",
+     "text": "Me three! Quack!"
+    },
+    {
+     "who": "pip",
+     "text": "One swing, and lots of friends. How many friends are waiting? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "One, two, three friends!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 4
+    },
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "I can swing all by myself! Kick, kick, kick!"
+    },
+    {
+     "who": "wind",
+     "text": "Whoosh!",
+     "sfx": "wind",
+     "dur": 1.4,
+     "pause": 0.4
+    },
+    {
+     "who": "dotty",
+     "text": "Look! The wind blew leaves all over Pip!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_leafy_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 3
+    },
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Pfft, pfft! Tickly leaves! Who am I?"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! You're a leaf puppy!"
+    },
+    {
+     "who": "lulu",
+     "text": "A leaf puppy on a swing! Ha ha!"
+    },
+    {
+     "who": "pip",
+     "text": "Hee hee. I'm a silly leaf puppy!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip",
+     "x": 0.37
+    },
+    {
+     "id": "honey",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.85
+    },
+    {
+     "id": "dotty",
+     "x": 0.94,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Pip, swinging is fun. And sharing is kind. Let's take turns!"
+    },
+    {
+     "who": "pip",
+     "text": "Turns? But what if I never get another go?"
+    },
+    {
+     "who": "mama",
+     "text": "You will! Each friend gets ten pushes. Then the next friend has a turn. And then you again!"
+    },
+    {
+     "who": "mama",
+     "text": "While we wait, we stand back here, away from the swing. That keeps everyone safe."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "lulu_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 11
+    },
+    {
+     "id": "mama",
+     "x": 0.29
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.85
+    },
+    {
+     "id": "dotty",
+     "x": 0.94,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Wheee! My turn first! Thank you, Pip!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's count Lulu's pushes. Can you count to ten with us?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "One, two, three, four, five."
+    },
+    {
+     "who": "honey",
+     "text": "Six, seven, eight, nine, ten!"
+    },
+    {
+     "who": "lulu",
+     "text": "Ten! That was so much fun!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.33
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.88,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Waiting is so, so long. What can I do while I wait?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "We can play a leaf game!"
+    },
+    {
+     "who": "pip",
+     "text": "A leaf game? Yes, please!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.33
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.88,
+     "scale": 0.85
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.62,
+     "y": 0.62,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Look at this leaf. What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Red! Like an apple!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.33
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.88,
+     "scale": 0.85
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.6,
+     "y": 0.6,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.95,
+     "y": 0.55,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "And this one? What colour is my leaf?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Yellow, just like me! Quack!"
+    },
+    {
+     "who": "pip",
+     "text": "And this leaf is brown, like my floppy ears!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "honey_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 11
+    },
+    {
+     "id": "mama",
+     "x": 0.29
+    },
+    {
+     "id": "lulu",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "pip",
+     "x": 0.85
+    },
+    {
+     "id": "dotty",
+     "x": 0.94,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "My turn now! Wheee!"
+    },
+    {
+     "who": "mama",
+     "text": "Is Honey going up high, or down low?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Up high! And down low! Up and down!"
+    },
+    {
+     "who": "pip",
+     "text": "Eight, nine, ten! Honey, your turn is done!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.37,
+     "scale": 0.9
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.85
+    },
+    {
+     "id": "lulu",
+     "x": 0.94,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Now it's my turn! I'm next!"
+    },
+    {
+     "who": "dotty",
+     "text": "Oh. I'm so small. I've never been on a swing."
+    },
+    {
+     "who": "pip",
+     "text": "Hmm. Dotty waited too. Dotty, you go first! I'll cheer for you!"
+    },
+    {
+     "who": "mama",
+     "text": "Pip, that is so kind!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "dotty_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 7
+    },
+    {
+     "id": "mama",
+     "x": 0.29
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.85
+    },
+    {
+     "id": "lulu",
+     "x": 0.94,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack, quack, wheee! I'm swinging!"
+    },
+    {
+     "who": "pip",
+     "text": "Go, Dotty, go! Can you clap for Dotty with me?",
+     "pause": 2.0
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Cheering for friends is fun too!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 13
+    },
+    {
+     "id": "mama",
+     "x": 0.29
+    },
+    {
+     "id": "dotty",
+     "x": 0.735,
+     "scale": 0.85
+    },
+    {
+     "id": "honey",
+     "x": 0.85,
+     "flip": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.94,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "My turn again! Wheee!"
+    },
+    {
+     "who": "pip",
+     "text": "And it feels even better, because I waited!"
+    },
+    {
+     "who": "lulu",
+     "text": "You waited so well, Pip!"
+    },
+    {
+     "who": "honey",
+     "text": "Now everyone gets to play!"
+    }
+   ],
+   "rainbow": true
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 9
+    },
+    {
+     "id": "honey",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.3,
+     "flip": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.86,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Let's sing our turn-taking song! Clap along!"
+    },
+    {
+     "who": "pip",
+     "text": "My turn, your turn, that's the way we play!"
+    },
+    {
+     "who": "lulu",
+     "text": "Count to ten, then it's you. Hip, hip, hooray!"
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Wait a little, swing a little, up and down we go!"
+    },
+    {
+     "who": "dotty",
+     "text": "Sharing with my friends makes me happy so!"
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 9
+    },
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.3,
+     "flip": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.86,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Taking turns means everyone gets to play."
+    },
+    {
+     "who": "pip",
+     "text": "Can you say it with me? My turn, your turn!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Let's take a big swing breath. Breathe in, up high. And breathe out, down low.",
+     "pause": 1.5
+    },
+    {
+     "who": "lulu",
+     "text": "Ahhh. So calm."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 13
+    },
+    {
+     "id": "honey",
+     "x": 0.14
+    },
+    {
+     "id": "lulu",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "One more time! Swing your arms and sing! My turn, your turn, that's the way we play!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy finds out where animals sleep!"
+    },
+    {
+     "who": "pip",
+     "text": "Woof woof! Bye-bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ],
+   "tail": 1.5
+  }
+ ]
+}

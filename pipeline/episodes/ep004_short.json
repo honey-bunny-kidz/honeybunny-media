@@ -1,0 +1,169 @@
+{
+ "id": "ep004_short",
+ "title": "Wiggle Like Pip Puppy",
+ "thumbnail": {
+  "text": "Wag Like Pip!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "garden",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2,
+    "scale": 1.05,
+    "flip": true
+   },
+   {
+    "id": "mimi",
+    "scale": 0.95
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "meadow",
+   "title": "Can You Wiggle?",
+   "subtitle": "with Pip Puppy",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Woof woof! I'm Pip! Can you wiggle like me?"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Pip the Puppy wags his tail.",
+     "pause": 0.3
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, without fail!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip",
+     "text": "Wiggle your hips from side to side!"
+    }
+   ]
+  },
+  {
+   "bg": "day",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny hops so high.",
+     "pause": 0.3
+    },
+    {
+     "who": "narrator",
+     "text": "Hop, hop, hop, up to the sky!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "garden",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.72
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Dotty waddles, quack, quack, quack!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Mimi tiptoes there and back!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "pip",
+     "x": 0.72
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "title": "Wiggle Waggle!",
+   "subtitle": "Full song on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "pip",
+     "x": 0.72
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

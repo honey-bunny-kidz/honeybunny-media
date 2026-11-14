@@ -1,0 +1,404 @@
+{
+ "id": "ep003",
+ "title": "Lulu Lamb's First Sleepover",
+ "thumbnail": {
+  "text": "First Sleepover!",
+  "badge": "Bedtime Story",
+  "bg": "sunset",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2
+   },
+   {
+    "id": "honey"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sunset",
+   "title": "Lulu Lamb's First Sleepover",
+   "subtitle": "A Bedtime Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Lulu Lamb's First Sleepover!"
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.33
+    },
+    {
+     "id": "lulu",
+     "x": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The sun was going down. The sky was pink and purple and orange."
+    },
+    {
+     "who": "narrator",
+     "text": "Honey Bunny was playing with her new friend, a fluffy little lamb named Lulu."
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu had soft white wool, floppy pink ears, and a pretty purple bow."
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Honey, tonight is my very first sleepover!"
+    },
+    {
+     "who": "honey",
+     "text": "Yay! You can stay at my house, under the big oak tree!"
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu's mama gave her a big hug and said she would come back in the morning."
+    },
+    {
+     "who": "lulu",
+     "text": "Bye bye, Mama. See you in the morning!"
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.52
+    },
+    {
+     "id": "mama",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Mama Bunny came out with a warm, happy smile."
+    },
+    {
+     "who": "mama",
+     "text": "Hello, Lulu! Welcome! Come inside, little ones. It is almost bedtime."
+    },
+    {
+     "who": "honey",
+     "text": "Come on, Lulu! Let's brush our teeth and put on our pajamas."
+    },
+    {
+     "who": "lulu",
+     "text": "Okay! Brush, brush, brush!"
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "lulu",
+     "x": 0.47,
+     "y": 0.865,
+     "scale": 0.92
+    },
+    {
+     "id": "mama",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Soon, Honey and Lulu were tucked into the cozy bed. The night light glowed soft and yellow."
+    },
+    {
+     "who": "narrator",
+     "text": "Honey closed her eyes. But Lulu did not. Lulu held her blanket tight."
+    },
+    {
+     "who": "lulu",
+     "text": "Honey, I feel a little bit shy. This is not my bed. And I miss my mama."
+    },
+    {
+     "who": "honey",
+     "text": "That's okay, Lulu. I feel shy sometimes too."
+    },
+    {
+     "who": "mama",
+     "text": "When I feel a little shy at night, I play a special game. It is called the thank you game."
+    },
+    {
+     "who": "lulu",
+     "text": "The thank you game? How do we play?"
+    },
+    {
+     "who": "mama",
+     "text": "We think of happy things from our day. And we say thank you for each one. Let's count them together!"
+    }
+   ]
+  },
+  {
+   "bg": "garden_pond",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.4
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "y": 0.82
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "I'll go first! Number one."
+    },
+    {
+     "who": "narrator",
+     "text": "Honey remembered the morning, by the sparkly blue pond."
+    },
+    {
+     "who": "honey",
+     "text": "Thank you, Dotty Duckling, for the fun splashing game!"
+    },
+    {
+     "who": "dotty",
+     "text": "Quack quack! Splish, splash!"
+    },
+    {
+     "who": "lulu",
+     "text": "That was so much fun! Thank you, Dotty!"
+    }
+   ]
+  },
+  {
+   "bg": "porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.4
+    },
+    {
+     "id": "mimi",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Now me! Number two."
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu remembered lunchtime, at Mimi Kitten's little cottage."
+    },
+    {
+     "who": "lulu",
+     "text": "Thank you, Mimi Kitten, for sharing your yummy apple slices!"
+    },
+    {
+     "who": "mimi",
+     "text": "Meow! You are welcome, Lulu. Sharing is fun!"
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.33
+    },
+    {
+     "id": "lulu",
+     "x": 0.58
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Number three! Thank you, big orange sun, for a warm and happy day."
+    },
+    {
+     "who": "lulu",
+     "text": "Number four! Thank you, Honey, for being my friend."
+    },
+    {
+     "who": "honey",
+     "text": "Aww. Thank you, Lulu! I am so happy you are here."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "lulu",
+     "x": 0.47,
+     "y": 0.865,
+     "scale": 0.92
+    },
+    {
+     "id": "mama",
+     "x": 0.8
+    },
+    {
+     "id": "moon",
+     "x": 0.78,
+     "y": 0.38,
+     "scale": 0.6,
+     "sleep": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Back in the cozy bed, Lulu smiled a big, sleepy smile. She did not feel shy anymore."
+    },
+    {
+     "who": "lulu",
+     "text": "Number five! Thank you, Mama Bunny, for the warm bed and the snuggly blanket."
+    },
+    {
+     "who": "mama",
+     "text": "You are very welcome, sweet Lulu."
+    },
+    {
+     "who": "narrator",
+     "text": "Just then, the big round moon peeked in through the window."
+    },
+    {
+     "who": "moon",
+     "text": "Hello, little ones. I heard you saying thank you. That is a very kind thing to do."
+    },
+    {
+     "who": "honey",
+     "text": "Thank you, Moon, for your soft, gentle light!"
+    },
+    {
+     "who": "moon",
+     "text": "Goodnight, Honey. Goodnight, Lulu. Sweet dreams."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.47,
+     "y": 0.865,
+     "scale": 0.92,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.78,
+     "y": 0.38,
+     "scale": 0.6,
+     "sleep": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Let's count all the thank yous together. One, two, three, four, five.",
+     "pause": 1.0
+    },
+    {
+     "who": "narrator",
+     "text": "Honey yawned a little yawn. Lulu yawned a little yawn too."
+    },
+    {
+     "who": "lulu",
+     "text": "Goodnight, Honey."
+    },
+    {
+     "who": "honey",
+     "text": "Goodnight, Lulu."
+    },
+    {
+     "who": "narrator",
+     "text": "And with happy hearts, full of thank yous, the two little friends fell fast asleep.",
+     "pause": 1.2
+    },
+    {
+     "who": "narrator",
+     "text": "When you go to bed tonight, what will you say thank you for?",
+     "pause": 1.6
+    }
+   ],
+   "tail": 1.5
+  },
+  {
+   "bg": "night",
+   "title": "Goodnight!",
+   "subtitle": "Thank you for watching Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.4
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    }
+   ],
+   "lead": 0.6,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Goodnight, little friends. Sweet dreams!"
+    }
+   ],
+   "tail": 2.5
+  }
+ ]
+}

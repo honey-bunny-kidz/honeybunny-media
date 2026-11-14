@@ -1,0 +1,1641 @@
+[
+ {
+  "id": "ep001",
+  "date": "2026-10-23",
+  "type": "bedtime story",
+  "title": "Honey Bunny Can't Sleep",
+  "short": "Ollie Owl's Sleepy Secret",
+  "characters": [
+   "honey",
+   "mama",
+   "dotty",
+   "ollie",
+   "moon"
+  ],
+  "lesson": "calming down for sleep: counting, slow breathing, saying goodnight",
+  "files": [
+   "videos/ep001_full.mp4",
+   "videos/ep001_short.mp4"
+  ],
+  "buffer_post_ids": [
+   "6adb3b29da167f50268b4973",
+   "6adb3b3bfe8ae6dfd455d6d7",
+   "6adb3b5ae4169c55aac08e3c"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep001_thumb.jpg",
+   "thumbnails/ep001_short_thumb.jpg"
+  ]
+ },
+ {
+  "id": "ep002",
+  "date": "2026-10-24",
+  "type": "kids story",
+  "title": "Mimi Kitten and the Rolling Yarn Ball",
+  "short": "Find the Colors with Mimi Kitten",
+  "characters": [
+   "mimi",
+   "honey",
+   "dotty",
+   "yarn"
+  ],
+  "lesson": "colors (red, yellow, blue, pink) and sharing toys with friends",
+  "thumbnail_text": [
+   "Where Did It Go?",
+   "Find The Colors!"
+  ],
+  "files": [
+   "videos/ep002_full.mp4",
+   "videos/ep002_short.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep002_thumb.jpg",
+   "thumbnails/ep002_short_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6adc0f39e4be8a4d863622b6",
+   "6adc0f3d8b3d437ddc96c133",
+   "6adc0f420b5343d0705db8e7"
+  ],
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep003",
+  "date": "2026-10-25",
+  "type": "bedtime story",
+  "title": "Lulu Lamb's First Sleepover",
+  "short": "Count the Thank-Yous with Lulu Lamb",
+  "characters": [
+   "lulu",
+   "honey",
+   "mama",
+   "dotty",
+   "mimi",
+   "moon"
+  ],
+  "lesson": "gratitude: saying thank you, counting 1-5, feeling shy in a new place",
+  "thumbnail_text": [
+   "First Sleepover!",
+   "Count With Lulu!"
+  ],
+  "files": [
+   "videos/ep003_full.mp4",
+   "videos/ep003_short.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep003_thumb.jpg",
+   "thumbnails/ep003_short_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6addcabd0b5343d070c47039",
+   "6addcac43d5b27036bc5784c",
+   "6addcac9e4be8a4d869d5a8d"
+  ],
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep004",
+  "date": "2026-10-26",
+  "type": "sing-along rhyme",
+  "title": "The Wiggle Waggle Song",
+  "short": "Wiggle Like Pip Puppy",
+  "characters": [
+   "pip",
+   "honey",
+   "dotty",
+   "mimi",
+   "lulu"
+  ],
+  "lesson": "moving our bodies (hop, waddle, tiptoe, jump, wiggle), taking turns, everyone is special; calm breathing",
+  "thumbnail_text": [
+   "Can You Wiggle?",
+   "Wag Like Pip!"
+  ],
+  "files": [
+   "videos/ep004_full.mp4",
+   "videos/ep004_short.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep004_thumb.jpg",
+   "thumbnails/ep004_short_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6adf1cd30f7767cbe7c5e5e9",
+   "6adf1cd9fce97d27e50fe5da",
+   "6adf1cde78f6291673b9bad8"
+  ],
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep005",
+  "date": "2026-10-27",
+  "type": "kids story (seasonal)",
+  "trend": "KIDS (seasonal) - calendar row 2026-10-27; seasonal moment + ask-and-pause + Shorts guess-who hook",
+  "title": "Honey's Pumpkin Patch Party",
+  "short": "Guess Who's in the Pumpkin?",
+  "characters": [
+   "honey",
+   "mama",
+   "dotty",
+   "mimi",
+   "pip",
+   "pumpkinpip"
+  ],
+  "lesson": "big and small, counting 1-5, triangle shapes, sharing (Honey shares a pumpkin with Pip); grown-ups do the carving; calm breath",
+  "thumbnail_text": [
+   "Honey's Pumpkin Surprise!",
+   "Guess Who, Honey?!"
+  ],
+  "files": [
+   "videos/ep005_full.mp4",
+   "videos/ep005_short.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep005_thumb.jpg",
+   "thumbnails/ep005_short_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae06ee1158d7a72af918cd9",
+   "6ae06ee7421e91122f79a17e",
+   "6ae06eee2464aa57c857cf40"
+  ],
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep006",
+  "date": "2026-10-28",
+  "type": "bedtime story",
+  "trend": "BED - calendar row 2026-10-28; ask-and-pause sound guessing (x5) + calm breathing + Shorts question hooks",
+  "title": "Ollie Owl's Night-Time Sounds",
+  "short": "Who Says Hoo-Hoo?",
+  "short_titles": [
+   "Who Says Hoo-Hoo? 🦉 Guess the Night Sound with Honey Bunny & Ollie Owl #shorts",
+   "Count the Ribbits with Ollie Owl! 🐸 Frog Sound Game for Toddlers #shorts",
+   "Night Sounds Lullaby 🌙 Sing & Move with Ollie Owl | Bedtime Song for Kids #shorts"
+  ],
+  "characters": [
+   "ollie",
+   "honey",
+   "mama",
+   "moon",
+   "cricket",
+   "frog"
+  ],
+  "lesson": "listening to nature sounds (cricket, wind, frog, owl), owls are awake at night, counting 1-3, quiet is calming; calm breathing for sleep",
+  "thumbnail_text": [
+   "Ollie's Night Game!",
+   "Honey Hears Hoo-Hoo!",
+   "Ollie Counts Ribbits!",
+   "Sing With Ollie!"
+  ],
+  "files": [
+   "videos/ep006_full.mp4",
+   "videos/ep006_short.mp4",
+   "videos/ep006_short2.mp4",
+   "videos/ep006_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep006_thumb.jpg",
+   "thumbnails/ep006_short_thumb.jpg",
+   "thumbnails/ep006_short2_thumb.jpg",
+   "thumbnails/ep006_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae1c2235719a3c4c80d7c2d",
+   "6ae1c22b979a56d9e579f066",
+   "6ae1c23091b138e3084d0c01",
+   "6ae1c23426cf140c4c833de1",
+   "6ae1c239979a56d9e579f2e5",
+   "6ae1c23d5719a3c4c80d8209",
+   "6ae1c2445719a3c4c80d841d"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae1c2235719a3c4c80d7c2d",
+   "short2_fb": "6ae1c22b979a56d9e579f066",
+   "short_yt": "6ae1c23091b138e3084d0c01",
+   "short_fb": "6ae1c23426cf140c4c833de1",
+   "short3_yt": "6ae1c239979a56d9e579f2e5",
+   "short3_fb": "6ae1c23d5719a3c4c80d8209",
+   "full_fb": "6ae1c2445719a3c4c80d841d"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep007",
+  "date": "2026-10-29",
+  "type": "learn-along (shapes)",
+  "trend": "LEARN - calendar row 2026-10-29; ask-and-pause shape finding (x9) + riddle review + Shorts '3-2-1 find it' countdown hook",
+  "title": "Pip's Shape Hunt",
+  "short": "Find the Circle!",
+  "short_titles": [
+   "Find the Circle! 🔴 3-2-1 Shape Game with Pip Puppy | Shapes for Kids #shorts",
+   "How Many Sides? 🟦🔺 Count Shapes with Pip Puppy & Dotty | Learn Shapes for Toddlers #shorts",
+   "The Shape Song 🎶 Draw Shapes in the Air with Pip Puppy | Sing-Along for Toddlers #shorts"
+  ],
+  "characters": [
+   "pip",
+   "honey",
+   "dotty",
+   "mama",
+   "ball",
+   "block",
+   "sandwich"
+  ],
+  "lesson": "shapes (circle, square, triangle), counting sides and corners, shapes are everywhere, sharing a sandwich; calm breath at the end",
+  "thumbnail_text": [
+   "Can Pip Find Them?",
+   "Spot The Circle, Pip!",
+   "How Many Sides, Pip?",
+   "Sing Shapes With Pip!"
+  ],
+  "files": [
+   "videos/ep007_full.mp4",
+   "videos/ep007_short.mp4",
+   "videos/ep007_short2.mp4",
+   "videos/ep007_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep007_thumb.jpg",
+   "thumbnails/ep007_short_thumb.jpg",
+   "thumbnails/ep007_short2_thumb.jpg",
+   "thumbnails/ep007_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae3157abdb1fae7ce350619",
+   "6ae315811b10eea3de26cc5e",
+   "6ae3158668ebd3a1d773cfa4",
+   "6ae3158b22d379d15d9dcccd",
+   "6ae315902180fc76afc0af82",
+   "6ae31595bdb1fae7ce350d18",
+   "6ae3159b2180fc76afc0b5b8"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae3157abdb1fae7ce350619",
+   "short2_fb": "6ae315811b10eea3de26cc5e",
+   "short_yt": "6ae3158668ebd3a1d773cfa4",
+   "short_fb": "6ae3158b22d379d15d9dcccd",
+   "short3_yt": "6ae315902180fc76afc0af82",
+   "short3_fb": "6ae31595bdb1fae7ce350d18",
+   "full_fb": "6ae3159b2180fc76afc0b5b8"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep008",
+  "date": "2026-10-30",
+  "type": "sing-along rhyme",
+  "trend": "SING - calendar row 2026-10-30; original counting song with clap-along, ask-and-pause (x8: clap, smile, colour, silly face, say oh, point, favourite) + Shorts question hooks",
+  "title": "Lulu Lamb's Pumpkin Counting Song",
+  "short": "How Many Pumpkins Can Lulu Count?",
+  "short_titles": [
+   "How Many Pumpkins Can Lulu Count? 🎃 Clap & Count to 5 with Lulu Lamb #shorts",
+   "What Color Is the Pumpkin? 🎃 Learn Colors with Lulu Lamb | Colors for Toddlers #shorts",
+   "Copy the Pumpkin Faces! 😄 Funny Face Game with Lulu Lamb | Feelings for Kids #shorts"
+  ],
+  "characters": [
+   "lulu",
+   "mama",
+   "honey",
+   "dotty",
+   "mimi",
+   "pip",
+   "p_happy",
+   "p_sleepy",
+   "p_silly",
+   "p_surprised",
+   "p_giggle"
+  ],
+  "lesson": "counting 1-5 with claps, pumpkin colours (orange, yellow, white, green, coral), feelings faces (happy, sleepy, silly, surprised, giggly), helping a friend (everyone paints Lulu's pumpkin); pumpkins painted, never cut; calm pumpkin breath",
+  "thumbnail_text": [
+   "Clap With Lulu!",
+   "How Many, Lulu?",
+   "What Color, Lulu?",
+   "Copy Lulu's Faces!"
+  ],
+  "files": [
+   "videos/ep008_full.mp4",
+   "videos/ep008_short.mp4",
+   "videos/ep008_short2.mp4",
+   "videos/ep008_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep008_thumb.jpg",
+   "thumbnails/ep008_short_thumb.jpg",
+   "thumbnails/ep008_short2_thumb.jpg",
+   "thumbnails/ep008_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae466e1ceb12661efdae442",
+   "6ae466e836e83ed1636aba62",
+   "6ae466ec36e83ed1636abb72",
+   "6ae466f058a62337fb79ded0",
+   "6ae466f536e83ed1636abe01",
+   "6ae466f9ceb12661efdaebbe",
+   "6ae466fd36e83ed1636ac08f"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae466e1ceb12661efdae442",
+   "short2_fb": "6ae466e836e83ed1636aba62",
+   "short_yt": "6ae466ec36e83ed1636abb72",
+   "short_fb": "6ae466f058a62337fb79ded0",
+   "short3_yt": "6ae466f536e83ed1636abe01",
+   "short3_fb": "6ae466f9ceb12661efdaebbe",
+   "full_fb": "6ae466fd36e83ed1636ac08f"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep009",
+  "date": "2026-10-31",
+  "type": "bedtime story (seasonal)",
+  "trend": "BED (seasonal) - calendar row 2026-10-31; dress-up play + ask-and-pause (x8: colour, shape, count, guess costume, march, twirl, wave, pajamas, reach up, what would you be) + stretch & calm breath + Shorts question hooks",
+  "title": "Honey Bunny's Dress-Up Day Goodnight",
+  "short": "What Is Pip Dressed As?",
+  "short_titles": [
+   "What Is Pip Dressed As? 🚒 Guess the Costume with Pip Puppy & Honey Bunny #shorts",
+   "How Many Points on Mimi's Star? ⭐ Count to 5 with Mimi Kitten | Colors for Toddlers #shorts",
+   "Dress-Up Parade Song 🍓 March & Twirl with Honey Bunny | Sing-Along for Toddlers #shorts"
+  ],
+  "characters": [
+   "honey_berry",
+   "honey_pj",
+   "pip_fire",
+   "mimi_star",
+   "mama"
+  ],
+  "lesson": "colours (red strawberry, yellow star), counting 1-5 star points, firefighters are helpers, helping a friend (Mimi fixes Pip's helmet), costumes are for play / pajamas for sleep; star stretch + calm breath",
+  "thumbnail_text": [
+   "Honey Dresses Up!",
+   "Guess Pip's Costume!",
+   "Count Mimi's Star!",
+   "March With Honey!"
+  ],
+  "files": [
+   "videos/ep009_full.mp4",
+   "videos/ep009_short.mp4",
+   "videos/ep009_short2.mp4",
+   "videos/ep009_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep009_thumb.jpg",
+   "thumbnails/ep009_short_thumb.jpg",
+   "thumbnails/ep009_short2_thumb.jpg",
+   "thumbnails/ep009_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae5b669ceb491e585eac5dc",
+   "6ae5b670406ab8a018ad5eb7",
+   "6ae5b675ceb491e585eac779",
+   "6ae5b679ceb491e585eac82b",
+   "6ae5b67e406ab8a018ad6100",
+   "6ae5b683406ab8a018ad622c",
+   "6ae5b689ceb491e585eace15"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae5b669ceb491e585eac5dc",
+   "short2_fb": "6ae5b670406ab8a018ad5eb7",
+   "short_yt": "6ae5b675ceb491e585eac779",
+   "short_fb": "6ae5b679ceb491e585eac82b",
+   "short3_yt": "6ae5b67e406ab8a018ad6100",
+   "short3_fb": "6ae5b683406ab8a018ad622c",
+   "full_fb": "6ae5b689ceb491e585eace15"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "comp001",
+  "date": "2026-11-01",
+  "type": "compilation",
+  "title": "Honey Bunny Kidz Story Time: 6 Cozy Bedtime Stories with Honey Bunny, Lulu Lamb & Ollie Owl (34 min)",
+  "theme": "Bedtime Stories (bg night, breathing bridges); daytime ep004/ep005/ep007 left for next week's Fun Stories & Songs",
+  "duration_s": 2061.6,
+  "thumbnail_text": "Sleepy Story Time",
+  "episodes": [
+   "ep002",
+   "ep008",
+   "ep003",
+   "ep009",
+   "ep006",
+   "ep001"
+  ],
+  "chapters": [
+   "00:00 Mimi Kitten and the Rolling Yarn Ball",
+   "05:02 Lulu Lamb's Pumpkin Counting Song",
+   "11:21 Lulu Lamb's First Sleepover",
+   "16:11 Honey Bunny's Dress-Up Day Goodnight",
+   "22:23 Ollie Owl's Night-Time Sounds",
+   "29:07 Honey Bunny Can't Sleep",
+   "34:08 Goodnight & Thank You"
+  ],
+  "files": [
+   "videos/comp001.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/comp001_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae6d52aab019b908742a600"
+  ],
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep010",
+  "date": "2026-11-01",
+  "type": "animal-fact story",
+  "trend": "FACT - calendar row 2026-11-01; real duck fact (preen-gland oil = waterproof feathers, webbed feet) + ask-and-pause (x6: what to wear, wet or dry, puppy shake, duck sound, paddle hands, rainbow colours) + Puddle Jump song + fresh-air breath + Shorts question hooks",
+  "title": "Why Doesn't Dotty Duckling Get Wet?",
+  "short": "Why Do Ducks Stay Dry?",
+  "short_titles": [
+   "Why Do Ducks Stay Dry? 🦆 Dotty Duckling's Secret | Animal Facts for Kids #shorts",
+   "How Many Raindrops? 💧 Count to 5 with Dotty Duckling | Wet or Dry for Toddlers #shorts",
+   "Shake Like Pip Puppy! 💦 Puddle Jump Song | Rainy Day Sing-Along for Toddlers #shorts"
+  ],
+  "characters": [
+   "dotty",
+   "dotty_beads",
+   "honey_rain",
+   "mama",
+   "pip",
+   "pip_drip"
+  ],
+  "lesson": "ducks' waterproof feathers (special oil spread with the beak), webbed feet for paddling, wet vs dry, counting 1-5 raindrops, rainbow colours, dress for the weather (raincoat, boots, stay with a grown-up), everybody is made in a special way",
+  "thumbnail_text": [
+   "Why So Dry, Dotty?",
+   "Dotty's Dry Secret?",
+   "Count Raindrops With Dotty!",
+   "Pip's Big Shake!"
+  ],
+  "files": [
+   "videos/ep010_full.mp4",
+   "videos/ep010_short.mp4",
+   "videos/ep010_short2.mp4",
+   "videos/ep010_short3.mp4"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep010_thumb.jpg",
+   "thumbnails/ep010_short_thumb.jpg",
+   "thumbnails/ep010_short2_thumb.jpg",
+   "thumbnails/ep010_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae706d4cf3a3112f3ec725d",
+   "6ae706dbcf3a3112f3ec74b4",
+   "6ae706e021c807e9d5aeab8b",
+   "6ae706e4cf3a3112f3ec75ed",
+   "6ae706e9ab019b90874ef32f",
+   "6ae706eef0984eef3358d4d1",
+   "6ae706f5ab019b90874ef5ec"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae706d4cf3a3112f3ec725d",
+   "short2_fb": "6ae706dbcf3a3112f3ec74b4",
+   "short_yt": "6ae706e021c807e9d5aeab8b",
+   "short_fb": "6ae706e4cf3a3112f3ec75ed",
+   "short3_yt": "6ae706e9ab019b90874ef32f",
+   "short3_fb": "6ae706eef0984eef3358d4d1",
+   "full_fb": "6ae706f5ab019b90874ef5ec"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep011",
+  "date": "2026-11-02",
+  "type": "bedtime story",
+  "trend": "BED - calendar row 2026-11-02; bedtime yoga (kitty stretch, sleepy sheep, owl wings, bunny breath) + ask-and-pause (x7: calm idea, mat colour, kitten sound, curl small, who says hoo-hoo, count sniffs, reach high, favourite stretch) + Stretch Up High song + calm breath + Shorts question hooks",
+  "title": "Lulu Lamb's Sleepy Animal Stretches",
+  "short": "Guess Who Breathes Like This?",
+  "short_titles": [
+   "Guess Who Breathes Like This? 🐰 Honey Bunny #shorts",
+   "Count 5 Kitty Stretches with Mimi Kitten! 🐱 #shorts",
+   "Stretch Up High Song with Lulu Lamb 🌙 #shorts"
+  ],
+  "durations_s": {
+   "full": 338.6,
+   "short": 61.7,
+   "short2": 62.9,
+   "short3": 59.9
+  },
+  "characters": [
+   "lulu",
+   "mimi",
+   "honey_pj",
+   "mama",
+   "ollie",
+   "moon"
+  ],
+  "lesson": "calming a wiggly body before bed with animal stretches (kitty arch, sleepy sheep curl, owl wings, bunny breath), counting 1-5, animal sounds, colours of mats; friends helping",
+  "thumbnail_text": [
+   "Stretch Like Lulu!",
+   "Who Sniffs Like This?",
+   "Count To Five, Mimi!",
+   "Reach The Sky!"
+  ],
+  "files": [
+   "videos/ep011_full.mp4",
+   "videos/ep011_full.srt",
+   "videos/ep011_short.mp4",
+   "videos/ep011_short2.mp4",
+   "videos/ep011_short3.mp4",
+   "videos/ep011_short.srt",
+   "videos/ep011_short2.srt",
+   "videos/ep011_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep011_thumb.jpg",
+   "thumbnails/ep011_short_thumb.jpg",
+   "thumbnails/ep011_short2_thumb.jpg",
+   "thumbnails/ep011_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae85a045e62d9a270fba27c",
+   "6ae85a095e62d9a270fba362",
+   "6ae85a0ddd7a4869734f3df7",
+   "6ae85a1143b939472a7bfe37",
+   "6ae85a1543b939472a7bfebe",
+   "6ae85a1955a230dd71a1a233",
+   "6ae85ba1ca68b566b62f6a57"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae85a045e62d9a270fba27c",
+   "short2_fb": "6ae85a095e62d9a270fba362",
+   "short_yt": "6ae85a0ddd7a4869734f3df7",
+   "short_fb": "6ae85a1143b939472a7bfe37",
+   "short3_yt": "6ae85a1543b939472a7bfebe",
+   "short3_fb": "6ae85a1955a230dd71a1a233",
+   "full_fb": "6ae85ba1ca68b566b62f6a57"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep012",
+  "date": "2026-11-03",
+  "type": "kids story (imaginative play)",
+  "trend": "KIDS - calendar row 2026-11-03; Bluey-style family pretend play (blanket fort ship) + ask-and-pause (x8: what we need, count pillows, pillow colour, who is captain, what should Pip do, row arms, duck sound, spyglass hands) + Row and Row song + ocean breath + Shorts question hooks",
+  "title": "Pip and Mama Bunny's Rainy-Day Fort",
+  "short": "Guess What Pip Built?",
+  "short_titles": [
+   "Guess What Pip Built? 🚢 Captain Pip's Fort #shorts",
+   "How Many Pillows? 🛋️ Count with Honey Bunny #shorts",
+   "Row Along with Captain Pip! 🌊 Sing-Along #shorts"
+  ],
+  "durations_s": {
+   "full": 293.2,
+   "short": 55.4,
+   "short2": 63.9,
+   "short3": 66.9
+  },
+  "characters": [
+   "pip",
+   "pip_captain",
+   "honey",
+   "mama",
+   "dotty",
+   "pillow_pink",
+   "pillow_blue",
+   "pillow_yellow",
+   "pillow_green"
+  ],
+  "lesson": "sharing (Pip shares the pillows and apple slices), counting 1-4, colours (pink, blue, yellow, green), imaginative play on a rainy day, grown-ups help with chairs; ocean breath",
+  "thumbnail_text": [
+   "Ahoy, Captain Pip!",
+   "What Did Pip Make?",
+   "How Many Pillows?",
+   "Row Along, Pip!"
+  ],
+  "files": [
+   "videos/ep012_full.mp4",
+   "videos/ep012_full.srt",
+   "videos/ep012_short.mp4",
+   "videos/ep012_short2.mp4",
+   "videos/ep012_short3.mp4",
+   "videos/ep012_short.srt",
+   "videos/ep012_short2.srt",
+   "videos/ep012_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep012_thumb.jpg",
+   "thumbnails/ep012_short_thumb.jpg",
+   "thumbnails/ep012_short2_thumb.jpg",
+   "thumbnails/ep012_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6ae9ac0160cabdfd8e275d34",
+   "6ae9ac067eb0fcc141be8841",
+   "6ae9ac0a799612d7fa893949",
+   "6ae9ac0ee49b3ffb03512120",
+   "6ae9ac12e3423332a39df13e",
+   "6ae9ac15e49b3ffb03512360",
+   "6ae9ac197eb0fcc141be9314"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6ae9ac0160cabdfd8e275d34",
+   "short2_fb": "6ae9ac067eb0fcc141be8841",
+   "short_yt": "6ae9ac0a799612d7fa893949",
+   "short_fb": "6ae9ac0ee49b3ffb03512120",
+   "short3_yt": "6ae9ac12e3423332a39df13e",
+   "short3_fb": "6ae9ac15e49b3ffb03512360",
+   "full_fb": "6ae9ac197eb0fcc141be9314"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep013",
+  "date": "2026-11-04",
+  "type": "sing-along rhyme",
+  "trend": "SING - calendar row 2026-11-04; sequel to ep004 Wiggle Waggle Song with new animal-sounds chorus + verses (hoo/flap, baa/bounce, quack/waddle, woof/wag, meow/bow, Honey's quiet nose-wiggle + thump) + ask-and-pause (x8: guess hoo-hoo, say hoo + flap, turn head, say baa, waddle, meow + bow, wiggle nose + thump, favourite sound) + quiet owl breath + Shorts question hooks; new dusk_stage background",
+  "title": "Ollie Owl's Animal Sounds Song",
+  "youtube_title": "Ollie Owl's Animal Sounds Song 🦉 Wiggle Waggle Sing-Along for Kids | Honey Bunny Kidz",
+  "short": "Guess Who Says Baa?",
+  "short_titles": [
+   "Guess Who Says Baa? 🐑 Lulu Lamb Sound Game #shorts",
+   "Who Says Quack? 🦆 Animal Sounds with Ollie Owl #shorts",
+   "Wiggle Your Nose with Honey Bunny! 🐰 Sing-Along #shorts"
+  ],
+  "durations_s": {
+   "full": 349.8,
+   "short": 53.2,
+   "short2": 74.3,
+   "short3": 74.7
+  },
+  "characters": [
+   "ollie",
+   "honey",
+   "lulu",
+   "dotty",
+   "pip",
+   "mimi",
+   "mama"
+  ],
+  "lesson": "animal sounds + actions (owl hoo/flap, lamb baa/bounce, duck quack/waddle, puppy woof/wag, kitten meow/bow), owls wake at dusk and turn their heads far, bunnies are quiet and thump their feet, quiet sounds are special too / everyone has their own way; counting 1-3; calm owl breath",
+  "thumbnail_text": [
+   "Sing Every Sound!",
+   "Guess The Sound!",
+   "Match The Sounds!",
+   "Wiggle Your Nose!"
+  ],
+  "files": [
+   "videos/ep013_full.mp4",
+   "videos/ep013_full.srt",
+   "videos/ep013_short.mp4",
+   "videos/ep013_short2.mp4",
+   "videos/ep013_short3.mp4",
+   "videos/ep013_short.srt",
+   "videos/ep013_short2.srt",
+   "videos/ep013_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep013_thumb.jpg",
+   "thumbnails/ep013_short_thumb.jpg",
+   "thumbnails/ep013_short2_thumb.jpg",
+   "thumbnails/ep013_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6aeafe840eea02ace32b0169",
+   "6aeafe8b1d881477a6190292",
+   "6aeafe8f961fae078ac667e3",
+   "6aeafe921d881477a6190483",
+   "6aeafe97961fae078ac66bd6",
+   "6aeafe9a20b88292aa7a9596",
+   "6aeafe9e9e12e98b309c9e84"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6aeafe840eea02ace32b0169",
+   "short2_fb": "6aeafe8b1d881477a6190292",
+   "short_yt": "6aeafe8f961fae078ac667e3",
+   "short_fb": "6aeafe921d881477a6190483",
+   "short3_yt": "6aeafe97961fae078ac66bd6",
+   "short3_fb": "6aeafe9a20b88292aa7a9596",
+   "full_fb": "6aeafe9e9e12e98b309c9e84"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep014",
+  "date": "2026-11-05",
+  "type": "interactive learning (opposites)",
+  "trend": "LEARN - calendar row 2026-11-05; opposites big/small, up/down, fast/slow with Lulu (best YT face) + ask-and-pause (x6: point to big ball, who is small, up or down, fast or slow, stretch big/curl small, reach up/touch ground, favourite) + Big and Small song + calm picnic breath + Shorts question hooks; new sunny_hill background + snail/basket props",
+  "title": "Lulu Lamb's Big and Small Picnic",
+  "youtube_title": "Lulu Lamb's Big and Small Picnic 🐑 Learn Opposites for Toddlers | Honey Bunny Kidz",
+  "youtube_description": "Big or small? Up or down? Fast or slow? Play the opposites game with Lulu Lamb, Honey Bunny and Pip Puppy on Sunny Hill — and learn that even the smallest friends can be big helpers.\n💛 Share with a parent who'd love this!\n\n00:00 Picnic on Sunny Hill\n00:41 Which ball is big?\n01:16 Big Mama Bunny, small Dotty\n02:06 Up and down the slide\n02:55 Fast Pip and the slow little snail\n03:50 The Big and Small Song\n04:25 Calm picnic breath\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#KidsLearning #Opposites #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "big and small",
+   "opposites for kids",
+   "opposites for toddlers",
+   "up and down",
+   "fast and slow",
+   "Lulu Lamb",
+   "Honey Bunny Kidz",
+   "preschool learning",
+   "toddler learning video",
+   "kids stories",
+   "cartoon for kids",
+   "learn opposites",
+   "kindness for kids"
+  ],
+  "short": "Which One Is Big?",
+  "short_titles": [
+   "Which One Is Big, Lulu Lamb? 🎈 #shorts",
+   "Up or Down, Pip Puppy? 🛝 Count to 5! #shorts",
+   "Move Like a Snail with Lulu Lamb! 🐌 #shorts"
+  ],
+  "durations_s": {
+   "full": 314.1,
+   "short": 72.6,
+   "short2": 71.6,
+   "short3": 71.4
+  },
+  "characters": [
+   "lulu",
+   "honey",
+   "mama",
+   "pip",
+   "dotty",
+   "snail",
+   "basket",
+   "ball"
+  ],
+  "lesson": "opposites (big/small, up/down, fast/slow), counting 1-5 ladder steps, taking turns on the slide, being gentle with tiny creatures (Pip slows down for the snail), small friends can be big helpers; calm breath",
+  "thumbnail_text": [
+   "Big Or Tiny?",
+   "Point To The Big One!",
+   "Up Or Down, Pip?",
+   "Move Like A Snail!"
+  ],
+  "files": [
+   "videos/ep014_full.mp4",
+   "videos/ep014_full.srt",
+   "videos/ep014_short.mp4",
+   "videos/ep014_short2.mp4",
+   "videos/ep014_short3.mp4",
+   "videos/ep014_short.srt",
+   "videos/ep014_short2.srt",
+   "videos/ep014_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep014_thumb.jpg",
+   "thumbnails/ep014_short_thumb.jpg",
+   "thumbnails/ep014_short2_thumb.jpg",
+   "thumbnails/ep014_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6aec50937f55f8386263afc8",
+   "6aec50997f55f8386263b854",
+   "6aec509da588188369345c58",
+   "6aec50a0e7ed365f893f6116",
+   "6aec50a414cd7d9ba0d988ab",
+   "6aec50a8fc521f06e6926c67",
+   "6aec50ac7f55f8386263bce1"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6aec50937f55f8386263afc8",
+   "short2_fb": "6aec50997f55f8386263b854",
+   "short_yt": "6aec509da588188369345c58",
+   "short_fb": "6aec50a0e7ed365f893f6116",
+   "short3_yt": "6aec50a414cd7d9ba0d988ab",
+   "short3_fb": "6aec50a8fc521f06e6926c67",
+   "full_fb": "6aec50ac7f55f8386263bce1"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep015",
+  "date": "2026-11-06",
+  "type": "bedtime story",
+  "trend": "BED - calendar row 2026-11-06; Ollie (best FB face) guess-the-sound like ep006 + ask-and-pause (x6: who has best ears, what makes chirp, say ribbit, what made the jingle, stretch like a kitten, who helped Mimi) + kitten stretch/flower-candle breath + Shorts question hooks; new mimi_room background, bell prop, bell jingle sfx",
+  "title": "Ollie Owl Helps Find Mimi's Bell",
+  "youtube_title": "Ollie Owl Helps Find Mimi's Bell 🦉 Cosy Bedtime Story for Kids | Honey Bunny Kidz",
+  "youtube_description": "Mimi Kitten's little bell is missing at bedtime! Ollie Owl and friends listen for night sounds — a cricket, a frog... and a soft jingle. A gentle story about feeling worried and asking friends for help, with a sleepy kitten stretch and calm breathing.\n💛 Share with a parent who'd love this!\n\n00:00 Mimi's bell is missing\n01:01 Ollie Owl listens\n01:36 Who says ribbit?\n02:29 Listening in Mimi's cosy bed\n02:59 Found it!\n03:43 Sleepy kitten stretch\n04:16 Goodnight, Mimi\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#BedtimeStories #KidsStories #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "bedtime story",
+   "bedtime stories for kids",
+   "toddler bedtime",
+   "kids stories",
+   "preschool",
+   "owl story",
+   "kitten story",
+   "feelings for kids",
+   "asking for help",
+   "animal sounds",
+   "calm breathing for kids",
+   "Honey Bunny Kidz",
+   "Ollie Owl",
+   "Mimi Kitten"
+  ],
+  "short": "Who Can Hear the Jingle?",
+  "short_titles": [
+   "Who Can Hear the Jingle? 🔔 Mimi Kitten #shorts",
+   "Chirp or Ribbit? 🐸 Night Sounds with Ollie Owl #shorts",
+   "Stretch Like a Kitten with Mimi! 🐱 #shorts"
+  ],
+  "durations_s": {
+   "full": 302.2,
+   "short": 57.8,
+   "short2": 61.9,
+   "short3": 83.6
+  },
+  "characters": [
+   "ollie",
+   "mimi",
+   "mimi_nobell",
+   "honey",
+   "mama",
+   "moon",
+   "cricket",
+   "frog",
+   "bell"
+  ],
+  "lesson": "feelings (it's okay to feel worried) and asking friends for help; listening carefully; night animal sounds (cricket chirp, frog ribbit, owl hoo); kitten stretch + flower/candle breathing",
+  "thumbnail_text": [
+   "Where's The Jingle?",
+   "Hear That Jingle?",
+   "Chirp Or Ribbit?",
+   "Kitty Stretch Time!"
+  ],
+  "files": [
+   "videos/ep015_full.mp4",
+   "videos/ep015_full.srt",
+   "videos/ep015_short.mp4",
+   "videos/ep015_short2.mp4",
+   "videos/ep015_short3.mp4",
+   "videos/ep015_short.srt",
+   "videos/ep015_short2.srt",
+   "videos/ep015_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep015_thumb.jpg",
+   "thumbnails/ep015_short_thumb.jpg",
+   "thumbnails/ep015_short2_thumb.jpg",
+   "thumbnails/ep015_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6aed9f767b7e47e8f41fa3a5",
+   "6aed9f9307f945cca955072c",
+   "6aed9f94c1e74b84e5de6996",
+   "6aed9f95f3498efda78347d8",
+   "6aed9f967b7e47e8f41fae94",
+   "6aed9f9607f945cca95507e2",
+   "6aed9f977b7e47e8f41faef3"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6aed9f767b7e47e8f41fa3a5",
+   "short2_fb": "6aed9f9307f945cca955072c",
+   "short_yt": "6aed9f94c1e74b84e5de6996",
+   "short_fb": "6aed9f95f3498efda78347d8",
+   "short3_yt": "6aed9f967b7e47e8f41fae94",
+   "short3_fb": "6aed9f9607f945cca95507e2",
+   "full_fb": "6aed9f977b7e47e8f41faef3"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep016",
+  "date": "2026-11-07",
+  "type": "kids story (seasonal, autumn)",
+  "trend": "KIDS (seasonal) - calendar row 2026-11-07; autumn leaf colours, counting 1-5, raking together, jumping in a soft leaf pile + ask-and-pause (x8: wiggle fingers, crunch sound, red, yellow, count 5 leaves, stomp, twirl, where did Pip go) + original Leaf Pile Song + tall-tree stretch/breath + Shorts question hooks; new autumn_park bg, falling-leaves layer, leaf/leafpile/rake props, pip_leafy, crunch sfx",
+  "title": "Pip Puppy's Big Leaf Pile",
+  "youtube_title": "Pip Puppy's Big Leaf Pile 🍂 Autumn Story for Kids | Colours, Counting & Song | Honey Bunny Kidz",
+  "youtube_description": "Pip Puppy wants the biggest leaf pile ever — but a puff of wind blows his little pile away! With Honey, Dotty, Lulu and Mama Bunny, he learns that big jobs are easier together. Name leaf colours, count to five, sing the Leaf Pile Song and stretch like a tall tree.\n💛 Share with a parent who'd love this!\n\n00:00 Autumn leaves in the park\n00:40 Crunch, crunch!\n01:10 Whoosh! Pip's little pile\n01:42 Friends come to help\n02:00 Red, yellow, orange, brown\n02:38 Count five leaves\n02:53 The Leaf Pile Song\n03:43 Who jumps first?\n04:07 Where did Pip go?\n04:36 Tall tree stretch\n05:04 Better together\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#KidsStories #Autumn #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "autumn story for kids",
+   "leaf pile",
+   "fall leaves for kids",
+   "learn colours",
+   "counting to 5",
+   "kids stories",
+   "toddler stories",
+   "preschool",
+   "teamwork for kids",
+   "sharing and taking turns",
+   "Pip Puppy",
+   "Honey Bunny Kidz",
+   "cartoon for kids",
+   "kids song"
+  ],
+  "short": "Can You Count the Leaves?",
+  "short_titles": [
+   "Can You Count the Leaves, Pip Puppy? 🍂 #shorts",
+   "Red or Yellow? 🍁 Leaf Colours with Lulu Lamb #shorts",
+   "Stomp and Sing the Leaf Song with Pip Puppy! 🍁 #shorts"
+  ],
+  "durations_s": {
+   "full": 340.3,
+   "short": 62.4,
+   "short2": 83.8,
+   "short3": 77.0
+  },
+  "characters": [
+   "pip",
+   "pip_leafy",
+   "honey",
+   "mama",
+   "dotty",
+   "lulu",
+   "leafpile",
+   "rake",
+   "leaf_red",
+   "leaf_orange",
+   "leaf_yellow",
+   "leaf_brown"
+  ],
+  "lesson": "working together / asking for help (wind blows Pip's solo pile away), taking turns (smallest friend jumps first), leaf colours red/yellow/orange/brown, counting 1-5, safe play (soft leaves only, grown-up nearby), tall-tree stretch + autumn breath",
+  "thumbnail_text": [
+   "Ready, Set, JUMP!",
+   "How Many Leaves?",
+   "Red Or Yellow?",
+   "Stomp! Crunch! Sing!"
+  ],
+  "files": [
+   "videos/ep016_full.mp4",
+   "videos/ep016_full.srt",
+   "videos/ep016_short.mp4",
+   "videos/ep016_short2.mp4",
+   "videos/ep016_short3.mp4",
+   "videos/ep016_short.srt",
+   "videos/ep016_short2.srt",
+   "videos/ep016_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep016_thumb.jpg",
+   "thumbnails/ep016_short_thumb.jpg",
+   "thumbnails/ep016_short2_thumb.jpg",
+   "thumbnails/ep016_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6aeef0ed9214322f68e0d5c5",
+   "6aeef0ee229bf05daf3e0dfa",
+   "6aeef0ef004e4879a74740f0",
+   "6aeef0f09214322f68e0d8cf",
+   "6aeef0f1229bf05daf3e0ecb",
+   "6aeef0f1229bf05daf3e0f47",
+   "6aeef0f2a7751de7c9da9a15"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6aeef0ed9214322f68e0d5c5",
+   "short2_fb": "6aeef0ee229bf05daf3e0dfa",
+   "short_yt": "6aeef0ef004e4879a74740f0",
+   "short_fb": "6aeef0f09214322f68e0d8cf",
+   "short3_yt": "6aeef0f1229bf05daf3e0ecb",
+   "short3_fb": "6aeef0f1229bf05daf3e0f47",
+   "full_fb": "6aeef0f2a7751de7c9da9a15"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "comp002",
+  "date": "2026-11-08",
+  "type": "compilation",
+  "title": "Honey Bunny Kidz Story Time: 7 Fun Stories & Songs with Pip Puppy, Lulu Lamb & Ollie Owl (40 min)",
+  "theme": "Kids Stories (only 2 bedtime episodes this week: ep011, ep015 — placed last as a wind-down); bg autumn_park thumbnail with pip_leafy, dotty, lulu",
+  "duration_s": 2404.3,
+  "thumbnail_text": "7 Fun Stories!",
+  "episodes": [
+   "ep016",
+   "ep012",
+   "ep010",
+   "ep013",
+   "ep014",
+   "ep011",
+   "ep015"
+  ],
+  "chapters": [
+   "00:00 Welcome & Pip Puppy's Big Leaf Pile",
+   "06:04 Pip and Mama Bunny's Rainy-Day Fort",
+   "11:13 Why Doesn't Dotty Duckling Get Wet?",
+   "17:04 Ollie Owl's Animal Sounds Song",
+   "23:09 Lulu Lamb's Big and Small Picnic",
+   "28:40 Lulu Lamb's Sleepy Animal Stretches",
+   "34:33 Ollie Owl Helps Find Mimi's Bell",
+   "39:50 Goodbye & Thank You"
+  ],
+  "youtube_description": "40 minutes of gentle cartoon stories and sing-along songs for toddlers and preschoolers (ages 2–6) with Honey Bunny, Pip Puppy, Dotty Duckling, Lulu Lamb, Ollie Owl and Mimi Kitten. Friendly host scenes between stories invite little ones to answer, count and join in. Every spoken line has captions.\n\nWhat's inside (and what your child practises):\n🍂 Pip Puppy's Big Leaf Pile – working together, taking turns, autumn leaf colours and counting to 5.\n☔ Pip and Mama Bunny's Rainy-Day Fort – sharing, colours and pretend play on a rainy day.\n🦆 Why Doesn't Dotty Duckling Get Wet? – how duck feathers stay dry, counting raindrops, dressing for the weather.\n🦉 Ollie Owl's Animal Sounds Song – sing and move along: hoo, baa, quack, woof, meow!\n🐑 Lulu Lamb's Big and Small Picnic – opposites (big/small, up/down, fast/slow) and being gentle with tiny creatures.\n🌙 Lulu Lamb's Sleepy Animal Stretches – calming animal stretches and slow breaths before bed.\n🔔 Ollie Owl Helps Find Mimi's Bell – it's okay to feel worried and ask friends for help; listening for night sounds.\n\nThe last two stories are calm and sleepy, so this also works as a wind-down before nap or bedtime.\n\n💛 Share with a parent who needs 40 calm minutes of happy stories today!\n\n00:00 Welcome & Pip Puppy's Big Leaf Pile\n06:04 Pip and Mama Bunny's Rainy-Day Fort\n11:13 Why Doesn't Dotty Duckling Get Wet?\n17:04 Ollie Owl's Animal Sounds Song\n23:09 Lulu Lamb's Big and Small Picnic\n28:40 Lulu Lamb's Sleepy Animal Stretches\n34:33 Ollie Owl Helps Find Mimi's Bell\n39:50 Goodbye & Thank You\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n\n#KidsStories #ToddlerSongs #Preschool #StoriesForKids #CartoonsForKids #AnimalSounds #BedtimeStories #HoneyBunnyKidz",
+  "youtube_tags": [
+   "kids stories",
+   "stories for kids",
+   "toddler songs",
+   "preschool",
+   "cartoons for kids",
+   "animal sounds song",
+   "bedtime stories",
+   "sharing for kids",
+   "opposites for kids",
+   "autumn story",
+   "Honey Bunny Kidz",
+   "Pip Puppy",
+   "Lulu Lamb",
+   "Ollie Owl"
+  ],
+  "encode": "render crf 29 (125 MB) -> re-encoded crf 33 video + 64k audio = 81.5 MB",
+  "files": [
+   "videos/comp002.mp4",
+   "videos/comp002.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/comp002_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6af012cd562f2e6de99ed10c"
+  ],
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep017",
+  "date": "2026-11-08",
+  "type": "sing-along rhyme (routine song)",
+  "trend": "SING - calendar row 2026-11-08; original Brush Your Teeth routine song with Lulu (best YT face) + ask-and-pause (x9: what do we do with a toothbrush, whose toothbrush, how much toothpaste, hold up finger-toothbrush, big smile, count 5 circles, top/bottom teeth, open wide, sparkly smile) + funny bubble-beard moment + Shorts question hooks; new bathroom bg, toothbrush/toothpaste props, lulu_foam, brush sfx",
+  "title": "Lulu Lamb's Brush Your Teeth Song",
+  "youtube_title": "Lulu Lamb's Brush Your Teeth Song 🪥 Morning Routine Sing-Along for Kids | Honey Bunny Kidz",
+  "youtube_description": "Lulu Lamb forgot her toothbrush at Honey's sleepover, and then brushes way too fast! Sing the Brush Your Teeth Song with Lulu, Honey Bunny, Mama Bunny and Pip Puppy: slow little circles, front, top, bottom and back teeth, a tiny pea of toothpaste and a sparkly smile.\n💛 Share with a parent who'd love this!\n\n00:00 Sleepover morning\n00:47 Whose toothbrush is it?\n01:20 How much toothpaste?\n01:42 Lulu's bubble beard\n02:20 The Brush Your Teeth Song\n02:39 Front teeth, count to 5\n03:02 Top and bottom teeth\n03:24 Back teeth, open wide\n04:08 Spit, swish and sparkly smile\n04:39 Pip Puppy sings along\n05:01 One more time!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#KidsSongs #BrushYourTeeth #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "brush your teeth song",
+   "brushing teeth for kids",
+   "toothbrush song",
+   "morning routine song",
+   "kids songs",
+   "toddler songs",
+   "nursery rhymes",
+   "sing along for kids",
+   "Lulu Lamb",
+   "Honey Bunny Kidz",
+   "preschool",
+   "healthy habits for kids",
+   "cartoon for kids"
+  ],
+  "short": "Guess Whose Toothbrush?",
+  "short_titles": [
+   "Guess Whose Toothbrush? 🪥 Lulu Lamb #shorts",
+   "What Colour Is Pip Puppy's Toothbrush? 💙 #shorts",
+   "Lulu Lamb's Bubble Beard! 🫧 Brush-Along #shorts"
+  ],
+  "durations_s": {
+   "full": 340.9,
+   "short": 70.1,
+   "short2": 81.5,
+   "short3": 76.7
+  },
+  "characters": [
+   "lulu",
+   "lulu_foam",
+   "honey_pj",
+   "mama",
+   "pip",
+   "dotty",
+   "tb_lulu",
+   "tb_honey",
+   "tb_pip",
+   "tb_dotty",
+   "toothpaste"
+  ],
+  "lesson": "tooth-brushing routine (morning and before bed, slow little circles, front/top/bottom/back teeth, pea-sized toothpaste with a grown-up's help, spit and swish), saying thank you, own toothbrush (share toys not toothbrushes), colours, counting to 5",
+  "thumbnail_text": [
+   "Sparkly Smile Time!",
+   "Whose Toothbrush?",
+   "Which One Is Blue?",
+   "Bubble Beard!"
+  ],
+  "files": [
+   "videos/ep017_full.mp4",
+   "videos/ep017_full.srt",
+   "videos/ep017_short.mp4",
+   "videos/ep017_short2.mp4",
+   "videos/ep017_short3.mp4",
+   "videos/ep017_short.srt",
+   "videos/ep017_short2.srt",
+   "videos/ep017_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep017_thumb.jpg",
+   "thumbnails/ep017_short_thumb.jpg",
+   "thumbnails/ep017_short2_thumb.jpg",
+   "thumbnails/ep017_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6af043809214322f68447080",
+   "6af04399229bf05dafa1cee0",
+   "6af0439a562f2e6de9ac95d0",
+   "6af0439a562f2e6de9ac9601",
+   "6af0439b229bf05dafa1cf3c",
+   "6af0439c004e4879a7aa56ee",
+   "6af0439d229bf05dafa1cf6c"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6af043809214322f68447080",
+   "short2_fb": "6af04399229bf05dafa1cee0",
+   "short_yt": "6af0439a562f2e6de9ac95d0",
+   "short_fb": "6af0439a562f2e6de9ac9601",
+   "short3_yt": "6af0439b229bf05dafa1cf3c",
+   "short3_fb": "6af0439c004e4879a7aa56ee",
+   "full_fb": "6af0439d229bf05dafa1cf6c"
+  },
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep018",
+  "date": "2026-11-09",
+  "type": "bedtime story (new friend)",
+  "trend": "BED - calendar row 2026-11-09; Ollie meets Cloudy (this week's one new friend), gentle weather fact (clouds are tiny water drops, full clouds rain) + ask-and-pause (x6: who is this fluffy friend, what falls from a cloud, count 3 flowers, colour of next flower, finger rain, who helped Cloudy) + original Little Cloud (Pitter Patter) song + cloud stretch/breathing + Lulu in cast (best YT face); new twilight_hill bg, cloudy/cloudy_light, flowers_thirsty/happy",
+  "title": "Ollie Owl and the Sleepy Little Cloud",
+  "youtube_title": "Ollie Owl and the Sleepy Little Cloud ☁️ Bedtime Story for Kids | Honey Bunny Kidz",
+  "youtube_description": "Cloudy, a sleepy little cloud, is too full of raindrops to float up to bed, and her sneeze surprises Ollie Owl! Honey Bunny and Lulu Lamb help her share a gentle rain with three thirsty flowers. Count, name colours, find a rainbow, do a calm cloud stretch and sing Pitter Patter.\n💛 Share with a parent who'd love this!\n\n00:00 Who is this fluffy friend?\n00:14 Cloudy can't float up\n00:30 Achoo! A wet little owl\n00:50 What falls from a cloud?\n01:31 Pitter, patter rain\n01:46 A rainbow surprise\n02:06 Cloud stretch & calm breathing\n02:38 Pitter Patter song\n02:56 Next time\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#BedtimeStories #KidsStories #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "bedtime story",
+   "bedtime stories for kids",
+   "toddler bedtime",
+   "kids stories",
+   "preschool",
+   "cloud story for kids",
+   "rain for kids",
+   "sharing",
+   "colors for toddlers",
+   "counting to 3",
+   "calm breathing for kids",
+   "kids songs",
+   "Honey Bunny Kidz",
+   "Ollie Owl",
+   "Lulu Lamb",
+   "rainbow for kids"
+  ],
+  "short": {
+   "short": "Guess hook: Who is this fluffy friend? (reveal Cloudy)",
+   "short2": "Learn-along: count 3 thirsty flowers + red/yellow/blue",
+   "short3": "Sing-along: Pitter Patter Little Cloud song with finger-rain action + stretch"
+  },
+  "short_titles": {
+   "short": "Who Is This Fluffy Friend? ☁️ Ollie Owl #shorts",
+   "short2": "How Many Flowers? Count with Lulu Lamb 🌼 #shorts",
+   "short3": "Pitter Patter Song with Honey Bunny 🌧️ #shorts"
+  },
+  "durations_s": {
+   "full": 189.6,
+   "short": 56.3,
+   "short2": 64.2,
+   "short3": 76.3
+  },
+  "characters": [
+   "ollie",
+   "cloudy (new)",
+   "honey",
+   "lulu",
+   "mama"
+  ],
+  "lesson": "Sharing what you have helps others and feels good; clouds are made of tiny water drops",
+  "thumbnail_text": {
+   "full": "A Cloud Friend?!",
+   "short": "Guess Who's Floating?",
+   "short2": "How Many Flowers?",
+   "short3": "Pitter Patter!"
+  },
+  "files": [
+   "videos/ep018_full.mp4",
+   "videos/ep018_full.srt",
+   "videos/ep018_short.mp4",
+   "videos/ep018_short2.mp4",
+   "videos/ep018_short3.mp4",
+   "videos/ep018_short.srt",
+   "videos/ep018_short2.srt",
+   "videos/ep018_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep018_thumb.jpg",
+   "thumbnails/ep018_short_thumb.jpg",
+   "thumbnails/ep018_short2_thumb.jpg",
+   "thumbnails/ep018_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6af1a6e312d5da744d411c32",
+   "6af1a6f572554a06de3e3d1e",
+   "6af1a6f512d5da744d4121d3",
+   "6af1a6f63910c7eec536773d",
+   "6af1a6f73910c7eec53677a6"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6af1a6e312d5da744d411c32",
+   "short2_fb": "6af1a6f572554a06de3e3d1e",
+   "short_yt": "6af1a6f512d5da744d4121d3",
+   "short_fb": "6af1a6f63910c7eec536773d",
+   "short3_yt": "6af1a6f73910c7eec53677a6"
+  },
+  "facebook_note": "BED day: per trends.md posting note (2026-11-09) FB gets only short2 + short Reels; no FB full-video post, no short3 Reel",
+  "youtube_long": "manual upload by user",
+  "retention_recut": "2026-11-09: full video re-cut to 3:10 with the new 7-beat retention structure (cold open, sneeze gag, rainbow twist, chorus ending + ep019 teaser), banner instead of title card, no cover frame, new cute voices. The 3 Shorts (already scheduled) keep the earlier voices."
+ },
+ {
+  "id": "ep019",
+  "date": "2026-11-10",
+  "type": "kids story (sharing / taking turns, autumn)",
+  "trend": "KIDS - calendar row 2026-11-10; Pip lead + autumn park (Leaf Pile was best YT video); 7-beat retention structure 4:43 with banner cold open; ask-and-pause x9 (swing arms, count friends, count to ten, what to do while waiting, red leaf, yellow leaf, high or low, clap for Dotty, say my turn your turn) + original My Turn, Your Turn song + swing breath; teaser for ep020; new autumn_swings bg, swing sprites with pendulum motion",
+  "title": "Pip Puppy Takes Turns on the Swing",
+  "youtube_title": "Pip Puppy Takes Turns on the Swing 🍂 Sharing Story for Kids | Count to 10 & Song | Honey Bunny Kidz",
+  "youtube_description": "Pip Puppy wants the swing all day long, but his friends want a turn too! With Mama Bunny, Pip learns to take turns: count ten pushes, play a leaf colour game while waiting, cheer for Dotty and sing the My Turn, Your Turn song.\n💛 Share with a parent who'd love this!\n\n00:00 Wheee! Pip on the swing\n00:14 One swing, lots of friends\n00:38 A leafy surprise\n01:05 Let's take turns\n01:34 Count Lulu's pushes to ten\n01:56 A leaf colour game\n02:31 Up high, down low\n02:48 Pip's kind surprise\n03:05 Go, Dotty, go!\n03:19 Pip's turn again\n03:32 My Turn, Your Turn song\n03:58 Swing breath\n04:19 One more time!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#KidsStories #TakingTurns #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "kids stories",
+   "taking turns for kids",
+   "sharing story",
+   "toddler stories",
+   "preschool",
+   "count to 10",
+   "colours for kids",
+   "autumn story for kids",
+   "kids songs",
+   "social skills for toddlers",
+   "Pip Puppy",
+   "Honey Bunny Kidz",
+   "cartoon for kids",
+   "playground story"
+  ],
+  "duration_s": 283.5,
+  "shorts": {
+   "short": {
+    "title": "Who Is This Leafy Friend? Pip Puppy #shorts",
+    "hook": "Who is this leafy friend on the swing?",
+    "duration_s": 52.7
+   },
+   "short2": {
+    "title": "How Many Pushes? Count to 10 with Pip Puppy #shorts",
+    "hook": "How many pushes does Lulu get? Count to ten!",
+    "duration_s": 51.2
+   },
+   "short3": {
+    "title": "My Turn, Your Turn Song with Pip Puppy #shorts",
+    "hook": "Clap and sing My Turn, Your Turn",
+    "duration_s": 52.0
+   }
+  },
+  "thumbnail_text": {
+   "full": "Whose Turn Next?",
+   "short": "Who's So Leafy?",
+   "short2": "Count to 10!",
+   "short3": "Clap Along!"
+  },
+  "files": [
+   "videos/ep019_full.mp4",
+   "videos/ep019_full.srt",
+   "videos/ep019_short.mp4",
+   "videos/ep019_short2.mp4",
+   "videos/ep019_short3.mp4",
+   "videos/ep019_short.srt",
+   "videos/ep019_short2.srt",
+   "videos/ep019_short3.srt"
+  ],
+  "thumbnails": [
+   "thumbnails/ep019_thumb.jpg",
+   "thumbnails/ep019_short_thumb.jpg",
+   "thumbnails/ep019_short2_thumb.jpg",
+   "thumbnails/ep019_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6af2e4e807c5e29b2eaa1806",
+   "6af2e4f92224e5e623777eae",
+   "6af2e4fa6043a21c9f5eac62",
+   "6af2e4face343d8a01890583",
+   "6af2e4fb07c5e29b2eaa1fae"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6af2e4e807c5e29b2eaa1806",
+   "short2_fb": "6af2e4f92224e5e623777eae",
+   "short_yt": "6af2e4fa6043a21c9f5eac62",
+   "short_fb": "6af2e4face343d8a01890583",
+   "short3_yt": "6af2e4fb07c5e29b2eaa1fae"
+  },
+  "facebook_note": "KIDS day: FB gets short2 + short Reels only, no FB full-video post (trends.md posting note)",
+  "youtube_long": "manual upload by user",
+  "cleanup_2026-11-10": "deleted ep016 full+thumb and ep018 Shorts+thumbs (all posts sent); force-push squash blocked by permission check, normal commit used"
+ },
+ {
+  "id": "mini001",
+  "date": "2026-11-11",
+  "type": "mini compilation",
+  "title": "Pip Puppy & Ollie Owl: 3 Fun Stories & Songs for Kids (12 min) | Honey Bunny Kidz",
+  "episodes": [
+   "ep019",
+   "ep004",
+   "ep018"
+  ],
+  "theme": "Pip Puppy lead (swing story + Wiggle Waggle Song), winding down with Ollie's bedtime cloud story; 2 newest (8:23) were under 9:30 so added ep004 (never compiled, shortest unused, Pip)",
+  "duration_s": 761.4,
+  "thumbnail_text": "Wiggle, Swing & Rain!",
+  "chapters": [
+   "00:00 Pip Puppy Takes Turns on the Swing",
+   "04:57 The Wiggle Waggle Song",
+   "09:16 Ollie Owl and the Sleepy Little Cloud",
+   "12:26 Goodbye!"
+  ],
+  "youtube_title": "Pip Puppy & Ollie Owl: 3 Fun Stories & Songs for Kids (12 min) | Honey Bunny Kidz",
+  "youtube_description": "Swing, wiggle and float along with Pip Puppy, Ollie Owl and friends in 12 minutes of gentle stories and songs for toddlers and preschoolers! 🍂☁️\nKids practise taking turns, counting to 10, colours, fun body moves and a calm cloud breath, with lots of ask-and-answer moments.\n💛 Share with a parent who'd love this!\n\n00:00 Pip Puppy Takes Turns on the Swing\n04:57 The Wiggle Waggle Song\n09:16 Ollie Owl and the Sleepy Little Cloud\n12:26 Goodbye!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n\n#kidsstories #toddlersongs #preschool #cartoonsforkids #takingturns #HoneyBunnyKidz",
+  "youtube_tags": [
+   "kids stories",
+   "stories for kids",
+   "toddler songs",
+   "kids songs",
+   "preschool",
+   "cartoons for kids",
+   "taking turns for kids",
+   "count to 10",
+   "wiggle song",
+   "bedtime story",
+   "cloud story for kids",
+   "sing along for kids",
+   "Honey Bunny Kidz",
+   "Pip Puppy",
+   "Ollie Owl",
+   "Lulu Lamb"
+  ],
+  "encode": "crf 26, 57 MB",
+  "files": [
+   "videos/mini001.mp4",
+   "videos/mini001.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/mini001_thumb.jpg"
+  ],
+  "buffer_post_ids": [],
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep020",
+  "date": "2026-11-11",
+  "type": "animal fact story (where animals sleep)",
+  "trend": "FACT - calendar row 2026-11-11; Pip lead + gentle animal facts (birds in nests, bunnies in burrows, ducks by the pond tucking beaks, owls sleep in the day) with sleepover framing; 7-beat retention structure 5:28 with banner cold open; ask-and-pause x11 (who's in the tree, count birds, colour, fluff up, who's in the burrow, high or low, whisper, say quack, tuck nose, who said hoo, day or night, hoot) + original Where Do Animals Sleep? song + puppy curl-up breath; teaser for ep021; new nest_tree/burrow_bank/owl_tree/dusk_pond bgs, birdies, nest, wildbun, pet_bed, tweet sfx",
+  "title": "Where Do Animals Sleep? with Pip Puppy",
+  "youtube_title": "Where Do Animals Sleep? with Pip Puppy 🌙 Animal Facts for Kids | Honey Bunny Kidz",
+  "youtube_description": "Pip Puppy wonders where animals sleep before his first sleepover at Honey's house. With Honey Bunny and Mama Bunny he finds three birds in a nest, a baby bunny in a burrow, Dotty Duckling by the pond, and a surprise: Ollie Owl is just waking up! Count, name colours, whisper, hoot and sing along.\n💛 Share with a parent who'd love this!\n\n00:00 Who is sleeping in the tree?\n00:12 Pip's first sleepover\n00:26 Pip's leaf nest (achoo!)\n00:49 Count the birds & colours\n01:31 Who sleeps in a burrow?\n01:59 Let's whisper\n02:11 Dotty at the pond\n02:54 Ollie's tree hole\n03:08 Owls sleep in the day!\n03:56 A cosy bed for Pip\n04:18 Where Do Animals Sleep? song\n04:50 Puppy curl-up breath\n05:04 One more time!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#KidsStories #AnimalFacts #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "where do animals sleep",
+   "animal facts for kids",
+   "kids stories",
+   "bedtime story",
+   "toddler learning",
+   "preschool",
+   "counting for kids",
+   "colors for kids",
+   "owl",
+   "bunny",
+   "Pip Puppy",
+   "Honey Bunny Kidz",
+   "cartoons for kids"
+  ],
+  "duration_s": 327.8,
+  "thumbnail_text": "Who Sleeps Here?",
+  "shorts": {
+   "short": {
+    "title": "Where Does the Bunny Sleep? Guess with Pip! 🐰 #shorts",
+    "duration_s": 52.8,
+    "hook": "Where does the bunny sleep? Point to it! (burrow reveal, then Ollie twist)",
+    "thumb_text": "Where's the Bunny?"
+   },
+   "short2": {
+    "title": "Count the Sleepy Birds with Pip Puppy! 🐦 #shorts",
+    "duration_s": 56.3,
+    "hook": "How many little birds are in the nest? (count 1-3 + colours + fluff up)",
+    "thumb_text": "How Many Birds?"
+   },
+   "short3": {
+    "title": "Pip Puppy's Sleepy Animal Song 🐶 #shorts",
+    "duration_s": 65.3,
+    "hook": "Pip's leaf-nest achoo + sing-along with actions (flap, hop, tuck, hoot)",
+    "thumb_text": "Flap, Hop, Hoot!"
+   }
+  },
+  "files": [
+   "videos/ep020_full.mp4",
+   "videos/ep020_full.srt",
+   "videos/ep020_short.mp4",
+   "videos/ep020_short2.mp4",
+   "videos/ep020_short3.mp4",
+   "videos/ep020_short.srt",
+   "videos/ep020_short2.srt",
+   "videos/ep020_short3.srt"
+  ],
+  "thumbnails": [
+   "thumbnails/ep020_thumb.jpg",
+   "thumbnails/ep020_short_thumb.jpg",
+   "thumbnails/ep020_short2_thumb.jpg",
+   "thumbnails/ep020_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6af43a3511af97e72100e20d",
+   "6af43a475add622f6448340d",
+   "6af43a485add622f64483450",
+   "6af43a495add622f644834a3",
+   "6af43a4a299781e9864e5e84"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6af43a3511af97e72100e20d",
+   "short2_fb": "6af43a475add622f6448340d",
+   "short_yt": "6af43a485add622f64483450",
+   "short_fb": "6af43a495add622f644834a3",
+   "short3_yt": "6af43a4a299781e9864e5e84"
+  },
+  "facebook_note": "FACT day: FB gets short2 + short Reels only, no full-video post (posting note 2026-11-09)",
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep021",
+  "date": "2026-11-12",
+  "type": "sing-along rhyme (bath-time routine song)",
+  "trend": "SING - calendar row 2026-11-12; Pip lead (best YT face) bath-time routine with a grown-up always there; open ON the chorus, banner cold open, 7-beat structure 5:24; ask-and-pause x14 (who's ready, hot/cold/warm, royal wave, count bubbles, popping finger, how many left, duck/boat/cup colours, point to ears, touch nose, wiggle toes, is that Dotty, say quack, shake like a puppy) + original Bubble Bath Song + gentle twist (toy duck squeak, real Dotty arrives); teaser for ep022 night light; new bath_time bg, tub, bigbubble, duck/boat/cup toys, pip_muddy/pip_bubbly/pip_towel, bubbles scene option, pop + squeak sfx",
+  "title": "Pip Puppy's Bubble Bath Song",
+  "youtube_title": "Pip Puppy's Bubble Bath Song 🛁 Bath Time Sing-Along for Kids | Honey Bunny Kidz",
+  "youtube_description": "Pip Puppy is muddy and not sure about bath time, but Mama Bunny stays right with him! Count and pop five big bubbles, name the bath-toy colours, scrub ears, nose and toes, and sing the Bubble Bath Song with Honey Bunny and Dotty Duckling.\n💛 Share with a parent who'd love this!\n\n00:00 Splish, splash! Bath time\n00:15 Muddy Pip says no\n00:37 Is the water just warm?\n01:03 King Pip's bubble crown\n01:22 Count and pop 5 bubbles\n01:59 Bath toy colours\n02:33 Scrub ears, nose and toes\n03:05 No water in my eyes\n03:25 Squeak! Is that Dotty?\n03:55 The Bubble Bath Song\n04:26 Fluffy towel shake\n04:59 One more time!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#KidsSongs #BathTime #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "bath song",
+   "bath time song",
+   "bubble bath song",
+   "kids songs",
+   "toddler songs",
+   "nursery rhymes",
+   "sing along for kids",
+   "counting bubbles",
+   "learn colours",
+   "preschool",
+   "Pip Puppy",
+   "Honey Bunny Kidz",
+   "cartoons for kids"
+  ],
+  "duration_s": 324.3,
+  "shorts": {
+   "short": {
+    "title": "Guess Who's in the Bubbles? | Pip Puppy #shorts",
+    "hook": "Guess who's hiding in the bubbles?",
+    "duration_s": 57.8
+   },
+   "short2": {
+    "title": "What Colour Is It? Bath Toys with Pip Puppy #shorts",
+    "hook": "What colour is my little duck?",
+    "duration_s": 59.3
+   },
+   "short3": {
+    "title": "Pip Puppy's Bubble Bath Song 🛁 Sing Along! #shorts",
+    "hook": "Can you scrub like me? Sing along!",
+    "duration_s": 58.8
+   }
+  },
+  "thumbnail_text": {
+   "full": "Pip's Bubble Crown!",
+   "short": "Who's In The Bubbles?",
+   "short2": "Pip's Colour Game!",
+   "short3": "Scrub-a-Dub with Pip!"
+  },
+  "files": [
+   "videos/ep021_full.mp4",
+   "videos/ep021_full.srt",
+   "videos/ep021_short.mp4",
+   "videos/ep021_short2.mp4",
+   "videos/ep021_short3.mp4",
+   "videos/ep021_short.srt",
+   "videos/ep021_short2.srt",
+   "videos/ep021_short3.srt"
+  ],
+  "thumbnails": [
+   "thumbnails/ep021_thumb.jpg",
+   "thumbnails/ep021_short_thumb.jpg",
+   "thumbnails/ep021_short2_thumb.jpg",
+   "thumbnails/ep021_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6af58b0fe11ce7b6b8deb4bb",
+   "6af58b10041a9377d7dd757d",
+   "6af58b11f662733b84a52581",
+   "6af58b1249bcfed3aa72a1c0",
+   "6af58b13041a9377d7dd76c5",
+   "6af58b14100f73160cc329ad"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6af58b0fe11ce7b6b8deb4bb",
+   "short2_fb": "6af58b10041a9377d7dd757d",
+   "short_yt": "6af58b11f662733b84a52581",
+   "short3_yt": "6af58b1249bcfed3aa72a1c0",
+   "short3_fb": "6af58b13041a9377d7dd76c5",
+   "full_fb": "6af58b14100f73160cc329ad"
+  },
+  "youtube_long": "manual upload by user",
+  "schedule": {
+   "short2": "2026-11-12 16:30 YT+FB",
+   "short": "2026-11-12 18:30 YT only (SING day FB rule)",
+   "short3": "2026-11-12 20:30 YT+FB",
+   "full_fb": "2026-11-12 22:30"
+  },
+  "buffer_thumbnail_note": "Buffer create_post video asset has no thumbnailUrl field; used thumbnailOffset 0 (cover frame = thumbnail on Shorts)"
+ },
+ {
+  "id": "ep022",
+  "date": "2026-11-13",
+  "type": "bedtime story (not afraid of the dark, sleepover)",
+  "trend": "BED - calendar row 2026-11-13; Pip lead (best YT face) gentle not-scary dark story; 7-beat retention structure 5:21 with banner cold open; ask-and-pause x11 (what glows at night, whose long-ear shadow, whose floppy shadow, who glows in the window, moon shape, how many stars, twinkle fingers, who says hoo-hoo, firefly colour, count to three for the click, whisper goodnight) + gentle twist (Ollie is unsure about the bright day) + original Night Light Song + sleepy puppy breaths/stretch; teaser for ep023 chilly day sneeze; new sleepover_room/sleepover_dark bgs, nightlight(_off), shadow_bunny/puppy, star friends, firefly, pip_pj, fireflies option, click sfx",
+  "title": "Pip and the Night Light",
+  "youtube_title": "Pip and the Night Light 🌙 Bedtime Story for Kids | Not Afraid of the Dark | Honey Bunny Kidz",
+  "youtube_description": "Pip Puppy's first sleepover at Honey's house, and the room gets very dark! With Mama Bunny, Honey and the Moon, Pip finds the cosy lights of the night: silly wall shadows, five twinkly stars, glowing fireflies, Ollie Owl's secret and his very own star night light. Count, name colours, make twinkle fingers, do sleepy puppy breaths and sing the Night Light Song.\n💛 Share with a parent who'd love this!\n\n00:00 What glows at night?\n00:23 Lights off!\n00:38 Silly shadows\n01:04 Hello, Moon!\n01:31 Count 5 stars\n01:58 Twinkle fingers\n02:11 Who says hoo-hoo?\n02:39 Fireflies\n02:57 Ollie's secret\n03:18 Pip's star night light\n03:45 The Night Light Song\n04:10 Sleepy puppy breaths\n04:39 Goodnight, Moon\n04:54 One more time!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#BedtimeStories #KidsStories #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "bedtime stories for kids",
+   "bedtime story",
+   "night light",
+   "afraid of the dark",
+   "kids stories",
+   "toddler bedtime",
+   "preschool",
+   "cartoons for kids",
+   "counting stars",
+   "Pip Puppy",
+   "Honey Bunny Kidz"
+  ],
+  "duration_s": 321.3,
+  "files": [
+   "videos/ep022_full.mp4",
+   "videos/ep022_full.srt",
+   "videos/ep022_short.mp4",
+   "videos/ep022_short2.mp4",
+   "videos/ep022_short3.mp4",
+   "videos/ep022_short.srt",
+   "videos/ep022_short2.srt",
+   "videos/ep022_short3.srt"
+  ],
+  "thumbnails": [
+   "thumbnails/ep022_thumb.jpg",
+   "thumbnails/ep022_short_thumb.jpg",
+   "thumbnails/ep022_short2_thumb.jpg",
+   "thumbnails/ep022_short3_thumb.jpg"
+  ],
+  "thumbnail_text": {
+   "full": "Hello, Night Light!",
+   "short": "What Glows?",
+   "short2": "How Many Stars?",
+   "short3": "Silly Shadows!"
+  },
+  "shorts": {
+   "short": {
+    "title": "What Glows at Night? Guess with Pip Puppy! #shorts",
+    "duration_s": 57.8
+   },
+   "short2": {
+    "title": "How Many Stars? Count with Pip Puppy #shorts",
+    "duration_s": 57.0
+   },
+   "short3": {
+    "title": "Silly Shadows & Night Light Song with Pip #shorts",
+    "duration_s": 67.6
+   }
+  },
+  "buffer_post_ids": [
+   "6af6df9a62626734818e81f4",
+   "6af6dfad62626734818ea102",
+   "6af6dfafb52ddd18024641d6",
+   "6af6dfb1bcd7cfc9abb416a1",
+   "6af6dfb3bcd7cfc9abb41958"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6af6df9a62626734818e81f4",
+   "short2_fb": "6af6dfad62626734818ea102",
+   "short_yt": "6af6dfafb52ddd18024641d6",
+   "short_fb": "6af6dfb1bcd7cfc9abb416a1",
+   "short3_yt": "6af6dfb3bcd7cfc9abb41958"
+  },
+  "facebook_full": "skipped (not a SING day, per trends.md posting note)",
+  "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "mini002",
+  "date": "2026-11-14",
+  "type": "mini compilation",
+  "title": "Pip Puppy's Bath Time & Bedtime: 2 Cosy Stories & Songs for Kids (11 min) | Honey Bunny Kidz",
+  "episodes": [
+   "ep021",
+   "ep022"
+  ],
+  "theme": "Pip Puppy evening routine: bath song then bedtime night-light story (2 newest unused = 10:45 + bridge, no 3rd needed); new pajama bridge in stretch_room",
+  "duration_s": 682.7,
+  "thumbnail_text": "Splash, Then Sleep!",
+  "chapters": [
+   "00:00 Pip Puppy's Bubble Bath Song",
+   "05:50 Pip and the Night Light",
+   "11:11 Goodbye!"
+  ],
+  "youtube_title": "Pip Puppy's Bath Time & Bedtime: 2 Cosy Stories & Songs for Kids (11 min) | Honey Bunny Kidz",
+  "youtube_description": "Bubbles, then bedtime! Sing along with Pip Puppy in the bath, then join his very first sleepover with a cosy night light. 🛁🌙\nKids practise counting, colours, bath-time and bedtime routines, a calm breath, and feeling brave in the dark, with lots of ask-and-answer moments.\n💛 Share with a parent who'd love this!\n\n00:00 Pip Puppy's Bubble Bath Song\n05:50 Pip and the Night Light\n11:11 Goodbye!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n\n#bedtimestories #bathtimesong #toddlersongs #preschool #cartoonsforkids #HoneyBunnyKidz",
+  "youtube_tags": [
+   "bedtime stories for kids",
+   "bath song for kids",
+   "bath time song",
+   "bedtime routine for kids",
+   "kids stories",
+   "toddler songs",
+   "preschool",
+   "cartoons for kids",
+   "night light story",
+   "not afraid of the dark",
+   "sleepover story",
+   "sing along for kids",
+   "Honey Bunny Kidz",
+   "Pip Puppy",
+   "Honey Bunny"
+  ],
+  "encode": "crf 26, 45 MB",
+  "files": [
+   "videos/mini002.mp4",
+   "videos/mini002.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/mini002_thumb.jpg"
+  ],
+  "buffer_post_ids": [],
+  "youtube_long": "manual upload by user"
+ }
+]

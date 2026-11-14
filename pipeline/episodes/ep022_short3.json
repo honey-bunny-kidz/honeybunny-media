@@ -1,0 +1,214 @@
+{
+ "id": "ep022_short3",
+ "title": "Silly Shadows and the Night Light Song",
+ "thumbnail": {
+  "text": "Silly Shadows!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "sleepover_room",
+  "cast": [
+   {
+    "id": "honey_pj",
+    "mouth": 2,
+    "x": 0.68,
+    "scale": 1.0
+   },
+   {
+    "id": "shadow_bunny",
+    "x": 0.3,
+    "y": 0.92,
+    "scale": 1.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sleepover_dark",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "shadow_bunny",
+     "x": 0.2,
+     "y": 0.66,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.52,
+     "scale": 0.95
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.8,
+     "scale": 0.95,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Who has long, long ears on the wall?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "It's my shadow! Wiggle your ears with me!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "shadow_puppy",
+     "x": 0.2,
+     "y": 0.66,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.52,
+     "scale": 0.95
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.8,
+     "scale": 0.95,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Now me! Floppy ears! Can you flop your ears like a puppy?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Hee hee! Shadows are silly, not scary!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 0.45
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.45,
+     "scale": 0.95
+    },
+    {
+     "id": "nightlight",
+     "x": 0.82,
+     "y": 0.66,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Make twinkle fingers and sing with me! Open, close!",
+     "pause": 1.6
+    },
+    {
+     "who": "pip_pj",
+     "text": "Glow, glow, little night light. Soft and yellow, warm and bright."
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 0.45
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.3,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.6,
+     "scale": 0.9
+    },
+    {
+     "id": "nightlight",
+     "x": 0.82,
+     "y": 0.66,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Moon is round, and stars say hi. Fireflies blink, and owls fly by."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Glow, glow, little night light. Cosy, cosy, sleepy night.",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 0.45
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.3,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.6,
+     "scale": 0.9
+    },
+    {
+     "id": "nightlight",
+     "x": 0.82,
+     "y": 0.66,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Now give a big, sleepy yawn. Yawn!",
+     "pause": 1.4
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_pj",
+     "text": "Woof! Goodnight, friends!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

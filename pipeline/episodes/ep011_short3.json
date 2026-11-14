@@ -1,0 +1,106 @@
+{
+ "id": "ep011_short3",
+ "title": "Stretch Up High Song with Lulu Lamb",
+ "thumbnail": {
+  "text": "Reach The Sky!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "stretch_room",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "scale": 1.15
+   },
+   {
+    "id": "honey_pj",
+    "scale": 0.9,
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "stretch_room",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.22
+    },
+    {
+     "id": "lulu",
+     "x": 0.5,
+     "glow": true
+    },
+    {
+     "id": "mimi",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Can you stretch up high like me? Let's sing and move!"
+    },
+    {
+     "who": "lulu",
+     "text": "Stretch up high, touch the sky. Wave hello to the moon so bright!"
+    },
+    {
+     "who": "mimi",
+     "text": "Kitty arch, and sheep curl small."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Owl wings flap, and that is all!"
+    },
+    {
+     "who": "lulu",
+     "text": "Again! Arms up high! Stretch up high, touch the sky. Goodnight, goodnight, sleep tight!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.22
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Oh! Hee hee! I stretched so high, I did a great big yawn! Yawn!"
+    },
+    {
+     "who": "mimi",
+     "text": "Can you do a big, sleepy yawn too? Arms up, mouth wide!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Yawn! Hee hee! Goodnight, everyone!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

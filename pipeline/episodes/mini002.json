@@ -1,0 +1,2004 @@
+{
+ "id": "compilation",
+ "title": "Pip Puppy's Bath Time & Bedtime: 2 Cosy Stories & Songs for Kids (11 min) | Honey Bunny Kidz",
+ "episodes": [
+  "ep021",
+  "ep022"
+ ],
+ "thumbnail": {
+  "text": "Splash, Then Sleep!",
+  "badge": "Bath & Bedtime",
+  "bg": "night",
+  "cast": [
+   {
+    "id": "pip_bubbly",
+    "mouth": 2,
+    "x": 0.62,
+    "scale": 1.1
+   },
+   {
+    "id": "honey_pj",
+    "x": 0.86,
+    "scale": 1.05,
+    "mouth": 2
+   },
+   {
+    "id": "star_friend",
+    "x": 0.93,
+    "y": 0.35,
+    "scale": 1.6
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bath_time",
+   "lead": 0.2,
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.33,
+     "y": 0.745,
+     "scale": 1.15
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Splish, splash, bubbles in the tub!",
+     "pause": 0.3
+    },
+    {
+     "who": "mama",
+     "text": "Rub a dub, scrub, scrub, scrub!",
+     "pause": 0.3
+    },
+    {
+     "who": "honey",
+     "sfx": "clap",
+     "text": "Clap, clap!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "mama",
+     "text": "The bubble bath is ready. Who is ready for a bath?",
+     "pause": 2.0
+    }
+   ],
+   "banner": "Pip Puppy's Bubble Bath Song"
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.33,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "honey",
+     "x": 0.7
+    },
+    {
+     "id": "pip_muddy",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_muddy",
+     "text": "Not me! I like my muddy paws!"
+    },
+    {
+     "who": "honey",
+     "text": "Pip! You have mud on your ears, mud on your nose, and mud on your tail!"
+    },
+    {
+     "who": "pip_muddy",
+     "text": "But baths are wet. And I don't like water in my eyes."
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.33,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "pip_muddy",
+     "x": 0.7,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "I'll be right here with you, Pip, the whole time. Let's feel the water with one paw."
+    },
+    {
+     "who": "pip_muddy",
+     "text": "Ooh! Is the water hot, or cold, or just warm?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_muddy",
+     "text": "Just warm! Like a cosy hug."
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_muddy",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "In the bath, we always sit down. Sit, sit, sit."
+    },
+    {
+     "who": "pip_muddy",
+     "text": "I'm sitting! Hee hee. The bubbles tickle my nose."
+    },
+    {
+     "who": "pip_muddy",
+     "text": "Ah, ah, achoo!"
+    },
+    {
+     "who": "pip_muddy",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_bubbly",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Hee hee! Pip, look! You have a bubble hat!"
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "It's not a hat. It's a bubble crown! I am King Pip of Bubble Land!"
+    },
+    {
+     "who": "mama",
+     "text": "Hello, King Pip! Can you make a royal wave?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_bubbly",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.62,
+     "y": 0.3,
+     "scale": 1.3
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.72,
+     "y": 0.22,
+     "scale": 1.3
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.83,
+     "y": 0.3,
+     "scale": 1.3
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.67,
+     "y": 0.44,
+     "scale": 1.3
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.8,
+     "y": 0.45,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bubbly",
+     "text": "Whoa! Big shiny bubbles are floating up!"
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "How many big bubbles can you see? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "One, two, three, four, five! Five big bubbles!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_bubbly",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.62,
+     "y": 0.3,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.72,
+     "y": 0.22,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.83,
+     "y": 0.3,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.67,
+     "y": 0.44,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.8,
+     "y": 0.45,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's pop them, gently, with one finger. Hold up your popping finger!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "Pop! Pop!"
+    },
+    {
+     "who": "pip_bubbly",
+     "sfx": "pop",
+     "text": "",
+     "dur": 0.8,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_bubbly",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.62,
+     "y": 0.3,
+     "scale": 1.3
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.72,
+     "y": 0.22,
+     "scale": 1.3
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.83,
+     "y": 0.3,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bubbly",
+     "text": "Two bubbles popped! How many bubbles are left?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "Three! Pop, pop, pop!"
+    },
+    {
+     "who": "pip_bubbly",
+     "sfx": "pop",
+     "text": "",
+     "dur": 1.1,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_bubbly",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.3,
+     "y": 0.745,
+     "scale": 1.15,
+     "glow": true
+    },
+    {
+     "id": "boat_toy",
+     "x": 0.565,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Here come the bath toys! What colour is the little duck?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "Yellow! A yellow duck!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_bubbly",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.3,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "boat_toy",
+     "x": 0.565,
+     "y": 0.745,
+     "scale": 1.15,
+     "glow": true
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "And what colour is the boat? It's like the sky.",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_bubbly",
+     "text": "Blue! Sail, little boat, sail!"
+    },
+    {
+     "who": "pip_bubbly",
+     "sfx": "splash",
+     "text": "Splish!",
+     "dur": 1.0,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "cup_toy",
+     "x": 0.215,
+     "y": 0.62,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "pip_bubbly",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.3,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "boat_toy",
+     "x": 0.565,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "And Mama has a cup. What colour is my cup?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Red! Yellow, blue and red!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_muddy",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Now, let's wash the mud away. Where are your ears? Point to your ears!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_muddy",
+     "text": "Scrub, scrub, my floppy ears!"
+    },
+    {
+     "who": "sfx",
+     "sfx": "brush",
+     "text": "",
+     "dur": 1.2,
+     "pause": 0.3
+    },
+    {
+     "who": "mama",
+     "text": "Where is your nose? Can you touch your nose?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_muddy",
+     "text": "Here it is! Scrub, scrub, my little nose!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_muddy",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "And your tummy, and your toes! Can you wiggle your toes?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_muddy",
+     "text": "Wiggle, wiggle! Hee hee, that tickles!"
+    },
+    {
+     "who": "mama",
+     "text": "Now, the rinse. Tip your head back and close your eyes. I'll pour so gently."
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "cup_toy",
+     "x": 0.3,
+     "y": 0.58,
+     "scale": 1.3
+    },
+    {
+     "id": "pip",
+     "x": 0.43,
+     "y": 0.815,
+     "sleep": true
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "rain",
+     "text": "",
+     "dur": 1.6,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Eyes closed. Head back. No water in my eyes!"
+    },
+    {
+     "who": "honey",
+     "text": "Pip, you were so brave! And look, no more mud!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.3,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "duck_toy",
+     "sfx": "squeak",
+     "text": "Squeak, squeak!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Did that duck say something? Is that Dotty Duckling? What do you think?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Quack quack! I'm right here, Pip!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.3,
+     "y": 0.745,
+     "scale": 1.15,
+     "glow": true
+    },
+    {
+     "id": "honey",
+     "x": 0.7
+    },
+    {
+     "id": "dotty",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "That's a toy duck! It goes squeak. Real ducks go quack!"
+    },
+    {
+     "who": "pip",
+     "text": "Ha ha! Hello, Dotty! Can you say quack like a real duck?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Ducks love water too! Can I sing your bath song with you?"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.3,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "honey",
+     "x": 0.7
+    },
+    {
+     "id": "dotty",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "The Bubble Bath Song! Sing with us!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip",
+     "text": "Splish, splash, bubbles in the tub!",
+     "pause": 0.4
+    },
+    {
+     "who": "dotty",
+     "text": "Rub a dub, scrub, scrub, scrub!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Wash your ears, and wash your nose. Point!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip",
+     "text": "Wash your tummy, and your toes! Wiggle!",
+     "pause": 1.4
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip",
+     "x": 0.43,
+     "y": 0.815
+    },
+    {
+     "id": "tub",
+     "x": 0.43,
+     "y": 0.935,
+     "scale": 1.2
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.3,
+     "y": 0.745,
+     "scale": 1.15
+    },
+    {
+     "id": "honey",
+     "x": 0.7
+    },
+    {
+     "id": "dotty",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Pop the bubbles, one, two, three!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "sfx": "pop",
+     "text": "Pop, pop, pop!",
+     "dur": 1.1,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Clean and happy, look at me!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Splish, splash, bubbles in the tub!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Rub a dub, scrub, scrub, scrub!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_towel",
+     "x": 0.42
+    },
+    {
+     "id": "honey",
+     "x": 0.66
+    },
+    {
+     "id": "dotty",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "All done! Out we come, slowly. Hold my paw. Here's your fluffy towel."
+    },
+    {
+     "who": "pip_towel",
+     "text": "I'm warm and clean and fluffy! Baths are fun!"
+    },
+    {
+     "who": "pip_towel",
+     "text": "Can you shake like a wet puppy? Shake, shake, shake!",
+     "pause": 2.0
+    },
+    {
+     "who": "sfx",
+     "sfx": "splash",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "dotty",
+     "text": "Quack! Hee hee! Now I'm all wet too!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "pip_towel",
+     "x": 0.42
+    },
+    {
+     "id": "honey",
+     "x": 0.66
+    },
+    {
+     "id": "dotty",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_towel",
+     "text": "One more time! Scrub your tummy with me! Splish, splash, bubbles in the tub! Rub a dub, scrub, scrub, scrub!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy finds a cosy night light!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_towel",
+     "text": "Woof! Bye bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "lead": 0.4,
+   "tail": 0.5,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.33
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.67,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "All clean and cosy! Look, I'm in my moon pajamas!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "What do we do after bath time? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Yes! We get ready for bed. Let's take a big, slow breath. Breathe in... and out.",
+     "pause": 1.6
+    },
+    {
+     "who": "pip_pj",
+     "text": "Yay! It's Pip and the Night Light. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_room",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.3
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Psst! What glows at night? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Let's find out at our sleepover, Pip!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "My very first sleepover! Woof, woof!"
+    }
+   ],
+   "banner": "Pip and the Night Light"
+  },
+  {
+   "bg": "sleepover_room",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Pajamas on. Teeth brushed. Time for bed, little ones."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Night night, lamp!"
+    },
+    {
+     "who": "mama",
+     "sfx": "click",
+     "text": "Click!",
+     "dur": 0.6,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Oh! It's very dark now."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Hmm. I'm not sure I like the dark."
+    },
+    {
+     "who": "mama",
+     "text": "That's okay, Pip. I'm right here. Let's look for the cosy lights of the night!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "shadow_bunny",
+     "x": 0.34,
+     "y": 0.66,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Ooh, look! A big shape on the wall, with long, long ears! Who could it be?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "It's me! It's my shadow! Wiggle, wiggle!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "shadow_puppy",
+     "x": 0.34,
+     "y": 0.66,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "My turn! Floppy ears and a waggy tail. Who is this shadow?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "It's Pip! Woof, woof!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Shadows are silly, not scary!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55,
+     "glow": true
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Pip, look out the window! Who is glowing up there?",
+     "pause": 2.0
+    },
+    {
+     "who": "moon",
+     "text": "Hello, Pip! I'm the Moon. I glow softly, all night long."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Hello, Moon! You look so cosy."
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "What shape am I tonight? Draw it in the air with your finger!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "A circle! Round and round and round!"
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.55,
+     "scale": 1.0
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.3,
+     "scale": 1.5,
+     "glow": true
+    },
+    {
+     "id": "star_pink",
+     "x": 0.3,
+     "y": 0.17,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Count my stars with me, Pip!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "One!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Two!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.55,
+     "scale": 1.0
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.3,
+     "scale": 1.5
+    },
+    {
+     "id": "star_pink",
+     "x": 0.3,
+     "y": 0.17,
+     "scale": 1.5
+    },
+    {
+     "id": "star_blue",
+     "x": 0.7,
+     "y": 0.17,
+     "scale": 1.5,
+     "glow": true
+    },
+    {
+     "id": "star_friend",
+     "x": 0.87,
+     "y": 0.3,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Three!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Four!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.55,
+     "scale": 1.0
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.3,
+     "scale": 1.5
+    },
+    {
+     "id": "star_pink",
+     "x": 0.3,
+     "y": 0.17,
+     "scale": 1.5
+    },
+    {
+     "id": "star_blue",
+     "x": 0.7,
+     "y": 0.17,
+     "scale": 1.5
+    },
+    {
+     "id": "star_friend",
+     "x": 0.87,
+     "y": 0.3,
+     "scale": 1.5
+    },
+    {
+     "id": "star_pink",
+     "x": 0.5,
+     "y": 0.2,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "And one more, way up high! How many stars are there now?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Five! Five twinkly stars!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Let's make twinkle fingers, like stars! Open, close, open, close!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Twinkle, twinkle! My paws are little stars!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo... hoo...",
+     "dur": 1.8,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "What was that? Who says hoo-hoo at night?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Let's peek outside together. Stay close to me."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.15
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.47
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495,
+     "scale": 0.8,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Good evening, Pip! It's me, Ollie Owl!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Ollie! You're awake?"
+    },
+    {
+     "who": "ollie",
+     "text": "Owls are awake at night. We sleep in the day!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "fireflies": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.15
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.47
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495,
+     "scale": 0.8
+    },
+    {
+     "id": "firefly",
+     "x": 0.8,
+     "y": 0.72,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Look! Little lights are blinking in the grass. Blink, blink!"
+    },
+    {
+     "who": "ollie",
+     "text": "Those are fireflies! Their tails glow. What colour is their light?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Yellow! A soft yellow glow!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.42
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495,
+     "scale": 0.8
+    },
+    {
+     "id": "mama",
+     "x": 0.15
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.28
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Can I tell you a secret, Pip? The big, bright day is too sunny for my sleepy eyes!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Really? You feel a little unsure too?"
+    },
+    {
+     "who": "ollie",
+     "text": "Yes! So I snuggle in my cosy tree, and then I feel brave."
+    },
+    {
+     "who": "pip_pj",
+     "text": "I can find my cosy too! Thank you, Ollie!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.3
+    },
+    {
+     "id": "nightlight_off",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.66
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "I have a little something for you, Pip. A star night light, all your own."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Can I turn it on? Ready? Count with me. One, two, three!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "sfx": "click",
+     "text": "Click!",
+     "dur": 0.6,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.3
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.66
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Wow! My star is glowing! The dark feels soft and cosy now."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Now you have a little star inside, and a big moon outside!"
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.33
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "I made a Night Light Song! Sing it with me!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Glow, glow, little night light. Soft and yellow, warm and bright."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Moon is round, and stars say hi. Fireflies blink, and owls fly by."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Glow, glow, little night light. Cosy, cosy, sleepy night.",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.32,
+     "y": 0.91
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.32,
+     "y": 0.95,
+     "scale": 1.5
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's do sleepy puppy breaths. Breathe in slowly, like smelling a warm cookie.",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, like blowing a dandelion. Whoosh.",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Stretch your arms up, like a star. Now curl up small, like a sleepy puppy.",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Yawn. I'm a sleepy puppy."
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.32,
+     "y": 0.91
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.32,
+     "y": 0.95,
+     "scale": 1.5
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Goodnight, Moon. Goodnight, Ollie. Goodnight, little night light."
+    },
+    {
+     "who": "moon",
+     "text": "Goodnight, Pip. I'll glow all night long."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Can you whisper goodnight too?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_dark",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.32
+    },
+    {
+     "id": "nightlight",
+     "x": 0.5,
+     "y": 0.735,
+     "scale": 1.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.14
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "One more time! Make twinkle fingers and sing! Glow, glow, little night light. Cosy, cosy, sleepy night.",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy has a chilly day, and a big, big achoo!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_pj",
+     "text": "Woof! Goodnight, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "banner": "Thank you for watching!",
+   "lead": 0.4,
+   "tail": 1.5,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "That's all for now, friends! Come back soon for more stories and songs on Honey Bunny Kidz. Bye bye!"
+    }
+   ]
+  }
+ ]
+}

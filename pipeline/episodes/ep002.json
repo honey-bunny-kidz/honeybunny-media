@@ -1,0 +1,88 @@
+{
+  "id": "ep002",
+  "title": "Mimi Kitten and the Rolling Yarn Ball",
+  "thumbnail": {"text": "Where Did It Go?", "badge": "Kids Story", "bg": "garden",
+                "cast": [{"id": "mimi", "mouth": 2, "scale": 1.1}, {"id": "yarn", "scale": 1.4}, {"id": "honey", "scale": 0.85}]},
+  "scenes": [
+    {"bg": "porch", "title": "Mimi Kitten and the Rolling Yarn Ball", "subtitle": "A Kids Story  •  Honey Bunny Kidz",
+     "cast": [{"id": "mimi", "x": 0.30}, {"id": "yarn", "x": 0.44}], "lead": 0.8, "tail": 1.0,
+     "lines": [{"who": "narrator", "text": "Honey Bunny Kidz presents: Mimi Kitten and the Rolling Yarn Ball!"}]},
+
+    {"bg": "porch",
+     "cast": [{"id": "mimi", "x": 0.28}, {"id": "yarn", "x": 0.42}],
+     "lines": [
+      {"who": "narrator", "text": "Once upon a time, in a little cottage with a red roof, lived a tiny kitten named Mimi."},
+      {"who": "narrator", "text": "Mimi had soft, fluffy fur, a curly orange tail, and a pink collar with a little gold bell."},
+      {"who": "mimi", "text": "Meow! Hello, friends! My name is Mimi."},
+      {"who": "narrator", "text": "Mimi's favorite toy was a round, pink yarn ball. She loved it very, very much."},
+      {"who": "mimi", "text": "Look at my yarn ball! It is soft and pink, and it rolls and rolls!"},
+      {"who": "narrator", "text": "Mimi gave her yarn ball a little pat with her paw. Pat, pat!"}
+     ]},
+
+    {"bg": "porch",
+     "cast": [{"id": "mimi", "x": 0.28}, {"id": "yarn", "x": 0.80}],
+     "lines": [
+      {"who": "narrator", "text": "Oh no! The yarn ball rolled away. It rolled down the little garden path. Roll, roll, roll!"},
+      {"who": "mimi", "text": "Come back, yarn ball! Wait for me!"},
+      {"who": "narrator", "text": "Mimi ran after it as fast as her little paws could go."}
+     ]},
+
+    {"bg": "garden",
+     "cast": [{"id": "mimi", "x": 0.20}, {"id": "honey", "x": 0.38}],
+     "lines": [
+      {"who": "narrator", "text": "In the garden, Mimi met her friend, Honey Bunny."},
+      {"who": "honey", "text": "Hello, Mimi! Why are you running?"},
+      {"who": "mimi", "text": "Hello, Honey! My pink yarn ball rolled away. Can you help me find it?"},
+      {"who": "honey", "text": "Of course! Friends help friends. Let's look together!"},
+      {"who": "narrator", "text": "They looked at a big green bush. It was full of pretty red roses."},
+      {"who": "honey", "text": "I see something red! Is it your yarn ball?"},
+      {"who": "mimi", "text": "No, those are red roses. My yarn ball is pink."},
+      {"who": "narrator", "text": "Can you see the red roses? Point to them!", "pause": 1.6},
+      {"who": "narrator", "text": "Then, they looked up, up, up, at a very tall flower."},
+      {"who": "honey", "text": "I see something yellow! Is it your yarn ball?"},
+      {"who": "mimi", "text": "No, that is a yellow sunflower. My yarn ball is pink."},
+      {"who": "narrator", "text": "Can you see the yellow sunflower? Point to it!", "pause": 1.6},
+      {"who": "mimi", "text": "Where can my yarn ball be?"},
+      {"who": "honey", "text": "Let's look by the pond!"}
+     ]},
+
+    {"bg": "garden_pond",
+     "cast": [{"id": "mimi", "x": 0.16}, {"id": "honey", "x": 0.32}, {"id": "dotty", "x": 0.62, "y": 0.87}, {"id": "yarn", "x": 0.74, "y": 0.87}],
+     "lines": [
+      {"who": "narrator", "text": "By the blue pond sat Dotty the Duckling. And right next to Dotty was something round and pink!"},
+      {"who": "mimi", "text": "My yarn ball! I found it!"},
+      {"who": "dotty", "text": "Hello, Mimi! This pink ball rolled right to me. Is it yours?"},
+      {"who": "mimi", "text": "Yes, it is mine! Thank you, Dotty."},
+      {"who": "dotty", "text": "You're welcome. It is so pretty. I have never played with a yarn ball before."},
+      {"who": "narrator", "text": "Mimi looked at her yarn ball. Then she looked at Dotty. Mimi had a kind idea."},
+      {"who": "mimi", "text": "Dotty, would you like to play with my yarn ball too? Let's all play together!"},
+      {"who": "dotty", "text": "Oh, yes please! Thank you, Mimi!"},
+      {"who": "honey", "text": "Hooray! Sharing is caring!"}
+     ]},
+
+    {"bg": "garden",
+     "cast": [{"id": "mimi", "x": 0.16}, {"id": "yarn", "x": 0.30}, {"id": "honey", "x": 0.44}, {"id": "dotty", "x": 0.70, "y": 0.87}],
+     "lines": [
+      {"who": "narrator", "text": "So the three friends played a rolling game. Let's roll the yarn ball with them!"},
+      {"who": "mimi", "text": "Roll to Honey!", "pause": 1.0},
+      {"who": "honey", "text": "Roll to Dotty!", "pause": 1.0},
+      {"who": "dotty", "text": "Roll to Mimi!", "pause": 1.0},
+      {"who": "narrator", "text": "They rolled it again, and again, and again. They giggled and laughed all afternoon."},
+      {"who": "mimi", "text": "Playing together is so much more fun than playing alone!"},
+      {"who": "narrator", "text": "And Mimi was right. When we share our toys, everyone can have fun, and we make our friends happy too."}
+     ]},
+
+    {"bg": "porch",
+     "cast": [{"id": "mimi", "x": 0.22}, {"id": "yarn", "x": 0.35}, {"id": "honey", "x": 0.06}],
+     "lines": [
+      {"who": "narrator", "text": "When the sun began to set, Mimi carried her yarn ball home."},
+      {"who": "mimi", "text": "Thank you for helping me, Honey. Today was the best day! Purr, purr."},
+      {"who": "honey", "text": "See you tomorrow, Mimi!"},
+      {"who": "narrator", "text": "Can you remember? What colors did Mimi see today? Red roses, a yellow sunflower, a blue pond, and a pink yarn ball!"}
+     ], "tail": 1.2},
+
+    {"bg": "porch", "title": "The End!", "subtitle": "Remember: sharing is caring!",
+     "cast": [{"id": "mimi", "x": 0.30}, {"id": "yarn", "x": 0.44}],
+     "lines": [{"who": "narrator", "text": "The end. See you next time on Honey Bunny Kidz!"}], "tail": 3.5}
+  ]
+}
