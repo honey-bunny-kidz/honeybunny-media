@@ -1,0 +1,774 @@
+{
+ "id": "ep023",
+ "title": "Pip Puppy's Chilly Day Sneeze",
+ "thumbnail": {
+  "text": "Ah... Ah... ACHOO!",
+  "badge": "Kids Story",
+  "bg": "frosty_garden",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "scale": 1.05
+   },
+   {
+    "id": "dotty",
+    "scale": 0.95
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "lead": 0.2,
+   "banner": "Pip Puppy's Chilly Day Sneeze",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.38
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Ah... ah... ACHOO!"
+    },
+    {
+     "who": "pip",
+     "text": "Who sneezed? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "It was you, Pip! Bless you!"
+    },
+    {
+     "who": "pip",
+     "text": "Brrr! Is it hot or cold today?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Cold! It's the first chilly day!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.42
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "My nose is cold. My ears are cold. Even my waggy tail is cold!"
+    },
+    {
+     "who": "mama",
+     "text": "Oh, Pip! You need a cosy hat and a warm scarf. Come inside!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_bighat",
+     "x": 0.45
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bighat",
+     "text": "I found a hat! Hey... who turned off the sun?"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Hee hee! Pip, that's Mama's big, big hat!"
+    },
+    {
+     "who": "pip_bighat",
+     "text": "Where's Pip? Can you see me?",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.45,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Peekaboo! Here I am!"
+    },
+    {
+     "who": "mama",
+     "text": "That hat is too big for a little puppy. Let's find your very own cosy things!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.38
+    },
+    {
+     "id": "hat_red",
+     "x": 0.6,
+     "y": 0.8,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Look, a hat! What colour is my hat?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Red! A red hat with a fluffy white pompom!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.38
+    },
+    {
+     "id": "scarf_blue",
+     "x": 0.6,
+     "y": 0.82,
+     "scale": 1.4,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "And here's a long scarf. What colour is the scarf?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Blue! Blue with white stripes. Wrap, wrap, wrap!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.38
+    },
+    {
+     "id": "mittens_yellow",
+     "x": 0.6,
+     "y": 0.78,
+     "scale": 1.8,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Now, mittens! How many mittens can you count?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "One, two! Two yellow mittens, one for each paw!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.45,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Red hat, blue scarf, yellow mittens. Ta-da! I'm cosy now!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Can you put on a pretend hat? Pull it down over your ears!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Let's go play outside!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Uh-oh. My nose is tickly again. Ah... ah..."
+    },
+    {
+     "who": "mama",
+     "text": "Wait, Pip! When we sneeze, we sneeze into our elbow."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "My elbow? Where is my elbow?"
+    },
+    {
+     "who": "mama",
+     "text": "It's the bendy part in the middle of your arm. Can you find your elbow?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_elbow",
+     "x": 0.42
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_elbow",
+     "text": "ACHOO!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Into your elbow! Hooray, Pip!"
+    },
+    {
+     "who": "mama",
+     "text": "Well done! Now the tiny sneeze germs don't fly onto your friends."
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.35
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.65,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's practise together! Lift your elbow up. Ready?",
+     "pause": 1.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "A teeny, tiny sneeze. Ah... choo!",
+     "pause": 1.6
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Now a big, silly sneeze! Ah... ah... ah... ACHOO!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.18
+    },
+    {
+     "id": "tissue_box",
+     "x": 0.42,
+     "y": 0.86,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.62
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Is your nose a little drippy? Use a tissue. Wipe, wipe."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Then into the bin it goes. Bye-bye, tissue!"
+    },
+    {
+     "who": "mama",
+     "text": "And then, what do we do next? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Wash our paws!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.42
+    },
+    {
+     "id": "pip_soapy",
+     "x": 0.805,
+     "y": 0.79
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_soapy",
+     "text": "Splish! Warm water, and soap. Bubbles on my paws!"
+    },
+    {
+     "who": "honey",
+     "text": "Let's scrub and count to ten. Count with us!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_soapy",
+     "text": "One, two, three, four, five, six, seven, eight, nine, ten!"
+    },
+    {
+     "who": "honey",
+     "text": "Scrub the fronts, the backs, and in between!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.5,
+     "y": 0.42,
+     "scale": 1.3
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.6,
+     "y": 0.3,
+     "scale": 1.1
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.52,
+     "y": 0.2,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_soapy",
+     "x": 0.805,
+     "y": 0.79
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_soapy",
+     "text": "Look! Big bubbles floating up! How many bubbles can you see?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_soapy",
+     "text": "One, two, three! Three big bubbles!"
+    },
+    {
+     "who": "honey",
+     "text": "Pop them with your finger! Pop, pop, pop!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "sfx": "pop",
+     "text": "Pop! Pop! Pop!",
+     "dur": 1.1,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.42
+    },
+    {
+     "id": "pip",
+     "x": 0.805,
+     "y": 0.79,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Rinse, rinse, and dry with the towel."
+    },
+    {
+     "who": "pip",
+     "text": "Clean, clean paws! Woof!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.58
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Hello, friends! Quack! Ooh, my beak is tickly. Ah... ah..."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Wait, Dotty! Sneeze into your elbow!"
+    },
+    {
+     "who": "dotty",
+     "text": "But Pip, ducks don't have elbows like you!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hmm. What can Dotty use? Can you think?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.58,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Her wing! Into your fluffy wing, Dotty!"
+    },
+    {
+     "who": "dotty",
+     "text": "Ah... ah... choo! Into my wing! Quack!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hooray! Everybody can cover a sneeze!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.38
+    },
+    {
+     "id": "dotty",
+     "x": 0.58
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "I'm so proud of you! Cosy clothes, elbow sneezes, and clean paws."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "And I helped Dotty, too! Let's sing our Achoo Song!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.55
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Hat on my head, my scarf is blue. Two yellow mittens, I'm cosy! Are you?",
+     "pause": 1.4
+    },
+    {
+     "who": "honey_cosy",
+     "text": "When my nose is tickly, what do I do?"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Lift my elbow, achoo, achoo!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_elbow",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.55
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_elbow",
+     "text": "Achoo, achoo, into my elbow! A tissue for my nose, and off we go!",
+     "pause": 0.6
+    },
+    {
+     "who": "dotty",
+     "text": "Wash, wash, wash my paws, count to ten! Now we're cosy friends again!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.36,
+     "glow": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.58
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "One more time! Lift your elbow and sing! Achoo, achoo, into my elbow!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Lulu Lamb sees her very first snowflakes!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Stay cosy, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

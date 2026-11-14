@@ -18,7 +18,8 @@ KIDS = {"honey", "lulu", "mimi", "pip", "dotty", "cloudy"}
 for _k, _base in {"honey_berry": "honey", "honey_pj": "honey", "honey_rain": "honey", "pumpkinpip": "pip", "pip_fire": "pip",
                   "pip_drip": "pip", "pip_captain": "pip", "pip_leafy": "pip", "mimi_star": "mimi", "mimi_nobell": "mimi",
                   "dotty_beads": "dotty", "lulu_foam": "lulu", "cloudy_light": "cloudy",
-                  "pip_muddy": "pip", "pip_bubbly": "pip", "pip_towel": "pip", "pip_pj": "pip"}.items():
+                  "pip_muddy": "pip", "pip_bubbly": "pip", "pip_towel": "pip", "pip_pj": "pip",
+                  "pip_cosy": "pip", "pip_elbow": "pip", "pip_bighat": "pip", "pip_soapy": "pip", "honey_cosy": "honey"}.items():
     VOICES[_k] = VOICES[_base]
     if _base in KIDS:
         KIDS.add(_k)

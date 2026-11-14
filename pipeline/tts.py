@@ -8,7 +8,7 @@ VOCAB = CFG["vocab"]
 D = {}
 for f in ("us_silver", "us_gold"):
     D.update(json.load(open(f"{ROOT}/hexgrad/misaki/misaki/data/{f}.json")))
-D.update({"Bunnies": "bˈʌniz", "bunnies": "bˈʌniz", "Kidz": "kˈɪdz", "kidz": "kˈɪdz", "hoo": "hˈu", "Hoo": "hˈu", "Ollie": "ˈɑli", "Dotty": "dˈɑɾi", "Mimi": "mˈimi", "meow": "miˈW", "Meow": "miˈW", "purr": "pˈɜɹ", "Purr": "pˈɜɹ", "Splish": "splˈɪʃ", "splish": "splˈɪʃ", "Lulu": "lˈulu", "Hee": "hˈi", "hee": "hˈi", "Shh": "ʃːː", "shh": "ʃːː", "Aaah": "ˈɑɑɑ", "aaah": "ˈɑɑɑ", "twinkliest": "twˈɪŋkᵊliəst", "Pitter": "pˈɪɾəɹ", "pitter": "pˈɪɾəɹ", "puppies": "pˈʌpiz", "bodies": "bˈɑdiz", "Wheee": "wˈiː", "wheee": "wˈiː", "Achoo": "ɑʧˈu", "achoo": "ɑʧˈu", "fireflies": "fˈIəɹflˌIz", "Fireflies": "fˈIəɹflˌIz"})
+D.update({"Bunnies": "bˈʌniz", "bunnies": "bˈʌniz", "Kidz": "kˈɪdz", "kidz": "kˈɪdz", "hoo": "hˈu", "Hoo": "hˈu", "Ollie": "ˈɑli", "Dotty": "dˈɑɾi", "Mimi": "mˈimi", "meow": "miˈW", "Meow": "miˈW", "purr": "pˈɜɹ", "Purr": "pˈɜɹ", "Splish": "splˈɪʃ", "splish": "splˈɪʃ", "Lulu": "lˈulu", "Hee": "hˈi", "hee": "hˈi", "Shh": "ʃːː", "shh": "ʃːː", "Aaah": "ˈɑɑɑ", "aaah": "ˈɑɑɑ", "twinkliest": "twˈɪŋkᵊliəst", "Pitter": "pˈɪɾəɹ", "pitter": "pˈɪɾəɹ", "puppies": "pˈʌpiz", "bodies": "bˈɑdiz", "Wheee": "wˈiː", "wheee": "wˈiː", "Achoo": "ɑʧˈu", "achoo": "ɑʧˈu", "fireflies": "fˈIəɹflˌIz", "Fireflies": "fˈIəɹflˌIz", "Brrr": "bɹːː", "brrr": "bɹːː", "choo": "ʧˈu", "Choo": "ʧˈu"})
 VOICES = dict(np.load(f"{ROOT}/hb/models/voices.bin"))
 # Blended "cute" voices (2026-11-09, user asked for cute, attractive voices):
 #   hb_narr  = warm af_heart + bright af_sky  -> friendly, smiling storyteller

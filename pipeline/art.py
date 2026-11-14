@@ -162,6 +162,19 @@ def bunny(eyes="open", m=0, fur=(236, 196, 140), inner=(255, 182, 193), bow=True
         d.polygon([(bx, by), (bx - 85, by - 55), (bx - 85, by + 55)], fill=(255, 105, 160, 255), outline=OUT, width=7)
         d.polygon([(bx, by), (bx + 85, by - 55), (bx + 85, by + 55)], fill=(255, 105, 160, 255), outline=OUT, width=7)
         E(d, bx, by, 26, 26, (255, 150, 195, 255))
+    if costume == "cosy":  # chilly-day outfit (ep023): pink fluffy earmuffs + green striped scarf
+        GR, GL = (110, 195, 125, 255), (170, 230, 175, 255)
+        d.rounded_rectangle([200, 745, 600, 830], 40, fill=GR, outline=OUT, width=8)
+        for xx in (270, 360, 450, 540):
+            d.line([(xx, 752), (xx, 823)], fill=GL, width=16)
+        d.polygon([(470, 800), (545, 800), (560, 1010), (480, 1010)], fill=GR, outline=OUT, width=7)
+        for yy in (870, 940):
+            d.line([(474, yy), (552, yy)], fill=(255, 255, 255, 255), width=12)
+        d.arc([150, 300, 650, 760], 200, 340, fill=OUT, width=30)
+        d.arc([150, 300, 650, 760], 200, 340, fill=(255, 150, 190, 255), width=18)
+        for side in (-1, 1):
+            E(d, 400 + side * 262, 500, 66, 72, (255, 170, 205, 255), w=8)
+            E(d, 400 + side * 262 - 14, 482, 22, 18, (255, 225, 238, 255), w=0)
     if costume == "strawberry":
         _leaf_crown(d, 400, 312, 2.4)
     return finish(im, (int(h * W / H), h))
@@ -451,6 +464,59 @@ def puppy(eyes="open", m=0, h=400, costume=None):
         for x in (190, 710):
             d.arc([x - 40, 920, x + 40, 990], 200, 340, fill=OUT, width=6)
         _drops(d, [(250, 210, 22), (650, 215, 22)])
+    if costume in ("cosy", "elbow"):  # chilly-day outfit (ep023): blue striped scarf + yellow mittens
+        BLUE, BL2 = (95, 155, 235, 255), (150, 195, 250, 255)
+        d.polygon([(372, 640), (452, 640), (440, 860), (360, 860)], fill=BLUE, outline=OUT, width=7)
+        for yy in (700, 770):
+            d.line([(368, yy), (446, yy)], fill=(255, 255, 255, 255), width=12)
+        for k in range(4):
+            d.line([(370 + k * 22, 860), (366 + k * 22, 900)], fill=BLUE, width=10)
+        d.rounded_rectangle([270, 585, 630, 680], 44, fill=BLUE, outline=OUT, width=8)
+        for xx in (340, 450, 560):
+            d.line([(xx, 592), (xx, 673)], fill=BL2, width=16)
+        if costume == "cosy":
+            for side in (-1, 1):
+                E(d, 450 + side * 128, 892, 58, 66, (255, 210, 70, 255))
+                E(d, 450 + side * 128 + side * 50, 868, 22, 30, (255, 210, 70, 255), w=6)
+                d.rounded_rectangle([450 + side * 128 - 56, 830, 450 + side * 128 + 56, 856], 12, fill=(255, 255, 255, 255), outline=OUT, width=5)
+    if costume in ("cosy", "elbow"):  # red knit hat with a fluffy pompom
+        RED, RL = (236, 78, 82, 255), (250, 130, 130, 255)
+        d.chord([238, 70, 662, 440], 180, 360, fill=RED, outline=OUT, width=8)
+        for xx in (320, 385, 450, 515, 580):
+            d.line([(xx, 110 + abs(xx - 450) * 0.35), (xx, 250)], fill=RL, width=10)
+        d.rounded_rectangle([220, 222, 680, 292], 30, fill=(255, 245, 240, 255), outline=OUT, width=8)
+        for xx in range(250, 660, 34):
+            d.line([(xx, 232), (xx, 282)], fill=(240, 215, 215, 255), width=6)
+        E(d, 450, 72, 62, 58, (255, 255, 255, 255), w=7)
+        E(d, 432, 56, 18, 14, (235, 240, 250, 255), w=0)
+    if costume == "elbow":  # sneezing INTO his elbow: arm (with yellow mitten) across the muzzle
+        arm = Image.new("RGBA", (900, 1000), (0, 0, 0, 0))
+        ad = ImageDraw.Draw(arm)
+        E(ad, 620, 700, 62, 120, FUR)                              # upper arm from the shoulder
+        E(ad, 470, 548, 205, 64, FUR)                              # forearm across the muzzle
+        E(ad, 600, 600, 70, 70, FUR, w=0)                          # the elbow bend
+        E(ad, 268, 520, 66, 58, (255, 210, 70, 255))               # mitten at the far side
+        ad.rounded_rectangle([318, 488, 352, 556], 10, fill=(255, 255, 255, 255), outline=OUT, width=5)
+        im.alpha_composite(arm)
+        d = ImageDraw.Draw(im)
+        for (x, y, r) in ((700, 470, 16), (735, 520, 12), (690, 560, 10)):   # little sneeze puffs
+            E(d, x, y, r, r, (255, 255, 255, 230), ol=(200, 215, 235, 255), w=4)
+    if costume == "bighat":  # Mama's big purple hat, slipped down over Pip's eyes (funny moment)
+        PUR, PL = (170, 120, 215, 255), (200, 160, 240, 255)
+        d.chord([150, 30, 750, 900], 180, 360, fill=PUR, outline=OUT, width=9)
+        d.rounded_rectangle([110, 380, 790, 470], 40, fill=PL, outline=OUT, width=9)
+        for (x, y) in ((300, 300), (420, 210), (560, 280)):
+            for a in range(5):
+                ang = a * 2 * math.pi / 5
+                E(d, x + 26 * math.cos(ang), y + 26 * math.sin(ang), 20, 20, (255, 200, 220, 255), w=4)
+            E(d, x, y, 14, 14, (255, 225, 110, 255), w=4)
+        E(d, 450, 46, 46, 40, (255, 255, 255, 255), w=7)
+    if costume == "soapy":  # washing paws: soap foam on both paws + a few bubbles
+        for side in (-1, 1):
+            for (dx, dy, r) in ((0, 0, 58), (-40, -30, 40), (40, -36, 42), (-20, 45, 38), (35, 40, 36), (0, -70, 30)):
+                E(d, 450 + side * 128 + dx, 880 + dy, r, r * 0.92, (255, 255, 255, 255), ol=(170, 200, 230, 255), w=5)
+        for (x, y, r) in ((200, 760, 26), (720, 740, 22), (170, 660, 16), (760, 650, 18)):
+            E(d, x, y, r, r, (235, 248, 255, 200), ol=(170, 200, 230, 255), w=4)
     return finish(im, (int(h * W / H), h))
 
 
@@ -1330,6 +1396,77 @@ def firefly(eyes="open", m=0, h=150):
     return finish(im, (int(h * W / H), h))
 
 
+def pup_sneeze(eyes="open", m=0, h=400):
+    """Pip sneezing into his elbow (ep023): eyes squeezed shut, arm across his muzzle."""
+    return puppy(eyes="closed", m=m, h=h, costume="elbow")
+
+
+def knit_hat(eyes="open", m=0, h=150):
+    """Pip's red knit hat with a white ribbed brim and a fluffy pompom (prop)."""
+    W, H = 520, 460
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.chord([40, 90, 480, 640], 180, 360, fill=(236, 78, 82, 255), outline=OUT, width=9)
+    for xx in (130, 195, 260, 325, 390):
+        d.line([(xx, 140 + abs(xx - 260) * 0.4), (xx, 350)], fill=(250, 130, 130, 255), width=12)
+    d.rounded_rectangle([25, 330, 495, 440], 40, fill=(255, 245, 240, 255), outline=OUT, width=9)
+    for xx in range(60, 470, 36):
+        d.line([(xx, 345), (xx, 425)], fill=(240, 215, 215, 255), width=7)
+    E(d, 260, 82, 74, 68, (255, 255, 255, 255), w=8)
+    E(d, 238, 62, 22, 16, (235, 240, 250, 255), w=0)
+    return finish(im, (int(h * W / H), h))
+
+
+def scarf(eyes="open", m=0, h=150):
+    """A long blue striped scarf hanging over a peg-shape (prop), with fringe at both ends."""
+    W, H = 520, 700
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    BLUE = (95, 155, 235, 255)
+    d.arc([100, 30, 420, 330], 180, 360, fill=OUT, width=110)
+    d.arc([108, 38, 412, 322], 180, 360, fill=BLUE, width=94)
+    for (x0, x1) in ((100, 210), (310, 420)):
+        d.rounded_rectangle([x0, 170, x1, 620], 20, fill=BLUE, outline=OUT, width=8)
+        for yy in (300, 420, 540):
+            d.rectangle([x0 + 6, yy, x1 - 6, yy + 28], fill=(255, 255, 255, 255))
+        for k in range(5):
+            xx = x0 + 14 + k * (x1 - x0 - 28) / 4
+            d.line([(xx, 618), (xx, 680)], fill=BLUE, width=12)
+    return finish(im, (int(h * W / H), h))
+
+
+def mittens(eyes="open", m=0, h=150):
+    """A pair of yellow mittens with white cuffs and a little heart (prop for counting: one, two)."""
+    W, H = 640, 460
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    Y = (255, 210, 70, 255)
+    for cx, side in ((170, -1), (470, 1)):
+        E(d, cx + side * -88, 200, 42, 60, Y, w=8)                  # thumb
+        d.rounded_rectangle([cx - 105, 70, cx + 105, 350], 100, fill=Y, outline=OUT, width=8)
+        d.rounded_rectangle([cx - 112, 320, cx + 112, 430], 26, fill=(255, 255, 255, 255), outline=OUT, width=8)
+        for xx in range(cx - 90, cx + 100, 30):
+            d.line([(xx, 332), (xx, 418)], fill=(230, 230, 236, 255), width=6)
+        hx, hy = cx, 190
+        d.polygon([(hx - 34, hy - 8), (hx, hy + 36), (hx + 34, hy - 8)], fill=(255, 120, 150, 255))
+        E(d, hx - 18, hy - 12, 19, 18, (255, 120, 150, 255), w=0)
+        E(d, hx + 18, hy - 12, 19, 18, (255, 120, 150, 255), w=0)
+    return finish(im, (int(h * W / H), h))
+
+
+def tissue_box(eyes="open", m=0, h=150):
+    """A plain pastel tissue box with a soft white tissue poking out (prop, no brand)."""
+    W, H = 560, 480
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([40, 200, 520, 460], 24, fill=(170, 220, 240, 255), outline=OUT, width=9)
+    for (x, y) in ((120, 300), (260, 380), (400, 290), (450, 400), (170, 410)):
+        E(d, x, y, 18, 18, (255, 255, 255, 255), w=0)
+    d.rounded_rectangle([170, 190, 390, 236], 20, fill=(120, 185, 215, 255), outline=OUT, width=6)
+    d.polygon([(200, 215), (230, 70), (280, 20), (300, 110), (350, 40), (370, 215)], fill=(255, 255, 255, 255), outline=OUT, width=7)
+    return finish(im, (int(h * W / H), h))
+
+
 CHARS = {
     "honey": dict(fn=bunny, kw=dict(), h=0.44),
     "mama": dict(fn=bunny, kw=dict(fur=(246, 228, 205), bow=False), h=0.54),
@@ -1418,6 +1555,15 @@ CHARS = {
     "star_pink": dict(fn=star_friend, kw=dict(col=(255, 170, 200)), h=0.09),
     "star_blue": dict(fn=star_friend, kw=dict(col=(150, 205, 255)), h=0.09),
     "firefly": dict(fn=firefly, kw=dict(), h=0.07),
+    "pip_cosy": dict(fn=puppy, kw=dict(costume="cosy"), h=0.40),
+    "pip_elbow": dict(fn=pup_sneeze, kw=dict(), h=0.40),
+    "pip_bighat": dict(fn=puppy, kw=dict(costume="bighat"), h=0.40),
+    "pip_soapy": dict(fn=puppy, kw=dict(costume="soapy"), h=0.40),
+    "honey_cosy": dict(fn=bunny, kw=dict(costume="cosy"), h=0.44),
+    "hat_red": dict(fn=knit_hat, kw=dict(), h=0.09),
+    "scarf_blue": dict(fn=scarf, kw=dict(), h=0.15),
+    "mittens_yellow": dict(fn=mittens, kw=dict(), h=0.08),
+    "tissue_box": dict(fn=tissue_box, kw=dict(), h=0.08),
 }
 
 
@@ -2717,6 +2863,185 @@ def background(kind, W, H):
             beam = Image.new("RGBA", (W, H), (0, 0, 0, 0))
             ImageDraw.Draw(beam).polygon([(wx - ww * 0.8, wb), (wx + ww * 0.8, wb), (wx + ww * 1.6, H * (ground + 0.1)), (wx - ww * 1.9, H * (ground + 0.1))], fill=(220, 225, 255, 55))
             im.alpha_composite(beam.filter(ImageFilter.GaussianBlur(30)))
+    elif kind == "frosty_garden":
+        # ep023: Honey's garden on the first chilly morning: pale winter sky with a soft low sun, frosty
+        # white-tipped hills, Honey's cottage (left) with a warm window and chimney smoke, a white picket
+        # fence, a nearly bare tree (right) with a few last orange leaves, frost sparkles on the grass and a
+        # stepping-stone path. Gentle and cosy (no snow yet). Works with "leaves": true.
+        L = W > H
+        im = grad(W, H, (172, 210, 242), (252, 240, 228))
+        d = ImageDraw.Draw(im)
+        sx, sy, sr = W * (0.6 if L else 0.66), H * (0.13 if L else 0.1), min(W, H) * 0.06
+        halo = Image.new("RGBA", (W, H), (255, 245, 210, 0))
+        ImageDraw.Draw(halo).ellipse([sx - sr * 2.6, sy - sr * 2.6, sx + sr * 2.6, sy + sr * 2.6], fill=(255, 245, 210, 120))
+        im.alpha_composite(halo.filter(ImageFilter.GaussianBlur(40)))
+        d = ImageDraw.Draw(im)
+        d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=(255, 236, 170))
+        for cx, cy in ((0.08, 0.08), (0.78, 0.2), (0.4, 0.05)):
+            cloud(d, W * cx, H * cy, min(W, H) / 1300, (250, 252, 255))
+        hills(d, W, H, ground - 0.165, 0.07, (240, 246, 252), 31)
+        hills(d, W, H, ground - 0.15, 0.07, (178, 205, 180), 31)
+        hills(d, W, H, ground - 0.055, 0.035, (236, 244, 248), 33)
+        hills(d, W, H, ground - 0.045, 0.035, (160, 200, 150), 33)
+        # cottage (left)
+        cx0, cx1 = (W * 0.015, W * 0.25) if L else (W * -0.04, W * 0.36)
+        top = H * (ground - (0.36 if L else 0.21))
+        cw = cx1 - cx0
+        d.rectangle([cx0 + cw * 0.62, top - H * (0.17 if L else 0.1), cx0 + cw * 0.76, top], fill=(190, 120, 100), outline=OUT, width=5)
+        for k, (dx, dy, r) in enumerate(((0.69, 0.21, 0.025), (0.74, 0.25, 0.032), (0.82, 0.29, 0.04))):
+            rr = H * r * (1 if L else 0.65)
+            yy = top - H * (dy if L else dy * 0.62)
+            d.ellipse([cx0 + cw * dx - rr, yy - rr, cx0 + cw * dx + rr, yy + rr], fill=(240, 240, 248))
+        d.polygon([(cx0 - cw * 0.08, top + H * 0.01), (cx0 + cw * 0.5, top - H * (0.13 if L else 0.08)), (cx1 + cw * 0.08, top + H * 0.01)],
+                  fill=(205, 105, 95), outline=OUT, width=6)
+        d.line([(cx0 - cw * 0.06, top + H * 0.004), (cx0 + cw * 0.5, top - H * (0.123 if L else 0.074)), (cx1 + cw * 0.06, top + H * 0.004)], fill=(255, 255, 255), width=8)
+        d.rectangle([cx0, top, cx1, H * ground], fill=(255, 238, 212), outline=OUT, width=6)
+        dx0, dx1 = cx0 + cw * 0.56, cx0 + cw * 0.86
+        d.rounded_rectangle([dx0, H * ground - (H * 0.2 if L else H * 0.12), dx1, H * ground], 30, fill=(110, 160, 220), outline=OUT, width=5)
+        d.ellipse([dx1 - cw * 0.08, H * ground - H * (0.1 if L else 0.06), dx1 - cw * 0.04, H * ground - H * (0.1 if L else 0.06) + cw * 0.04], fill=(255, 215, 90))
+        wx0, wx1 = cx0 + cw * 0.12, cx0 + cw * 0.44
+        wy0 = top + H * (0.06 if L else 0.035)
+        wy1 = wy0 + (wx1 - wx0) * 0.9
+        g = Image.new("RGBA", (W, H), (255, 220, 130, 0))
+        ImageDraw.Draw(g).ellipse([wx0 - cw * 0.15, wy0 - cw * 0.15, wx1 + cw * 0.15, wy1 + cw * 0.15], fill=(255, 220, 130, 80))
+        im.alpha_composite(g.filter(ImageFilter.GaussianBlur(25)))
+        d = ImageDraw.Draw(im)
+        d.rectangle([wx0, wy0, wx1, wy1], fill=(255, 222, 140), outline=OUT, width=5)
+        d.line([((wx0 + wx1) / 2, wy0), ((wx0 + wx1) / 2, wy1)], fill=OUT, width=4)
+        d.line([(wx0, (wy0 + wy1) / 2), (wx1, (wy0 + wy1) / 2)], fill=OUT, width=4)
+        for k in range(6):  # frost in the window corners
+            d.ellipse([wx0 + 4 + k * 6, wy1 - 16 - k * 3, wx0 + 16 + k * 6, wy1 - 4 - k * 3], fill=(255, 255, 255))
+        # white picket fence
+        fy0, fy1 = H * (ground - (0.12 if L else 0.075)), H * (ground - 0.005)
+        fx0 = cx1 + W * 0.01
+        fx1 = W * (0.84 if L else 0.8)
+        d.rectangle([fx0, fy0 + (fy1 - fy0) * 0.3, fx1, fy0 + (fy1 - fy0) * 0.42], fill=(250, 250, 255), outline=OUT, width=3)
+        d.rectangle([fx0, fy0 + (fy1 - fy0) * 0.66, fx1, fy0 + (fy1 - fy0) * 0.78], fill=(250, 250, 255), outline=OUT, width=3)
+        step = W * (0.035 if L else 0.06)
+        x = fx0
+        while x < fx1:
+            pw = step * 0.5
+            d.polygon([(x, fy1), (x, fy0 + pw * 0.5), (x + pw / 2, fy0), (x + pw, fy0 + pw * 0.5), (x + pw, fy1)], fill=(255, 255, 255), outline=OUT, width=3)
+            x += step
+        # nearly bare tree (right) with a few last leaves
+        tx = W * (0.9 if L else 0.86)
+        tb = H * ground
+        tt = H * (ground - (0.62 if L else 0.4))
+        tw = W * (0.022 if L else 0.04)
+        d.polygon([(tx - tw, tb), (tx - tw * 0.6, tt + H * 0.1), (tx + tw * 0.6, tt + H * 0.1), (tx + tw, tb)], fill=(140, 95, 75), outline=OUT)
+        for (ax, ay, bx2, by2) in ((0, 0.15, -0.09, 0.0), (0, 0.22, 0.07, 0.08), (0, 0.12, 0.02, -0.02), (-0.05, 0.07, -0.12, 0.02), (0.04, 0.14, 0.1, 0.1)):
+            x1, y1 = tx + ax * W * (1 if L else 1.6), tt + H * ay
+            x2, y2 = tx + bx2 * W * (1 if L else 1.6), tt + H * by2
+            d.line([(tx, y1 + H * 0.06), (x2, y2)], fill=(140, 95, 75), width=int(tw * 0.5))
+            d.line([(x2 - 6, y2 + 2), (x2 + 18, y2 - 16)], fill=(255, 255, 255), width=5)
+            _leaf(d, x2, y2 + H * 0.012, H * 0.03, ["orange", "red", "yellow"][int(abs(bx2) * 100) % 3], 0.6, ol=True)
+        # frosty bushes
+        for (bx, sc) in (((0.33 if L else 0.4), 1.0), ((0.72 if L else 0.66), 0.8)):
+            bxx, byy = W * bx, H * (ground - 0.005)
+            r = H * 0.045 * sc * (1 if L else 0.7)
+            for (ox, oy, rr) in ((-1.1, 0, 0.8), (0, -0.4, 1.0), (1.1, 0, 0.8)):
+                d.ellipse([bxx + ox * r - rr * r, byy + oy * r - rr * r, bxx + ox * r + rr * r, byy + oy * r + rr * r], fill=(120, 175, 130))
+            for (ox, oy) in ((-1.3, -0.6), (-0.3, -1.25), (0.5, -1.2), (1.3, -0.6)):
+                d.ellipse([bxx + ox * r - r * 0.35, byy + oy * r - r * 0.18, bxx + ox * r + r * 0.35, byy + oy * r + r * 0.18], fill=(250, 252, 255))
+        # grass with frost sparkles + stepping stones
+        d.rectangle([0, H * ground, W, H], fill=(165, 208, 158))
+        for k in range(5):
+            yy = H * (ground + 0.02 + k * (1 - ground) / 5.2)
+            xx = W * (0.5 + 0.08 * math.sin(k * 1.3))
+            rx = W * (0.05 + k * 0.012) * (1 if L else 1.6)
+            d.ellipse([xx - rx, yy - H * 0.012, xx + rx, yy + H * 0.016 + k * 3], fill=(215, 215, 225), outline=(180, 180, 195), width=3)
+            d.ellipse([xx - rx * 0.7, yy - H * 0.01, xx + rx * 0.2, yy], fill=(250, 252, 255))
+        for i in range(int(160 * W * H / (1920 * 1080))):
+            x, y = rnd.uniform(0, W), rnd.uniform(H * ground, H)
+            r = rnd.uniform(2, 5)
+            d.ellipse([x - r, y - r, x + r, y + r], fill=(250, 253, 255))
+            if i % 9 == 0:
+                d.line([(x - 12, y), (x + 12, y)], fill=(255, 255, 255), width=3)
+                d.line([(x, y - 12), (x, y + 12)], fill=(255, 255, 255), width=3)
+    elif kind == "cosy_hall":
+        # ep023: Honey's cosy front hall: warm peach wall with a heart garland, a coat rail with Mama's big
+        # purple hat, a green scarf and a lilac coat, a wooden bench (left), a front door (right) with a round
+        # frosty window, wooden floor and a soft blue striped runner rug front-centre.
+        L = W > H
+        im = grad(W, H, (255, 224, 202), (255, 236, 218))
+        d = ImageDraw.Draw(im)
+        for i in range(int(40 * W * H / (1920 * 1080))):
+            x, y = rnd.uniform(0, W), rnd.uniform(H * 0.03, H * (ground - 0.25))
+            d.ellipse([x - 5, y - 5, x + 5, y + 5], fill=(255, 205, 185))
+        wy = H * (ground - (0.22 if L else 0.13))
+        d.rectangle([0, wy, W, H * ground], fill=(240, 196, 168))
+        for xx in range(0, W, int(W * (0.06 if L else 0.1))):
+            d.rounded_rectangle([xx + 14, wy + 18, xx + W * (0.06 if L else 0.1) - 14, H * ground - 18], 10, outline=(225, 175, 145), width=4)
+        d.rectangle([0, wy - 8, W, wy + 6], fill=(205, 150, 115))
+        # heart garland
+        gy = H * (0.07 if L else 0.1)
+        d.line([(0, gy), (W, gy)], fill=(200, 150, 120), width=3)
+        for i in range(9):
+            hx = W * (0.05 + i * 0.112)
+            hy = gy + H * 0.012 + (i % 2) * H * 0.008
+            hs = H * (0.016 if L else 0.011)
+            col = [(255, 130, 160), (255, 200, 90), (130, 190, 245)][i % 3]
+            d.polygon([(hx - hs, hy), (hx, hy + hs * 1.3), (hx + hs, hy)], fill=col)
+            d.ellipse([hx - hs, hy - hs * 0.6, hx, hy + hs * 0.35], fill=col)
+            d.ellipse([hx, hy - hs * 0.6, hx + hs, hy + hs * 0.35], fill=col)
+        # front door (right)
+        dx0, dx1 = (W * 0.8, W * 0.97) if L else (W * 0.76, W * 1.02)
+        dy0 = H * (0.2 if L else 0.4)
+        d.rounded_rectangle([dx0 - 16, dy0 - 16, dx1 + 16, H * ground + 4], 30, fill=(205, 150, 115), outline=OUT, width=5)
+        d.rounded_rectangle([dx0, dy0, dx1, H * ground], 24, fill=(120, 175, 225), outline=OUT, width=5)
+        cxw, cyw, rw = (dx0 + dx1) / 2, dy0 + (dx1 - dx0) * 0.42, (dx1 - dx0) * 0.3
+        win = grad(int(2 * rw), int(2 * rw), (180, 215, 245), (245, 248, 255))
+        mask = Image.new("L", win.size, 0)
+        ImageDraw.Draw(mask).ellipse([0, 0, win.size[0], win.size[1]], fill=255)
+        im.paste(win, (int(cxw - rw), int(cyw - rw)), mask)
+        d = ImageDraw.Draw(im)
+        d.ellipse([cxw - rw, cyw - rw, cxw + rw, cyw + rw], outline=OUT, width=6)
+        for (ox, oy) in ((-0.5, 0.5), (0.4, 0.55), (-0.1, 0.7), (0.6, -0.1)):
+            d.ellipse([cxw + ox * rw - 8, cyw + oy * rw - 8, cxw + ox * rw + 8, cyw + oy * rw + 8], fill=(255, 255, 255))
+        d.ellipse([dx0 + (dx1 - dx0) * 0.12 - 12, H * (ground - 0.18 if L else ground - 0.1) - 12, dx0 + (dx1 - dx0) * 0.12 + 12, H * (ground - 0.18 if L else ground - 0.1) + 12], fill=(255, 215, 90), outline=OUT, width=3)
+        # coat rail with pegs
+        rx0, rx1 = (W * 0.3, W * 0.7) if L else (W * 0.08, W * 0.68)
+        ry = H * (0.27 if L else 0.21)
+        d.rounded_rectangle([rx0, ry - H * 0.018, rx1, ry + H * 0.018], 10, fill=(205, 150, 115), outline=OUT, width=4)
+        pegs = [rx0 + (rx1 - rx0) * f for f in (0.15, 0.5, 0.85)]
+        for px in pegs:
+            d.ellipse([px - 12, ry - 12, px + 12, ry + 12], fill=(255, 215, 120), outline=OUT, width=3)
+        u = H * (1 if L else 0.62)
+        # Mama's big purple hat on peg 1
+        px = pegs[0]
+        d.chord([px - u * 0.07, ry - u * 0.02, px + u * 0.07, ry + u * 0.16], 180, 360, fill=(170, 120, 215), outline=OUT, width=5)
+        d.rounded_rectangle([px - u * 0.09, ry + u * 0.05, px + u * 0.09, ry + u * 0.08], 12, fill=(200, 160, 240), outline=OUT, width=5)
+        d.ellipse([px - u * 0.016, ry - u * 0.05, px + u * 0.016, ry - u * 0.018], fill=(255, 255, 255), outline=OUT, width=3)
+        # green scarf on peg 2
+        px = pegs[1]
+        for sgn in (-1, 1):
+            d.rounded_rectangle([px + sgn * u * 0.03 - u * 0.022, ry, px + sgn * u * 0.03 + u * 0.022, ry + u * (0.19 if sgn < 0 else 0.15)], 10, fill=(110, 195, 125), outline=OUT, width=4)
+            for k in (0.06, 0.11):
+                d.rectangle([px + sgn * u * 0.03 - u * 0.02, ry + u * k, px + sgn * u * 0.03 + u * 0.02, ry + u * (k + 0.015)], fill=(255, 255, 255))
+        d.chord([px - u * 0.055, ry - u * 0.03, px + u * 0.055, ry + u * 0.05], 180, 360, fill=(110, 195, 125), outline=OUT, width=4)
+        # lilac coat on peg 3
+        px = pegs[2]
+        d.polygon([(px - u * 0.04, ry + u * 0.01), (px + u * 0.04, ry + u * 0.01), (px + u * 0.08, ry + u * 0.24), (px - u * 0.08, ry + u * 0.24)], fill=(205, 180, 240), outline=OUT, width=5)
+        d.line([(px, ry + u * 0.03), (px, ry + u * 0.24)], fill=OUT, width=3)
+        for k in (0.08, 0.14, 0.2):
+            d.ellipse([px + u * 0.012 - 7, ry + u * k - 7, px + u * 0.012 + 7, ry + u * k + 7], fill=(255, 215, 120), outline=OUT, width=2)
+        # wooden bench (left) with a cushion
+        bx0, bx1 = (W * 0.02, W * 0.22) if L else (W * -0.02, W * 0.28)
+        by = H * (ground - (0.1 if L else 0.065))
+        d.rounded_rectangle([bx0, by, bx1, by + H * 0.025], 8, fill=(185, 125, 90), outline=OUT, width=4)
+        for x in (bx0 + 16, bx1 - 34):
+            d.rectangle([x, by + H * 0.02, x + 18, H * ground + 6], fill=(165, 110, 80), outline=OUT, width=3)
+        d.rounded_rectangle([bx0 + (bx1 - bx0) * 0.15, by - H * 0.03, bx0 + (bx1 - bx0) * 0.6, by + 4], 18, fill=(255, 165, 190), outline=OUT, width=4)
+        # floor + runner rug
+        d.rectangle([0, H * ground, W, H], fill=(205, 150, 110))
+        for k in range(1, 6):
+            yy = H * ground + k * (H - H * ground) / 5
+            d.line([(0, yy), (W, yy)], fill=(185, 132, 95), width=3)
+        rx0, rx1 = W * (0.24 if L else 0.1), W * (0.76 if L else 0.9)
+        d.rounded_rectangle([rx0, H * (ground + 0.02), rx1, H * 0.985], 26, fill=(150, 200, 245), outline=(110, 165, 225), width=6)
+        for k in range(1, 5):
+            xx = rx0 + k * (rx1 - rx0) / 5
+            d.line([(xx, H * (ground + 0.03)), (xx, H * 0.975)], fill=(255, 255, 255), width=10)
     elif kind == "bedroom":
         im = grad(W, H, (120, 82, 92), (160, 112, 98))
         d = ImageDraw.Draw(im)
