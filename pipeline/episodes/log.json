@@ -1637,5 +1637,91 @@
   ],
   "buffer_post_ids": [],
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep023",
+  "date": "2026-11-14",
+  "type": "kids story (seasonal: first chilly day, healthy habits)",
+  "trend": "KIDS (seasonal) - calendar row 2026-11-14; Pip lead (best YT face), no new friend; 7-beat retention structure 5:28 with banner cold open on the sneeze; ask-and-pause x14 (who sneezed, hot or cold, can you see me, hat colour, scarf colour, count mittens, pretend hat, find your elbow, practise sneezes x3, what next, count to ten, how many bubbles, what can Dotty use, are you cosy) + funny big-hat moment + gentle twist (Dotty has no elbows -> wing) + original Achoo Song; teaser for ep024 Lulu's first snowflakes; new frosty_garden + cosy_hall bgs, pip_cosy/pip_bighat/pip_elbow/pip_soapy, honey_cosy, hat_red/scarf_blue/mittens_yellow/tissue_box",
+  "title": "Pip Puppy's Chilly Day Sneeze",
+  "youtube_title": "Pip Puppy's Chilly Day Sneeze 🧣 Sneeze Into Your Elbow | Kids Story | Honey Bunny Kidz",
+  "youtube_description": "Brrr! It's the first chilly day and Pip Puppy has a big, big achoo! With Honey Bunny and Mama Bunny he finds his red hat, blue scarf and yellow mittens, learns to sneeze into his elbow, washes his paws while counting to ten, and helps Dotty Duckling sneeze into her wing. Sing the Achoo Song!\n💛 Share with a parent who'd love this!\n\n00:00 Achoo! Who sneezed?\n00:33 Mama's big, big hat\n00:57 Hat, scarf & mitten colours\n01:52 Sneeze into your elbow\n02:21 Let's practise!\n02:39 Tissue time\n03:00 Wash & count to ten\n03:22 Count the bubbles\n03:48 Do ducks have elbows?\n04:22 The Achoo Song\n05:05 One more time!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n#KidsStories #HealthyHabits #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "kids stories",
+   "stories for kids",
+   "healthy habits for kids",
+   "sneeze into your elbow",
+   "hand washing for kids",
+   "winter clothes for kids",
+   "colours for toddlers",
+   "counting to ten",
+   "toddler learning",
+   "preschool",
+   "cartoons for kids",
+   "Pip Puppy",
+   "Honey Bunny Kidz"
+  ],
+  "duration_s": 327.5,
+  "thumbnail_text": {
+   "full": "Ah... Ah... ACHOO!",
+   "short": "Who Sneezed?",
+   "short2": "Wash & Count!",
+   "short3": "Sneeze Like Dotty?"
+  },
+  "shorts": {
+   "short": {
+    "title": "Achoo! Who Sneezed? Guess with Pip Puppy! #shorts",
+    "hook": "Who sneezed under the big hat? (clue: floppy ears + waggy tail -> Pip) then elbow sneeze",
+    "duration_s": 64.1
+   },
+   "short2": {
+    "title": "Wash & Count to 10 with Pip Puppy! 🫧 #shorts",
+    "hook": "How many bubbles can you count? then scrub and count to ten",
+    "duration_s": 56.7
+   },
+   "short3": {
+    "title": "Pip Puppy's Achoo Song 🧣 Sneeze Like Dotty! #shorts",
+    "hook": "Do ducks have elbows? Dotty sneezes into her wing + Achoo Song with actions",
+    "duration_s": 69.1
+   }
+  },
+  "files": [
+   "videos/ep023_full.mp4",
+   "videos/ep023_full.srt",
+   "videos/ep023_short.mp4",
+   "videos/ep023_short2.mp4",
+   "videos/ep023_short3.mp4",
+   "videos/ep023_short.srt",
+   "videos/ep023_short2.srt",
+   "videos/ep023_short3.srt"
+  ],
+  "thumbnails": [
+   "thumbnails/ep023_thumb.jpg",
+   "thumbnails/ep023_short_thumb.jpg",
+   "thumbnails/ep023_short2_thumb.jpg",
+   "thumbnails/ep023_short3_thumb.jpg"
+  ],
+  "buffer_post_ids": [
+   "6af82bcdbb36d00909ff1fae",
+   "6af82bcebb36d00909ff1fe7",
+   "6af82bcfd16af15d4d069a24",
+   "6af82bcf78196a0a97541a5c",
+   "6af82bd078196a0a97541ad4"
+  ],
+  "buffer_posts": {
+   "short2_yt": "6af82bcdbb36d00909ff1fae",
+   "short2_fb": "6af82bcebb36d00909ff1fe7",
+   "short_yt": "6af82bcfd16af15d4d069a24",
+   "short_fb": "6af82bcf78196a0a97541a5c",
+   "short3_yt": "6af82bd078196a0a97541ad4"
+  },
+  "schedule": {
+   "short2": "2026-11-14 16:30 YT+FB",
+   "short": "2026-11-14 18:30 YT+FB",
+   "short3": "2026-11-14 20:30 YT only (KIDS day FB rule)"
+  },
+  "facebook_full": "skipped (not a SING day, per trends.md posting note)",
+  "buffer_thumbnail_note": "Buffer create_post video asset has no thumbnailUrl field; used thumbnailOffset 0 (cover frame = thumbnail on Shorts)",
+  "youtube_long": "manual upload by user"
  }
 ]
