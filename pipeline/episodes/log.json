@@ -2494,13 +2494,15 @@
    "6b01668ad9cbb430a1363f62",
    "6b01668a20a2d09a0aec04ba",
    "6b01668bd9cbb430a1364017",
-   "6b01668c20a2d09a0aec052b"
+   "6b01668c20a2d09a0aec052b",
+   "6b01673a510276624510da9f"
   ],
   "buffer_posts": {
    "16:30 short2 YT": "6b01668ad9cbb430a1363f62",
    "16:30 short2 FB reel": "6b01668a20a2d09a0aec04ba",
    "20:30 short3 YT": "6b01668bd9cbb430a1364017",
-   "20:30 short3 FB reel": "6b01668c20a2d09a0aec052b"
+   "20:30 short3 FB reel": "6b01668c20a2d09a0aec052b",
+   "22:30 full FB post": "6b01673a510276624510da9f"
   },
   "note": "SING day: FB = short2 + short3 Reels + full-video post; YouTube = short2 + short3 (2/day Buffer limit). Short 1 (guess) not posted today; kept in videos/ for compilations/later. Buffer create_post has no thumbnailUrl field; 0.5 s cover frame (offset 0) used. No Metricool Honey Bunny brand -> manual YouTube upload."
  }
