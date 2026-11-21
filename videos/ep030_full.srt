@@ -1,0 +1,523 @@
+1
+00:00:00,200 --> 00:00:01,816
+Snowflakes falling,
+
+2
+00:00:01,816 --> 00:00:03,065
+soft and slow!
+
+3
+00:00:03,315 --> 00:00:04,841
+Twirling, swirling,
+
+4
+00:00:04,841 --> 00:00:05,950
+down they go!
+
+5
+00:00:06,250 --> 00:00:08,123
+Snowflakes falling,
+
+6
+00:00:08,123 --> 00:00:09,570
+soft and slow!
+
+7
+00:00:09,820 --> 00:00:11,599
+Twirling, swirling,
+
+8
+00:00:11,599 --> 00:00:12,893
+down they go!
+
+9
+00:00:13,193 --> 00:00:13,843
+Look up!
+
+10
+00:00:13,843 --> 00:00:14,907
+Big snowflakes!
+
+11
+00:00:14,907 --> 00:00:16,443
+How many can you count?
+
+12
+00:00:18,443 --> 00:00:21,136
+Five! Five little snowflakes!
+
+13
+00:00:22,986 --> 00:00:24,384
+I want to catch one,
+
+14
+00:00:24,384 --> 00:00:26,390
+and keep it for ever and ever!
+
+15
+00:00:26,940 --> 00:00:29,870
+Ooh! Hold very still, Pip.
+
+16
+00:00:30,120 --> 00:00:30,980
+Shh!
+
+17
+00:00:34,180 --> 00:00:35,781
+It landed on my nose!
+
+18
+00:00:35,781 --> 00:00:37,315
+Hee hee, it tickles!
+
+19
+00:00:37,865 --> 00:00:39,456
+Don't move, Pip!
+
+20
+00:00:39,456 --> 00:00:40,795
+Don't sneeze!
+
+21
+00:00:42,645 --> 00:00:43,245
+Drip!
+
+22
+00:00:43,545 --> 00:00:45,988
+Hey! Where did my snowflake go?
+
+23
+00:00:46,238 --> 00:00:47,622
+Can you see it?
+
+24
+00:00:49,622 --> 00:00:50,351
+Hee hee!
+
+25
+00:00:50,351 --> 00:00:52,404
+It's a little drop of water,
+
+26
+00:00:52,404 --> 00:00:54,192
+on the tip of your nose!
+
+27
+00:00:56,042 --> 00:00:57,336
+Quack, quack!
+
+28
+00:00:57,336 --> 00:00:59,196
+Hello, snow friends!
+
+29
+00:00:59,746 --> 00:01:02,784
+Dotty! My snowflake turned into water!
+
+30
+00:01:03,034 --> 00:01:04,611
+Why did it melt?
+
+31
+00:01:06,611 --> 00:01:08,713
+Your nose is warm, Pip!
+
+32
+00:01:08,713 --> 00:01:11,784
+When cold snow gets warm, it melts.
+
+33
+00:01:12,034 --> 00:01:13,303
+Drip!
+
+34
+00:01:15,153 --> 00:01:16,559
+Let's sing and count!
+
+35
+00:01:16,559 --> 00:01:18,961
+Wiggle your fingers like falling snow!
+
+36
+00:01:19,761 --> 00:01:21,438
+Five little snowflakes,
+
+37
+00:01:21,438 --> 00:01:22,857
+dancing in the sky.
+
+38
+00:01:23,157 --> 00:01:26,251
+One fell on Pip's warm nose.
+
+39
+00:01:26,501 --> 00:01:28,489
+Drip! Bye bye!
+
+40
+00:01:28,889 --> 00:01:31,370
+How many snowflakes are left?
+
+41
+00:01:31,620 --> 00:01:32,966
+Count with me!
+
+42
+00:01:34,966 --> 00:01:37,447
+Four! Four little snowflakes!
+
+43
+00:01:40,597 --> 00:01:42,680
+Four little snowflakes,
+
+44
+00:01:42,680 --> 00:01:44,443
+dancing in the sky.
+
+45
+00:01:44,743 --> 00:01:46,834
+One fell on Lulu's nose.
+
+46
+00:01:46,834 --> 00:01:47,454
+Drip!
+
+47
+00:01:47,704 --> 00:01:48,858
+Bye bye!
+
+48
+00:01:49,158 --> 00:01:49,758
+Drip!
+
+49
+00:01:50,058 --> 00:01:51,558
+Oh! How many now?
+
+50
+00:01:51,558 --> 00:01:53,357
+Hold up your fingers!
+
+51
+00:01:55,357 --> 00:01:56,819
+Three!
+
+52
+00:01:58,669 --> 00:02:00,690
+Three little snowflakes,
+
+53
+00:02:00,690 --> 00:02:02,337
+dancing in the sky.
+
+54
+00:02:02,637 --> 00:02:04,671
+One fell on Dotty's beak.
+
+55
+00:02:04,671 --> 00:02:05,252
+Drip!
+
+56
+00:02:05,502 --> 00:02:06,656
+Bye bye!
+
+57
+00:02:06,956 --> 00:02:09,098
+Quack! A cold beak kiss!
+
+58
+00:02:09,098 --> 00:02:10,764
+How many are left?
+
+59
+00:02:12,764 --> 00:02:13,747
+Two!
+
+60
+00:02:15,597 --> 00:02:17,592
+Two little snowflakes,
+
+61
+00:02:17,592 --> 00:02:19,347
+dancing in the sky.
+
+62
+00:02:19,647 --> 00:02:22,109
+One fell on my warm tummy.
+
+63
+00:02:22,359 --> 00:02:23,724
+Drip! Bye bye!
+
+64
+00:02:24,024 --> 00:02:27,159
+Only one little snowflake left!
+
+65
+00:02:27,409 --> 00:02:29,745
+Can you point to it?
+
+66
+00:02:33,045 --> 00:02:34,661
+One little snowflake,
+
+67
+00:02:34,661 --> 00:02:36,141
+dancing in the sky.
+
+68
+00:02:36,441 --> 00:02:37,969
+It's flying to YOU!
+
+69
+00:02:37,969 --> 00:02:39,288
+Touch your nose!
+
+70
+00:02:41,288 --> 00:02:41,888
+Drip! Bye bye!
+
+71
+00:02:42,188 --> 00:02:44,957
+How many snowflakes now?
+
+72
+00:02:46,957 --> 00:02:49,688
+Zero! I didn't keep a single one!
+
+73
+00:02:51,538 --> 00:02:53,287
+Don't worry, Pip!
+
+74
+00:02:53,287 --> 00:02:54,249
+Look up!
+
+75
+00:02:54,499 --> 00:02:57,095
+More snow is coming!
+
+76
+00:02:57,645 --> 00:03:00,530
+Here are two new snowflakes.
+
+77
+00:03:00,780 --> 00:03:03,184
+Which one is big?
+
+78
+00:03:05,184 --> 00:03:06,044
+That one!
+
+79
+00:03:06,044 --> 00:03:07,549
+The big snowflake!
+
+80
+00:03:07,799 --> 00:03:09,684
+And this one is small.
+
+81
+00:03:11,534 --> 00:03:13,155
+Watch my wings!
+
+82
+00:03:13,155 --> 00:03:14,957
+Flap, flap, flap!
+
+83
+00:03:17,207 --> 00:03:21,283
+Whoosh! Are the snowflakes going fast, or slow?
+
+84
+00:03:23,283 --> 00:03:25,514
+Fast! Swirly and fast!
+
+85
+00:03:26,064 --> 00:03:28,954
+Now they float down slowly.
+
+86
+00:03:29,204 --> 00:03:32,216
+Can you float down slowly too?
+
+87
+00:03:36,816 --> 00:03:37,876
+Pip, look!
+
+88
+00:03:37,876 --> 00:03:40,484
+A snowflake on my red mitten.
+
+89
+00:03:40,734 --> 00:03:43,213
+And it's not melting!
+
+90
+00:03:43,763 --> 00:03:44,504
+Why not?
+
+91
+00:03:44,504 --> 00:03:46,186
+Why didn't it go drip?
+
+92
+00:03:48,186 --> 00:03:50,213
+Lulu's mitten is cold,
+
+93
+00:03:50,213 --> 00:03:51,590
+like the snow!
+
+94
+00:03:51,840 --> 00:03:54,026
+Cold keeps snowflakes.
+
+95
+00:03:54,026 --> 00:03:55,686
+Warm melts them!
+
+96
+00:03:57,536 --> 00:04:00,998
+Mama, I wanted to keep a snowflake for ever.
+
+97
+00:04:01,248 --> 00:04:03,344
+But they always melt.
+
+98
+00:04:03,894 --> 00:04:06,734
+Snowflakes don't stay, Pip.
+
+99
+00:04:06,984 --> 00:04:10,552
+But the whole garden is full of them, to share!
+
+100
+00:04:11,102 --> 00:04:12,633
+Then let's say hello,
+
+101
+00:04:12,633 --> 00:04:13,909
+and let them fly!
+
+102
+00:04:14,159 --> 00:04:16,294
+Wave hello to the snow!
+
+103
+00:04:19,594 --> 00:04:22,825
+Let's sing the Five Little Snowflakes Song!
+
+104
+00:04:23,075 --> 00:04:25,267
+Make snowflake fingers!
+
+105
+00:04:26,267 --> 00:04:27,883
+Snowflakes falling,
+
+106
+00:04:27,883 --> 00:04:29,132
+soft and slow!
+
+107
+00:04:29,432 --> 00:04:31,212
+Twirling, swirling,
+
+108
+00:04:31,212 --> 00:04:32,506
+down they go!
+
+109
+00:04:33,006 --> 00:04:35,048
+Five little snowflakes,
+
+110
+00:04:35,048 --> 00:04:36,775
+dancing in the sky,
+
+111
+00:04:37,075 --> 00:04:40,152
+One fell on a warm, warm nose.
+
+112
+00:04:40,402 --> 00:04:41,768
+Drip! Bye bye!
+
+113
+00:04:43,668 --> 00:04:44,694
+Four, three,
+
+114
+00:04:44,694 --> 00:04:46,404
+two little snowflakes,
+
+115
+00:04:46,404 --> 00:04:47,909
+dancing in the sky,
+
+116
+00:04:48,209 --> 00:04:50,244
+Melting on our noses!
+
+117
+00:04:50,244 --> 00:04:51,940
+Drip, drip, drip!
+
+118
+00:04:52,190 --> 00:04:53,940
+Bye bye!
+
+119
+00:04:54,540 --> 00:04:57,694
+One little snowflake landed on a mitten,
+
+120
+00:04:57,994 --> 00:04:59,336
+Cold and cosy,
+
+121
+00:04:59,336 --> 00:05:01,703
+like a little white kitten!
+
+122
+00:05:03,803 --> 00:05:04,872
+Twirl around!
+
+123
+00:05:04,872 --> 00:05:06,341
+Snowflakes falling,
+
+124
+00:05:06,341 --> 00:05:07,476
+soft and slow!
+
+125
+00:05:07,726 --> 00:05:09,251
+Twirling, swirling,
+
+126
+00:05:09,251 --> 00:05:10,361
+down they go!
+
+127
+00:05:11,161 --> 00:05:15,029
+Share with a friend and subscribe to Honey Bunny Kidz!
+
+128
+00:05:15,629 --> 00:05:16,508
+Next time,
+
+129
+00:05:16,508 --> 00:05:19,685
+Pip Puppy and Dotty find shapes in the snow!
+
+130
+00:05:20,285 --> 00:05:21,808
+Woof! Bye bye, friends!
+
+131
+00:05:21,808 --> 00:05:24,208
+See you next time on Honey Bunny Kidz!

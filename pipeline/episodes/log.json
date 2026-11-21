@@ -2410,5 +2410,98 @@
   ],
   "buffer_post_ids": [],
   "youtube_long": "manual upload by user"
+ },
+ {
+  "id": "ep030",
+  "date": "2026-11-21",
+  "type": "sing-along rhyme (original count-down song, first snow)",
+  "trend": "SING - calendar row 2026-11-21 (Five Little Snowflakes with Pip Puppy); Pip lead + Lulu, Dotty, Mama (no new friend); opens ON the chorus with banner cold open in falling snow; 7-beat structure 5:26; ask-and-pause x14 (count 5 flakes, can you see it, why did it melt, how many left x4, point to the last one, touch your nose, how many now, which is big, fast or slow, float down slowly, why didn't it melt, wave hello to the snow) + funny snowflake-on-nose -> drip + gentle twist (a snowflake stays on Lulu's cold mitten: cold keeps snow, warm melts it) + original Five Little Snowflakes Song (count-down verses + chorus); teaser for ep031 Pip and Dotty's Snow Shapes; new snowy_garden bg, pip_flakenose/pip_nosedrip/lulu_mittflake, waterdrop prop",
+  "title": "Five Little Snowflakes with Pip Puppy",
+  "youtube_title": "Five Little Snowflakes with Pip Puppy ❄️ Counting Song for Kids | Sing-Along | Honey Bunny Kidz",
+  "youtube_description": "Pip Puppy wants to keep a snowflake for ever, but every one goes drip on his warm nose! ❄️\nKids count down five little snowflakes, learn big and small, fast and slow, warm and cold, and sing an original snowflake song with actions.\n💛 Share with a parent who'd love this!\n\n00:00 Five little snowflakes!\n00:23 Pip wants to keep a snowflake\n00:34 A snowflake on Pip's nose!\n00:42 Drip! Where did it go?\n00:56 Why do snowflakes melt?\n01:15 Count down: 5, 4, 3...\n01:55 Dotty's cold beak kiss\n02:20 The last snowflake is for YOU\n02:51 Big and small snowflakes\n03:11 Fast or slow?\n03:36 Lulu's mitten surprise\n03:57 Snow for everyone\n04:19 The Five Little Snowflakes Song\n05:03 Twirl and sing again!\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n\n#KidsSongs #SnowflakeSong #CountingSong #Toddlers #Preschool #HoneyBunnyKidz",
+  "youtube_tags": [
+   "kids songs",
+   "counting song for kids",
+   "snowflake song",
+   "winter songs for kids",
+   "five little snowflakes",
+   "toddler songs",
+   "preschool learning",
+   "opposites for kids",
+   "Pip Puppy",
+   "Lulu Lamb",
+   "Dotty Duckling",
+   "sing along",
+   "Honey Bunny Kidz"
+  ],
+  "chapters": [
+   "00:00 Five little snowflakes!",
+   "00:23 Pip wants to keep a snowflake",
+   "00:34 A snowflake on Pip's nose!",
+   "00:42 Drip! Where did it go?",
+   "00:56 Why do snowflakes melt?",
+   "01:15 Count down: 5, 4, 3...",
+   "01:55 Dotty's cold beak kiss",
+   "02:20 The last snowflake is for YOU",
+   "02:51 Big and small snowflakes",
+   "03:11 Fast or slow?",
+   "03:36 Lulu's mitten surprise",
+   "03:57 Snow for everyone",
+   "04:19 The Five Little Snowflakes Song",
+   "05:03 Twirl and sing again!"
+  ],
+  "duration_s": 326.4,
+  "shorts": [
+   {
+    "file": "videos/ep030_short.mp4",
+    "hook": "How many snowflakes will be left? Watch and guess! (flakes melt on Pip's nose, Lulu's nose, Dotty's beak: 5->4->3->2->1, then why: warm melts snow)",
+    "title": "How Many Snowflakes Are Left? Pip Puppy #shorts",
+    "duration_s": 75.0,
+    "posted": false
+   },
+   {
+    "file": "videos/ep030_short2.mp4",
+    "hook": "Which snowflake is BIG? big/small, warm nose vs cold mitten, fast/slow with Dotty's wings",
+    "title": "Big or Small? Warm or Cold? Pip Puppy & Lulu #shorts",
+    "duration_s": 69.2
+   },
+   {
+    "file": "videos/ep030_short3.mp4",
+    "hook": "Can you twirl like a snowflake? chorus with actions (wiggle, twirl, touch your nose - drip!, float down, sit softly)",
+    "title": "Twirl Like a Snowflake! Pip Puppy Song #shorts",
+    "duration_s": 69.5
+   }
+  ],
+  "files": [
+   "videos/ep030_full.mp4",
+   "videos/ep030_full.srt",
+   "videos/ep030_short.mp4",
+   "videos/ep030_short2.mp4",
+   "videos/ep030_short3.mp4",
+   "videos/ep030_short.srt",
+   "videos/ep030_short2.srt",
+   "videos/ep030_short3.srt"
+  ],
+  "thumbnails": [
+   "thumbnails/ep030_thumb.jpg",
+   "thumbnails/ep030_short_thumb.jpg",
+   "thumbnails/ep030_short2_thumb.jpg",
+   "thumbnails/ep030_short3_thumb.jpg"
+  ],
+  "thumbnail_text": "Drip! Where'd It Go? / How Many Left? / Big or Small? / Twirl & Sing!",
+  "youtube_long": "manual upload by user",
+  "buffer_post_ids": [
+   "6b01668ad9cbb430a1363f62",
+   "6b01668a20a2d09a0aec04ba",
+   "6b01668bd9cbb430a1364017",
+   "6b01668c20a2d09a0aec052b"
+  ],
+  "buffer_posts": {
+   "16:30 short2 YT": "6b01668ad9cbb430a1363f62",
+   "16:30 short2 FB reel": "6b01668a20a2d09a0aec04ba",
+   "20:30 short3 YT": "6b01668bd9cbb430a1364017",
+   "20:30 short3 FB reel": "6b01668c20a2d09a0aec052b"
+  },
+  "note": "SING day: FB = short2 + short3 Reels + full-video post; YouTube = short2 + short3 (2/day Buffer limit). Short 1 (guess) not posted today; kept in videos/ for compilations/later. Buffer create_post has no thumbnailUrl field; 0.5 s cover frame (offset 0) used. No Metricool Honey Bunny brand -> manual YouTube upload."
  }
 ]
