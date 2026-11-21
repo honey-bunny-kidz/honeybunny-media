@@ -20,7 +20,7 @@ for _k, _base in {"honey_berry": "honey", "honey_pj": "honey", "honey_rain": "ho
                   "dotty_beads": "dotty", "lulu_foam": "lulu", "cloudy_light": "cloudy",
                   "pip_muddy": "pip", "pip_bubbly": "pip", "pip_towel": "pip", "pip_pj": "pip",
                   "pip_cosy": "pip", "pip_elbow": "pip", "pip_bighat": "pip", "pip_soapy": "pip", "honey_cosy": "honey",
-                  "lulu_cosy": "lulu", "lulu_flake": "lulu", "pip_snowy": "pip", "dotty_cosy": "dotty", "lulu_hat": "lulu", "lulu_hs": "lulu", "lulu_mitear": "lulu", "lulu_hsm1": "lulu", "lulu_hsm": "lulu", "lulu_winter": "lulu", "pip_shiver": "pip", "pip_wrapped": "pip", "pip_pj_cold": "pip", "pip_sockear": "pip", "pip_onesock": "pip", "pip_socks": "pip", "mimi_socks": "mimi", "mimi_stretch": "mimi"}.items():
+                  "lulu_cosy": "lulu", "lulu_flake": "lulu", "pip_snowy": "pip", "dotty_cosy": "dotty", "lulu_hat": "lulu", "lulu_hs": "lulu", "lulu_mitear": "lulu", "lulu_hsm1": "lulu", "lulu_hsm": "lulu", "lulu_winter": "lulu", "pip_shiver": "pip", "pip_wrapped": "pip", "pip_pj_cold": "pip", "pip_sockear": "pip", "pip_onesock": "pip", "pip_socks": "pip", "mimi_socks": "mimi", "mimi_stretch": "mimi", "pip_flakenose": "pip", "pip_nosedrip": "pip", "lulu_mittflake": "lulu"}.items():
     VOICES[_k] = VOICES[_base]
     if _base in KIDS:
         KIDS.add(_k)

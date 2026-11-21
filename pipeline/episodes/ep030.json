@@ -1,0 +1,1007 @@
+{
+ "id": "ep030",
+ "title": "Five Little Snowflakes with Pip Puppy",
+ "thumbnail": {
+  "text": "Drip! Where'd It Go?",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_garden",
+  "cast": [
+   {
+    "id": "pip_flakenose",
+    "mouth": 2,
+    "x": 0.55
+   },
+   {
+    "id": "lulu_mittflake",
+    "mouth": 2,
+    "x": 0.82,
+    "flip": true,
+    "scale": 0.85
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_garden",
+   "banner": "Five Little Snowflakes with Pip Puppy",
+   "lead": 0.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.71,
+     "y": 0.36,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.52,
+     "y": 0.31,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Snowflakes falling, soft and slow! Twirling, swirling, down they go!",
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Snowflakes falling, soft and slow! Twirling, swirling, down they go!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Look up! Big snowflakes! How many can you count?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Five! Five little snowflakes!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.71,
+     "y": 0.36,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.52,
+     "y": 0.31,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "I want to catch one, and keep it for ever and ever!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Ooh! Hold very still, Pip. Shh!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.71,
+     "y": 0.36,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_flakenose",
+     "x": 0.5,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_flakenose",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_flakenose",
+     "text": "It landed on my nose! Hee hee, it tickles!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Don't move, Pip! Don't sneeze!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.71,
+     "y": 0.36,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_nosedrip",
+     "x": 0.5,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_nosedrip",
+     "text": "Drip!",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "pip_nosedrip",
+     "text": "Hey! Where did my snowflake go? Can you see it?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Hee hee! It's a little drop of water, on the tip of your nose!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.71,
+     "y": 0.36,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_nosedrip",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Quack, quack! Hello, snow friends!"
+    },
+    {
+     "who": "pip_nosedrip",
+     "text": "Dotty! My snowflake turned into water! Why did it melt?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Your nose is warm, Pip! When cold snow gets warm, it melts. Drip!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.71,
+     "y": 0.36,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing and count! Wiggle your fingers like falling snow!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Five little snowflakes, dancing in the sky.",
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "One fell on Pip's warm nose. Drip! Bye bye!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "How many snowflakes are left? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Four! Four little snowflakes!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_flake",
+     "x": 0.32,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_flake",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Four little snowflakes, dancing in the sky.",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One fell on Lulu's nose. Drip! Bye bye!",
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_flake",
+     "text": "Drip!",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "lulu_flake",
+     "text": "Oh! How many now? Hold up your fingers!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Three!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.655,
+     "y": 0.73,
+     "scale": 0.7,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Three little snowflakes, dancing in the sky.",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One fell on Dotty's beak. Drip! Bye bye!",
+     "pause": 0.3
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Quack! A cold beak kiss! How many are left?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Two!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 2.2,
+     "glow": true
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Two little snowflakes, dancing in the sky.",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One fell on my warm tummy. Drip! Bye bye!",
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Only one little snowflake left! Can you point to it?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.5,
+     "y": 0.42,
+     "scale": 2.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "One little snowflake, dancing in the sky.",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "It's flying to YOU! Touch your nose!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Drip! Bye bye!",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "How many snowflakes now?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Zero! I didn't keep a single one!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.36,
+     "y": 0.4,
+     "scale": 3.0,
+     "glow": true
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.64,
+     "y": 0.36,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Don't worry, Pip! Look up! More snow is coming!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Here are two new snowflakes. Which one is big?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "That one! The big snowflake! And this one is small."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Watch my wings! Flap, flap, flap!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "wind",
+     "dur": 1.4
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Whoosh! Are the snowflakes going fast, or slow?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Fast! Swirly and fast!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Now they float down slowly. Can you float down slowly too?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_mittflake",
+     "x": 0.32,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_mittflake",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "lulu_mittflake",
+     "text": "Pip, look! A snowflake on my red mitten. And it's not melting!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Why not? Why didn't it go drip?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Lulu's mitten is cold, like the snow! Cold keeps snowflakes. Warm melts them!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_mittflake",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.19
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Mama, I wanted to keep a snowflake for ever. But they always melt."
+    },
+    {
+     "who": "mama",
+     "text": "Snowflakes don't stay, Pip. But the whole garden is full of them, to share!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Then let's say hello, and let them fly! Wave hello to the snow!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.71,
+     "y": 0.36,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.52,
+     "y": 0.31,
+     "scale": 1.3
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing the Five Little Snowflakes Song! Make snowflake fingers!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Snowflakes falling, soft and slow!",
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Twirling, swirling, down they go!",
+     "pause": 0.5
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Five little snowflakes, dancing in the sky,",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One fell on a warm, warm nose. Drip! Bye bye!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 1.3
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Four, three, two little snowflakes, dancing in the sky,",
+     "pause": 0.3
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Melting on our noses! Drip, drip, drip! Bye bye!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One little snowflake landed on a mitten,",
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Cold and cosy, like a little white kitten!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.25,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.4,
+     "y": 0.37,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.24,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.71,
+     "y": 0.36,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.52,
+     "y": 0.31,
+     "scale": 1.3
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.69,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Twirl around! Snowflakes falling, soft and slow! Twirling, swirling, down they go!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy and Dotty find shapes in the snow!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Bye bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

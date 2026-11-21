@@ -369,7 +369,7 @@ def lamb(eyes="open", m=0, h=400, foam=False, costume=None):
     mouth(d, 450, 525, 0.85, m)
     if foam:
         _foam(im)
-    if costume in ("cosy", "flake"):  # first-snow outfit (ep024): blue scarf with white dots + red mittens
+    if costume in ("cosy", "flake", "mittflake"):  # first-snow outfit (ep024): blue scarf with white dots + red mittens
         d = ImageDraw.Draw(im)
         BLUE, BL2 = (90, 150, 235, 255), (150, 195, 250, 255)
         d.polygon([(520, 640), (600, 640), (615, 850), (535, 850)], fill=BLUE, outline=OUT, width=7)   # scarf tail
@@ -391,7 +391,13 @@ def lamb(eyes="open", m=0, h=400, foam=False, costume=None):
     if costume == "flake":  # a snowflake landed right on her nose (funny moment)
         d = ImageDraw.Draw(im)
         _flake(d, 450, 470, 46, w=9)
-    parts = set(costume.split("+")) if costume and costume not in ("cosy", "flake") else set()
+    if costume == "mittflake":  # ep030: a snowflake resting on her cold red mitten (it does NOT melt)
+        d = ImageDraw.Draw(im)
+        _flake(d, 688, 712, 52, w=10)
+        for (x, y) in ((630, 650), (752, 660), (700, 640)):
+            d.line([(x - 12, y), (x + 12, y)], fill=(255, 255, 255, 255), width=5)
+            d.line([(x, y - 12), (x, y + 12)], fill=(255, 255, 255, 255), width=5)
+    parts = set(costume.split("+")) if costume and costume not in ("cosy", "flake", "mittflake") else set()
     if parts:  # ep027 dressing-routine stages, e.g. "hat+scarf+mitts+boots"
         _lamb_dress(im, parts)
     return finish(im, (int(h * W / H), h))
@@ -635,7 +641,7 @@ def puppy(eyes="open", m=0, h=400, costume=None):
         for x in (190, 710):
             d.arc([x - 40, 920, x + 40, 990], 200, 340, fill=OUT, width=6)
         _drops(d, [(250, 210, 22), (650, 215, 22)])
-    if costume in ("cosy", "elbow", "snowy"):  # chilly-day outfit (ep023): blue striped scarf + yellow mittens
+    if costume in ("cosy", "elbow", "snowy", "flakenose", "drip"):  # chilly-day outfit (ep023): blue striped scarf + yellow mittens
         BLUE, BL2 = (95, 155, 235, 255), (150, 195, 250, 255)
         d.polygon([(372, 640), (452, 640), (440, 860), (360, 860)], fill=BLUE, outline=OUT, width=7)
         for yy in (700, 770):
@@ -645,12 +651,12 @@ def puppy(eyes="open", m=0, h=400, costume=None):
         d.rounded_rectangle([270, 585, 630, 680], 44, fill=BLUE, outline=OUT, width=8)
         for xx in (340, 450, 560):
             d.line([(xx, 592), (xx, 673)], fill=BL2, width=16)
-        if costume in ("cosy", "snowy"):
+        if costume in ("cosy", "snowy", "flakenose", "drip"):
             for side in (-1, 1):
                 E(d, 450 + side * 128, 892, 58, 66, (255, 210, 70, 255))
                 E(d, 450 + side * 128 + side * 50, 868, 22, 30, (255, 210, 70, 255), w=6)
                 d.rounded_rectangle([450 + side * 128 - 56, 830, 450 + side * 128 + 56, 856], 12, fill=(255, 255, 255, 255), outline=OUT, width=5)
-    if costume in ("cosy", "elbow", "snowy"):  # red knit hat with a fluffy pompom
+    if costume in ("cosy", "elbow", "snowy", "flakenose", "drip"):  # red knit hat with a fluffy pompom
         RED, RL = (236, 78, 82, 255), (250, 130, 130, 255)
         d.chord([238, 70, 662, 440], 180, 360, fill=RED, outline=OUT, width=8)
         for xx in (320, 385, 450, 515, 580):
@@ -694,6 +700,14 @@ def puppy(eyes="open", m=0, h=400, costume=None):
             _flake(d, x, y, 30, w=6)
         for (x, y, r) in ((610, 700, 24),):
             E(d, x, y, r * 1.3, r, SN, ol=SO, w=5)
+    if costume == "flakenose":  # ep030: a big snowflake lands right on Pip's warm nose (it tickles!)
+        _flake(d, 450, 450, 50, w=10)
+    if costume == "drip":  # ep030: the snowflake melted - a shiny water drop hangs off his nose (funny)
+        E(d, 450, 470, 26, 16, (255, 120, 140, 110), w=0)
+        d.polygon([(450, 470), (428, 525), (472, 525)], fill=(150, 205, 250, 255))
+        E(d, 450, 530, 26, 26, (150, 205, 250, 255), ol=(80, 140, 220, 255), w=6)
+        d.polygon([(450, 468), (429, 522), (471, 522)], fill=(150, 205, 250, 255))
+        E(d, 441, 524, 8, 9, (255, 255, 255, 255), w=0)
     if costume == "soapy":  # washing paws: soap foam on both paws + a few bubbles
         for side in (-1, 1):
             for (dx, dy, r) in ((0, 0, 58), (-40, -30, 40), (40, -36, 42), (-20, 45, 38), (35, 40, 36), (0, -70, 30)):
@@ -3555,6 +3569,8 @@ def background(kind, W, H):
         im = _winter_farm(W, H, ground, rnd)
     elif kind == "cosy_kitchen":
         im = _cosy_kitchen(W, H, ground, rnd)
+    elif kind == "snowy_garden":
+        im = _snowy_garden(W, H, ground, rnd)
     else:
         raise ValueError(kind)
     return im, fg, stars
@@ -4134,4 +4150,123 @@ CHARS.update({
     "sock_green": dict(fn=sock, kw=dict(col="green"), h=0.15),
     "sock_basket": dict(fn=sock_basket, kw=dict(), h=0.17),
     "milk_cup": dict(fn=milk_cup, kw=dict(), h=0.10),
+})
+
+
+# ---------------------------------------------------------------- ep030: Five Little Snowflakes (Honey's snowy garden)
+def waterdrop(eyes="open", m=0, h=150):
+    """A shiny little water drop (a melted snowflake) with a happy face."""
+    W, H = 400, 520
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    BL = (140, 200, 250, 255)
+    d.polygon([(200, 20), (60, 300), (340, 300)], fill=OUT)
+    E(d, 200, 340, 150, 150, BL, w=10)
+    d.polygon([(200, 36), (70, 300), (330, 300)], fill=BL)
+    E(d, 140, 300, 26, 40, (235, 248, 255, 255), w=0)
+    eye(d, 155, 345, 18, eyes)
+    eye(d, 245, 345, 18, eyes)
+    mouth(d, 200, 400, 1.0, m)
+    return finish(im, (int(h * W / H), h))
+
+
+def _snowy_garden(W, H, ground, rnd):
+    """ep030: Honey's cottage garden covered in fresh snow on a soft, snowy late morning: pale lavender-grey
+    sky with big soft clouds, snowy far hills, Honey's cottage (left) with a thick snow roof, a glowing
+    window and an icicle-free porch, a snow-capped picket fence, a snowy evergreen bush pair, a little red
+    sled leaning on the fence (right of centre), a snowy bird bath (right) and soft blue snow shadows.
+    Centre front stays clear. Use with "snow": true for falling flakes."""
+    L = W > H
+    im = grad(W, H, (196, 200, 232), (244, 240, 250))
+    d = ImageDraw.Draw(im)
+    for cx, cy, s in ((0.1, 0.07, 1.2), (0.42, 0.04, 1.4), (0.74, 0.1, 1.2), (0.95, 0.03, 0.9)):
+        cloud(d, W * cx, H * cy * (1 if L else 0.8), min(W, H) / 1000 * s, (252, 250, 255))
+    hills(d, W, H, ground - 0.16, 0.06, (228, 230, 246), 41)
+    hills(d, W, H, ground - 0.07, 0.03, (240, 242, 252), 43)
+    # cottage (left) with a thick snow roof
+    cx0, cx1 = (W * 0.015, W * 0.25) if L else (W * -0.04, W * 0.36)
+    top = H * (ground - (0.36 if L else 0.21))
+    cw = cx1 - cx0
+    d.rectangle([cx0 + cw * 0.62, top - H * (0.17 if L else 0.1), cx0 + cw * 0.76, top], fill=(190, 120, 100), outline=OUT, width=5)
+    d.ellipse([cx0 + cw * 0.6, top - H * (0.19 if L else 0.115), cx0 + cw * 0.78, top - H * (0.15 if L else 0.09)], fill=(255, 255, 255), outline=(170, 185, 225), width=3)
+    peak = top - H * (0.13 if L else 0.08)
+    d.polygon([(cx0 - cw * 0.08, top + H * 0.01), (cx0 + cw * 0.5, peak), (cx1 + cw * 0.08, top + H * 0.01)], fill=(205, 105, 95), outline=OUT, width=6)
+    d.polygon([(cx0 - cw * 0.1, top + H * 0.012), (cx0 + cw * 0.5, peak - H * 0.02), (cx1 + cw * 0.1, top + H * 0.012),
+               (cx1 + cw * 0.02, top + H * 0.03), (cx0 + cw * 0.5, peak + H * 0.03), (cx0 - cw * 0.02, top + H * 0.03)], fill=(255, 255, 255), outline=(170, 185, 225))
+    for k in range(7):
+        xx = cx0 - cw * 0.06 + k * (cw * 1.12) / 6
+        d.ellipse([xx - 14, top + H * 0.018, xx + 14, top + H * 0.018 + 26], fill=(255, 255, 255))
+    d.rectangle([cx0, top + H * 0.03, cx1, H * ground], fill=(255, 238, 212), outline=OUT, width=6)
+    dx0, dx1 = cx0 + cw * 0.56, cx0 + cw * 0.86
+    d.rounded_rectangle([dx0, H * ground - (H * 0.2 if L else H * 0.12), dx1, H * ground], 30, fill=(110, 160, 220), outline=OUT, width=5)
+    d.ellipse([dx1 - cw * 0.08, H * ground - H * (0.1 if L else 0.06), dx1 - cw * 0.04, H * ground - H * (0.1 if L else 0.06) + cw * 0.04], fill=(255, 215, 90))
+    wx0, wx1 = cx0 + cw * 0.12, cx0 + cw * 0.44
+    wy0 = top + H * (0.07 if L else 0.045)
+    wy1 = wy0 + (wx1 - wx0) * 0.9
+    g = Image.new("RGBA", (W, H), (255, 220, 130, 0))
+    ImageDraw.Draw(g).ellipse([wx0 - cw * 0.15, wy0 - cw * 0.15, wx1 + cw * 0.15, wy1 + cw * 0.15], fill=(255, 220, 130, 90))
+    im.alpha_composite(g.filter(ImageFilter.GaussianBlur(25)))
+    d = ImageDraw.Draw(im)
+    d.rectangle([wx0, wy0, wx1, wy1], fill=(255, 222, 140), outline=OUT, width=5)
+    d.line([((wx0 + wx1) / 2, wy0), ((wx0 + wx1) / 2, wy1)], fill=OUT, width=4)
+    d.line([(wx0, (wy0 + wy1) / 2), (wx1, (wy0 + wy1) / 2)], fill=OUT, width=4)
+    d.rounded_rectangle([wx0 - 10, wy1 - 4, wx1 + 10, wy1 + 16], 8, fill=(255, 255, 255), outline=(170, 185, 225), width=3)
+    # snow-capped picket fence
+    fy0, fy1 = H * (ground - (0.12 if L else 0.075)), H * (ground - 0.005)
+    fx0 = cx1 + W * 0.01
+    fx1 = W * (0.84 if L else 0.8)
+    d.rectangle([fx0, fy0 + (fy1 - fy0) * 0.3, fx1, fy0 + (fy1 - fy0) * 0.42], fill=(250, 250, 255), outline=OUT, width=3)
+    d.rectangle([fx0, fy0 + (fy1 - fy0) * 0.66, fx1, fy0 + (fy1 - fy0) * 0.78], fill=(250, 250, 255), outline=OUT, width=3)
+    step = W * (0.035 if L else 0.06)
+    x = fx0
+    while x < fx1:
+        pw = step * 0.5
+        d.polygon([(x, fy1), (x, fy0 + pw * 0.5), (x + pw / 2, fy0), (x + pw, fy0 + pw * 0.5), (x + pw, fy1)], fill=(255, 250, 240), outline=OUT, width=3)
+        d.ellipse([x - 4, fy0 - pw * 0.25, x + pw + 4, fy0 + pw * 0.35], fill=(255, 255, 255), outline=(170, 185, 225), width=2)
+        x += step
+    # little red sled leaning on the fence
+    sx = W * (0.6 if L else 0.62)
+    sh, sw = H * (0.1 if L else 0.065), W * (0.03 if L else 0.05)
+    d.rounded_rectangle([sx - sw, fy1 - sh, sx + sw, fy1], 16, fill=(230, 80, 80), outline=OUT, width=5)
+    for k in (0.3, 0.55, 0.8):
+        d.line([(sx - sw + 8, fy1 - sh * k), (sx + sw - 8, fy1 - sh * k)], fill=(250, 150, 150), width=5)
+    d.ellipse([sx - sw - 4, fy1 - sh - 14, sx + sw + 4, fy1 - sh + 12], fill=(255, 255, 255), outline=(170, 185, 225), width=2)
+    # snowy round evergreen bushes
+    for (bx, sc) in (((0.33 if L else 0.4), 1.0), ((0.76 if L else 0.7), 0.85)):
+        bxx, byy = W * bx, H * (ground - 0.005)
+        r = H * 0.05 * sc * (1 if L else 0.7)
+        for (ox, oy, rr) in ((-1.1, 0, 0.8), (0, -0.45, 1.0), (1.1, 0, 0.8)):
+            d.ellipse([bxx + ox * r - rr * r, byy + oy * r - rr * r, bxx + ox * r + rr * r, byy + oy * r + rr * r], fill=(95, 160, 125), outline=OUT, width=3)
+        for (ox, oy, rr) in ((-1.15, -0.45, 0.55), (0, -1.05, 0.7), (1.15, -0.45, 0.55)):
+            d.chord([bxx + ox * r - rr * r, byy + oy * r - rr * r * 0.7, bxx + ox * r + rr * r, byy + oy * r + rr * r * 0.9], 180, 360, fill=(255, 255, 255))
+    # snowy bird bath (right)
+    bbx = W * (0.92 if L else 0.88)
+    bt = H * (ground - (0.17 if L else 0.11))
+    pw = W * (0.012 if L else 0.02)
+    d.rectangle([bbx - pw, bt, bbx + pw, H * ground], fill=(200, 200, 215), outline=OUT, width=4)
+    d.rounded_rectangle([bbx - pw * 3, H * ground - H * 0.02, bbx + pw * 3, H * ground + 4], 8, fill=(200, 200, 215), outline=OUT, width=4)
+    d.chord([bbx - pw * 6, bt - H * 0.03, bbx + pw * 6, bt + H * 0.03], 0, 180, fill=(200, 200, 215), outline=OUT, width=4)
+    d.ellipse([bbx - pw * 6.4, bt - H * 0.045, bbx + pw * 6.4, bt + H * 0.012], fill=(255, 255, 255), outline=(170, 185, 225), width=3)
+    # snowy ground with soft blue shadows and sparkles
+    d.rectangle([0, H * ground, W, H], fill=(250, 251, 255))
+    hills(d, W, H, ground + 0.004, 0.01, (250, 251, 255), 47)
+    for k in range(7):
+        xx, yy = W * rnd.uniform(0.03, 0.97), H * rnd.uniform(ground + 0.03, 0.97)
+        rx = W * rnd.uniform(0.05, 0.12)
+        d.ellipse([xx - rx, yy - H * 0.01, xx + rx, yy + H * 0.012], fill=(226, 230, 248))
+    for i in range(int(150 * W * H / (1920 * 1080))):
+        x, y = rnd.uniform(0, W), rnd.uniform(H * (ground - 0.06), H)
+        r = rnd.uniform(1.5, 3.2)
+        d.ellipse([x - r, y - r, x + r, y + r], fill=(200, 212, 245))
+        if i % 9 == 0:
+            d.line([(x - 10, y), (x + 10, y)], fill=(215, 225, 255), width=3)
+            d.line([(x, y - 10), (x, y + 10)], fill=(215, 225, 255), width=3)
+    return im
+
+
+CHARS.update({
+    "pip_flakenose": dict(fn=puppy, kw=dict(costume="flakenose"), h=0.40),
+    "pip_nosedrip": dict(fn=puppy, kw=dict(costume="drip"), h=0.40),
+    "lulu_mittflake": dict(fn=lamb, kw=dict(costume="mittflake"), h=0.40),
+    "waterdrop": dict(fn=waterdrop, kw=dict(), h=0.07),
 })

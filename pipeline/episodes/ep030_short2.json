@@ -1,0 +1,227 @@
+{
+ "id": "ep030_short2",
+ "title": "Big or Small? Warm or Cold? Pip & Lulu",
+ "thumbnail": {
+  "text": "Big or Small?",
+  "badge": "Learn Opposites",
+  "bg": "snowy_garden",
+  "cast": [
+   {
+    "id": "lulu_mittflake",
+    "mouth": 2,
+    "x": 0.36
+   },
+   {
+    "id": "snowflake",
+    "scale": 3.0,
+    "x": 0.8,
+    "y": 0.68
+   },
+   {
+    "id": "snowflake_blue",
+    "scale": 1.1,
+    "x": 0.8,
+    "y": 0.85
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_garden",
+   "lead": 0.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.25,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.33,
+     "scale": 2.6,
+     "glow": true
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.7,
+     "y": 0.3,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Which snowflake is BIG? Point to it!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "That one! The big snowflake! And this one is small."
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Make your hands big. Now small!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.25,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_flakenose",
+     "x": 0.68,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_flakenose",
+     "text": "A snowflake on my nose! Is my nose warm, or cold?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.25,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_nosedrip",
+     "x": 0.68,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_nosedrip",
+     "text": "Drip!",
+     "pause": 0.2,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Warm! A warm nose melts snow."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "lulu_mittflake",
+     "x": 0.3,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_mittflake",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "twinkle",
+     "dur": 0.9
+    },
+    {
+     "who": "lulu_mittflake",
+     "text": "A snowflake on my red mitten! Is my mitten warm, or cold?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Cold! So the snowflake stays!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Cold keeps snow. Warm melts snow!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Flap, flap! Whoosh!",
+     "pause": 0.2
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "wind",
+     "dur": 1.2
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Are the snowflakes going fast, or slow?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Fast! Swirly and fast!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}
