@@ -1,0 +1,133 @@
+{
+ "id": "ep007_short",
+ "title": "Find the Circle!",
+ "thumbnail": {
+  "text": "Spot The Circle, Pip!",
+  "badge": "Learn Shapes",
+  "bg": "playground",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2
+   },
+   {
+    "id": "ball",
+    "scale": 1.2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.25
+    },
+    {
+     "id": "sandwich",
+     "x": 0.82,
+     "scale": 1.1
+    },
+    {
+     "id": "ball",
+     "x": 0.57
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Can you find the circle? Ready? Three, two, one!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Is it the triangle sandwich? No! Three pointy corners.",
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.25
+    },
+    {
+     "id": "sandwich",
+     "x": 0.82,
+     "scale": 1.1
+    },
+    {
+     "id": "ball",
+     "x": 0.57,
+     "glow": true
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "pip",
+     "text": "It is my red ball! Round, round, round. A circle!"
+    },
+    {
+     "who": "pip",
+     "text": "Circles can roll! Roll, roll, roll! Woof!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Now look up high. Can you see another circle?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "The sun! The big, sunny sun is a circle too!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "title": "Find the Circle!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "ball",
+     "x": 0.72
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

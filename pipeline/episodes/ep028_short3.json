@@ -1,0 +1,228 @@
+{
+ "id": "ep028_short3",
+ "title": "Pip Puppy's Warm Coat Song",
+ "thumbnail": {
+  "text": "Too Much Scarf!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "cosy_hall",
+  "cast": [
+   {
+    "id": "pip_wrapped",
+    "x": 0.5,
+    "scale": 1.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_wrapped",
+     "x": 0.4,
+     "scale": 0.8
+    },
+    {
+     "id": "mama",
+     "x": 0.78,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Oh, Pip! Where is your nose? Can you see it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_wrapped",
+     "text": "Mm mm! It's under here! Too much scarf! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.4,
+     "scale": 0.8,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.78,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Unwind, unwind! There's my puppy!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Sing the Warm Coat Song! Do the actions with me!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.27,
+     "scale": 0.72
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "scale": 0.72,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Little lamb has woolly wool. Baa, baa! Pat, pat, pat!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Little bird goes puffy puff. Tweet, tweet! Puff, puff, puff!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.27,
+     "scale": 0.72
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "scale": 0.9,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Little duck has fluffy feathers. Quack, quack! Flap, flap, flap!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Little puppy has fuzzy fur. Woof, woof! Wag, wag, wag!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Warm coat, warm coat, snug as can be! A warm, cosy coat for you and me!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "snow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.27,
+     "scale": 0.72
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "scale": 0.9,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

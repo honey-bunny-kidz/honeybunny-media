@@ -1,0 +1,182 @@
+{
+ "id": "ep029_short",
+ "title": "What Colour Are Pip's Socks?",
+ "thumbnail": {
+  "text": "Which Socks, Pip?",
+  "badge": "Bedtime Story",
+  "bg": "cosy_hall",
+  "cast": [
+   {
+    "id": "pip_pj_cold",
+    "mouth": 2,
+    "x": 0.5,
+    "scale": 1.0
+   },
+   {
+    "id": "sock_blue",
+    "x": 0.25,
+    "y": 0.62,
+    "scale": 1.3
+   },
+   {
+    "id": "sock_red",
+    "x": 0.77,
+    "y": 0.62,
+    "scale": 1.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_pj_cold",
+     "x": 0.5,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "What colour are Pip's socks? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "Hmm, my toes are so chilly! Brrr!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "pip_pj_cold",
+     "x": 0.3,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_basket",
+     "x": 0.62,
+     "y": 0.7,
+     "scale": 0.8,
+     "glow": true
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.8,
+     "scale": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Pick a sock from my basket, Pip!",
+     "pause": 0.3,
+     "sfx": "bell",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "pip_sockear",
+     "x": 0.3,
+     "scale": 0.7
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.78,
+     "scale": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_sockear",
+     "text": "Ta-da! A red sock!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Hee hee! Pip, socks don't go on your ear!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "pip_pj_cold",
+     "x": 0.5,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_red",
+     "x": 0.22,
+     "y": 0.52,
+     "scale": 1.0
+    },
+    {
+     "id": "sock_blue",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.0,
+     "glow": true
+    },
+    {
+     "id": "sock_green",
+     "x": 0.78,
+     "y": 0.52,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Red, blue or green? Guess which socks I pick!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.32,
+     "scale": 0.7,
+     "glow": true
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.76,
+     "scale": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Blue socks with yellow stars! Wiggle, wiggle! Warm toes!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_socks",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

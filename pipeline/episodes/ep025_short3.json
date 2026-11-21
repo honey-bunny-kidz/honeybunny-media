@@ -1,0 +1,246 @@
+{
+ "id": "ep025_short3",
+ "title": "Five Little Stars Song with Ollie Owl",
+ "thumbnail": {
+  "text": "Twinkle Fingers!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "star_garden",
+  "cast": [
+   {
+    "id": "honey_pj",
+    "mouth": 2,
+    "x": 0.27
+   },
+   {
+    "id": "ollie",
+    "scale": 0.85,
+    "x": 0.75
+   },
+   {
+    "id": "star_blue",
+    "scale": 1.8,
+    "y": 0.66,
+    "x": 0.52
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "star_garden",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.24
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "star_friend",
+     "x": 0.4,
+     "y": 0.24,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Can you make twinkle fingers? Up high, like this!",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_pj",
+     "text": "Twinkle up, twinkle down, little stars all around!",
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.24
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.24,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.27,
+     "y": 0.14,
+     "scale": 1.2
+    },
+    {
+     "id": "star_blue",
+     "x": 0.24,
+     "y": 0.34,
+     "scale": 1.2
+    },
+    {
+     "id": "star_friend",
+     "x": 0.36,
+     "y": 0.26,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.5,
+     "y": 0.37,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "One little star says hello, hello!",
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "Two little stars, all in a row!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Three little stars, so twinkly bright!",
+     "pause": 0.3
+    },
+    {
+     "who": "ollie",
+     "text": "Four little stars say night night, night night!",
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "Five little stars, up in the sky,",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Sing me a sleepy lullaby!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.24
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.24,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.27,
+     "y": 0.14,
+     "scale": 1.2
+    },
+    {
+     "id": "star_blue",
+     "x": 0.24,
+     "y": 0.34,
+     "scale": 1.2
+    },
+    {
+     "id": "star_friend",
+     "x": 0.36,
+     "y": 0.26,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.5,
+     "y": 0.37,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Now stretch out wide, like a big star! Can you do it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Twinkle up, twinkle down, shh, shh, not a sound.",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.24
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "honey_pj",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

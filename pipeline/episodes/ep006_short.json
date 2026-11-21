@@ -1,0 +1,122 @@
+{
+ "id": "ep006_short",
+ "title": "Who Says Hoo-Hoo?",
+ "thumbnail": {
+  "text": "Honey Hears Hoo-Hoo!",
+  "badge": "Bedtime Story",
+  "bg": "oak",
+  "cast": [
+   {
+    "id": "honey",
+    "mouth": 2
+   },
+   {
+    "id": "ollie",
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Shh! Who says hoo, hoo?",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "sfx": "owl",
+     "text": "Hoo... hoo...",
+     "dur": 1.6,
+     "pause": 0.3
+    },
+    {
+     "who": "honey",
+     "text": "Can you guess who it is?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Here is a clue. Big round eyes, soft brown feathers, and awake at night!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.27
+    },
+    {
+     "id": "ollie",
+     "x": 0.72
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It's Ollie Owl!",
+     "pause": 0.4
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Hello, Honey! Owls are awake at night, and I can hear every little sound."
+    },
+    {
+     "who": "honey",
+     "text": "You are my favorite night-time friend, Ollie!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "title": "Who Says Hoo?",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.27
+    },
+    {
+     "id": "ollie",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,514 @@
+{
+ "id": "ep018",
+ "title": "Ollie Owl and the Sleepy Little Cloud",
+ "thumbnail": {
+  "text": "A Cloud Friend?!",
+  "badge": "Bedtime Story",
+  "bg": "twilight_hill",
+  "cast": [
+   {
+    "id": "ollie",
+    "mouth": 2,
+    "scale": 1.0,
+    "x": 0.6
+   },
+   {
+    "id": "cloudy",
+    "scale": 1.6,
+    "x": 0.85,
+    "y": 0.66
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "twilight_hill",
+   "lead": 0.2,
+   "banner": "Ollie Owl and the Sleepy Little Cloud",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Look up! Something fluffy is floating down!"
+    },
+    {
+     "who": "ollie",
+     "text": "Who is this fluffy friend? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "It's a little cloud!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "cloudy",
+     "text": "Hello! I'm Cloudy. Aaah. I'm so sleepy."
+    },
+    {
+     "who": "cloudy",
+     "text": "I want to sleep up high with the big clouds. But I can't float up!"
+    },
+    {
+     "who": "cloudy",
+     "text": "Up, up, up! Oh no. Down I come again."
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "cloudy",
+     "text": "Oh. Oh. Achoo!"
+    },
+    {
+     "sfx": "splash",
+     "text": "Splish!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo! Raindrops on my head! I'm a wet little owl!"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! Cloudy sneezed a tiny rain on Ollie!"
+    },
+    {
+     "who": "cloudy",
+     "text": "Sorry, Ollie! My tummy is SO full of raindrops."
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "That's it! Clouds are made of tiny drops of water. When a cloud is full, what falls down?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Rain! Drip, drop!"
+    },
+    {
+     "who": "cloudy",
+     "text": "But where can my rain go? I don't want to make my friends wet."
+    },
+    {
+     "who": "honey",
+     "text": "Look! Our flowers are droopy. They are thirsty!"
+    },
+    {
+     "who": "ollie",
+     "text": "How many thirsty flowers can you see? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "One, two, three!"
+    },
+    {
+     "who": "lulu",
+     "text": "Red, yellow and... what color is the last one?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Blue!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "rain": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "cloudy",
+     "text": "I can share my rain with the flowers!"
+    },
+    {
+     "sfx": "rain",
+     "text": "Pitter, patter, pitter, patter.",
+     "dur": 2.4,
+     "pause": 0.5,
+     "who": "cloudy"
+    },
+    {
+     "who": "honey",
+     "text": "Wiggle your fingers like rain! Pitter, patter!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "rainbow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then, the last bit of sunshine peeked through the raindrops, and..."
+    },
+    {
+     "who": "lulu",
+     "text": "A rainbow! Cloudy, you made a rainbow!"
+    },
+    {
+     "who": "cloudy_light",
+     "text": "Me? Wheee! And I feel light, like a feather!"
+    },
+    {
+     "who": "honey",
+     "text": "Look, the flowers are standing up tall. They're smiling!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "rainbow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Sharing helped the flowers, and it helped you too, Cloudy."
+    },
+    {
+     "who": "cloudy_light",
+     "text": "Let's do a cloud stretch! Arms up high, big and fluffy.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Breathe in, and puff up big.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Breathe out, and float down soft.",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.66,
+     "y": 0.33,
+     "scale": 0.75,
+     "sleep": true
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Up, up, up floated Cloudy, and snuggled in with the big sleepy clouds."
+    },
+    {
+     "who": "lulu",
+     "text": "Goodnight, Cloudy! Sweet dreams!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "tail": 1.5,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.66,
+     "y": 0.33,
+     "scale": 0.75,
+     "sleep": true
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Sing with us! Pitter, patter, little rain. Drink up, flowers, grow again!"
+    },
+    {
+     "who": "lulu",
+     "text": "Puff up, Cloudy, light and high. Float to sleep up in the sky!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy learns to take turns on the swing!"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Goodnight, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

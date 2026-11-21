@@ -1,0 +1,166 @@
+{
+ "id": "ep027_short",
+ "title": "What's in Lulu Lamb's Boot?",
+ "thumbnail": {
+  "text": "What's in the Boot?",
+  "badge": "Kids Story",
+  "bg": "cosy_hall",
+  "cast": [
+   {
+    "id": "lulu_hsm1",
+    "x": 0.32,
+    "mouth": 2
+   },
+   {
+    "id": "boots_green",
+    "x": 0.76,
+    "scale": 2.6
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu_mitear",
+     "x": 0.42,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Does a mitten go on my ear? What goes on your hands?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Mittens! Hee hee! Silly Lulu!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "lulu_hsm1",
+     "x": 0.42,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "One mitten on. But where is my other mitten? Can you see it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Not on the bench. Not on the rug. Hmm!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "lulu_hsm1",
+     "x": 0.32,
+     "scale": 0.85
+    },
+    {
+     "id": "boots_green",
+     "x": 0.72,
+     "y": 0.66,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Squish! Squeak!",
+     "pause": 0.3,
+     "sfx": "squeak",
+     "dur": 1.0
+    },
+    {
+     "who": "lulu",
+     "text": "Something is in my boot! What is it? Guess!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "lulu_hsm1",
+     "x": 0.32,
+     "scale": 0.85
+    },
+    {
+     "id": "mitten_red",
+     "x": 0.72,
+     "y": 0.6,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "My red mitten! It was hiding in my boot!"
+    },
+    {
+     "who": "lulu",
+     "text": "Now two mittens on my two hands. Hooray!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.42,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

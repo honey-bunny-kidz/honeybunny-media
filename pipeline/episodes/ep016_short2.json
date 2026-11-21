@@ -1,0 +1,344 @@
+{
+ "id": "ep016_short2",
+ "title": "What Colour Is This Leaf? Lulu Lamb and Dotty",
+ "thumbnail": {
+  "text": "Red Or Yellow?",
+  "badge": "Learn Colours",
+  "bg": "autumn_park",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2
+   },
+   {
+    "id": "leaf_yellow",
+    "scale": 2.2
+   },
+   {
+    "id": "dotty"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_park",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.6,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "What colour is this leaf? Look!",
+     "pause": 0.4
+    },
+    {
+     "who": "dotty",
+     "text": "We found it in the park. Can you say the colour?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Red! A red leaf, like a shiny apple."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "lead": 0.6,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.6,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! This leaf is the colour of the sun. What colour is it?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Yellow! A yellow leaf!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "lead": 0.6,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_orange",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.6,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "This one looks like a pumpkin. What colour?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_orange",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Orange! Baa!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "lead": 0.6,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.6,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Last one! It looks like a tree trunk. What colour?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.5,
+     "y": 0.36,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Brown! A cosy brown leaf."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.2,
+     "y": 0.3,
+     "scale": 1.1
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.4,
+     "y": 0.27,
+     "scale": 1.1
+    },
+    {
+     "id": "leaf_orange",
+     "x": 0.6,
+     "y": 0.3,
+     "scale": 1.1
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.8,
+     "y": 0.27,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Red, yellow, orange and brown. Say them with us!",
+     "pause": 2.5
+    },
+    {
+     "who": "dotty",
+     "text": "Autumn leaves are so pretty!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.75,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

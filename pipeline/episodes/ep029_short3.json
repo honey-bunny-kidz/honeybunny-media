@@ -1,0 +1,154 @@
+{
+ "id": "ep029_short3",
+ "title": "Warm Socks Song with Pip and Mimi",
+ "thumbnail": {
+  "text": "Wiggle Your Toes!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "stretch_room",
+  "cast": [
+   {
+    "id": "pip_socks",
+    "mouth": 2,
+    "x": 0.32,
+    "scale": 0.9
+   },
+   {
+    "id": "mimi_stretch",
+    "x": 0.72,
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "stretch_room",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.5,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Can you wiggle your toes like me? Wiggle, wiggle!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_socks",
+     "text": "Let's sing the Warm Socks Song!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.3,
+     "scale": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.72,
+     "scale": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "One sock, two socks, on my feet. Wiggle, wiggle, toes so sweet!",
+     "pause": 0.6
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Red socks, blue socks, find a pair. Warm and cosy everywhere!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "snow": false,
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.3,
+     "scale": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.72,
+     "scale": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Warm socks, cosy socks, snug and tight. Warm socks help me sleep tonight!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "mimi_stretch",
+     "x": 0.5,
+     "scale": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_stretch",
+     "text": "Now stretch like a sleepy kitten! Paws up high!",
+     "pause": 1.8
+    },
+    {
+     "who": "mimi_stretch",
+     "text": "And a big, slow yawn. Yawn!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.3,
+     "scale": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.72,
+     "scale": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Wiggle your toes and say goodnight! Goodnight!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_socks",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

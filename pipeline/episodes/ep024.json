@@ -1,0 +1,717 @@
+{
+ "id": "ep024",
+ "title": "Lulu Lamb's First Snowflakes",
+ "thumbnail": {
+  "text": "Is That SNOW?!",
+  "badge": "Learn Colours",
+  "bg": "snowy_meadow",
+  "cast": [
+   {
+    "id": "lulu_cosy",
+    "mouth": 2,
+    "scale": 1.05,
+    "x": 0.5
+   },
+   {
+    "id": "snowflake",
+    "scale": 2.4,
+    "y": 0.45,
+    "x": 0.78
+   },
+   {
+    "id": "honey_cosy",
+    "scale": 0.95,
+    "flip": true,
+    "x": 0.83
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.64,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Look up! Something soft and white is falling from the sky! What is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Snow! It's snowing, Lulu!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "My very first snowflakes! Wheee!"
+    }
+   ],
+   "lead": 0.2,
+   "banner": "Lulu Lamb's First Snowflakes"
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "snowflake",
+     "x": 0.47,
+     "y": 0.5,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.64,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "I want to catch a snowflake and show it to Pip!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Got one! Oh... where did it go? Can you see it?",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.64,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Your snowflake is white, and the snow is white too. It's hiding!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Hmm. I'm white too! I can hide in the snow!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.38,
+     "y": 0.97
+    },
+    {
+     "id": "snowdrift",
+     "x": 0.38,
+     "scale": 1.1,
+     "y": 0.97
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.64,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Shh! Where's Lulu? Can you find me?",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Hee hee! I can see two pink ears and a purple bow!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_flake",
+     "x": 0.36
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.64,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_flake",
+     "text": "Peekaboo! Oh! A snowflake landed on my nose!"
+    },
+    {
+     "who": "lulu_flake",
+     "text": "It tickles! Hee hee hee!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Silly Lulu! Now I can see it, on your pink nose!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Hello, my snowy friends! Lulu, I know a snowflake trick."
+    },
+    {
+     "who": "mama",
+     "text": "White snowflakes are easy to see on bright colours."
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Bright colours? Let's find colours in the snow!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "My earmuffs! What colour are my earmuffs?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Pink! A snowflake is on my pink earmuff. I can see it!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.42,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "And my scarf! What colour is my scarf?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Blue! Blue with white dots... or are they snowflakes? Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.42,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Now hold out your mittens, Lulu. What colour are Lulu's mittens?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Red! Bright red mittens! Catch, snowflakes, catch!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "snowflake",
+     "x": 0.3,
+     "y": 0.735,
+     "scale": 0.6,
+     "glow": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.42,
+     "y": 0.735,
+     "scale": 0.6,
+     "glow": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.24,
+     "y": 0.6,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.36,
+     "y": 0.43,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.48,
+     "y": 0.6,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Look! Snowflakes are falling on my red mittens. Now I can see them!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Let's count them! How many snowflakes?",
+     "pause": 2.2
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "One, two, three, four, five! Five snowflakes!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "snowflake",
+     "x": 0.45,
+     "y": 0.62,
+     "scale": 3.2,
+     "glow": true
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Look very closely. Every snowflake has little pointy arms."
+    },
+    {
+     "who": "mama",
+     "text": "How many arms? Count with me!",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "One, two, three, four, five, six! Six arms!"
+    },
+    {
+     "who": "mama",
+     "text": "Yes! Six arms. And every snowflake is a little bit different."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Just like friends! All different, all special."
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Snowflakes twirl and swirl. Can you twirl like a snowflake? Spin around!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Twirl, twirl, and float down softly. Wheee!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "sfx": "crunch",
+     "text": "Crunch, crunch, crunch!",
+     "dur": 1.4,
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Someone is coming. Who's that?",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "pip_snowy",
+     "x": 0.84,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "A snowy puppy! Can you guess who it is?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_snowy",
+     "text": "It's me, Pip! Woof! Snow fell from a tree, right on me!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Hee hee! Pip, you look like a snow puppy!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "pip_snowy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Look! White snowflakes on Pip's brown ears! They are so easy to see!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "How many snowflakes are on Pip's ears?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_snowy",
+     "text": "Four! Four snowflakes! Hee hee, they tickle!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.13
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.4
+    },
+    {
+     "id": "pip_snowy",
+     "x": 0.66,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Pip, these are my very first snowflakes! I wanted to show you."
+    },
+    {
+     "who": "pip_snowy",
+     "text": "They're beautiful, Lulu! Now let's catch them together!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a snowy breath first. Breathe in the cold air, slowly...",
+     "pause": 1.5
+    },
+    {
+     "who": "mama",
+     "text": "Now blow it out. Look, a little cloud! Can you do it too?",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "pip_snowy",
+     "x": 0.55,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Let's sing our Snowflake Song!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Snowflakes falling, soft and white. Twirling, swirling, oh so light!",
+     "pause": 0.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Land on red and land on blue. One for me, and one for you!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "pip_snowy",
+     "x": 0.55,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_snowy",
+     "text": "Six little arms, so sparkly and small. Every snowflake, I love them all!",
+     "pause": 0.8
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Wiggle your fingers, fall down slow. Hello, hello, hello, first snow!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.36,
+     "glow": true
+    },
+    {
+     "id": "pip_snowy",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "One more time! Wiggle your fingers like snowflakes and sing with me!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Snowflakes falling, soft and white. Twirling, swirling, oh so light!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Ollie Owl counts five little stars!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Baa! Stay cosy, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ],
+   "tail": 1.2
+  }
+ ]
+}

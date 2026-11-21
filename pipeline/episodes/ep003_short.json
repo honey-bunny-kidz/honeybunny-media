@@ -1,0 +1,173 @@
+{
+ "id": "ep003_short",
+ "title": "Count the Thank-Yous with Lulu Lamb",
+ "thumbnail": {
+  "text": "Count With Lulu!",
+  "badge": "Bedtime Story",
+  "bg": "bedroom",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "scale": 1.05
+   },
+   {
+    "id": "honey",
+    "scale": 0.95
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bedroom",
+   "title": "Count the Thank-Yous!",
+   "subtitle": "with Lulu Lamb",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! It's my first sleepover! Let's count our thank yous!"
+    }
+   ]
+  },
+  {
+   "bg": "garden_pond",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.72,
+     "y": 0.8
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "One! Thank you, Dotty, for splashing with me!"
+    },
+    {
+     "who": "dotty",
+     "text": "Quack quack!"
+    }
+   ],
+   "tail": 0.3
+  },
+  {
+   "bg": "porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.28
+    },
+    {
+     "id": "mimi",
+     "x": 0.74
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Two! Thank you, Mimi, for sharing apple slices!"
+    },
+    {
+     "who": "mimi",
+     "text": "Meow! You're welcome!"
+    }
+   ],
+   "tail": 0.3
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Three! Thank you, Honey, for being my friend!"
+    },
+    {
+     "who": "honey",
+     "text": "I'm so happy you're here!"
+    }
+   ],
+   "tail": 0.3
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.6,
+     "y": 0.865,
+     "scale": 0.92
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.38,
+     "scale": 0.6,
+     "sleep": true
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "What will you say thank you for tonight?",
+     "pause": 1.3
+    }
+   ],
+   "tail": 0.3
+  },
+  {
+   "bg": "night",
+   "title": "Goodnight!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.35
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ],
+   "tail": 1.2
+  }
+ ]
+}

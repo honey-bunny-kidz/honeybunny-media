@@ -1,0 +1,112 @@
+{
+ "id": "ep011_short2",
+ "title": "Count Kitty Stretches with Mimi",
+ "thumbnail": {
+  "text": "Count To Five, Mimi!",
+  "badge": "Learn Counting",
+  "bg": "stretch_room",
+  "cast": [
+   {
+    "id": "mimi",
+    "mouth": 2,
+    "scale": 1.2,
+    "x": 0.4
+   },
+   {
+    "id": "lulu",
+    "scale": 0.8,
+    "flip": true,
+    "x": 0.84
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "stretch_room",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "How many kitty stretches can you do? Let's count to five!"
+    },
+    {
+     "who": "mimi",
+     "text": "Hands and knees, like a kitty cat. Back up high, like a hill. Then down, like a bowl."
+    },
+    {
+     "who": "mimi",
+     "text": "One. Up, and down.",
+     "pause": 0.7
+    },
+    {
+     "who": "mimi",
+     "text": "Two. Up, and down.",
+     "pause": 0.7
+    },
+    {
+     "who": "mimi",
+     "text": "Three. Up, and down.",
+     "pause": 0.7
+    },
+    {
+     "who": "mimi",
+     "text": "Four. Up, and down.",
+     "pause": 0.7
+    },
+    {
+     "who": "mimi",
+     "text": "Five! You did five kitty stretches!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "What does a kitten say? Can you say it?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Meow!"
+    },
+    {
+     "who": "lulu",
+     "text": "And what does a sheep say? Can you say it?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Great job, friends!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

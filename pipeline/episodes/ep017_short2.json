@@ -1,0 +1,198 @@
+{
+ "id": "ep017_short2",
+ "title": "Toothbrush Colours",
+ "thumbnail": {
+  "text": "Which One Is Blue?",
+  "badge": "Learn Colours",
+  "bg": "bathroom",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2,
+    "x": 0.3
+   },
+   {
+    "id": "tb_pip",
+    "scale": 2.4,
+    "x": 0.62
+   },
+   {
+    "id": "tb_honey",
+    "scale": 2.0,
+    "x": 0.82
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bathroom",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 0.9
+    },
+    {
+     "id": "tb_honey",
+     "x": 0.17,
+     "y": 0.5,
+     "scale": 1.1
+    },
+    {
+     "id": "tb_pip",
+     "x": 0.39,
+     "y": 0.5,
+     "scale": 1.1
+    },
+    {
+     "id": "tb_dotty",
+     "x": 0.61,
+     "y": 0.5,
+     "scale": 1.1
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.83,
+     "y": 0.5,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "What colour is Pip's toothbrush? Let's find out!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "First, how many toothbrushes can you see? Let's count!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "One, two, three, four! Four toothbrushes!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Which one is pink, with a little heart?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.32
+    },
+    {
+     "id": "tb_honey",
+     "x": 0.7,
+     "y": 0.6,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Pink is mine! Pink like my bow."
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.32
+    },
+    {
+     "id": "tb_pip",
+     "x": 0.7,
+     "y": 0.6,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Woof! Which toothbrush is blue, with a yellow star?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Blue is mine! Blue like my collar."
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.32
+    },
+    {
+     "id": "tb_dotty",
+     "x": 0.7,
+     "y": 0.6,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! What colour is my toothbrush? Yellow, like my feathers!"
+    },
+    {
+     "who": "dotty",
+     "text": "Can you say yellow?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.7,
+     "y": 0.6,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! And the last one is lavender, like my bow."
+    },
+    {
+     "who": "lulu",
+     "text": "What colour is your toothbrush at home?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Every friend has their own toothbrush. We share toys, but not toothbrushes!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

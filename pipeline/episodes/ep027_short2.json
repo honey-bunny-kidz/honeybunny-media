@@ -1,0 +1,167 @@
+{
+ "id": "ep027_short2",
+ "title": "Shout the Colours with Lulu Lamb",
+ "thumbnail": {
+  "text": "Shout the Colours!",
+  "badge": "Learn Colours",
+  "bg": "snowy_park",
+  "cast": [
+   {
+    "id": "lulu_winter",
+    "x": 0.38,
+    "mouth": 2
+   },
+   {
+    "id": "hat_yellow",
+    "x": 0.78,
+    "y": 0.62,
+    "scale": 1.8
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu_hat",
+     "x": 0.42,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Shout the colours with Lulu! What colour is her hat?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Yellow! Like the sunshine!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "lulu_hs",
+     "x": 0.42,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "What colour is Lulu's scarf?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Blue! Blue with white dots!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "lulu_hsm",
+     "x": 0.42,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "What colour are her mittens?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Red! Two red mittens!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.42,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "And her boots? What colour?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Green! Yellow, blue, red and green. I'm ready for the snow!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.42,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

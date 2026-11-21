@@ -1,0 +1,232 @@
+{
+ "id": "ep027_short3",
+ "title": "Lulu Lamb's Mitten Song Sing-Along",
+ "thumbnail": {
+  "text": "Thumbs Up, Wiggle!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_meadow",
+  "cast": [
+   {
+    "id": "lulu_winter",
+    "x": 0.32,
+    "mouth": 2
+   },
+   {
+    "id": "pip_cosy",
+    "x": 0.74,
+    "flip": true,
+    "mouth": 2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "lead": 0.1,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.32,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Clap, clap!",
+     "pause": 0.2,
+     "sfx": "clap",
+     "dur": 1.0
+    },
+    {
+     "who": "lulu",
+     "text": "Can you get dressed with Lulu? Sing and do it with me!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.32,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Hat goes on my head, pull it down, down, down!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Pull your pretend hat down!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.32,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "flip": true,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Scarf goes round my neck, round and round and round!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Spin your hands round and round!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.32,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Mittens on my hands, thumbs go in, hooray!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Thumbs up! Wiggle them!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.32,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "flip": true,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Boots go on my feet, stomp, stomp, let's play!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Stomp, stomp, stomp!",
+     "pause": 1.0,
+     "sfx": "crunch",
+     "dur": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.32,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Hat, scarf, mittens, boots! Ready for the snow! Wiggle ten warm fingers, and off we go!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.32,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.72,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

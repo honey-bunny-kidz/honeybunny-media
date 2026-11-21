@@ -1,0 +1,1047 @@
+{
+ "id": "ep020",
+ "title": "Where Do Animals Sleep? with Pip Puppy",
+ "thumbnail": {
+  "text": "Who Sleeps Here?",
+  "badge": "Learn Animals",
+  "bg": "owl_tree",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2,
+    "x": 0.62
+   },
+   {
+    "id": "ollie",
+    "x": 0.86,
+    "scale": 0.85
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "nest_tree",
+   "lead": 0.2,
+   "banner": "Where Do Animals Sleep? with Pip Puppy",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.435,
+     "y": 0.425,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.49,
+     "y": 0.415,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.545,
+     "y": 0.425,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "nest",
+     "x": 0.49,
+     "y": 0.505,
+     "scale": 1.6
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    },
+    {
+     "id": "honey",
+     "x": 0.79
+    },
+    {
+     "id": "mama",
+     "x": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie",
+     "sfx": "tweet",
+     "text": "Tweet, tweet!",
+     "dur": 1.2,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Shh! Someone is sleeping up in the tree. Who can it be?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Little birds! In a cosy nest!"
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.435,
+     "y": 0.425,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.49,
+     "y": 0.415,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.545,
+     "y": 0.425,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "nest",
+     "x": 0.49,
+     "y": 0.505,
+     "scale": 1.6
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    },
+    {
+     "id": "honey",
+     "x": 0.79
+    },
+    {
+     "id": "mama",
+     "x": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Tonight is my very first sleepover at Honey's house!"
+    },
+    {
+     "who": "pip",
+     "text": "But where will I sleep? Where do animals sleep?"
+    },
+    {
+     "who": "mama",
+     "text": "Let's walk and find out, and be home before dark."
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.435,
+     "y": 0.425,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.49,
+     "y": 0.415,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.545,
+     "y": 0.425,
+     "scale": 1.2,
+     "sleep": true
+    },
+    {
+     "id": "nest",
+     "x": 0.49,
+     "y": 0.505,
+     "scale": 1.6
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    },
+    {
+     "id": "leafpile",
+     "x": 0.68,
+     "scale": 0.55
+    },
+    {
+     "id": "honey",
+     "x": 0.83
+    },
+    {
+     "id": "mama",
+     "x": 0.93
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "I can make a nest too! Look, I'm a birdie in my leaf nest! Tweet tweet!"
+    },
+    {
+     "who": "pip",
+     "sfx": "crunch",
+     "text": "Crunch, crunch!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! Pip, you're too big for a nest!"
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.435,
+     "y": 0.425,
+     "scale": 1.2
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.49,
+     "y": 0.415,
+     "scale": 1.2
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.545,
+     "y": 0.425,
+     "scale": 1.2
+    },
+    {
+     "id": "nest",
+     "x": 0.49,
+     "y": 0.505,
+     "scale": 1.6
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.68
+    },
+    {
+     "id": "honey",
+     "x": 0.83
+    },
+    {
+     "id": "mama",
+     "x": 0.93
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Achoo! The leaves tickle my nose!"
+    },
+    {
+     "who": "birdie",
+     "sfx": "tweet",
+     "text": "Tweet!",
+     "dur": 0.9,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Oops! I woke up the birdies. Sorry, little birds!"
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.435,
+     "y": 0.425,
+     "scale": 1.2,
+     "glow": true
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.49,
+     "y": 0.415,
+     "scale": 1.2,
+     "glow": true
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.545,
+     "y": 0.425,
+     "scale": 1.2,
+     "glow": true
+    },
+    {
+     "id": "nest",
+     "x": 0.49,
+     "y": 0.505,
+     "scale": 1.6
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    },
+    {
+     "id": "honey",
+     "x": 0.79
+    },
+    {
+     "id": "mama",
+     "x": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "How many little birds are in the nest? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "One, two, three! Three little birds!"
+    },
+    {
+     "who": "pip",
+     "text": "What colour is this little bird? It's like the sky.",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Blue! And one bird is pink, and one is yellow."
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.435,
+     "y": 0.425,
+     "scale": 1.2
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.49,
+     "y": 0.415,
+     "scale": 1.2
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.545,
+     "y": 0.425,
+     "scale": 1.2
+    },
+    {
+     "id": "nest",
+     "x": 0.49,
+     "y": 0.505,
+     "scale": 1.6
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    },
+    {
+     "id": "honey",
+     "x": 0.79
+    },
+    {
+     "id": "mama",
+     "x": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Birds sleep in a nest. They fluff up their soft feathers to stay warm."
+    },
+    {
+     "who": "pip",
+     "text": "Can you fluff up like a little bird? Puff, puff!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Night night, birdies. Who sleeps next? Let's tiptoe and see."
+    }
+   ]
+  },
+  {
+   "bg": "burrow_bank",
+   "cast": [
+    {
+     "id": "wildbun",
+     "x": 0.42,
+     "y": 0.885,
+     "sleep": true
+    },
+    {
+     "id": "burrow_front",
+     "x": 0.42,
+     "y": 0.95,
+     "scale": 1.2
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    },
+    {
+     "id": "honey",
+     "x": 0.79
+    },
+    {
+     "id": "mama",
+     "x": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Look! A little round door in the ground. Who sleeps in there? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Long ears! It's a baby bunny!"
+    },
+    {
+     "who": "mama",
+     "text": "Some bunnies sleep in a burrow. It's a cosy home under the ground."
+    }
+   ]
+  },
+  {
+   "bg": "burrow_bank",
+   "cast": [
+    {
+     "id": "wildbun",
+     "x": 0.42,
+     "y": 0.885,
+     "sleep": true,
+     "glow": true
+    },
+    {
+     "id": "burrow_front",
+     "x": 0.42,
+     "y": 0.95,
+     "scale": 1.2
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    },
+    {
+     "id": "honey",
+     "x": 0.79
+    },
+    {
+     "id": "mama",
+     "x": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Is the baby bunny up high, or down low?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Down low! Down under the ground."
+    }
+   ]
+  },
+  {
+   "bg": "burrow_bank",
+   "cast": [
+    {
+     "id": "wildbun",
+     "x": 0.42,
+     "y": 0.885,
+     "sleep": false
+    },
+    {
+     "id": "burrow_front",
+     "x": 0.42,
+     "y": 0.95,
+     "scale": 1.2
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    },
+    {
+     "id": "honey",
+     "x": 0.79
+    },
+    {
+     "id": "mama",
+     "x": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Bunnies have big ears. Let's be very quiet. Can you whisper with me? Shh.",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Shh. Sleep tight, baby bunny."
+    }
+   ]
+  },
+  {
+   "bg": "dusk_pond",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.17
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mama",
+     "x": 0.41
+    },
+    {
+     "id": "dotty",
+     "x": 0.57,
+     "y": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Who is at the pond? Can you say quack quack?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Quack quack! Hello, Pip! It's me, Dotty!"
+    },
+    {
+     "who": "pip",
+     "text": "Dotty, where do ducks sleep?"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_pond",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.17
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mama",
+     "x": 0.41
+    },
+    {
+     "id": "dotty",
+     "x": 0.57,
+     "y": 0.86,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Ducks sleep near the water, at the edge of the pond."
+    },
+    {
+     "who": "dotty",
+     "text": "I tuck my beak under my soft wing, like this. Can you tuck your nose under your arm?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_pond",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.17
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mama",
+     "x": 0.41
+    },
+    {
+     "id": "dotty",
+     "x": 0.57,
+     "y": 0.86,
+     "flip": true,
+     "sleep": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Night night, Dotty. Birds in a nest, bunnies in a burrow, ducks by the pond."
+    },
+    {
+     "who": "pip",
+     "text": "One more friend! Ollie Owl. He must be very sleepy too."
+    }
+   ]
+  },
+  {
+   "bg": "owl_tree",
+   "cast": [
+    {
+     "id": "hole_rim",
+     "x": 0.32,
+     "y": 0.505
+    },
+    {
+     "id": "pip",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.87,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Ollie lives in a hole in this big tree. Shh, he's sleeping."
+    },
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo, hoo!",
+     "dur": 1.5,
+     "pause": 0.3
+    },
+    {
+     "who": "honey",
+     "text": "Did you hear that? Who said hoo hoo?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "owl_tree",
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.32,
+     "y": 0.47,
+     "scale": 0.55,
+     "glow": true
+    },
+    {
+     "id": "hole_rim",
+     "x": 0.32,
+     "y": 0.505
+    },
+    {
+     "id": "pip",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.87,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo hoo! Good evening, friends! I just woke up!"
+    },
+    {
+     "who": "pip",
+     "text": "Woke up? But it's almost bedtime, Ollie!"
+    },
+    {
+     "who": "ollie",
+     "text": "Not for owls! Owls sleep in the daytime, and wake up at night."
+    }
+   ]
+  },
+  {
+   "bg": "owl_tree",
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.32,
+     "y": 0.47,
+     "scale": 0.55
+    },
+    {
+     "id": "hole_rim",
+     "x": 0.32,
+     "y": 0.505
+    },
+    {
+     "id": "pip",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.87,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "So, when do owls sleep? In the day, or at night?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "In the day! Silly owl. Ha ha!"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo hoo! Can you hoot with me? Hoo, hoo!",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Now, Pip, where will a puppy sleep tonight?"
+    }
+   ]
+  },
+  {
+   "bg": "owl_tree",
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.32,
+     "y": 0.47,
+     "scale": 0.55
+    },
+    {
+     "id": "hole_rim",
+     "x": 0.32,
+     "y": 0.505
+    },
+    {
+     "id": "pip",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.87,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Hmm. Not in a nest. Not in a burrow. Not by the pond."
+    },
+    {
+     "who": "mama",
+     "text": "Let's go home and see. The moon is up. Time for bed."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5,
+     "sleep": true
+    },
+    {
+     "id": "honey",
+     "x": 0.22
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.5,
+     "y": 0.95,
+     "scale": 1.5,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Surprise, Pip! A cosy basket bed, just for you!"
+    },
+    {
+     "who": "pip",
+     "text": "Wow! A puppy bed! Thank you, Honey! Thank you, Mama Bunny!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5,
+     "sleep": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.22
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.91
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.5,
+     "y": 0.95,
+     "scale": 1.5
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Puppies like to curl up in a cosy bed. Just like me!"
+    },
+    {
+     "who": "honey",
+     "text": "Let's sing our sleepy animal song!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5,
+     "sleep": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.22
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.91
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.5,
+     "y": 0.95,
+     "scale": 1.5
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Birdie sleeps in a nest, nest, nest. Flap your wings!",
+     "pause": 1.4
+    },
+    {
+     "who": "honey",
+     "text": "Bunny in a burrow takes a rest, rest, rest. Hop, hop!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip",
+     "text": "Ducky by the pond tucks in tight. Tuck in!",
+     "pause": 1.4
+    },
+    {
+     "who": "honey",
+     "text": "Owl wakes up and says goodnight! Hoo hoo!",
+     "pause": 1.4
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5,
+     "sleep": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.22
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.91
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.5,
+     "y": 0.95,
+     "scale": 1.5
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "And puppy in his basket, snug and deep. Shh, shh, it's time to sleep."
+    },
+    {
+     "who": "mama",
+     "text": "Let's curl up like a puppy. Breathe in slowly.",
+     "pause": 1.6
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, so softly. Ahhh.",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5,
+     "sleep": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.22
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.91,
+     "sleep": true
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.5,
+     "y": 0.95,
+     "scale": 1.5
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "One more time! Flap like a bird, hop like a bunny, tuck like a duck, and hoot like an owl! Hoo hoo!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy sings in a bubbly bath!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip",
+     "text": "Woof. Goodnight, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

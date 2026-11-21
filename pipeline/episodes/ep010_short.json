@@ -1,0 +1,97 @@
+{
+ "id": "ep010_short",
+ "title": "Why Do Ducks Stay Dry?",
+ "thumbnail": {
+  "text": "Dotty's Dry Secret?",
+  "badge": "Learn Animal Facts",
+  "bg": "rainy_garden",
+  "cast": [
+   {
+    "id": "dotty_beads",
+    "mouth": 2,
+    "x": 0.38,
+    "scale": 1.2
+   },
+   {
+    "id": "honey_rain",
+    "x": 0.75,
+    "scale": 0.8
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.27
+    },
+    {
+     "id": "dotty_beads",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_rain",
+     "text": "It's raining, but Dotty is not wet! Why do ducks stay dry? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_beads",
+     "text": "Here's a clue. My secret is near my tail!",
+     "pause": 1.5
+    },
+    {
+     "who": "honey_rain",
+     "text": "Is it a tiny umbrella?"
+    },
+    {
+     "who": "dotty_beads",
+     "text": "Hee hee! No! Quack, quack!"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.27
+    },
+    {
+     "id": "dotty_beads",
+     "x": 0.7,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_beads",
+     "text": "I have a tiny spot near my tail that makes a special oil."
+    },
+    {
+     "who": "dotty_beads",
+     "text": "I rub it on my feathers with my beak. Rub, rub, rub!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "So the rain can't soak in! Your feathers are waterproof!"
+    },
+    {
+     "who": "dotty_beads",
+     "text": "Yes! The raindrops roll right off. Roll, roll, roll!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

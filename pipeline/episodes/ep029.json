@@ -1,0 +1,865 @@
+{
+ "id": "ep029",
+ "title": "Pip Puppy and Mimi's Warm Socks Bedtime",
+ "thumbnail": {
+  "text": "Sock on His Ear?!",
+  "badge": "Bedtime Story",
+  "bg": "mimi_room",
+  "cast": [
+   {
+    "id": "pip_sockear",
+    "mouth": 2,
+    "x": 0.42
+   },
+   {
+    "id": "mimi_socks",
+    "x": 0.75,
+    "flip": true,
+    "scale": 1.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "mimi_room",
+   "lead": 0.2,
+   "banner": "Pip Puppy and Mimi's Warm Socks Bedtime",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Ooh! Cold toes! Cold toes! Hop, hop, hop!"
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "What can I put on my cold toes? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Socks! Warm, cosy socks!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "It's my sleepover at your house, Mimi. But my toes are too chilly to sleep!"
+    },
+    {
+     "who": "mimi",
+     "text": "Don't worry, Pip. I have a basket full of socks! Meow!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "sock_basket",
+     "x": 0.6,
+     "scale": 1.0,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.12
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Wow! So many socks! Which one first?"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Pick one, Pip! Pull, pull, pull!",
+     "pause": 0.4,
+     "sfx": "bell",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "sock_basket",
+     "x": 0.6,
+     "scale": 1.0
+    },
+    {
+     "id": "pip_sockear",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.12
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_sockear",
+     "text": "Ta-da! I'm all ready for bed!",
+     "pause": 0.4
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Hee hee! A sock on your ear? Does a sock go on your ear?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_sockear",
+     "text": "No! Socks go on your feet! Silly me!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.12
+    },
+    {
+     "id": "sock_red",
+     "x": 0.38,
+     "y": 0.62,
+     "scale": 1.19,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Let's play a sock colour game!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "What colour is this sock?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "Red! With little white hearts!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.12
+    },
+    {
+     "id": "sock_red",
+     "x": 0.3,
+     "y": 0.62,
+     "scale": 0.98
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.45,
+     "y": 0.62,
+     "scale": 1.19,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "And this one? What colour?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Yellow! With orange dots, like little oranges!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.1
+    },
+    {
+     "id": "sock_red",
+     "x": 0.24,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.36,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_green",
+     "x": 0.48,
+     "y": 0.62,
+     "scale": 1.19,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Stripy, stripy! What colour are the stripes on this sock?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "Green and white! Like a candy stick!"
+    },
+    {
+     "who": "sock_blue",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "pop",
+     "dur": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.1
+    },
+    {
+     "id": "sock_red",
+     "x": 0.24,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.36,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_green",
+     "x": 0.48,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_blue",
+     "x": 0.6,
+     "y": 0.62,
+     "scale": 1.19,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Ooh, my favourite! Blue with yellow stars! Count the stars with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "One, two, three stars!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.18
+    },
+    {
+     "id": "sock_red",
+     "x": 0.36,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_red",
+     "x": 0.43,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.55,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Socks come in twos. Two socks make a pair!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Red and red. Is that a pair? Yes or no?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "Yes! Two red socks! A pair!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.18
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.38,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_green",
+     "x": 0.48,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Yellow and green. Is that a pair?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "No! They don't match. Silly socks!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.14
+    },
+    {
+     "id": "sock_red",
+     "x": 0.3,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_red",
+     "x": 0.36,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.47,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.53,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_green",
+     "x": 0.64,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_green",
+     "x": 0.7,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "pip_onesock",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Now we have pairs! How many pairs can you count?",
+     "pause": 2.2
+    },
+    {
+     "who": "mimi_socks",
+     "text": "One, two, three pairs!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_onesock",
+     "text": "Look, I put on one blue star sock. But where is the other blue sock?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "pip_onesock",
+     "x": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_onesock",
+     "text": "Is it under the rug? No."
+    },
+    {
+     "who": "yarn",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "bell",
+     "dur": 1.2
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Listen! What is that jingle in my bed?",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "sock_blue",
+     "x": 0.36,
+     "y": 0.75,
+     "scale": 1.05,
+     "glow": true
+    },
+    {
+     "id": "yarn",
+     "x": 0.4,
+     "y": 0.77,
+     "scale": 1.4
+    },
+    {
+     "id": "pip_onesock",
+     "x": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_onesock",
+     "text": "My blue sock! It's in Mimi's bed!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Oh! My yarn ball was snuggled inside it like a little blanket! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "One sock, two socks! Wiggle your toes with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_socks",
+     "text": "Ahh! My toes are warm and cosy now!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Mine too!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_kitchen",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.42
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.6
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.76,
+     "y": 0.66,
+     "scale": 1.0
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.84,
+     "y": 0.66,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Who wants a warm milk cuddle before bed?"
+    },
+    {
+     "who": "pip_socks",
+     "text": "Me! Me! Pad, pad, pad in our socks!"
+    },
+    {
+     "who": "mama",
+     "text": "I made it just warm, not hot. Stay close to me."
+    },
+    {
+     "who": "mama",
+     "text": "How many cups are on the table?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Two! One for Pip, and one for me!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_kitchen",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.42
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.6
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.76,
+     "y": 0.66,
+     "scale": 1.0
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.84,
+     "y": 0.66,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Mmm! What do we say to Mama Bunny?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Thank you! Meow!"
+    },
+    {
+     "who": "mama",
+     "text": "Now a big, cosy cuddle. Look, soft, sleepy snow is falling outside."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "mimi_stretch",
+     "x": 0.34
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_stretch",
+     "text": "Time for a sleepy kitten stretch! Paws up high, high, high!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_socks",
+     "text": "Now wiggle your warm toes. Wiggle, wiggle!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.34
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Now slow breaths. Breathe in, like smelling warm milk.",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_socks",
+     "text": "And breathe out, slow and soft. Ahh.",
+     "pause": 2.2
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.58
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.4,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Yes, Moon! Let's sing the Warm Socks Song! Wiggle along!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.58
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.4,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "One sock, two socks, on my feet. Wiggle, wiggle, toes so sweet!",
+     "pause": 0.6
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Red socks, blue socks, find a pair. Warm and cosy everywhere!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.58
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.4,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Warm socks, cosy socks, snug and tight. Warm socks help me sleep tonight!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.62
+    },
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Warm socks, cosy socks, snug and tight. Warm socks help me sleep tonight!",
+     "pause": 0.8
+    },
+    {
+     "who": "mimi",
+     "text": "Yawn! Goodnight, Pip.",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_socks",
+     "text": "Goodnight, Mimi. Goodnight, warm toes.",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Wiggle your toes and say goodnight with me. Goodnight!",
+     "pause": 1.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy counts five little snowflakes in a brand new song!",
+     "pause": 0.6
+    },
+    {
+     "who": "moon",
+     "text": "Sweet dreams, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

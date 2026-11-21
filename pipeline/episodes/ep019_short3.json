@@ -1,0 +1,178 @@
+{
+ "id": "ep019_short3",
+ "title": "My Turn, Your Turn Song",
+ "thumbnail": {
+  "text": "Clap Along!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "autumn_park",
+  "cast": [
+   {
+    "id": "dotty",
+    "mouth": 2,
+    "scale": 1.2
+   },
+   {
+    "id": "pip"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "dotty_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 7
+    },
+    {
+     "id": "pip",
+     "x": 0.87,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Can you clap and sing with us? Get your hands ready!",
+     "pause": 1.6
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    }
+   ],
+   "lead": 0.2
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "dotty_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 9
+    },
+    {
+     "id": "pip",
+     "x": 0.87,
+     "scale": 0.75,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.13,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "My turn, your turn, that's the way we play!"
+    },
+    {
+     "who": "honey",
+     "text": "Count to ten, then it's you. Hip, hip, hooray!"
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "dotty_swing",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 9
+    },
+    {
+     "id": "pip",
+     "x": 0.87,
+     "scale": 0.75,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.13,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Wait a little, swing a little, up and down we go!"
+    },
+    {
+     "who": "pip",
+     "text": "Sharing with my friends makes me happy so!"
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.29,
+     "swing": 7
+    },
+    {
+     "id": "pip",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.78,
+     "scale": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Now swing your arms like a swing! Up high, down low!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Great swinging, friends!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ],
+   "tail": 1.2
+  }
+ ]
+}

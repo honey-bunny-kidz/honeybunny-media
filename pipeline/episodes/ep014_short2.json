@@ -1,0 +1,214 @@
+{
+ "id": "ep014_short2",
+ "title": "Up or Down? Count the Slide Steps with Pip Puppy",
+ "thumbnail": {
+  "text": "Up Or Down, Pip?",
+  "badge": "Learn Up & Down",
+  "bg": "sunny_hill",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2
+   },
+   {
+    "id": "honey"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sunny_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.45,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Can you count to five with me? Let's climb the slide!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Count the ladder steps with Pip!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip",
+     "text": "One, two, three, four, five!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "y": 0.532,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Woof! Look where I am now. Am I up, or down?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "y": 0.532,
+     "scale": 0.8,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Pip is up! Up, up, up high!"
+    },
+    {
+     "who": "honey",
+     "text": "Reach your arms up high, like Pip!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip",
+     "text": "Here I go. Wheee!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Now, am I up, or down?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "scale": 0.8,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Pip is down! Down, down, down low!"
+    },
+    {
+     "who": "honey",
+     "text": "Touch the ground with your hands, like Pip!",
+     "pause": 1.4
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.65,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! Can I have a turn, Pip?"
+    },
+    {
+     "who": "pip",
+     "text": "Yes, Dotty! Taking turns is fun. Up you go!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "scale": 0.8
+    },
+    {
+     "id": "dotty",
+     "x": 0.78,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

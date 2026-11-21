@@ -1,0 +1,3846 @@
+{
+ "id": "compilation",
+ "title": "Honey Bunny Kidz Story Time: 7 Fun Stories & Songs with Pip Puppy, Dotty Duckling & Lulu Lamb",
+ "episodes": [
+  "ep016",
+  "ep012",
+  "ep010",
+  "ep013",
+  "ep014",
+  "ep011",
+  "ep015"
+ ],
+ "thumbnail": {
+  "text": "7 Fun Stories!",
+  "badge": "Kids Stories",
+  "bg": "autumn_park",
+  "cast": [
+   {
+    "id": "pip_leafy",
+    "mouth": 2,
+    "x": 0.53
+   },
+   {
+    "id": "dotty",
+    "x": 0.71
+   },
+   {
+    "id": "lulu",
+    "x": 0.86,
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_park",
+   "title": "Honey Bunny Kidz Story Time: 7 Fun Stories & Songs with Pip Puppy, Dotty Duckling & Lulu Lamb",
+   "subtitle": "Honey Bunny Kidz  \u2022  Story Time",
+   "lead": 0.8,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Welcome to Honey Bunny Kidz story time! Today we have 7 stories for you."
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.35
+    },
+    {
+     "id": "pip",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Are you ready for the first story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Yay! It's called: Pip Puppy's Big Leaf Pile. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "title": "Pip Puppy's Big Leaf Pile",
+   "subtitle": "Kids Story  \u2022  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Pip Puppy's Big Leaf Pile! Let's play in the autumn leaves!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "rake",
+     "x": 0.31
+    },
+    {
+     "id": "honey",
+     "x": 0.5
+    },
+    {
+     "id": "pip",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a cool, sunny autumn day. Mama Bunny took Honey and Pip to the park."
+    },
+    {
+     "who": "narrator",
+     "text": "Leaves were falling from the trees, one by one."
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Look! The leaves are dancing down!"
+    },
+    {
+     "who": "honey",
+     "text": "Swish, swish! Can you wiggle your fingers like falling leaves?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Wiggle, wiggle, down they go!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "sfx": "crunch",
+     "text": "Crunch, crunch!",
+     "dur": 1.6,
+     "pause": 0.5
+    },
+    {
+     "who": "pip",
+     "text": "What sound do the leaves make when I step on them?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Crunch, crunch! The leaves are dry and crunchy."
+    },
+    {
+     "who": "pip",
+     "text": "I have a big idea! Let's make the biggest leaf pile ever!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.22
+    },
+    {
+     "id": "rake",
+     "x": 0.33
+    },
+    {
+     "id": "pip",
+     "x": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "What a fun idea, Pip. A big job is easier when we do it together."
+    },
+    {
+     "who": "pip",
+     "text": "I can do it all by myself! I am super fast!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.38
+    },
+    {
+     "id": "leafpile",
+     "x": 0.64,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Pip pushed the leaves together, very fast. Swish, swish, swish!"
+    },
+    {
+     "who": "pip",
+     "text": "Look! My leaf pile!"
+    },
+    {
+     "who": "pip",
+     "sfx": "wind",
+     "text": "Whoooosh!",
+     "dur": 2.0,
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Oh! A puff of wind blew the little leaf pile away."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.4
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Hey! Come back, leaves! Hee hee!"
+    },
+    {
+     "who": "pip",
+     "text": "Hmm. Maybe a big leaf pile needs lots of helpers."
+    },
+    {
+     "who": "honey",
+     "text": "We can help you, Pip! Let's ask our friends."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "rake",
+     "x": 0.25
+    },
+    {
+     "id": "pip",
+     "x": 0.42
+    },
+    {
+     "id": "dotty",
+     "x": 0.62
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! Can we help too?"
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! I love autumn leaves!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's all work together. I will use the big rake, and you can carry the leaves."
+    },
+    {
+     "who": "pip",
+     "text": "Yay! Thank you, friends!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.24
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.42,
+     "y": 0.62,
+     "scale": 1.6
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.6,
+     "y": 0.62,
+     "scale": 1.6
+    },
+    {
+     "id": "dotty",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "I found a leaf! What colour is my leaf?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Red! A red leaf, like a shiny apple."
+    },
+    {
+     "who": "dotty",
+     "text": "My leaf is the colour of the sun. What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Yellow! A yellow leaf!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.24
+    },
+    {
+     "id": "leaf_orange",
+     "x": 0.42,
+     "y": 0.62,
+     "scale": 1.6
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.6,
+     "y": 0.62,
+     "scale": 1.6
+    },
+    {
+     "id": "pip",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "My leaf is orange, like a pumpkin."
+    },
+    {
+     "who": "pip",
+     "text": "And my leaf is brown, like a cosy tree trunk."
+    },
+    {
+     "who": "honey",
+     "text": "Red, yellow, orange and brown. Autumn is so colourful!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.16
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.32,
+     "y": 0.83
+    },
+    {
+     "id": "leaf_orange",
+     "x": 0.43,
+     "y": 0.8
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.54,
+     "y": 0.83
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.65,
+     "y": 0.8
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.76,
+     "y": 0.83
+    },
+    {
+     "id": "honey",
+     "x": 0.9,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Look at these leaves. How many can you count?",
+     "pause": 2.5
+    },
+    {
+     "who": "pip",
+     "text": "Let's count together. One, two, three, four, five!"
+    },
+    {
+     "who": "honey",
+     "text": "Five leaves! Into the pile they go!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "rake",
+     "x": 0.25
+    },
+    {
+     "id": "leafpile",
+     "x": 0.5,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.76
+    },
+    {
+     "id": "pip",
+     "x": 0.9,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama Bunny raked, and the friends carried leaves. The pile grew bigger and bigger. Let's sing the Leaf Pile Song!"
+    },
+    {
+     "who": "honey",
+     "text": "Crunch, crunch, leaves on the ground! Red and yellow, falling down!"
+    },
+    {
+     "who": "honey",
+     "text": "Rake them up, one, two, three! A big leaf pile for you and me!"
+    },
+    {
+     "who": "pip",
+     "text": "Stomp your feet! Crunch, crunch, crunch!",
+     "pause": 1.5
+    },
+    {
+     "who": "honey",
+     "text": "Crunch, crunch, leaves on the ground! Red and yellow, falling down!"
+    },
+    {
+     "who": "honey",
+     "text": "Rake them up, one, two, three! A big leaf pile for you and me!"
+    },
+    {
+     "who": "pip",
+     "text": "Twirl around like a leaf in the wind!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "leafpile",
+     "x": 0.48
+    },
+    {
+     "id": "dotty",
+     "x": 0.78
+    },
+    {
+     "id": "pip",
+     "x": 0.9,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Wow! Our leaf pile is so big!"
+    },
+    {
+     "who": "mama",
+     "text": "Before we jump, let's check. Only soft leaves, no sticks. And a grown-up is always close by."
+    },
+    {
+     "who": "pip",
+     "text": "Who should jump first? Hmm."
+    },
+    {
+     "who": "pip",
+     "text": "Dotty is the smallest. Dotty, you go first!"
+    },
+    {
+     "who": "dotty",
+     "text": "Thank you, Pip! Quack! Whee!"
+    },
+    {
+     "who": "dotty",
+     "sfx": "crunch",
+     "text": "Crunch!",
+     "dur": 1.0,
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "pip",
+     "x": 0.5,
+     "scale": 0.9
+    },
+    {
+     "id": "leafpile",
+     "x": 0.5
+    },
+    {
+     "id": "mama",
+     "x": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Lulu jumped, and Honey jumped. And then it was Pip's turn. One, two, three, jump!"
+    },
+    {
+     "who": "pip",
+     "sfx": "crunch",
+     "text": "Crunch!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Where did Pip go? Can you see him?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.32
+    },
+    {
+     "id": "leafpile",
+     "x": 0.5
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.5,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_leafy",
+     "text": "Here I am! Peekaboo!"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! You have leaves on your ears, Pip!"
+    },
+    {
+     "who": "lulu",
+     "text": "You look like a little leafy tree!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.4
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.6
+    },
+    {
+     "id": "lulu",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's be tall trees. Stand up and reach your arms up high.",
+     "pause": 1.6
+    },
+    {
+     "who": "mama",
+     "text": "Now sway in the wind, slow and gentle.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Let your leaves fall down, down, down.",
+     "pause": 1.5
+    },
+    {
+     "who": "mama",
+     "text": "Breathe in the cool autumn air.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, nice and slow.",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.16
+    },
+    {
+     "id": "rake",
+     "x": 0.27
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.45
+    },
+    {
+     "id": "dotty",
+     "x": 0.65
+    },
+    {
+     "id": "lulu",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_leafy",
+     "text": "Making the leaf pile was the most fun, because we did it together!"
+    },
+    {
+     "who": "mama",
+     "text": "That's right, Pip. When we work together, big jobs are easy and fun."
+    },
+    {
+     "who": "narrator",
+     "text": "Then they raked the leaves into a big pile again, so the next friends could play too."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.28
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "dotty",
+     "x": 0.7
+    },
+    {
+     "id": "lulu",
+     "x": 0.86,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Helping hands make the best leaf piles."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Bye-bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "garden",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "pip",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Are you ready for the next story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Yay! It's called: Pip and Mama Bunny's Rainy-Day Fort. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "title": "Pip and Mama Bunny's Rainy-Day Fort",
+   "subtitle": "A Kids Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Pip and Mama Bunny's Rainy-Day Fort."
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.42
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "rain",
+     "dur": 2.5
+    },
+    {
+     "who": "narrator",
+     "text": "Pitter, patter, pitter, patter. It was a rainy day at Honey Bunny's cosy house."
+    },
+    {
+     "who": "pip",
+     "text": "Oh, rain, rain. I wanted to play in the park today."
+    },
+    {
+     "who": "honey",
+     "text": "Me too, Pip. What can we do inside?"
+    },
+    {
+     "who": "mama",
+     "text": "Hmm. I have an idea. Shall we build a cosy blanket fort?"
+    },
+    {
+     "who": "pip",
+     "text": "A fort? Yes, please! Woof, woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "What do you think we need to build a fort?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "We need two chairs, one big blanket, and lots of soft pillows!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "pip",
+     "x": 0.36
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.52,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.64,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.76,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Pip and I found the pillows. How many pillows can you count?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "One, two, three, four! Four soft pillows!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "pip",
+     "x": 0.36
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.52,
+     "scale": 1.25,
+     "glow": true
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.64,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.76,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "What color is this pillow?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Pink! Pink like my bow."
+    },
+    {
+     "who": "pip",
+     "text": "And this one is blue, this one is yellow, and this one is green."
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama Bunny held the chairs steady, and Honey and Pip spread the big purple blanket over the top."
+    },
+    {
+     "who": "mama",
+     "text": "Grown-ups help with the chairs, so everything stays safe."
+    },
+    {
+     "who": "pip",
+     "text": "Look! It's not just a fort. It looks like a ship!"
+    },
+    {
+     "who": "honey",
+     "text": "A pillow ship! Mama made a sail from an old sheet, and a broom for the mast."
+    },
+    {
+     "who": "narrator",
+     "text": "Mama folded a paper hat, too. Guess who wants to be the captain?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_captain",
+     "text": "Me! Captain Pip, ready to sail!"
+    },
+    {
+     "who": "narrator",
+     "text": "Captain Pip piled all four pillows on his side of the ship."
+    },
+    {
+     "who": "honey",
+     "text": "Pip, may I have a pillow too? The floor is a little bit hard."
+    },
+    {
+     "who": "pip_captain",
+     "text": "Hmm. But I like all the soft pillows."
+    },
+    {
+     "who": "narrator",
+     "text": "What do you think Pip should do?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_captain",
+     "text": "I know! I can share. One for you, one for me, and two for our friends!"
+    },
+    {
+     "who": "honey",
+     "text": "Thank you, Pip! Sharing makes our ship cosy for everyone."
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Knock, knock!",
+     "pause": 0.4,
+     "sfx": "clap",
+     "dur": 1.0
+    },
+    {
+     "who": "narrator",
+     "text": "Who could that be? It's Dotty Duckling, with tiny raindrops on her feathers."
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.27
+    },
+    {
+     "id": "dotty",
+     "x": 0.5
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! Hello, friends! It's too rainy to swim in the pond today."
+    },
+    {
+     "who": "pip_captain",
+     "text": "Come aboard, Dotty! Here is a pillow for you."
+    },
+    {
+     "who": "dotty",
+     "text": "Thank you, Captain Pip! What a lovely ship."
+    },
+    {
+     "who": "pip_captain",
+     "text": "Everybody, row your arms with me! Can you row, row, row?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Row and row, here we go, over the waves so soft and slow!"
+    },
+    {
+     "who": "dotty",
+     "text": "Rock to the left, rock to the right, our pillow ship is snug and bright!"
+    },
+    {
+     "who": "pip_captain",
+     "text": "Oh! Here comes a pretend wave! Splish, splash!",
+     "pause": 0.3
+    },
+    {
+     "who": "narrator",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "splash",
+     "dur": 1.0
+    },
+    {
+     "who": "dotty",
+     "text": "I love the pretend sea! What sound does a duck make?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! You got it!"
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.27
+    },
+    {
+     "id": "dotty",
+     "x": 0.5
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_captain",
+     "text": "Let's make looking circles with our hands, like a spyglass. Can you look through yours?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_captain",
+     "text": "I see, I see. Land ho! It's Sofa Island!"
+    },
+    {
+     "who": "honey",
+     "text": "Hooray! Let's sail to Sofa Island!"
+    },
+    {
+     "who": "dotty",
+     "text": "Row, row, row! We're almost there!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_captain",
+     "x": 0.42
+    },
+    {
+     "id": "dotty",
+     "x": 0.58
+    },
+    {
+     "id": "honey",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Welcome to Sofa Island, sailors! I have apple slices for everyone."
+    },
+    {
+     "who": "narrator",
+     "text": "Pip shared the apple slices, too. One for Honey, one for Dotty, one for Mama, and one for Pip."
+    },
+    {
+     "who": "honey",
+     "text": "Look out the window. The rain is getting softer and softer."
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a big, slow ocean breath. Breathe in, like a wave coming in.",
+     "pause": 1.6
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, like a wave going out. Whoosh.",
+     "pause": 1.6
+    },
+    {
+     "who": "pip_captain",
+     "text": "That was the best rainy day ever. Thank you for sharing the fort with me, friends!"
+    },
+    {
+     "who": "narrator",
+     "text": "On a rainy day, a blanket, some pillows, and friends who share can make a big adventure."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Bye-bye, little sailors! See you next time on Honey Bunny Kidz."
+    }
+   ]
+  },
+  {
+   "bg": "day",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.35
+    },
+    {
+     "id": "mama",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Are you ready for the next story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Yay! It's called: Why Doesn't Dotty Duckling Get Wet?. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "title": "Why Doesn't Dotty Duckling Get Wet?",
+   "subtitle": "An Animal Fact Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "dotty_beads",
+     "x": 0.62
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Why Doesn't Dotty Duckling Get Wet?"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.33
+    },
+    {
+     "id": "mama",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "rain",
+     "text": "Pitter, patter, pitter, patter.",
+     "dur": 2.6,
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "It was a soft, rainy morning. Pitter, patter, went the rain."
+    },
+    {
+     "who": "honey_rain",
+     "text": "Mama, it's raining! Can we go outside and splash?"
+    },
+    {
+     "who": "mama",
+     "text": "Yes, little one! But first, what do we wear in the rain? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "A raincoat and rain boots! You look ready, Honey."
+    },
+    {
+     "who": "honey_rain",
+     "text": "My coat is yellow, and my boots are red!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's hold hands, stay together, and splash in the little puddles."
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.47
+    },
+    {
+     "id": "dotty",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Down by the pond, they saw Dotty Duckling, paddling happily in the rain."
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! Good morning, Honey! I love rainy days!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Dotty, you don't have a raincoat! Aren't you all wet?"
+    },
+    {
+     "who": "dotty",
+     "text": "Look at my feathers. Are they wet, or dry? What do you think?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "They are dry! The raindrops roll right off me!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Wow! But how? Why don't you get wet, Dotty?"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.3
+    },
+    {
+     "id": "dotty_beads",
+     "x": 0.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_beads",
+     "text": "Here is my duck secret. Near my tail, I have a tiny spot that makes a special oil."
+    },
+    {
+     "who": "dotty_beads",
+     "text": "I rub the oil on my feathers with my beak, like this. Rub, rub, rub!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Special oil? That's so clever!"
+    },
+    {
+     "who": "dotty_beads",
+     "text": "The oil keeps the water out. So the rain can't soak in. My feathers are waterproof!"
+    },
+    {
+     "who": "dotty_beads",
+     "text": "See the raindrops on my back? They sit like shiny little beads. Let's count them as they roll off. Ready?",
+     "pause": 1.2
+    },
+    {
+     "who": "dotty_beads",
+     "text": "One. Two. Three!",
+     "pause": 0.8
+    },
+    {
+     "who": "honey_rain",
+     "text": "Roll, roll, roll! Off they go!"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.25
+    },
+    {
+     "id": "dotty_beads",
+     "x": 0.5
+    },
+    {
+     "id": "pip_drip",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_drip",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Splash! Here came Pip Puppy, hopping through the puddles."
+    },
+    {
+     "who": "pip_drip",
+     "text": "Hello, friends! Oh, my fur is all drippy!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Pip's fur gets wet, but Dotty's feathers stay dry. Everybody is made in a special way!"
+    },
+    {
+     "who": "pip_drip",
+     "text": "Do you know what puppies do when we're wet? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_drip",
+     "text": "We shake! Shake, shake, shake!"
+    },
+    {
+     "who": "pip_drip",
+     "text": "Shake with me! Wiggle your head, wiggle your arms. Shake, shake, shake!",
+     "pause": 1.5
+    },
+    {
+     "who": "dotty_beads",
+     "text": "Hee hee! Little drops everywhere!"
+    },
+    {
+     "who": "narrator",
+     "text": "Mama Bunny wrapped Pip in a soft, warm towel. Next time, Pip will wear his raincoat too."
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.25
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "dotty",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Now let's jump in the puddles! Stomp your feet with us!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Splish, splash, puddle jump! Stomp, stomp, stomp!"
+    },
+    {
+     "who": "honey_rain",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Splish, splash, puddle jump! Hop, hop, hop!"
+    },
+    {
+     "who": "pip",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "dotty",
+     "text": "Splish, splash, one more jump! Quack, quack, quack!"
+    },
+    {
+     "who": "dotty",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "honey_rain",
+     "text": "What does a duck say? Can you say it, too?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! What a great quack!"
+    }
+   ]
+  },
+  {
+   "bg": "garden_pond",
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_rain",
+     "text": "Dotty, how do you swim so fast?"
+    },
+    {
+     "who": "dotty",
+     "text": "Look at my feet! They are wide and flat, like little paddles."
+    },
+    {
+     "who": "narrator",
+     "text": "Ducks have webbed feet. There is soft skin between their toes, so they can push the water. Paddle, paddle!"
+    },
+    {
+     "who": "dotty",
+     "text": "Can you make your hands into duck feet? Paddle, paddle, paddle!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_rain",
+     "text": "Paddle, paddle! Look, I'm a duck! Quack!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.27
+    },
+    {
+     "id": "mama",
+     "x": 0.47
+    },
+    {
+     "id": "dotty",
+     "x": 0.66
+    },
+    {
+     "id": "pip",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then the rain went slow, and slower, and stopped. The sun came out to say hello."
+    },
+    {
+     "who": "honey_rain",
+     "text": "Look! A rainbow! What colors can you see?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_rain",
+     "text": "Red, orange, yellow, green, blue, and purple!"
+    },
+    {
+     "who": "dotty",
+     "text": "Rain is good for the flowers, good for the pond, and good for little ducks like me!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a big breath of fresh, rainy-day air. Breathe in, slowly.",
+     "pause": 1.5
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out. Ahhh.",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.55
+    },
+    {
+     "id": "pip",
+     "x": 0.78
+    }
+   ],
+   "tail": 1.6,
+   "lines": [
+    {
+     "who": "honey_rain",
+     "text": "Today I learned a duck secret! Dotty's feathers have special oil, so the rain rolls right off."
+    },
+    {
+     "who": "dotty",
+     "text": "And you have a raincoat, Honey! We both stay cosy."
+    },
+    {
+     "who": "pip",
+     "text": "And I have a big shake! Woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "Everybody is made in a special way. Thank you for splashing with us! See you next time on Honey Bunny Kidz."
+    }
+   ]
+  },
+  {
+   "bg": "porch",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Are you ready for the next story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Yay! It's called: Ollie Owl's Animal Sounds Song. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "title": "Ollie Owl's Animal Sounds Song",
+   "subtitle": "A Sing-Along Rhyme  \u2022  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Ollie Owl's Animal Sounds Song! Get ready to sing, and move with us!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.28
+    },
+    {
+     "id": "pip",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The sun was going down. Little lanterns began to glow."
+    },
+    {
+     "who": "honey",
+     "text": "Pip, look! This big tree stump is just like a little stage!"
+    },
+    {
+     "who": "pip",
+     "text": "Woof woof! Let's sing the Wiggle Waggle Song again!"
+    },
+    {
+     "who": "sfx",
+     "text": "Hoo... hoo...",
+     "pause": 0.4,
+     "sfx": "owl",
+     "dur": 1.6
+    },
+    {
+     "who": "honey",
+     "text": "Listen! Who is that? Can you guess who says hoo, hoo?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "pip",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was Ollie Owl! He just woke up. Owls wake up when the sun goes down."
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Good evening, friends! May I sing with you?"
+    },
+    {
+     "who": "honey",
+     "text": "Yes, Ollie! Let's make a new song. Every friend makes a sound, and shows a move!"
+    },
+    {
+     "who": "ollie",
+     "text": "Then I will be the song leader, up here on the stage. Here is our new chorus!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.09
+    },
+    {
+     "id": "dotty",
+     "x": 0.22
+    },
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "pip",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Everybody, sing with us!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Make a sound and sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Flap and hop and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound!",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.24
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Me first! Owls say hoo, hoo. And we flap our soft wings."
+    },
+    {
+     "who": "narrator",
+     "text": "Ollie Owl says hoo, hoo, hoo.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Flap your wings, the way owls do!",
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Can you say hoo, hoo, and flap your arms like wings?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Wonderful flapping!"
+    },
+    {
+     "who": "ollie",
+     "text": "Owls can turn their heads very far. Can you turn your head slowly, this way, and that way?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! Hello, Ollie! May I sing my sound next?"
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu Lamb says baa, baa, baa.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Bounce up high, then la, la, la!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Can you say baa, like a little lamb?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Now bounce with me. Boing, boing, boing!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.28
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "pip",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack quack! My turn!"
+    },
+    {
+     "who": "narrator",
+     "text": "Dotty Duckling says quack, quack, quack.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Waddle forward, waddle back!",
+     "pause": 0.6
+    },
+    {
+     "who": "dotty",
+     "text": "Can you waddle like a duck? Waddle, waddle!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Now me!"
+    },
+    {
+     "who": "narrator",
+     "text": "Pip the Puppy says woof, woof, hey!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Wag your tail and jump to play!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.09
+    },
+    {
+     "id": "dotty",
+     "x": 0.22
+    },
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "pip",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Now, all together!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Make a sound and sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Flap and hop and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound!",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "honey",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Meow! I want to sing too!"
+    },
+    {
+     "who": "narrator",
+     "text": "Mimi Kitten says meow, meow.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Stretch up tall and take a bow!",
+     "pause": 0.6
+    },
+    {
+     "who": "mimi",
+     "text": "Can you say meow, and take a little bow?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Hmm. Everyone has a big sound. But bunnies are very quiet. What is my sound, Ollie?"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo. I have very good ears, Honey. I know two bunny sounds!"
+    },
+    {
+     "who": "ollie",
+     "text": "Bunnies wiggle their little noses. Sniff, sniff. And bunnies talk with their back feet. Thump, thump!"
+    },
+    {
+     "who": "honey",
+     "text": "Thump, thump! I can do that! That is my special sound!"
+    },
+    {
+     "who": "narrator",
+     "text": "Honey Bunny wiggles her nose.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Thump, thump, thump, and up she goes!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Can you wiggle your nose like a bunny, and stamp your foot? Thump, thump!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Yay! Quiet sounds are special too!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.09
+    },
+    {
+     "id": "dotty",
+     "x": 0.22
+    },
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "pip",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Sing it one more time, little friends!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Make a sound and sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Flap and hop and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound!",
+     "pause": 0.9
+    },
+    {
+     "who": "ollie",
+     "text": "Which animal sound is your favorite? Hoo, baa, quack, woof, meow, or thump?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "I like them all! Hoo, hoo!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The moon rose high and round. Mama Bunny came to walk the little friends home."
+    },
+    {
+     "who": "mama",
+     "text": "What a lovely song! Before we go, let's do a quiet owl breath."
+    },
+    {
+     "who": "ollie",
+     "text": "Breathe in slowly through your nose, and fill up like a fluffy owl.",
+     "pause": 1.6
+    },
+    {
+     "who": "ollie",
+     "text": "And breathe out, soft as a feather. Hoo, hoo.",
+     "pause": 1.6
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, soft and slow.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Goodnight, friends, it's time to go.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "pip",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound. Loud or quiet, every sound is wonderful!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Goodnight! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "pumpkin_patch",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.35
+    },
+    {
+     "id": "lulu",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Are you ready for the next story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Yay! It's called: Lulu Lamb's Big and Small Picnic. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "title": "Lulu Lamb's Big and Small Picnic",
+   "subtitle": "Learn Opposites  \u2022  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Lulu Lamb's Big and Small Picnic! Let's play an opposite game together!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.22
+    },
+    {
+     "id": "basket",
+     "x": 0.38
+    },
+    {
+     "id": "honey",
+     "x": 0.58
+    },
+    {
+     "id": "lulu",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a bright, sunny morning on Sunny Hill. Mama Bunny brought a picnic basket."
+    },
+    {
+     "who": "mama",
+     "text": "Who wants to help me get our picnic ready?"
+    },
+    {
+     "who": "honey",
+     "text": "Me, me! I can help!"
+    },
+    {
+     "who": "lulu",
+     "text": "I want to help too. But I am so small."
+    },
+    {
+     "who": "mama",
+     "text": "Little Lulu, small friends can be big helpers. Let's play the Big and Small game on the way!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.2
+    },
+    {
+     "id": "ball",
+     "x": 0.45,
+     "scale": 2.0
+    },
+    {
+     "id": "ball",
+     "x": 0.63,
+     "scale": 0.7
+    },
+    {
+     "id": "honey",
+     "x": 0.82
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Look, Lulu! Two red balls. One is big, and one is small."
+    },
+    {
+     "who": "lulu",
+     "text": "Which ball is big? Can you point to the big ball?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.2
+    },
+    {
+     "id": "ball",
+     "x": 0.45,
+     "scale": 2.0,
+     "glow": true
+    },
+    {
+     "id": "ball",
+     "x": 0.63,
+     "scale": 0.7
+    },
+    {
+     "id": "honey",
+     "x": 0.82
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Yes! This ball is big. Big, big, big!"
+    },
+    {
+     "who": "honey",
+     "text": "And this ball is small. Small, small, small."
+    },
+    {
+     "who": "lulu",
+     "text": "I will carry the small ball. It is just right for me!"
+    },
+    {
+     "who": "narrator",
+     "text": "And just like that, Lulu was helping."
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.25
+    },
+    {
+     "id": "dotty",
+     "x": 0.52
+    },
+    {
+     "id": "lulu",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Dotty Duckling came waddling up the hill."
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! Hello, friends! Can I come to the picnic?"
+    },
+    {
+     "who": "lulu",
+     "text": "Yes, Dotty! Look at Mama Bunny and Dotty. Who is small? Can you say it?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.25
+    },
+    {
+     "id": "dotty",
+     "x": 0.52,
+     "glow": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Dotty is small! And Mama Bunny is big."
+    },
+    {
+     "who": "mama",
+     "text": "Big or small, there is room for everyone at our picnic."
+    },
+    {
+     "who": "lulu",
+     "text": "Let's make our bodies big! Stand up tall, and spread your arms wide!",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu",
+     "text": "Now make your body small. Curl up like a little ball.",
+     "pause": 1.6
+    },
+    {
+     "who": "dotty",
+     "text": "Quack! That was fun!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25
+    },
+    {
+     "id": "honey",
+     "x": 0.48
+    },
+    {
+     "id": "pip",
+     "x": 0.86,
+     "y": 0.6,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Over by the slide, Pip Puppy was playing."
+    },
+    {
+     "who": "pip",
+     "text": "Woof, woof! Look at me! I climbed the ladder, step by step."
+    },
+    {
+     "who": "honey",
+     "text": "Is Pip up high, or down low? What do you think?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25
+    },
+    {
+     "id": "honey",
+     "x": 0.48
+    },
+    {
+     "id": "pip",
+     "x": 0.86,
+     "y": 0.6,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Pip is up! Up, up, up high!"
+    },
+    {
+     "who": "pip",
+     "text": "Now I sit down and slide down. Wheee!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25
+    },
+    {
+     "id": "honey",
+     "x": 0.45
+    },
+    {
+     "id": "pip",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Now Pip is down! Down, down, down low."
+    },
+    {
+     "who": "honey",
+     "text": "Let's do it too! Reach your paws up, up, up!",
+     "pause": 1.4
+    },
+    {
+     "who": "honey",
+     "text": "Now touch the ground. Down, down, down!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Up and down is so much fun. Your turn on the slide, Honey!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22
+    },
+    {
+     "id": "snail",
+     "x": 0.5
+    },
+    {
+     "id": "pip",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Pip ran to the picnic. Zoom, zoom! Pip was very fast."
+    },
+    {
+     "who": "pip",
+     "text": "I am fast! Zoom, zoom, zoom!"
+    },
+    {
+     "who": "lulu",
+     "text": "Wait, Pip! Stop, please! Look down, by your paw.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22
+    },
+    {
+     "id": "snail",
+     "x": 0.5,
+     "glow": true
+    },
+    {
+     "id": "pip",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a tiny snail, on the stepping stone path."
+    },
+    {
+     "who": "lulu",
+     "text": "Hello, little snail. Is the snail fast, or slow? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "The snail is slow. Slow, slow, slow."
+    },
+    {
+     "who": "pip",
+     "text": "Oh! I did not see the little snail. Thank you, Lulu. I will walk slowly here."
+    },
+    {
+     "who": "lulu",
+     "text": "I am small, so I can see small things!"
+    },
+    {
+     "who": "narrator",
+     "text": "Pip waited, and the little snail went slowly on its way."
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.16
+    },
+    {
+     "id": "lulu",
+     "x": 0.36
+    },
+    {
+     "id": "honey",
+     "x": 0.56
+    },
+    {
+     "id": "pip",
+     "x": 0.76
+    },
+    {
+     "id": "dotty",
+     "x": 0.92
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Lulu, you were a big helper today!"
+    },
+    {
+     "who": "lulu",
+     "text": "Thank you, Mama Bunny! Let's sing the Big and Small song. Do the moves with me!"
+    },
+    {
+     "who": "lulu",
+     "text": "Big, big, stretch up tall!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Small, small, curl up small!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Up, up, reach the sky!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Down, down, touch the ground!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip",
+     "text": "Fast, fast, wiggle your feet!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Slow, slow, like a snail so sweet!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Big and small, short and tall,",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "we are friends, one and all!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "basket",
+     "x": 0.36
+    },
+    {
+     "id": "lulu",
+     "x": 0.56
+    },
+    {
+     "id": "honey",
+     "x": 0.76
+    },
+    {
+     "id": "snail",
+     "x": 0.93,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Everyone sat down for the picnic. The little snail rested in the warm sun."
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a calm breath together. Breathe in, big and slow.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, small and soft.",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu",
+     "text": "What was your favourite? Big or small, up or down, fast or slow?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "I like them all!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.52
+    },
+    {
+     "id": "pip",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Big or small, everyone can help, and everyone is special."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Bye-bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.35
+    },
+    {
+     "id": "lulu",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Are you ready for the next story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Yay! It's called: Lulu Lamb's Sleepy Animal Stretches. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "title": "Lulu Lamb's Sleepy Animal Stretches",
+   "subtitle": "A Bedtime Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Lulu Lamb's Sleepy Animal Stretches."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.62
+    },
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was almost bedtime. The moon peeked in the window, and the stars began to twinkle."
+    },
+    {
+     "who": "narrator",
+     "text": "But Honey Bunny was still hopping! Hop, hop, hop!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Mama, my legs are so wiggly! I can't stop hopping!"
+    },
+    {
+     "who": "mama",
+     "text": "You had a busy, happy day, little one. Now your body needs help to slow down."
+    },
+    {
+     "who": "mama",
+     "text": "What do you think helps a wiggly body feel calm? Hmm?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "A slow, sleepy stretch! And look who came to help."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Lulu Lamb and Mimi Kitten were visiting with their mamas, who were having tea in the kitchen."
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Hello, Honey! We know the best sleepy stretches!"
+    },
+    {
+     "who": "mimi",
+     "text": "Animal stretches! Meow! Do you want to try?"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Yes, please!"
+    },
+    {
+     "who": "lulu",
+     "text": "Everybody, find a soft mat. Pink, green, or blue. Which color mat would you pick?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "I pick the green one! I'm ready!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "First, the kitty stretch! Get on your hands and knees, like a kitty cat."
+    },
+    {
+     "who": "mimi",
+     "text": "Now push your back up high, like a round, round hill. Up, up, up."
+    },
+    {
+     "who": "mimi",
+     "text": "Then let your tummy sink down slowly, and look up at the stars."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Up like a hill, and down like a bowl! That feels nice!"
+    },
+    {
+     "who": "mimi",
+     "text": "Let's do it three times. One. Two. Three.",
+     "pause": 0.9
+    },
+    {
+     "who": "mimi",
+     "text": "Can you make a kitty sound? What does a kitten say?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Meow! Soft and sleepy. Meow."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5,
+     "glow": true
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "My turn! This one is called the sleepy sheep."
+    },
+    {
+     "who": "lulu",
+     "text": "Sit back on your heels, and curl up small, like a soft, woolly ball."
+    },
+    {
+     "who": "lulu",
+     "text": "Rest your head down. Now rock gently. Side to side. Side to side."
+    },
+    {
+     "who": "honey_pj",
+     "text": "I'm a tiny, fluffy cloud!"
+    },
+    {
+     "who": "lulu",
+     "text": "Can you curl up small, like a sleepy sheep? Let's try together.",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Baa. So cosy."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    },
+    {
+     "id": "ollie",
+     "x": 0.6,
+     "y": 0.545,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo-hoo!",
+     "dur": 1.8,
+     "pause": 0.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "Who says hoo-hoo, at the window? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "It's me, Ollie Owl! Good evening, friends! May I show you my owl stretch?"
+    },
+    {
+     "who": "ollie",
+     "text": "Open your arms wide, like big owl wings. Flap them slowly. Flap, and flap."
+    },
+    {
+     "who": "ollie",
+     "text": "Now turn your head gently. This way, and that way. Owls look all around."
+    },
+    {
+     "who": "mimi",
+     "text": "Slow wings make me feel so calm."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25,
+     "glow": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Now I have one! It's the bunny breath!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Bunnies sniff, sniff, sniff with their little noses. Then one long breath out. Ahh."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Let's do it together. Sniff, sniff, sniff. And blow out slowly. Ahh.",
+     "pause": 1.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "How many sniffs did we do? Can you count them?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Three sniffs! One, two, three!"
+    },
+    {
+     "who": "lulu",
+     "text": "My body feels soft and slow now."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.75
+    },
+    {
+     "id": "moon",
+     "x": 0.43,
+     "y": 0.34,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The moon smiled down, and the friends sang a sleepy stretch song."
+    },
+    {
+     "who": "lulu",
+     "text": "Stretch up high, touch the sky. Wave hello to the moon so bright!"
+    },
+    {
+     "who": "mimi",
+     "text": "Kitty arch, and sheep curl small."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Owl wings flap, and that is all!"
+    },
+    {
+     "who": "lulu",
+     "text": "Can you reach up high with us? Stretch, stretch, stretch!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Stretch up high, touch the sky. Goodnight, goodnight, sleep tight!"
+    },
+    {
+     "who": "moon",
+     "text": "What a lovely, sleepy song. Goodnight, little stretchers."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "mama",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Lulu and Mimi waved goodbye, and went home with their mamas."
+    },
+    {
+     "who": "mama",
+     "text": "How does your body feel now, Honey?"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Not wiggly anymore. Just sleepy."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Which stretch did you like best? The kitty, the sheep, the owl, or the bunny?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "I liked them all!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's take one more bunny breath. Sniff, sniff, sniff. And ahh.",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    },
+    {
+     "id": "mama",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "And Honey Bunny drifted off to sleep, cosy and calm."
+    },
+    {
+     "who": "narrator",
+     "text": "When your body feels wiggly, try a sleepy animal stretch, and a slow, soft breath."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Goodnight, little one. Sweet dreams, and see you next time on Honey Bunny Kidz."
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Are you ready for the last story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Yay! It's called: Ollie Owl Helps Find Mimi's Bell. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "title": "Ollie Owl Helps Find Mimi's Bell",
+   "subtitle": "Bedtime Story  \u2022  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Ollie Owl Helps Find Mimi's Bell! A cosy bedtime story."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mimi_nobell",
+     "x": 0.44
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The sun went down, and the stars came out. Mimi Kitten had played with Honey all afternoon."
+    },
+    {
+     "who": "narrator",
+     "text": "Now Mama Bunny was walking Mimi home for bed."
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Oh! My collar is so quiet. Where is my little bell?"
+    },
+    {
+     "who": "honey",
+     "text": "Your jingly bell is gone?"
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Yes. I feel a little worried. I love my bell."
+    },
+    {
+     "who": "mama",
+     "text": "It's okay to feel worried, Mimi. When we need help, we can ask a friend."
+    },
+    {
+     "who": "honey",
+     "text": "Who has the best ears at night? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Ollie Owl! Owls can hear tiny sounds in the dark."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mimi_nobell",
+     "x": 0.44
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Hello, friends. Did somebody call me?"
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Ollie, can you help me? My little bell is lost."
+    },
+    {
+     "who": "ollie",
+     "text": "Of course I can help. Owls have very good ears. Let's all be very quiet, and listen."
+    },
+    {
+     "who": "narrator",
+     "text": "Shh. Everyone listened.",
+     "pause": 0.8
+    },
+    {
+     "sfx": "cricket",
+     "text": "Chirp, chirp, chirp!",
+     "dur": 2.0,
+     "pause": 0.5
+    },
+    {
+     "who": "ollie",
+     "text": "Is that the jingle? What makes that sound?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "It's a little cricket! Not a bell."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mimi_nobell",
+     "x": 0.44
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    },
+    {
+     "id": "cricket",
+     "x": 0.8,
+     "y": 0.93,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The little cricket sang in the grass. Then they heard another sound."
+    },
+    {
+     "sfx": "frog",
+     "text": "Ribbit, ribbit!",
+     "dur": 2.0,
+     "pause": 0.5
+    },
+    {
+     "who": "ollie",
+     "text": "Who says ribbit? Can you say it with me?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "A frog! Ribbit! That was funny. But it is not my bell."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey",
+     "x": 0.29
+    },
+    {
+     "id": "mimi_nobell",
+     "x": 0.44
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    },
+    {
+     "id": "frog",
+     "x": 0.9,
+     "y": 0.92
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Mimi, let's think. Where did you have your bell today?"
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "I had my bell at nap time. I curled up in my cosy bed."
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo! Then let's go and listen by your cosy bed."
+    },
+    {
+     "who": "mama",
+     "text": "We'll all go together. I'll walk you home, Mimi."
+    },
+    {
+     "who": "narrator",
+     "text": "So Mama Bunny walked Mimi and Honey to Mimi's cottage, and Ollie flew softly beside them."
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    },
+    {
+     "id": "mama",
+     "x": 0.82
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.545,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mimi's room was warm and cosy. Her round bed had a soft pink cushion."
+    },
+    {
+     "who": "ollie",
+     "text": "Shh. Let's listen very, very carefully."
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "I will pat my blanket. Pat, pat, pat."
+    },
+    {
+     "sfx": "bell",
+     "text": "Jingle, jingle!",
+     "dur": 1.8,
+     "pause": 0.5,
+     "who": "mimi_nobell"
+    },
+    {
+     "who": "ollie",
+     "text": "Did you hear that? What made that sound?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "A jingle! It's Mimi's bell!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.3,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "bell",
+     "x": 0.47,
+     "y": 0.775,
+     "scale": 1.4,
+     "glow": true
+    },
+    {
+     "id": "honey",
+     "x": 0.62
+    },
+    {
+     "id": "mama",
+     "x": 0.82
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.545,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "There it was! The little bell was snuggled in Mimi's blanket, all along."
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "My bell! It was in my bed the whole time!"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! We found it together."
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Thank you, Ollie. Thank you, Honey and Mama. I don't feel worried any more."
+    },
+    {
+     "who": "mama",
+     "text": "When you feel worried, it's good to ask for help. Friends help each other."
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    },
+    {
+     "id": "mama",
+     "x": 0.82
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.545,
+     "scale": 0.55
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama Bunny put the bell back on Mimi's pink collar."
+    },
+    {
+     "sfx": "bell",
+     "text": "Jingle!",
+     "dur": 1.0,
+     "pause": 0.5,
+     "who": "mimi"
+    },
+    {
+     "who": "mimi",
+     "text": "Now my collar sings again! But shh, it's sleepy time."
+    },
+    {
+     "who": "narrator",
+     "text": "Before bed, let's do a sleepy kitten stretch together."
+    },
+    {
+     "who": "mimi",
+     "text": "Can you stretch your arms up high, like a kitten?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Now a big, slow kitten yawn. Aaah.",
+     "pause": 1.5
+    },
+    {
+     "who": "mama",
+     "text": "Smell the flower. Breathe in.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Blow the candle. Breathe out.",
+     "pause": 1.8
+    },
+    {
+     "who": "ollie",
+     "text": "One more time. Breathe in, and breathe out.",
+     "pause": 2.2
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.4,
+     "scale": 0.45
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    },
+    {
+     "id": "mama",
+     "x": 0.82
+    },
+    {
+     "id": "ollie",
+     "x": 0.82,
+     "y": 0.545,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mimi curled up in her cosy bed, with her little bell safe and sound."
+    },
+    {
+     "who": "moon",
+     "text": "Goodnight, Mimi. Goodnight, Ollie. Goodnight, little friends."
+    },
+    {
+     "who": "ollie",
+     "text": "Who helped Mimi find her bell? Can you remember?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Her friends did! When you need help, you can ask a friend."
+    },
+    {
+     "who": "narrator",
+     "text": "Mama Bunny and Honey waved goodnight, and went home to bed too."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Goodnight, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "title": "Thank You for Watching!",
+   "subtitle": "More stories every day on Honey Bunny Kidz",
+   "lead": 0.5,
+   "tail": 2.0,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "That's all for now, friends! Come back soon for more stories and songs on Honey Bunny Kidz. Bye bye!"
+    }
+   ]
+  }
+ ]
+}

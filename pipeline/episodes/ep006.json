@@ -1,0 +1,573 @@
+{
+ "id": "ep006",
+ "title": "Ollie Owl's Night-Time Sounds",
+ "scenes": [
+  {
+   "bg": "night_garden",
+   "title": "Ollie Owl's Night-Time Sounds",
+   "subtitle": "A Bedtime Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Ollie Owl's Night-Time Sounds!"
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "mama",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was bedtime. Honey Bunny was tucked in her cozy bed, and her window was open just a little."
+    },
+    {
+     "who": "narrator",
+     "text": "Then Honey heard something. A tiny, soft sound."
+    },
+    {
+     "who": "sfx",
+     "sfx": "cricket",
+     "text": "Chirp, chirp, chirp.",
+     "dur": 2.0,
+     "pause": 0.8
+    },
+    {
+     "who": "honey",
+     "text": "Mama! What is that little sound?"
+    },
+    {
+     "who": "mama",
+     "text": "Let's find out together. We can wrap up in our warm blanket and sit on the porch, just for a little while."
+    },
+    {
+     "who": "honey",
+     "text": "Ooh, a night-time adventure with Mama! Yay!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama and Honey sat on the porch, snuggled in a soft blanket. The stars twinkled. Little fireflies glowed."
+    },
+    {
+     "who": "narrator",
+     "text": "Up in the big oak tree, two big round eyes blinked. It was Ollie Owl!"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Good evening, Honey! Good evening, Mama Bunny!"
+    },
+    {
+     "who": "honey",
+     "text": "Hello, Ollie! Why are you awake? It is night time!"
+    },
+    {
+     "who": "ollie",
+     "text": "Owls are awake at night, little one. And I have super good ears. I can hear all the night sounds."
+    },
+    {
+     "who": "ollie",
+     "text": "Let's play my Night Sounds Guessing Game! Close your eyes, and listen."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Here is sound number one. Listen."
+    },
+    {
+     "who": "sfx",
+     "sfx": "cricket",
+     "text": "Chirp, chirp, chirp.",
+     "dur": 2.4,
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Who says chirp, chirp? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Is it a little bird?"
+    },
+    {
+     "who": "ollie",
+     "text": "Good guess! But birds are sleeping now. Look down in the grass."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    },
+    {
+     "id": "cricket",
+     "x": 0.5,
+     "scale": 1.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "There, on a blade of grass, sat a tiny green cricket."
+    },
+    {
+     "who": "cricket",
+     "sfx": "cricket",
+     "text": "Chirp, chirp!",
+     "dur": 1.6,
+     "pause": 0.5
+    },
+    {
+     "who": "honey",
+     "text": "A cricket! Hello, little cricket!"
+    },
+    {
+     "who": "ollie",
+     "text": "Crickets sing chirp, chirp, by rubbing their wings together. It is their night-time song."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Here is sound number two. This one is not an animal. Listen."
+    },
+    {
+     "who": "sfx",
+     "sfx": "wind",
+     "text": "Whoosh... whoosh...",
+     "dur": 3.0,
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "What makes the leaves go whoosh? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "It's the wind! The soft night wind!"
+    },
+    {
+     "who": "ollie",
+     "text": "Yes! The wind is moving the leaves on my tree. Whoosh, whoosh. It sounds like a big, gentle shhh."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    },
+    {
+     "id": "frog",
+     "x": 0.9,
+     "y": 0.92
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Here is sound number three. It is coming from the little pond. Listen."
+    },
+    {
+     "who": "frog",
+     "sfx": "frog",
+     "text": "Ribbit, ribbit, ribbit!",
+     "dur": 2.0,
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Who says ribbit? Can you say it too?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Ribbit! It's a frog! A little green frog on a lily pad!"
+    },
+    {
+     "who": "ollie",
+     "text": "How many times did the frog say ribbit? Let's count. One, two, three!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Three ribbits! Hello, froggy!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "And now, the last sound. Listen very carefully."
+    },
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo... hoo...",
+     "dur": 1.6,
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Who says hoo, hoo? Who do you think?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! It's you, Ollie!"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Yes, it's me! You are very good listeners!"
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "moon",
+     "x": 0.6,
+     "y": 0.35,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Mister Moon, what sound do you make?"
+    },
+    {
+     "who": "moon",
+     "text": "I make no sound at all, little Honey. I just shine my soft light, quiet and calm."
+    },
+    {
+     "who": "narrator",
+     "text": "Sometimes, quiet is the nicest sound of all."
+    }
+   ]
+  },
+  {
+   "bg": "night_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.62,
+     "y": 0.495
+    },
+    {
+     "id": "cricket",
+     "x": 0.5,
+     "scale": 1.7
+    },
+    {
+     "id": "frog",
+     "x": 0.9,
+     "y": 0.92
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "All the night sounds together make a lullaby. Let's sing it softly.",
+     "pause": 0.9
+    },
+    {
+     "who": "narrator",
+     "text": "Chirp, chirp, little cricket, singing low.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Whoosh, whoosh, little wind, soft and slow.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Ribbit, ribbit, little frog, by the pool.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Hoo, hoo, little owl, the night is cool.",
+     "pause": 1.0
+    },
+    {
+     "who": "honey",
+     "text": "Ahh. That song makes me feel sleepy."
+    },
+    {
+     "who": "mama",
+     "text": "Then it's time to go back inside, my little one. Say goodnight to Ollie."
+    },
+    {
+     "who": "honey",
+     "text": "Goodnight, Ollie! Thank you for the guessing game!"
+    },
+    {
+     "who": "ollie",
+     "text": "Goodnight, Honey. Sweet dreams. Hoo, hoo."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903
+    },
+    {
+     "id": "mama",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama tucked Honey back into her warm bed."
+    },
+    {
+     "who": "mama",
+     "text": "Let's listen like Ollie, and breathe slowly. Breathe in, like smelling a flower.",
+     "pause": 2.2
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, soft like the wind. Whoosh.",
+     "pause": 2.4
+    },
+    {
+     "who": "mama",
+     "text": "One more time. Breathe in.",
+     "pause": 2.2
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out. Whoosh.",
+     "pause": 2.4
+    },
+    {
+     "who": "honey",
+     "text": "Goodnight, cricket. Goodnight, wind. Goodnight, froggy. Goodnight, Ollie."
+    },
+    {
+     "who": "honey",
+     "text": "Which night sound did you like best? The chirp, the whoosh, the ribbit, or the hoo?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "I liked them all. I love you, Mama."
+    },
+    {
+     "who": "mama",
+     "text": "I love you too, my little Honey."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    },
+    {
+     "id": "mama",
+     "x": 0.76
+    }
+   ],
+   "tail": 1.5,
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "cricket",
+     "text": "",
+     "dur": 2.0,
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Outside, the cricket sang softly, and Honey drifted off to sleep."
+    },
+    {
+     "who": "narrator",
+     "text": "Now close your eyes, little one. Listen to the quiet night, and have the sweetest dreams."
+    }
+   ]
+  },
+  {
+   "bg": "bedroom",
+   "title": "Sweet Dreams!",
+   "subtitle": "See you next time on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3,
+     "y": 0.903,
+     "sleep": true
+    }
+   ],
+   "tail": 4.0,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Goodnight!"
+    }
+   ]
+  }
+ ],
+ "thumbnail": {
+  "text": "Ollie's Night Game!",
+  "badge": "Bedtime Story",
+  "bg": "night_garden",
+  "cast": [
+   {
+    "id": "ollie",
+    "mouth": 2,
+    "scale": 1.1
+   },
+   {
+    "id": "frog",
+    "scale": 1.5
+   }
+  ]
+ }
+}

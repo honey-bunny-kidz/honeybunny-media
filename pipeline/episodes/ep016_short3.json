@@ -1,0 +1,191 @@
+{
+ "id": "ep016_short3",
+ "title": "Sing the Leaf Pile Song with Pip Puppy!",
+ "thumbnail": {
+  "text": "Stomp! Crunch! Sing!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "autumn_park",
+  "cast": [
+   {
+    "id": "honey",
+    "mouth": 2
+   },
+   {
+    "id": "pip"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_park",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3,
+     "scale": 0.8
+    },
+    {
+     "id": "leafpile",
+     "x": 0.72,
+     "scale": 0.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Can you sing the leaf song with me? First, look at my leaf pile!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "I made it all by myself!"
+    },
+    {
+     "who": "pip",
+     "sfx": "wind",
+     "text": "Whoooosh!",
+     "dur": 2.0,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.72,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Hey! Come back, leaves! Hee hee!"
+    },
+    {
+     "who": "honey",
+     "text": "Silly wind! Let's make a big pile together, Pip. And sing our leaf song!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "leafpile",
+     "x": 0.5,
+     "scale": 0.6
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Crunch, crunch, leaves on the ground! Red and yellow, falling down!"
+    },
+    {
+     "who": "honey",
+     "text": "Rake them up, one, two, three! A big leaf pile for you and me!"
+    },
+    {
+     "who": "pip",
+     "text": "Stomp your feet with me! Crunch, crunch, crunch!",
+     "pause": 0.2
+    },
+    {
+     "who": "pip",
+     "sfx": "crunch",
+     "text": "",
+     "dur": 1.4,
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Wiggle your fingers like falling leaves!",
+     "pause": 1.6
+    },
+    {
+     "who": "pip",
+     "text": "Twirl around like a leaf in the wind!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.18,
+     "scale": 0.8
+    },
+    {
+     "id": "leafpile",
+     "x": 0.5,
+     "scale": 0.95
+    },
+    {
+     "id": "pip",
+     "x": 0.84,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Crunch, crunch, leaves on the ground! A big leaf pile for you and me!"
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Our pile is so big! Together is the best!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_park",
+   "leaves": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.27,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.73,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

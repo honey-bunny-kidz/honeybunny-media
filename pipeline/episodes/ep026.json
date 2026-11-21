@@ -1,0 +1,819 @@
+{
+ "id": "ep026",
+ "title": "Pip Puppy's First Snow Day",
+ "thumbnail": {
+  "text": "Whose Feet?!",
+  "badge": "Kids Story",
+  "bg": "snowy_park",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "x": 0.56
+   },
+   {
+    "id": "snowbunny",
+    "x": 0.77,
+    "scale": 0.85
+   },
+   {
+    "id": "dotty_cosy",
+    "mouth": 2,
+    "flip": true,
+    "x": 0.92,
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "lead": 0.2,
+   "banner": "Pip Puppy's First Snow Day",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.28
+    },
+    {
+     "id": "prints_bunny",
+     "x": 0.64,
+     "y": 0.845,
+     "scale": 1.15,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Look! Footprints in the snow! Whose footprints are these?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Two long feet and two little round feet. Hmm!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.28
+    },
+    {
+     "id": "prints_bunny",
+     "x": 0.6,
+     "y": 0.845,
+     "scale": 1.15
+    },
+    {
+     "id": "mama",
+     "x": 0.88,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "It's my very first snow day! I want to play with all my friends."
+    },
+    {
+     "who": "mama",
+     "text": "Stay where I can see you, Pip. I'll be right here by the bench."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Okay, Mama! Let's follow the footprints!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "prints_loop",
+     "x": 0.55,
+     "y": 0.865,
+     "scale": 1.0
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.17
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Crunch, crunch, crunch!",
+     "pause": 0.4,
+     "sfx": "crunch",
+     "dur": 1.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "More footprints! Paw prints, going round and round."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Wait. These look like puppy paws. Whose paw prints are these?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "prints_loop",
+     "x": 0.55,
+     "y": 0.865,
+     "scale": 1.0,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.17,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "They're mine! I walked in a big circle!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Silly Pip! I was following my own feet! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.68,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Hello, Pip! I saw you going round and round. Hee hee!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Honey! Did you make the long footprints? Bunnies hop!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Maybe! Can you hop like a bunny? Hop, hop, hop!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.18
+    },
+    {
+     "id": "prints_duck",
+     "x": 0.52,
+     "y": 0.845,
+     "scale": 1.1,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "New footprints! Three little toes, like a triangle."
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Who waddles and says quack? Whose footprints are these?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.18
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.52,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Quack, quack! It's me, Dotty! I made the duck footprints!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Dotty! What colour is your cosy scarf?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Pink! And my hat is teal, like the sea."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.16
+    },
+    {
+     "id": "prints_duck",
+     "x": 0.52,
+     "y": 0.845,
+     "scale": 1.1
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Let's count my footprints. How many duck footprints?",
+     "pause": 2.2
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "One, two, three, four! Four duck footprints!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.57
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Hello, snow friends! Are your mittens on?"
+    },
+    {
+     "who": "mama",
+     "text": "Wiggle your fingers in your mittens. Wiggle, wiggle!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Mama, can we build a snow bunny?"
+    },
+    {
+     "who": "mama",
+     "text": "What a good idea! First, we roll snowballs."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "snowball",
+     "x": 0.42,
+     "scale": 2.3
+    },
+    {
+     "id": "snowball",
+     "x": 0.62,
+     "scale": 0.8
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Roll, roll, roll! My snowball is getting bigger!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Mine is little. Which snowball is big?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Mine! The big one goes on the bottom."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "snowbunny1",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Lift it up! Big ball on the bottom, small ball on top."
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "What does a bunny have on top of its head?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Long ears! Just like me!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "snowbunny2",
+     "x": 0.52,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Pat, pat, pat! Two long snowy ears. Now a happy face!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "snowbunny3",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Two pebble eyes, a pink pebble nose, and twig arms!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "And a pebble smile. Count the smile pebbles with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "One, two, three, four, five! Five smile pebbles!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "snowbunny3",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Brrr! Our snow bunny's paws look chilly."
+    },
+    {
+     "who": "mama",
+     "text": "I brought a spare pair of mittens. What colour are they?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Yellow! Just like mine!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.52,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Mittens on! Now our snow bunny is cosy too!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hooray! Our snow bunny is ready!",
+     "pause": 0.6,
+     "sfx": "clap",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.45
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.7,
+     "flip": true
+    },
+    {
+     "id": "prints_bunny",
+     "x": 0.86,
+     "y": 0.845,
+     "scale": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Shh! Someone is hopping this way. Who can it be?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hop, hop, hop!",
+     "pause": 0.4,
+     "sfx": "crunch",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.45
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.66,
+     "flip": true
+    },
+    {
+     "id": "wildbun",
+     "x": 0.86,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "A little wild bunny! Those first long footprints were hers!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "I think she likes our snow bunny. Wave hello! Wave, wave!",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.14
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.71,
+     "flip": true
+    },
+    {
+     "id": "wildbun",
+     "x": 0.88,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing our Snow Day Song! Stomp, hop and waddle with us!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Paw prints, paw prints, stomp, stomp, stomp! Puppy in the snow goes jump, jump, jump!",
+     "pause": 0.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Bunny prints, bunny prints, hop, hop, hop! Hop in the snow and never stop!",
+     "pause": 0.8
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Duck prints, duck prints, waddle, waddle, wee! Waddle in the snow, follow me!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.14
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.32
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.71,
+     "flip": true
+    },
+    {
+     "id": "wildbun",
+     "x": 0.88,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Snow day, snow day, hip hip hooray! Friends in the snow, let's play, play, play!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Snow day, snow day, hip hip hooray! Friends in the snow, let's play, play, play!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.33
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.9,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Your noses are pink and your cheeks are cold. Time for a warm drink at home."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Bye bye, snow bunny! We'll see you tomorrow!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.33
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.9,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "One more time! Stomp, hop and waddle with me!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Snow day, snow day, hip hip hooray! Friends in the snow, let's play, play, play!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Lulu Lamb sings the Mitten Song!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Stay cosy, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

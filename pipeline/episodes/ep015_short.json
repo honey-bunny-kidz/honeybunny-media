@@ -1,0 +1,144 @@
+{
+ "id": "ep015_short",
+ "title": "Who Can Hear the Jingle?",
+ "thumbnail": {
+  "text": "Hear That Jingle?",
+  "badge": "Bedtime Story",
+  "bg": "night_garden",
+  "cast": [
+   {
+    "id": "mimi",
+    "mouth": 2,
+    "scale": 1.1,
+    "x": 0.38
+   },
+   {
+    "id": "bell",
+    "scale": 2.4,
+    "x": 0.78
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "mimi_room",
+   "lead": 0.2,
+   "tail": 0.3,
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.5,
+     "y": 0.7,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Shh! Who can hear the jingle?",
+     "pause": 0.3
+    },
+    {
+     "sfx": "bell",
+     "text": "Jingle, jingle!",
+     "dur": 1.8,
+     "pause": 0.5
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Can you guess? What makes a jingle sound?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "lead": 0.2,
+   "tail": 0.3,
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.5,
+     "y": 0.7,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_nobell",
+     "text": "Here is a clue. It's little, round and gold. It sits on my pink collar!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "mimi_nobell",
+     "x": 0.36,
+     "y": 0.7,
+     "scale": 0.9
+    },
+    {
+     "id": "bell",
+     "x": 0.68,
+     "y": 0.675,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It's Mimi's little bell!",
+     "pause": 0.4
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "My bell was snuggled in my blanket, all along! Ollie Owl helped me listen for it."
+    },
+    {
+     "sfx": "bell",
+     "text": "Jingle!",
+     "dur": 1.0,
+     "pause": 0.5,
+     "who": "mimi_nobell"
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "When I feel worried, I ask a friend for help. Can you jingle with me? Jingle, jingle!",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_nobell",
+     "text": "Thank you for helping me listen!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.5,
+     "y": 0.7,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

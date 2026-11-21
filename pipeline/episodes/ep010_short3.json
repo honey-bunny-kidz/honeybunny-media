@@ -1,0 +1,121 @@
+{
+ "id": "ep010_short3",
+ "title": "Puddle Jump and Shake with Pip",
+ "thumbnail": {
+  "text": "Pip's Big Shake!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "meadow",
+  "cast": [
+   {
+    "id": "pip_drip",
+    "mouth": 2,
+    "x": 0.36,
+    "scale": 1.15
+   },
+   {
+    "id": "honey_rain",
+    "x": 0.83,
+    "scale": 0.8
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.27
+    },
+    {
+     "id": "pip_drip",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_drip",
+     "text": "Can you shake like a wet puppy? Stand up, let's try!",
+     "pause": 1.5
+    },
+    {
+     "who": "pip_drip",
+     "text": "Wiggle your head! Wiggle your arms! Shake, shake, shake!",
+     "pause": 1.2
+    },
+    {
+     "who": "honey_rain",
+     "text": "Hee hee! Little drops everywhere!"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.18
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "dotty",
+     "x": 0.83
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_rain",
+     "text": "Now sing the puddle song and stomp with us!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Splish, splash, puddle jump! Stomp, stomp, stomp!"
+    },
+    {
+     "who": "honey_rain",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Splish, splash, puddle jump! Hop, hop, hop!"
+    },
+    {
+     "who": "pip",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "dotty",
+     "text": "Splish, splash, one more jump! Quack, quack, quack!"
+    },
+    {
+     "who": "dotty",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "One more big shake, everybody! Shake, shake, shake!",
+     "pause": 1.2
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

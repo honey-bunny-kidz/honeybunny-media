@@ -1,0 +1,945 @@
+{
+ "id": "ep025",
+ "title": "Five Little Stars with Ollie Owl and Pip Puppy",
+ "thumbnail": {
+  "text": "Look Up, Pip!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "star_garden",
+  "cast": [
+   {
+    "id": "ollie",
+    "mouth": 2,
+    "scale": 0.9,
+    "x": 0.5
+   },
+   {
+    "id": "star_friend",
+    "scale": 2.2,
+    "y": 0.36,
+    "x": 0.66
+   },
+   {
+    "id": "pip_pj",
+    "mouth": 2,
+    "flip": true,
+    "x": 0.8
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "star_garden_dusk",
+   "banner": "Five Little Stars with Ollie Owl and Pip Puppy",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "star_friend",
+     "x": 0.49,
+     "y": 0.3,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Twinkle up, twinkle down, little stars all around!",
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "Twinkle up, twinkle down, shh, shh, not a sound!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "sfx": "twinkle",
+     "text": "Twinkle!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Tonight we're star watchers! How many stars can you see?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.27
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.43
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Hmm. No stars yet, Pip. The sky is still pink."
+    },
+    {
+     "who": "pip_pj",
+     "text": "But I want all the stars, right now!"
+    },
+    {
+     "who": "mama",
+     "text": "Stars come out slowly, Pip. One by one, when the sky gets dark."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Slowly? Oh, waiting is so hard!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.27
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.43
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "firefly",
+     "x": 0.66,
+     "y": 0.42,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Wait! Look! A little light! Is it a star?",
+     "pause": 2.0
+    },
+    {
+     "who": "firefly",
+     "sfx": "bell",
+     "text": "Blink, blink!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "Hee hee! Stars don't have wings, Pip. It's a firefly!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.27
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.43
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "firefly",
+     "x": 0.6,
+     "y": 0.625,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Oh! It landed on my nose! Hee hee, it tickles!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Bye bye, little firefly! Can you wave bye bye too?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo, hoo!",
+     "dur": 1.5,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Who said hoo-hoo, up in the apple tree? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! It's me, Ollie Owl! Let's wait together, and count the stars as they come out."
+    },
+    {
+     "who": "pip_pj",
+     "text": "Okay. I'll be a good star watcher, and wait."
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "star_friend",
+     "x": 0.3,
+     "y": 0.27,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "ollie",
+     "text": "Look up, high in the sky! Here comes the first star!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "One little star! Hello, star! What colour is this little star?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Yellow! A yellow star!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "star_friend",
+     "x": 0.3,
+     "y": 0.27,
+     "scale": 1.3
+    },
+    {
+     "id": "star_pink",
+     "x": 0.39,
+     "y": 0.16,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Another one! How many stars now? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "One, two! Two little stars! This one is pink!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "star_friend",
+     "x": 0.3,
+     "y": 0.27,
+     "scale": 1.3
+    },
+    {
+     "id": "star_pink",
+     "x": 0.39,
+     "y": 0.16,
+     "scale": 1.3
+    },
+    {
+     "id": "star_blue",
+     "x": 0.49,
+     "y": 0.29,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "And here comes a star like the sky in the day. What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Blue! One, two, three! Three little stars!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "star_friend",
+     "x": 0.3,
+     "y": 0.27,
+     "scale": 1.3
+    },
+    {
+     "id": "star_pink",
+     "x": 0.39,
+     "y": 0.16,
+     "scale": 1.3
+    },
+    {
+     "id": "star_blue",
+     "x": 0.49,
+     "y": 0.29,
+     "scale": 1.3
+    },
+    {
+     "id": "star_friend",
+     "x": 0.58,
+     "y": 0.17,
+     "scale": 1.3
+    },
+    {
+     "id": "star_pink",
+     "x": 0.64,
+     "y": 0.36,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.2,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Four... and five! Can you hold up five fingers?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "Five little stars! Waiting was worth it!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "stars_triangle",
+     "x": 0.33,
+     "y": 0.45,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Star watchers can make pictures with the stars. Look!"
+    },
+    {
+     "who": "ollie",
+     "text": "Three stars, joined with a line. What shape is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "A triangle! Three stars and three sides!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "stars_square",
+     "x": 0.33,
+     "y": 0.45,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "My turn! Four stars. One, two, three, four. What shape is this?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "A square! Four sides, just like a little box."
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "stars_heart",
+     "x": 0.33,
+     "y": 0.45,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Ooh, look at these stars! Can you make this shape with your hands?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "A heart! A big star heart, for Mama!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.27
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.43
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Aww, thank you, Pip. Now look up!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Whoa! So many stars! Can we count them all?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Too many to count! The whole sky is twinkling!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.42,
+     "y": 0.4,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.27
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.43
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "And look who's coming up! Who is that, big and bright?",
+     "pause": 2.0
+    },
+    {
+     "who": "moon",
+     "text": "Good evening, little star watchers! Shall we sing a star lullaby together?"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "star_friend",
+     "x": 0.3,
+     "y": 0.27,
+     "scale": 1.1
+    },
+    {
+     "id": "star_pink",
+     "x": 0.39,
+     "y": 0.16,
+     "scale": 1.1
+    },
+    {
+     "id": "star_blue",
+     "x": 0.49,
+     "y": 0.29,
+     "scale": 1.1
+    },
+    {
+     "id": "star_friend",
+     "x": 0.58,
+     "y": 0.17,
+     "scale": 1.1
+    },
+    {
+     "id": "star_pink",
+     "x": 0.64,
+     "y": 0.36,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "The Five Little Stars Song! Make twinkle fingers with us!",
+     "pause": 1.0
+    },
+    {
+     "who": "ollie",
+     "text": "One little star says hello, hello!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey_pj",
+     "text": "Two little stars, all in a row!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_pj",
+     "text": "Three little stars, so twinkly bright!",
+     "pause": 0.4
+    },
+    {
+     "who": "ollie",
+     "text": "Four little stars say night night, night night!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.57,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    },
+    {
+     "id": "star_friend",
+     "x": 0.3,
+     "y": 0.27,
+     "scale": 1.1
+    },
+    {
+     "id": "star_pink",
+     "x": 0.39,
+     "y": 0.16,
+     "scale": 1.1
+    },
+    {
+     "id": "star_blue",
+     "x": 0.49,
+     "y": 0.29,
+     "scale": 1.1
+    },
+    {
+     "id": "star_friend",
+     "x": 0.58,
+     "y": 0.17,
+     "scale": 1.1
+    },
+    {
+     "id": "star_pink",
+     "x": 0.64,
+     "y": 0.36,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Five little stars, up in the sky,",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Sing me a sleepy lullaby!",
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Twinkle up, twinkle down, five little stars all around!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_pj",
+     "text": "Twinkle up, twinkle down, shh, shh, not a sound.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.27
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.43
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Now let's be sleepy stars. Stretch your arms out wide, like a big star!",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Breathe in slowly, and breathe out. Whoosh.",
+     "pause": 1.4
+    },
+    {
+     "who": "mama",
+     "sfx": "wind",
+     "text": "",
+     "dur": 1.6,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Now curl up small, like a sleepy puppy. Can you curl up too?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.27
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.43
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.765,
+     "y": 0.505,
+     "scale": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Goodnight, five little stars! Goodnight, Ollie!"
+    },
+    {
+     "who": "ollie",
+     "text": "Goodnight, Pip! I'll keep watch all night. Hoo-hoo!"
+    },
+    {
+     "who": "pip_pj",
+     "text": "Can you wave goodnight to the stars?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sleepover_room",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.72,
+     "y": 0.5,
+     "scale": 0.55,
+     "sleep": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.3
+    },
+    {
+     "id": "pip_pj",
+     "x": 0.47,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "One more time, with twinkle fingers! Twinkle up, twinkle down, five little stars all around! Twinkle up, twinkle down, shh, shh, not a sound.",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy plays in his very first snow!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_pj",
+     "text": "Woof! Goodnight, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}
