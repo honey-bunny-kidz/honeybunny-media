@@ -1,0 +1,192 @@
+{
+ "id": "ep037_short2",
+ "title": "Pip Puppy and Lulu's Snow Slide",
+ "thumbnail": {
+  "text": "Count the Steps!",
+  "badge": "Learn Up & Down",
+  "bg": "sled_hill",
+  "cast": [
+   {
+    "id": "lulu_cosy",
+    "mouth": 2
+   },
+   {
+    "id": "pip_cosy",
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sled_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "scale": 0.78,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.45,
+     "scale": 0.78,
+     "hill": true,
+     "tilt": 0
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "How many steps to the top of the hill? Count with me!",
+     "pause": 1.4
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.8,
+     "scale": 0.78,
+     "tilt": 0,
+     "move": {
+      "to": 0.42,
+      "t": 6.5,
+      "delay": 0.3,
+      "hill": true
+     }
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.45,
+     "scale": 0.78,
+     "tilt": 0,
+     "move": {
+      "to": 0.13,
+      "t": 6.5,
+      "delay": 0.3,
+      "hill": true
+     }
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "One, two, three, four, five!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Five steps! Are we up or down now?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Up! Up at the top!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "lulunpip_sled",
+     "x": 0.27,
+     "scale": 0.7,
+     "hill": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulunpip_sled",
+     "text": "Sit down, hold on, feet in front."
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "lulunpip_sled_fast",
+     "x": 0.27,
+     "scale": 0.7,
+     "move": {
+      "to": 0.72,
+      "t": 2.6,
+      "delay": 0.3,
+      "hill": true,
+      "ease": "in"
+     }
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulunpip_sled_fast",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "wind",
+     "dur": 1.4
+    },
+    {
+     "who": "lulunpip_sled_fast",
+     "text": "Wheee! Now are we up or down?",
+     "pause": 2.0
+    },
+    {
+     "who": "pipnlulu_sled_fast",
+     "text": "Down! Down at the bottom!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "tail": 0.8,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.27,
+     "scale": 0.78,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.72,
+     "scale": 0.78,
+     "flip": true,
+     "hill": true,
+     "tilt": 0
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Your turn! Reach up high, up!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Now touch your toes, down!",
+     "pause": 1.4
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Up and down, great job!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

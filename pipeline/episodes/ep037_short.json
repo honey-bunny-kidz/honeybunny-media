@@ -1,0 +1,169 @@
+{
+ "id": "ep037_short",
+ "title": "Pip Puppy and Lulu's Snow Slide",
+ "thumbnail": {
+  "text": "Fast or Slow?",
+  "badge": "Kids Story",
+  "bg": "sled_hill",
+  "cast": [
+   {
+    "id": "lulu_sled",
+    "mouth": 2,
+    "scale": 1.0,
+    "x": 0.3
+   },
+   {
+    "id": "pip_sled_fast",
+    "scale": 0.9,
+    "x": 0.74
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sled_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.78,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.64,
+     "scale": 0.78,
+     "hill": true,
+     "tilt": 0
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Who will slide faster, me or Lulu? Guess!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Let's find out! I go first."
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "lulu_sled",
+     "x": 0.27,
+     "scale": 0.7,
+     "move": {
+      "to": 0.72,
+      "t": 5.0,
+      "delay": 0.3,
+      "hill": true
+     }
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_sled",
+     "text": "Slowly, slowly, wheee!"
+    },
+    {
+     "who": "lulu_sled",
+     "text": "Was I fast or slow? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_sled",
+     "text": "Slow! Slow and steady."
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_sled_fast",
+     "x": 0.27,
+     "scale": 0.7,
+     "move": {
+      "to": 0.72,
+      "t": 1.8,
+      "delay": 0.3,
+      "hill": true,
+      "ease": "in"
+     }
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_sled_fast",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "wind",
+     "dur": 1.4
+    },
+    {
+     "who": "pip_sled_fast",
+     "text": "Wheee! Was I fast or slow?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_sled_fast",
+     "text": "Fast! Super fast!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "tail": 0.8,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.25,
+     "scale": 0.78,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.7,
+     "scale": 0.78,
+     "flip": true,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "sled",
+     "x": 0.88,
+     "scale": 0.8,
+     "hill": true,
+     "tilt": 0
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Pip was faster! But we both had fun."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Fast or slow, we take turns!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

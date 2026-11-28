@@ -1,0 +1,182 @@
+{
+ "id": "ep037_short3",
+ "title": "Pip Puppy and Lulu's Snow Slide",
+ "thumbnail": {
+  "text": "Where's Pip?!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "sled_hill",
+  "cast": [
+   {
+    "id": "pip_snowy",
+    "mouth": 2
+   },
+   {
+    "id": "lulu_cosy",
+    "scale": 0.85,
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sled_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.36,
+     "y": 0.75,
+     "scale": 0.78
+    },
+    {
+     "id": "snowdrift",
+     "x": 0.36,
+     "scale": 0.82,
+     "y": 0.755
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.75,
+     "scale": 0.78,
+     "flip": true,
+     "hill": true,
+     "tilt": 0
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "flump",
+     "dur": 1.1
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Flump! Where is Pip? Guess!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "I see two brown ears!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_snowy",
+     "x": 0.36,
+     "scale": 0.78,
+     "glow": true,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.75,
+     "scale": 0.78,
+     "flip": true,
+     "hill": true,
+     "tilt": 0
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_snowy",
+     "text": "Ta-da! I'm a snow puppy! Hee hee!"
+    },
+    {
+     "who": "pip_snowy",
+     "text": "Shake, shake, shake! Shake off the snow with me!",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Now sing the Snow Slide Song, and copy us!",
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.27,
+     "scale": 0.78,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.72,
+     "scale": 0.78,
+     "flip": true,
+     "hill": true,
+     "tilt": 0
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Up, up, up the hill we go. March your feet in the snow!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Sit down, hold on, feet in front. Hold on tight!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "One, two, three, and wheee! Arms up high!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "My turn, your turn, fun for you and me!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "snow": true,
+   "tail": 0.8,
+   "cast": [
+    {
+     "id": "pipnlulu_sled_fast",
+     "x": 0.27,
+     "scale": 0.7,
+     "move": {
+      "to": 0.72,
+      "t": 2.4,
+      "delay": 0.2,
+      "hill": true,
+      "ease": "in"
+     }
+    }
+   ],
+   "lines": [
+    {
+     "who": "pipnlulu_sled_fast",
+     "text": "Arms up high! Wheee!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

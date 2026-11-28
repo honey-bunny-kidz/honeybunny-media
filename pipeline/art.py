@@ -5531,3 +5531,224 @@ CHARS.update({
     "snow_cup": dict(fn=snow_cup, kw=dict(water=False), h=0.09),
     "water_cup": dict(fn=snow_cup, kw=dict(water=True), h=0.09),
 })
+
+
+# ---------------------------------------------------------------- ep037: Pip Puppy and Lulu's Snow Slide
+SLED_RED, SLED_DARK, SLED_WOOD = (235, 85, 90, 255), (175, 55, 70, 255), (215, 160, 110, 255)
+# hill shape per layout: (x where the flat top ends, x where the slope reaches the ground, top y)
+SLED_HILL = {False: (0.24, 0.74, 0.60), True: (0.30, 0.90, 0.585)}
+
+
+def sled_hill_y(x, vertical):
+    """Ground height (0-1) of the sled_hill background at x (0-1): flat top, smooth slope, flat bottom."""
+    xa, xb, top = SLED_HILL[vertical]
+    ground = 0.74 if vertical else 0.86
+    if x <= xa:
+        return top
+    if x >= xb:
+        return ground
+    t = (x - xa) / (xb - xa)
+    return top + (ground - top) * (0.5 - 0.5 * math.cos(math.pi * t))
+
+
+def _sled_body(d, x0, x1, y, s=1.0, col=SLED_RED):
+    """Side view of a little toboggan sled facing right: a deep red side panel (hides a seated rider's
+    legs), wooden rim, a curled-up front, two short struts and a grey runner."""
+    dk = tuple(max(0, c - 60) for c in col[:3]) + (255,)
+    top = y - 95 * s
+    # curled front: a thick semicircle rising from the front of the panel, ending in a little curl
+    cx, cy, r = x1 - 24 * s, top - 6 * s, 52 * s
+    d.arc([cx - r, cy - r, cx + r, cy + r], 270, 90, fill=OUT, width=int(46 * s))
+    d.arc([cx - r + 4, cy - r + 4, cx + r - 4, cy + r - 4], 272, 88, fill=col, width=int(34 * s))
+    E(d, cx - 8 * s, cy - r, 24 * s, 22 * s, col, w=6)
+    d.rounded_rectangle([x0, top, x1, y - 24 * s], 26 * s, fill=col, outline=OUT, width=8)
+    d.rounded_rectangle([x0 - 8 * s, top - 10 * s, x1 + 6 * s, top + 22 * s], 12 * s, fill=SLED_WOOD, outline=OUT, width=6)
+    for k in range(4):
+        xx = x0 + (x1 - x0) * (0.14 + 0.24 * k)
+        d.line([(xx, top + 30 * s), (xx, y - 34 * s)], fill=dk, width=int(5 * s))
+    d.polygon(star_pts((x0 + x1) / 2, (top + y) / 2 + 4 * s, 26 * s), fill=(255, 220, 90, 255), outline=OUT)
+    d.rounded_rectangle([x0 + 20 * s, top + 34 * s, x0 + 120 * s, top + 46 * s], 5, fill=(255, 255, 255, 110))
+    for xx in (x0 + (x1 - x0) * 0.18, x0 + (x1 - x0) * 0.78):
+        d.line([(xx, y - 28 * s), (xx, y - 4 * s)], fill=OUT, width=int(9 * s))
+    d.rounded_rectangle([x0 - 16 * s, y - 10 * s, x1 + 16 * s, y + 6 * s], 8, fill=(120, 130, 150, 255), outline=OUT, width=5)
+    d.arc([x1, y - 52 * s, x1 + 44 * s, y + 6 * s], 270, 90, fill=OUT, width=int(12 * s))
+
+
+def sled(eyes="open", m=0, h=150, col="red"):
+    """Empty little red sled (prop)."""
+    W, H = 900, 420
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    _sled_body(d, 120, 720, 400, s=1.6, col=SLED_RED if col == "red" else (110, 170, 245, 255))
+    return finish(im, (int(h * W / H), h))
+
+
+def sled_rider(eyes="open", m=0, h=400, riders=("pip_cosy",), speed=False, stuck=False):
+    """ep037: friends sitting on Pip's little red sled (side view, facing right / downhill). riders: one or
+    two base sprite ids (front rider first). The sled covers their legs, so they look seated. speed=True adds
+    whoosh lines + snow spray behind; stuck=True adds a little soft snow bump in front of the sled."""
+    S = 1000
+    W, Hh = 1500, 1150
+    im = Image.new("RGBA", (W, Hh), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    n = len(riders)
+    sx0, sx1 = 260, 1180
+    if speed:
+        for k, yy in enumerate((560, 700, 840)):
+            d.line([(30 + k * 25, yy), (200 + k * 10, yy)], fill=(255, 255, 255, 230), width=16)
+            d.line([(30 + k * 25, yy), (200 + k * 10, yy)], fill=(170, 200, 240, 200), width=4)
+        for k in range(7):
+            E(d, 170 + k * 18, 1060 - (k % 3) * 40, 26 - k * 2, 22 - k * 2, (255, 255, 255, 255), ol=(190, 210, 240, 255), w=3)
+    # riders (back one first), placed so the deck hides their legs
+    xs = [800] if n == 1 else [880, 560]
+    order = list(range(n))[::-1]
+    for i in order:
+        cid = riders[i]
+        c = CHARS[cid]
+        hh = int(S * (0.92 if i == 0 else 0.86))
+        spr = c["fn"](eyes=eyes, m=(m if i == 0 else 0), h=hh, **c["kw"])
+        im.alpha_composite(spr, (int(xs[i] - spr.width / 2), int(1070 - spr.height)))
+    d = ImageDraw.Draw(im)
+    _sled_body(d, sx0, sx1, 1120, s=2.0)
+    if stuck:
+        E(d, 1330, 1095, 120, 50, (252, 253, 255, 255), ol=(170, 190, 228, 255), w=5)
+    return finish(im, (int(h * W / Hh), h))
+
+
+def sled_rider2(eyes="open", m=0, h=400, speed=False):
+    """Lulu in front, Pip behind on one sled; Pip's mouth moves (use who = this id for Pip's lines)."""
+    return sled_rider(eyes=eyes, m=0, h=h, riders=("lulu_cosy", "pip_cosy"), speed=speed) if m == 0 else \
+        _two_talk(eyes, m, h, speed)
+
+
+def _two_talk(eyes, m, h, speed):
+    S = 1000
+    W, Hh = 1500, 1150
+    im = Image.new("RGBA", (W, Hh), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    if speed:
+        for k, yy in enumerate((560, 700, 840)):
+            d.line([(30 + k * 25, yy), (200 + k * 10, yy)], fill=(255, 255, 255, 230), width=16)
+            d.line([(30 + k * 25, yy), (200 + k * 10, yy)], fill=(170, 200, 240, 200), width=4)
+    for cid, x, hh, mm in (("pip_cosy", 470, 860, m), ("lulu_cosy", 900, 900, m)):
+        c = CHARS[cid]
+        spr = c["fn"](eyes=eyes, m=mm, h=hh, **c["kw"])
+        im.alpha_composite(spr, (int(x - spr.width / 2), int(1070 - spr.height)))
+    d = ImageDraw.Draw(im)
+    _sled_body(d, 260, 1180, 1120, s=2.0)
+    return finish(im, (int(h * W / Hh), h))
+
+
+def cocoa_mug(eyes="open", m=0, h=150, n=3):
+    """A mug of warm (just warm) cocoa with n little white marshmallows and soft steam curls."""
+    W, H = 420, 480
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    for x in (150, 220):
+        d.arc([x - 30, 20, x + 30, 110], 100, 260, fill=(255, 255, 255, 200), width=10)
+        d.arc([x - 30, 90, x + 30, 180], 280, 80, fill=(255, 255, 255, 200), width=10)
+    d.arc([250, 250, 400, 400], 270, 90, fill=OUT, width=40)
+    d.arc([256, 256, 394, 394], 270, 90, fill=(140, 200, 245, 255), width=26)
+    d.rounded_rectangle([60, 200, 320, 460], 50, fill=(140, 200, 245, 255), outline=OUT, width=9)
+    E(d, 190, 212, 128, 28, (150, 95, 70, 255), w=7)
+    for k in range(n):
+        mx = 190 + (k - (n - 1) / 2) * 62
+        d.rounded_rectangle([mx - 24, 188, mx + 24, 222], 10, fill=(255, 255, 255, 255), outline=OUT, width=4)
+    for k in range(5):
+        _flake(d, 120 + k * 35, 330 + (k % 2) * 40, 16, ol=(90, 140, 210, 255), w=4)
+    return finish(im, (int(h * W / H), h))
+
+
+def _sled_hill(W, H, ground, rnd):
+    """ep037: a little snowy sledding hill on a sunny pink-and-blue winter afternoon. Left: a gentle hill
+    with a flat top (friends stand / sit on the sled there) and one smooth slope with a trodden sled track
+    down to the right; snowy pines behind, a soft sun, a wooden rail fence far right with Mama's waiting
+    spot at the bottom (x≈0.84 landscape). art.sled_hill_y(x, vertical) gives the ground height."""
+    L = W > H
+    vertical = not L
+    im = grad(W, H, (140, 190, 250), (255, 222, 230))
+    d = ImageDraw.Draw(im)
+    sx, sy = W * (0.8 if L else 0.78), H * (0.15 if L else 0.12)
+    sr = min(W, H) * 0.07
+    glow = Image.new("RGBA", (W, H), (255, 240, 200, 0))
+    ImageDraw.Draw(glow).ellipse([sx - sr * 2.4, sy - sr * 2.4, sx + sr * 2.4, sy + sr * 2.4], fill=(255, 240, 200, 130))
+    im.alpha_composite(glow.filter(ImageFilter.GaussianBlur(40)))
+    d = ImageDraw.Draw(im)
+    d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=(255, 228, 150), outline=(250, 190, 120), width=6)
+    for cx, cy, s in ((0.12, 0.08, 1.0), (0.45, 0.05, 1.2)):
+        cloud(d, W * cx, H * cy * (1 if L else 0.85), min(W, H) / 1050 * s, (255, 250, 252))
+    hills(d, W, H, ground - 0.17, 0.05, (228, 232, 250), 37)
+    n = 9 if L else 5
+    for k in range(n):   # snowy pines on the far hill
+        px = W * (0.06 + k * (0.9 / (n - 1)))
+        base = H * (ground - 0.15) + math.sin(k * 1.7) * H * 0.01
+        ph = H * (0.12 if L else 0.07) * (0.8 + 0.25 * ((k * 5) % 3) / 2)
+        pw = ph * 0.4
+        for j in range(3):
+            yb = base - ph * j * 0.28
+            d.polygon([(px - pw * (1 - j * 0.22), yb), (px, yb - ph * 0.5), (px + pw * (1 - j * 0.22), yb)], fill=(90, 155, 125), outline=OUT)
+            d.polygon([(px - pw * 0.4 * (1 - j * 0.2), yb - ph * 0.32), (px, yb - ph * 0.5), (px + pw * 0.4 * (1 - j * 0.2), yb - ph * 0.32)], fill=(255, 255, 255))
+        d.rectangle([px - pw * 0.12, base, px + pw * 0.12, base + H * 0.015], fill=(150, 105, 80))
+    hills(d, W, H, ground - 0.07, 0.02, (240, 244, 254), 39)
+    # snowy ground
+    d.rectangle([0, H * ground, W, H], fill=(236, 242, 253))
+    # the sledding hill (polygon following sled_hill_y) with a soft blue shadow edge
+    pts = [(0, H)] + [(W * x / 100, H * sled_hill_y(x / 100, vertical)) for x in range(0, 101)] + [(W, H)]
+    d.polygon(pts, fill=(253, 254, 255))
+    sh = [(W * x / 100, H * (sled_hill_y(x / 100, vertical) + 0.045)) for x in range(0, 101)]
+    d.line(sh, fill=(240, 244, 254), width=int(H * 0.05))
+    d.line(pts[1:-1], fill=(160, 182, 228), width=7)
+    xa, xb, top = SLED_HILL[vertical]
+    # trodden sled track down the slope (two blue-grey grooves just below the surface)
+    for off in (0.012, 0.03):
+        tr = [(W * x / 100, H * (sled_hill_y(x / 100, vertical) + off)) for x in range(int(xa * 100) - 4, int(xb * 100) + 8)]
+        d.line(tr, fill=(200, 215, 242), width=8)
+    # little snowy bushes on the hill top + sparkles
+    for bx in ((0.05, 0.17) if L else (0.06,)):
+        r = W * (0.035 if L else 0.06)
+        d.ellipse([W * bx - r, H * top - r * 1.2, W * bx + r, H * top + r * 0.3], fill=(110, 170, 130), outline=OUT, width=4)
+        d.ellipse([W * bx - r * 0.9, H * top - r * 1.3, W * bx + r * 0.9, H * top - r * 0.5], fill=(255, 255, 255))
+    # wooden rail fence far right (behind the bottom of the slope)
+    fy = H * (ground - (0.035 if L else 0.02))
+    fh = H * (0.09 if L else 0.055)
+    x0 = W * (0.88 if L else 0.93)
+    WD = (205, 150, 105)
+    d.rectangle([x0, fy - fh * 0.7, W, fy - fh * 0.58], fill=WD, outline=OUT, width=3)
+    xx = x0 + W * 0.015
+    while xx < W:
+        d.rounded_rectangle([xx - W * 0.007, fy - fh, xx + W * 0.007, fy], 5, fill=(225, 175, 125), outline=OUT, width=3)
+        d.ellipse([xx - W * 0.012, fy - fh - H * 0.01, xx + W * 0.012, fy - fh + H * 0.008], fill=(255, 255, 255))
+        xx += W * (0.04 if L else 0.07)
+    for i in range(int(140 * W * H / (1920 * 1080))):
+        x, y = rnd.uniform(0, W), rnd.uniform(H * (top - 0.01), H)
+        if y < H * sled_hill_y(x / W, vertical):
+            continue
+        r = rnd.uniform(1.5, 3.2)
+        d.ellipse([x - r, y - r, x + r, y + r], fill=(195, 218, 250))
+        if i % 9 == 0:
+            d.line([(x - 10, y), (x + 10, y)], fill=(205, 228, 255), width=3)
+            d.line([(x, y - 10), (x, y + 10)], fill=(205, 228, 255), width=3)
+    return im
+
+
+_background_base6 = background
+
+
+def background(kind, W, H):
+    if kind == "sled_hill":
+        return _sled_hill(W, H, 0.86 if W > H else 0.74, random.Random(37)), None, []
+    return _background_base6(kind, W, H)
+
+
+CHARS.update({
+    "sled": dict(fn=sled, kw=dict(), h=0.09),
+    "pip_sled": dict(fn=sled_rider, kw=dict(riders=("pip_cosy",)), h=0.38),
+    "pip_sled_fast": dict(fn=sled_rider, kw=dict(riders=("pip_cosy",), speed=True), h=0.38),
+    "lulu_sled": dict(fn=sled_rider, kw=dict(riders=("lulu_cosy",)), h=0.38),
+    "lulu_sled_stuck": dict(fn=sled_rider, kw=dict(riders=("lulu_cosy",), stuck=True), h=0.38),
+    "pipnlulu_sled": dict(fn=_two_talk, kw=dict(speed=False), h=0.38),
+    "pipnlulu_sled_fast": dict(fn=_two_talk, kw=dict(speed=True), h=0.38),
+    "cocoa_mug": dict(fn=cocoa_mug, kw=dict(n=3), h=0.10),
+})
+CHARS["lulunpip_sled"] = dict(fn=_two_talk, kw=dict(speed=False), h=0.38)
+CHARS["lulunpip_sled_fast"] = dict(fn=_two_talk, kw=dict(speed=True), h=0.38)

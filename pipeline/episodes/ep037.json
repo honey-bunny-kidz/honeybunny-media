@@ -1,0 +1,735 @@
+{
+ "id": "ep037",
+ "title": "Pip Puppy and Lulu's Snow Slide",
+ "thumbnail": {
+  "text": "Whose Turn Now?",
+  "badge": "Kids Story",
+  "bg": "sled_hill",
+  "cast": [
+   {
+    "id": "pip_sled_fast",
+    "mouth": 2,
+    "x": 0.62,
+    "scale": 1.05
+   },
+   {
+    "id": "lulu_cosy",
+    "x": 0.88,
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sled_hill",
+   "lead": 0.2,
+   "banner": "Pip Puppy and Lulu's Snow Slide",
+   "cast": [
+    {
+     "id": "pip_sled_fast",
+     "x": 0.13,
+     "hill": true,
+     "scale": 0.9,
+     "move": {
+      "to": 0.64,
+      "t": 2.4,
+      "delay": 0.2,
+      "hill": true,
+      "ease": "in"
+     }
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_sled_fast",
+     "text": "Wheee!",
+     "pause": 0.3,
+     "sfx": "wind",
+     "dur": 1.4
+    },
+    {
+     "who": "pip_sled_fast",
+     "text": "Wheee! Was that fast or slow? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Super fast, Pip! You zoomed!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_sled",
+     "x": 0.64,
+     "hill": true,
+     "scale": 0.9
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_sled",
+     "text": "Can I go again? And again, and again?"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "But Pip, I want a turn too. There is only one sled."
+    },
+    {
+     "who": "pip_sled",
+     "text": "Oh. One sled, and two friends. Hmm."
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "What can we do? Any ideas?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.5
+    },
+    {
+     "id": "sled",
+     "x": 0.66,
+     "y": 0.87,
+     "scale": 1.0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.76,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "We can take turns! First one friend slides, then the other."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Taking turns! Lulu can go first."
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Thank you, Pip!"
+    },
+    {
+     "who": "mama",
+     "text": "And I will stay right here at the bottom, watching."
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.42,
+     "y": 1.06
+    },
+    {
+     "id": "snowdrift",
+     "x": 0.42,
+     "scale": 0.95,
+     "y": 1.0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "flump",
+     "dur": 1.1
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Pip ran to the hill, and flump! Into a soft snow pile!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Where is Pip? Can you see him? Guess!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "I see two brown ears! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_snowy",
+     "x": 0.42,
+     "glow": true
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_snowy",
+     "text": "Ta-da! I'm a snow puppy!"
+    },
+    {
+     "who": "mama",
+     "text": "Silly Pip! On the hill, we walk. No running."
+    },
+    {
+     "who": "pip_snowy",
+     "text": "Walk, walk, walk. Got it, Mama!"
+    },
+    {
+     "who": "pip_snowy",
+     "text": "Shake, shake, shake! Can you shake off the snow with me?",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.74,
+     "move": {
+      "to": 0.33,
+      "t": 7.5,
+      "delay": 0.4,
+      "hill": true
+     },
+     "tilt": 0,
+     "scale": 0.9
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.62,
+     "move": {
+      "to": 0.16,
+      "t": 7.5,
+      "delay": 0.4,
+      "hill": true
+     },
+     "tilt": 0,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Up, up, up the hill. Let's count our steps!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Count with me! One, two, three, four, five!",
+     "pause": 0.8
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Are we up or down now?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Up! We are up at the top!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "lulu_sled",
+     "x": 0.12,
+     "hill": true,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3,
+     "scale": 0.85,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "mama",
+     "x": 0.88,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Lulu's turn! Sit down, hold on, feet in front."
+    },
+    {
+     "who": "lulu_sled",
+     "text": "Is the path clear? Look! Is anyone in the way?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "All clear! Go when you are ready, Lulu."
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "lulu_sled",
+     "x": 0.12,
+     "scale": 0.9,
+     "move": {
+      "to": 0.66,
+      "t": 5.5,
+      "delay": 0.3,
+      "hill": true
+     }
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3,
+     "scale": 0.85,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "mama",
+     "x": 0.88,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_sled",
+     "text": "Here I go. Slowly, slowly, wheee!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Was Lulu fast or slow?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Slow and steady! Go, Lulu!"
+    },
+    {
+     "who": "lulu_sled",
+     "text": "I like slow. Slow is fun too!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_sled_fast",
+     "x": 0.12,
+     "scale": 0.9,
+     "move": {
+      "to": 0.62,
+      "t": 2.0,
+      "delay": 5.4,
+      "hill": true,
+      "ease": "in"
+     }
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.78,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.92,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Now it's the next turn. Whose turn is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Pip's turn! Go, Pip!"
+    },
+    {
+     "who": "pip_sled_fast",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "wind",
+     "dur": 1.4
+    },
+    {
+     "who": "pip_sled_fast",
+     "text": "Wheee! Fast, fast, fast!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.5
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Let's play Fast and Slow! Wave your arms fast, like Pip!",
+     "pause": 1.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Now wave them slow, like Lulu. Slow, slow.",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Pat your knees fast! Now slow!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hee hee! Fast is fun, and slow is fun too!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "lulu_sled_stuck",
+     "x": 0.42,
+     "hill": true,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.12,
+     "scale": 0.85,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "mama",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_sled_stuck",
+     "text": "Lulu's turn again! Oh! My sled stopped!"
+    },
+    {
+     "who": "lulu_sled_stuck",
+     "text": "It's stuck on a little snow bump."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "What can Lulu do? Any ideas?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Wiggle, Lulu! Can you wiggle with her? Wiggle, wiggle!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_sled_stuck",
+     "text": "Wiggle, wiggle. It's still stuck!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "pipnlulu_sled",
+     "x": 0.42,
+     "hill": true,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pipnlulu_sled",
+     "text": "I'll sit behind you, Lulu. Let's wiggle together!"
+    },
+    {
+     "who": "lulunpip_sled",
+     "text": "Ready? Count with us! One, two, three!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "lulunpip_sled_fast",
+     "x": 0.42,
+     "scale": 0.9,
+     "move": {
+      "to": 0.66,
+      "t": 2.4,
+      "delay": 0.3,
+      "hill": true,
+      "ease": "in"
+     }
+    },
+    {
+     "id": "mama",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulunpip_sled_fast",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "wind",
+     "dur": 1.4
+    },
+    {
+     "who": "lulunpip_sled_fast",
+     "text": "We're sliding together! Wheee!"
+    },
+    {
+     "who": "mama",
+     "text": "Look at that! Taking turns, and helping each other."
+    },
+    {
+     "who": "pipnlulu_sled_fast",
+     "text": "Sharing the sled is the best fun of all!"
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.16
+    },
+    {
+     "id": "cocoa_mug",
+     "x": 0.4,
+     "y": 0.74,
+     "scale": 2.2,
+     "glow": true
+    },
+    {
+     "id": "cocoa_mug",
+     "x": 0.56,
+     "y": 0.74,
+     "scale": 2.2
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.74,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Warm cocoa for my two kind sliders! Just warm, not hot."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "How many marshmallows are in my cup? Count them!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three marshmallows!"
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Blow on it first. Can you blow with us? Whoo!",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Mmm. Thank you, Mama!"
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "cast": [
+    {
+     "id": "sled",
+     "x": 0.3,
+     "hill": true,
+     "tilt": 0,
+     "scale": 1.0
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "scale": 1.0,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Sing the Snow Slide Song with us, and do the actions!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Up, up, up the hill we go. March your feet in the snow!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Sit down, hold on, feet in front. Hold on tight!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "One, two, three, and wheee! Arms up high!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "My turn, your turn, fun for you and me!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "sled_hill",
+   "tail": 1.0,
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "hill": true,
+     "tilt": 0
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "One more time! March and wheee!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Up, up, up the hill we go. March your feet in the snow!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three, and wheee! Arms up high!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "My turn, your turn, fun for you and me!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Lulu Lamb wraps a surprise gift. What's inside the box?",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Bye bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

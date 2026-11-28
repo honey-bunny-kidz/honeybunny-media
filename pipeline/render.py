@@ -21,7 +21,7 @@ for _k, _base in {"honey_berry": "honey", "honey_pj": "honey", "honey_rain": "ho
                   "dotty_beads": "dotty", "lulu_foam": "lulu", "cloudy_light": "cloudy",
                   "pip_muddy": "pip", "pip_bubbly": "pip", "pip_towel": "pip", "pip_pj": "pip",
                   "pip_cosy": "pip", "pip_elbow": "pip", "pip_bighat": "pip", "pip_soapy": "pip", "honey_cosy": "honey",
-                  "lulu_cosy": "lulu", "lulu_flake": "lulu", "lulu_night": "lulu", "lulu_night_flake": "lulu", "pip_snowy": "pip", "dotty_cosy": "dotty", "lulu_hat": "lulu", "lulu_hs": "lulu", "lulu_mitear": "lulu", "lulu_hsm1": "lulu", "lulu_hsm": "lulu", "lulu_winter": "lulu", "pip_shiver": "pip", "pip_wrapped": "pip", "pip_pj_cold": "pip", "pip_sockear": "pip", "pip_onesock": "pip", "pip_socks": "pip", "mimi_socks": "mimi", "mimi_stretch": "mimi", "pip_flakenose": "pip", "pip_nosedrip": "pip", "lulu_mittflake": "lulu", "pip_snowhead": "pip", "robin_puff": "robin", "pip_seedy": "pip", "pip_boots": "pip", "pip_bootswrong": "pip", "pip_bootsnowy": "pip"}.items():
+                  "lulu_cosy": "lulu", "lulu_flake": "lulu", "lulu_night": "lulu", "lulu_night_flake": "lulu", "pip_snowy": "pip", "dotty_cosy": "dotty", "lulu_hat": "lulu", "lulu_hs": "lulu", "lulu_mitear": "lulu", "lulu_hsm1": "lulu", "lulu_hsm": "lulu", "lulu_winter": "lulu", "pip_shiver": "pip", "pip_wrapped": "pip", "pip_pj_cold": "pip", "pip_sockear": "pip", "pip_onesock": "pip", "pip_socks": "pip", "mimi_socks": "mimi", "mimi_stretch": "mimi", "pip_flakenose": "pip", "pip_nosedrip": "pip", "lulu_mittflake": "lulu", "pip_snowhead": "pip", "robin_puff": "robin", "pip_seedy": "pip", "pip_boots": "pip", "pip_bootswrong": "pip", "pip_bootsnowy": "pip", "pip_sled": "pip", "pip_sled_fast": "pip", "lulu_sled": "lulu", "lulu_sled_stuck": "lulu", "pipnlulu_sled": "pip", "pipnlulu_sled_fast": "pip", "lulunpip_sled": "lulu", "lulunpip_sled_fast": "lulu"}.items():
     VOICES[_k] = VOICES[_base]
     if _base in KIDS:
         KIDS.add(_k)
@@ -554,6 +554,36 @@ def render(ep_path, out_path, vertical=False):
                 bob += math.sin(t * 9) * H * 0.003
             x = int(c["x"] * W - im.width / 2)
             y = int(c.get("y", ground) * H - im.height + bob)
+            if c.get("move") or c.get("hill") or c.get("tilt"):  # ep037: glide along a path (e.g. down the sled hill), tilt with the slope
+                mv = c.get("move") or {}
+                cx_ = c["x"]
+                if mv:
+                    p = min(1.0, max(0.0, (t - sc["t0"] - mv.get("delay", 0.0)) / mv.get("t", 2.0)))
+                    p = p * p if mv.get("ease") == "in" else p * p * (3 - 2 * p)
+                    cx_ = c["x"] + (mv["to"] - c["x"]) * p
+                on_hill = c.get("hill") or mv.get("hill")
+                if on_hill:
+                    cy_ = art.sled_hill_y(cx_, vertical) + c.get("dy", 0.0)
+                    sl = (art.sled_hill_y(min(1, cx_ + 0.01), vertical) - art.sled_hill_y(max(0, cx_ - 0.01), vertical)) * H / (0.02 * W)
+                    ang = -math.degrees(math.atan(sl)) * (-1 if c.get("flip") else 1) if c.get("tilt", "auto") == "auto" else float(c.get("tilt", 0))
+                else:
+                    cy_ = c.get("y", ground) + (mv.get("to_y", c.get("y", ground)) - c.get("y", ground)) * (p if mv else 0)
+                    ang = float(c.get("tilt", 0) or 0)
+                ang = round(ang)
+                if ang:
+                    rk = ("rot", c["id"], c.get("scale", 1.0), eyes, m, bool(c.get("flip")), ang)
+                    if rk not in cache_spr:
+                        cache_spr[rk] = im.rotate(ang, resample=Image.BICUBIC, expand=True)
+                    h2 = im.height / 2
+                    th = math.radians(ang)
+                    im2 = cache_spr[rk]
+                    bx_, by_ = im2.width / 2 + h2 * math.sin(th), im2.height / 2 + h2 * math.cos(th)
+                    im = im2
+                    x = int(cx_ * W - bx_)
+                    y = int(cy_ * H - by_ + bob)
+                else:
+                    x = int(cx_ * W - im.width / 2)
+                    y = int(cy_ * H - im.height + bob)
             if c.get("swing") is not None:  # swing sprites: top-centre is the pivot on the beam ("y" = beam), rock like a pendulum
                 amp = float(c["swing"])
                 ang = round(amp * math.sin((t - sc["t0"]) * 2.6) * 2) / 2 if amp else 0.0
