@@ -1,0 +1,256 @@
+{
+ "id": "ep031_short",
+ "title": "How Many Circles? Count with Pip Puppy!",
+ "thumbnail": {
+  "text": "How Many Circles?",
+  "badge": "Learn Counting",
+  "bg": "pine_clearing",
+  "cast": [
+   {
+    "id": "pip_snowhead",
+    "mouth": 2,
+    "x": 0.38
+   },
+   {
+    "id": "snowball",
+    "x": 0.8,
+    "scale": 1.6,
+    "y": 0.97
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "pine_clearing",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.47,
+     "y": 0.63,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "How many circles can you count? Watch and guess!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Here's one round snowball. Roll, roll!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.47,
+     "y": 0.63,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.61,
+     "y": 0.63,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Roll another one! How many circles now?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Two!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.47,
+     "y": 0.63,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.61,
+     "y": 0.63,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.54,
+     "y": 0.555,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Roll, roll, roll! Let's stack one on top. Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "One, two, three! Three circles!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_snowhead",
+     "x": 0.24,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "snowball",
+     "x": 0.47,
+     "y": 0.63,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.61,
+     "y": 0.63,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.54,
+     "y": 0.555,
+     "scale": 0.75
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_snowhead",
+     "text": "Plop!",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Oh! Snow fell off the pine tree, right on Pip's hat!"
+    },
+    {
+     "who": "pip_snowhead",
+     "text": "Hee hee! Now how many circles? Don't forget my head!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_snowhead",
+     "x": 0.24,
+     "scale": 0.75
+    },
+    {
+     "id": "snowball",
+     "x": 0.47,
+     "y": 0.63,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "snowball",
+     "x": 0.61,
+     "y": 0.63,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "snowball",
+     "x": 0.54,
+     "y": 0.555,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_snowhead",
+     "text": "Four! One, two, three, and one on my head!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Circles are round, round, round! Silly Pip!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

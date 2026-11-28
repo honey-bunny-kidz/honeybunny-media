@@ -1,0 +1,144 @@
+{
+ "id": "ep002_short",
+ "title": "Find the Colors with Mimi Kitten",
+ "thumbnail": {
+  "text": "Find The Colors!",
+  "badge": "Kids Story",
+  "bg": "garden",
+  "cast": [
+   {
+    "id": "mimi",
+    "mouth": 2,
+    "scale": 1.15
+   },
+   {
+    "id": "yarn",
+    "scale": 1.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "garden",
+   "title": "Find the Colors!",
+   "subtitle": "Play along with Mimi Kitten",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.3
+    },
+    {
+     "id": "yarn",
+     "x": 0.55
+    }
+   ],
+   "lead": 0.3,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Meow! Can you help me find the colors?"
+    }
+   ]
+  },
+  {
+   "bg": "garden",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.25
+    },
+    {
+     "id": "honey",
+     "x": 0.74
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Can you see something red?",
+     "pause": 1.4
+    },
+    {
+     "who": "honey",
+     "text": "Red roses!"
+    },
+    {
+     "who": "mimi",
+     "text": "Can you see something yellow?",
+     "pause": 1.4
+    },
+    {
+     "who": "honey",
+     "text": "A yellow sunflower!"
+    }
+   ],
+   "tail": 0.4
+  },
+  {
+   "bg": "garden_pond",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.24
+    },
+    {
+     "id": "dotty",
+     "x": 0.64,
+     "y": 0.8
+    },
+    {
+     "id": "yarn",
+     "x": 0.86,
+     "y": 0.8
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Can you see something blue?",
+     "pause": 1.4
+    },
+    {
+     "who": "dotty",
+     "text": "The blue pond!"
+    },
+    {
+     "who": "mimi",
+     "text": "And something pink?",
+     "pause": 1.2
+    },
+    {
+     "who": "mimi",
+     "text": "My yarn ball! Thank you, Dotty! Let's share it and play together!"
+    }
+   ],
+   "tail": 0.4
+  },
+  {
+   "bg": "garden",
+   "title": "Great Job!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.3
+    },
+    {
+     "id": "yarn",
+     "x": 0.55
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Great job! Watch the full story on Honey Bunny Kidz!"
+    }
+   ],
+   "tail": 1.2
+  }
+ ]
+}

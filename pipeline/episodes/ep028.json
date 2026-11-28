@@ -1,0 +1,751 @@
+{
+ "id": "ep028",
+ "title": "Pip Puppy's Warm Coat Hunt",
+ "thumbnail": {
+  "text": "Whose Coat Is Warmest?",
+  "badge": "Kids Story",
+  "bg": "winter_farm",
+  "cast": [
+   {
+    "id": "pip_shiver",
+    "mouth": 2,
+    "x": 0.5
+   },
+   {
+    "id": "lulu",
+    "x": 0.73,
+    "flip": true,
+    "scale": 0.9
+   },
+   {
+    "id": "birdie_puff_yellow",
+    "x": 0.88,
+    "y": 0.395,
+    "scale": 1.8
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "winter_farm",
+   "snow": true,
+   "lead": 0.2,
+   "banner": "Pip Puppy's Warm Coat Hunt",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.42
+    },
+    {
+     "id": "dotty",
+     "x": 0.56,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Brrr! Who has the warmest coat? Lulu, Dotty, or the little birds? Point to it!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Hmm! Let's find out together!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.36
+    },
+    {
+     "id": "mama",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Mama, my fur coat feels chilly today. Brrr!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's visit our friends and ask how they stay warm."
+    },
+    {
+     "who": "mama",
+     "text": "Stay close to me, Pip."
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Okay, Mama! But first, I need something warm!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "pip_wrapped",
+     "x": 0.42
+    },
+    {
+     "id": "mama",
+     "x": 0.76,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_wrapped",
+     "text": "Mm! Mm mm mm!",
+     "pause": 0.4
+    },
+    {
+     "who": "mama",
+     "text": "Oh, Pip! You wrapped my long scarf round and round and round!"
+    },
+    {
+     "who": "mama",
+     "text": "Where is Pip's nose? Can you see it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_wrapped",
+     "text": "It's under here! Hee hee! Too much scarf!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.34
+    },
+    {
+     "id": "lulu",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.12
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Lulu, how do you stay warm in the snow?"
+    },
+    {
+     "who": "lulu",
+     "text": "I have a fluffy coat that grows all by itself. What is my coat made of?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Wool! Soft, cosy wool!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.38
+    },
+    {
+     "id": "lulu",
+     "x": 0.6,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Can I feel it? Pat, pat, pat. Ooh! So squishy!"
+    },
+    {
+     "who": "lulu",
+     "text": "Pat, pat, pat with Pip! Pat your tummy too!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu",
+     "text": "Is my wool thick or thin?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Thick! Thick wool is like a big fluffy blanket."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.24
+    },
+    {
+     "id": "lulu",
+     "x": 0.44
+    },
+    {
+     "id": "dotty",
+     "x": 0.74,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack, quack! Hello, friends!"
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Dotty, you don't have wool. How do you stay warm?"
+    },
+    {
+     "who": "dotty",
+     "text": "Do I have fur or feathers? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Feathers! Under my top feathers, I have soft, fluffy ones."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.24
+    },
+    {
+     "id": "feather_down",
+     "x": 0.5,
+     "y": 0.62,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.74,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Look! A tiny fluffy feather. It's so light. Whoosh!",
+     "pause": 0.4,
+     "sfx": "wind",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_shiver",
+     "text": "What colour is Dotty's fluffy feather?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Yellow! Like the sun!"
+    },
+    {
+     "who": "dotty",
+     "text": "Fluffy feathers keep me warm!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.38
+    },
+    {
+     "id": "birdie",
+     "x": 0.66,
+     "y": 0.405
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.73,
+     "y": 0.405
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.8,
+     "y": 0.405
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie",
+     "text": "Tweet, tweet!",
+     "pause": 0.3,
+     "sfx": "tweet",
+     "dur": 1.1
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Look up! Little birds on the branch!"
+    },
+    {
+     "who": "dotty",
+     "text": "How many birds can you see? Count with me!",
+     "pause": 2.2
+    },
+    {
+     "who": "dotty",
+     "text": "One, two, three! Three little birds!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.38
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": true
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": true
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie_puff",
+     "text": "Puff!",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Whoa! The birds went puff! Now they look like round, fluffy balls!"
+    },
+    {
+     "who": "dotty",
+     "text": "Birds puff up their feathers to keep the warm air close."
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.37
+    },
+    {
+     "id": "dotty",
+     "x": 0.52,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Let's puff up like a bird! Big breath in, and puff!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Now flap your little wings. Flap, flap, flap!",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.36
+    },
+    {
+     "id": "mama",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Lulu has wool. Dotty has feathers. Birds puff up. I only have fur."
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Is fur a warm coat too?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Yes, Pip! Your fur is your very own coat. In winter, puppy fur grows thick and cosy."
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.55,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Pip! Pip! You forgot your hat, your scarf and your mittens!"
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Honey! Thank you! Fur and a hat. Double cosy!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.55,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Now I'm warm! What colour is my hat?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Red! And my mittens are yellow!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Rub your paws together. Rub, rub, rub! Feel them get warm?",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.1
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.48
+    },
+    {
+     "id": "dotty",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "So who has the warmest coat? Lulu, Dotty, or the birds?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "I know! The warmest is all of us, snuggled together!"
+    },
+    {
+     "who": "mama",
+     "text": "Snuggle close, everyone! Give yourself a big, warm hug too!",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.38
+    },
+    {
+     "id": "dotty",
+     "x": 0.53,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing the Warm Coat Song! Do the actions with us!"
+    },
+    {
+     "who": "lulu",
+     "text": "Little lamb has woolly wool. Baa, baa! Pat, pat, pat!",
+     "pause": 0.8
+    },
+    {
+     "who": "dotty",
+     "text": "Little duck has fluffy feathers. Quack, quack! Flap, flap, flap!",
+     "pause": 0.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Little bird goes puffy puff. Tweet, tweet! Puff, puff, puff!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Little puppy has fuzzy fur. Woof, woof! Wag, wag, wag!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.38
+    },
+    {
+     "id": "dotty",
+     "x": 0.53,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Warm coat, warm coat, snug as can be! A warm, cosy coat for you and me!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "snow": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.1
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.48
+    },
+    {
+     "id": "dotty",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "One more time! Wag and sing with me!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Warm coat, warm coat, snug as can be! A warm, cosy coat for you and me!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy and Mimi find warm socks for bedtime!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Stay cosy, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

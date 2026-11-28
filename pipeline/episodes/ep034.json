@@ -1,0 +1,875 @@
+{
+ "id": "ep034",
+ "title": "Pip Puppy's Stomp in Your Boots Song",
+ "thumbnail": {
+  "text": "Wrong Feet?!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_lane",
+  "cast": [
+   {
+    "id": "pip_bootswrong",
+    "mouth": 2,
+    "x": 0.64,
+    "y": 0.98
+   },
+   {
+    "id": "dotty_cosy",
+    "mouth": 2,
+    "x": 0.41,
+    "y": 0.97,
+    "scale": 1.05
+   },
+   {
+    "id": "boots_red",
+    "x": 0.89,
+    "y": 0.96,
+    "scale": 1.7
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.75,
+     "flip": true
+    }
+   ],
+   "banner": "Pip Puppy's Stomp in Your Boots Song",
+   "lead": 0.2,
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Stomp in your boots! Stomp, stomp, stomp!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 1.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Stomp in the snow! Here we go!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Wait! Something is missing! Can you see what Pip forgot?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Hee hee! Your boots, Pip! You have no boots on!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Mama! Dotty and I want to stomp in the snow!"
+    },
+    {
+     "who": "mama",
+     "text": "Snow is cold on bare paws, Pip. Let's find your new snow boots!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.75,
+     "flip": true
+    },
+    {
+     "id": "boots_red",
+     "x": 0.3,
+     "y": 0.95,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "There they are! My shiny new boots! What colour are they?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Red! Bright red, with a little yellow star!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_bootswrong",
+     "x": 0.5,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bootswrong",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "pip_bootswrong",
+     "text": "Boots on, quick quick! Oh! Wobble, wobble! My toes are bumping!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Look at the toes of Pip's boots. Are they pointing in, or out?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "They point in! Hee hee! Your boots are on the wrong feet, Pip!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.5,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's swap them. This boot on this foot. That boot on that foot."
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "pip_boots",
+     "text": "Much better! How many boots am I wearing? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_boots",
+     "text": "One, two! Two boots for two feet!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.48,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.68,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "I'll stay right here by the gate. Off you go, little stompers!"
+    },
+    {
+     "who": "pip_boots",
+     "text": "Let's make the stomp song! Count my stomps!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 1.6
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "How many stomps did Pip do?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_boots",
+     "text": "Three! Stomp, stomp, stomp!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "prints_boot",
+     "x": 0.5,
+     "y": 0.985,
+     "scale": 1.1,
+     "glow": true
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.36,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Look! Your boots made prints in the snow!"
+    },
+    {
+     "who": "pip_boots",
+     "text": "Boot prints! How many can you count? Point and count!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "One, two, three, four! Four pairs of boot prints!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "prints_boot",
+     "x": 0.42,
+     "y": 0.985,
+     "scale": 1.0
+    },
+    {
+     "id": "prints_duck",
+     "x": 0.62,
+     "y": 0.96,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.3,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Now my turn! Pitter, patter, little duck feet!",
+     "pause": 0.4,
+     "sfx": "crunch",
+     "dur": 1.2
+    },
+    {
+     "who": "pip_boots",
+     "text": "Which prints are big? And which prints are small?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Pip's boot prints are big! My duck prints are small!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.45,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "Let's try a big, loud stomp!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 0.8
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "And now a tiny, quiet tiptoe. Shh!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_boots",
+     "text": "Can you do a loud stomp, then a quiet tiptoe?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.25,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "The biggest stomp of all, by the fence! Ready?"
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "stomp",
+     "dur": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_bootsnowy",
+     "x": 0.25,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bootsnowy",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "flump",
+     "dur": 1.1
+    },
+    {
+     "who": "pip_bootsnowy",
+     "text": "Flump! Snow on my hat! What fell on Pip's head?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Snow from the fence! Hee hee! Now you have a snow hat!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_bootsnowy",
+     "x": 0.4,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.82,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Hello! I heard stomping! Can I play too?"
+    },
+    {
+     "who": "pip_bootsnowy",
+     "text": "Yes, Honey! Let's do the next part. Wiggle your toes inside your boots!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Wiggle, wiggle, wiggle! Now hop like a bunny! Can you hop three times?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Hop! Hop! Hop! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_bootsnowy",
+     "x": 0.4,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "y": 0.77,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "I'm up on the little snow hill! Watch me slide like a duck!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_bootsnowy",
+     "x": 0.4,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.6,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Wheee!",
+     "pause": 0.3,
+     "sfx": "wind",
+     "dur": 1.2
+    },
+    {
+     "who": "pip_bootsnowy",
+     "text": "Did Dotty slide fast, or slow?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Fast! Wheee! And then, stop!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.42,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Friends, come and stand by the gate. Now look at the snow!"
+    },
+    {
+     "who": "pip_boots",
+     "text": "Look at all our stomps and steps! What did they make? Guess!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "prints_smile",
+     "x": 0.5,
+     "y": 0.905,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.28,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.2
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A big smiley face! Two eyes, and a big smile!"
+    },
+    {
+     "who": "mama",
+     "text": "You made a happy picture together, with your feet!"
+    },
+    {
+     "who": "pip_boots",
+     "text": "Can you draw a smiley face in the air with your finger?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.15
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.42,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "Mama, thank you for helping me with my boots!"
+    },
+    {
+     "who": "pip_boots",
+     "text": "Now let's sing the whole Stomp in Your Boots Song! Stand up!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.4,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "snow": true,
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "Stomp in your boots! Stomp, stomp, stomp!",
+     "pause": 0.2
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 1.6
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Stomp in the snow! Here we go!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_boots",
+     "text": "Boots on your feet, one and two!",
+     "pause": 0.3
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Stomp, stomp, stomp, the way we do!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.4,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "snow": true,
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Wiggle your toes, wiggle, wiggle!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_boots",
+     "text": "Snow on my hat makes me giggle!",
+     "pause": 0.5
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Hop like a bunny! Hop, hop, hop!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.4,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.6,
+     "flip": true
+    }
+   ],
+   "snow": true,
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Slide like a duck! Wheee! And stop!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_boots",
+     "text": "Now freeze! Can you stand very still like a snowman?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.15
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.42,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "snow": true,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "One more time, stomp with me! Stomp in your boots! Stomp, stomp, stomp!",
+     "pause": 0.2
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 1.6
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Stomp in the snow! Here we go!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Lulu Lamb says thank you, and sings a sleepy goodnight song!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_boots",
+     "text": "Woof! Bye bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

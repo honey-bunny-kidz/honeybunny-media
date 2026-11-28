@@ -1,0 +1,1794 @@
+{
+ "id": "compilation",
+ "title": "Pip, Honey & Lulu: Bird Feeder & Snowy Night Stories for Kids (11 min) | Honey Bunny Kidz",
+ "episodes": [
+  "ep033",
+  "ep032"
+ ],
+ "thumbnail": {
+  "text": "Tweet Tweet... Shh!",
+  "badge": "Kids Stories",
+  "bg": "feeder_garden",
+  "cast": [
+   {
+    "id": "pip_seedy",
+    "mouth": 2,
+    "x": 0.58
+   },
+   {
+    "id": "lulu_night",
+    "mouth": 2,
+    "x": 0.84,
+    "scale": 0.95
+   },
+   {
+    "id": "robin",
+    "mouth": 2,
+    "x": 0.74,
+    "scale": 1.5,
+    "y": 0.385
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "feeder_garden",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.28
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.45
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "robin",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Tweet tweet! Who is that little bird with a red tummy? Guess!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "It's a robin! Hello, little robin!"
+    },
+    {
+     "who": "robin",
+     "text": "Hello! I'm Robin Redbreast. Brrr, it's chilly!"
+    }
+   ],
+   "banner": "Pip and Honey Make a Bird Feeder"
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.28
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.45
+    },
+    {
+     "id": "robin_puff",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "robin",
+     "text": "And my tummy is so empty. The berries are all under the snow."
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Oh! Look at the holly bush. The red berries are hiding under the snow."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "We can help, Robin! Let's make you a breakfast feeder!"
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "seed_bowl",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Here are the bird seeds, little helpers. Seeds are bird food."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Sniff, sniff. What's in the bowl? I want to see!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "pop",
+     "dur": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_seedy",
+     "x": 0.2,
+     "glow": true
+    },
+    {
+     "id": "seed_bowl",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 1.6
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.66,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Pip! Your nose is covered in seeds!"
+    },
+    {
+     "who": "pip_seedy",
+     "text": "Tweet tweet! Am I a bird now?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Hee hee! No, you're a silly puppy!"
+    },
+    {
+     "who": "mama",
+     "text": "Wipe, wipe. Seeds are for the birds, Pip."
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "pinecone",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 2.5,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.66,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "First, we need a pinecone from the garden. What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Brown! Bumpy and brown!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "It has lots of little bumps. Can you count three bumps with me? One, two, three!",
+     "pause": 1.4
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "pinecone_butter",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 2.5,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.66,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Now I spread on sunflower butter. Smear, smear, smear!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Can you pretend to smear it with me? Smear, smear!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Ooh, now it's sticky. Sticky helps the seeds stay on!"
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "pinecone_seeds",
+     "x": 0.44,
+     "y": 0.74,
+     "scale": 2.5,
+     "glow": true
+    },
+    {
+     "id": "seed_bowl",
+     "x": 0.58,
+     "y": 0.74,
+     "scale": 1.4
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.88,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Roll it in the seeds! Roll, roll, roll!",
+     "pause": 0.3
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Now it's all seedy! But how will it hang on the tree? What do we need?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "A ribbon! I'll tie a ribbon loop on top."
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "pinecone_ribbon",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 2.5,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.66,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "What colour is the ribbon? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Red! Like Robin's red tummy!"
+    },
+    {
+     "who": "mama",
+     "text": "Our bird feeder is ready. Let's take it outside!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.36
+    },
+    {
+     "id": "mama",
+     "x": 0.54,
+     "glow": true
+    },
+    {
+     "id": "robin",
+     "x": 0.8,
+     "y": 0.385,
+     "scale": 1.6
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Up it goes, on the low branch. Gently, gently."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Thank you, Mama!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Look! Our feeder is swinging on the apple tree!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Woof! Breakfast is ready! Come and eat, birds! Bounce, bounce!",
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "mama",
+     "x": 0.12
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Hmm. Where are the birds? Can you see any birds?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "No birds. Not even Robin!"
+    },
+    {
+     "who": "mama",
+     "text": "Birds are shy. Loud barks and big bounces scare them away."
+    },
+    {
+     "who": "mama",
+     "text": "What can we do to help the birds feel safe?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Be still and quiet!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "mama",
+     "x": 0.12
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's play the snowman game! Stand very still, like a snowman. Freeze!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Now let's whisper. Shh, shh, shh.",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "robin",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 1.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Look who's coming to eat! Who is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "robin",
+     "text": "It's me, Robin! Peck, peck, peck. Yummy seeds!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hooray! That's one bird."
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6
+    },
+    {
+     "id": "birdie",
+     "x": 0.75,
+     "y": 0.385,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Another bird! What colour is this little bird?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Blue! A little blue bird. Now how many birds?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two! Two birds!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6
+    },
+    {
+     "id": "birdie",
+     "x": 0.75,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.55,
+     "y": 0.385,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie_pink",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 1.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Here comes a pink bird! Peck, peck!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "And one more! What colour is this one?",
+     "pause": 0.2
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6
+    },
+    {
+     "id": "birdie",
+     "x": 0.75,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.55,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.85,
+     "y": 0.385,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie_yellow",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 1.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Yellow, like the sun! Let's count all the birds. How many?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three, four! Four happy birds!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "birdie",
+     "x": 0.75,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.55,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.85,
+     "y": 0.385,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "robin",
+     "text": "Thank you, Pip and Honey! I told all my bird friends about your feeder."
+    },
+    {
+     "who": "honey_cosy",
+     "text": "You brought your friends! What a lovely surprise!"
+    },
+    {
+     "who": "robin",
+     "text": "Tweedle, tweedle, tweet! That's my thank-you song!",
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6
+    },
+    {
+     "id": "birdie",
+     "x": 0.75,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.55,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.85,
+     "y": 0.385,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Being kind makes my tummy feel warm, even in the snow!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Can you flap your wings like a little bird? Flap, flap, flap!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing the Bird Feeder Song! Flap and peck with us!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "pinecone",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 2.5,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Pinecone, pinecone, brown and round, we found you lying on the ground!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Smear and roll and tie a bow, hang it where the cold winds blow!",
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "birdie",
+     "x": 0.75,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.55,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.85,
+     "y": 0.385,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Shh, be still, and don't you fly, here come birdies from the sky!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Tweet tweet, peck peck, one, two, three, breakfast in the apple tree!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "snow": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.26,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.42
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.6,
+     "y": 0.6890000000000001,
+     "scale": 1.9
+    },
+    {
+     "id": "robin",
+     "x": 0.65,
+     "y": 0.385,
+     "scale": 1.6
+    },
+    {
+     "id": "birdie",
+     "x": 0.75,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.55,
+     "y": 0.385,
+     "scale": 1.4
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.85,
+     "y": 0.385,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Flap your wings! Tweet tweet, peck peck, one, two, three, breakfast in the apple tree!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy stomps in his snow boots and sings!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Bye bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "lead": 0.4,
+   "tail": 0.5,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.35
+    },
+    {
+     "id": "lulu_night",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "The birdies have yummy seeds now! Can you flap your wings like a little bird? Flap, flap!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Look, the sky is getting dark and snowy. Are you ready for the last story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yay! It's Lulu Lamb's Quiet Snowy Night. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "lead": 0.2,
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Shh! Listen. What sound does snow make?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Hmm. I can't hear anything at all!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "That's right! Snow falls very, very quietly. But it's so quiet, my eyes won't close!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Let's play the Listening Game! We stay cosy and listen to the night."
+    }
+   ],
+   "banner": "Lulu Lamb's Quiet Snowy Night"
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.86,
+     "scale": 0.9
+    },
+    {
+     "id": "quilt_lump",
+     "x": 0.24,
+     "y": 0.8,
+     "scale": 1.0
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Lulu? Where did you go? I only see a blanket mountain!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Can you see Lulu's ears? Point to them!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Peekaboo! It's me! I got extra cosy. Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "mama",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Is somebody giggling up here? Remember, we listen with our ears, and keep our voices soft."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Soft voices. Shh!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "mama",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Close your eyes, and listen.",
+     "pause": 0.6
+    },
+    {
+     "who": "sfx",
+     "sfx": "wind",
+     "text": "Whoo...",
+     "dur": 2.6,
+     "pause": 0.4
+    },
+    {
+     "who": "honey_pj",
+     "text": "What is that sound?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "The wind! It's whispering all around the house."
+    },
+    {
+     "who": "mama",
+     "text": "Can you whisper like the wind? Whoo.",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.66,
+     "y": 0.585,
+     "scale": 0.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo! Hoo!",
+     "dur": 1.6,
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Who says hoo hoo in the night?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "It's me, Ollie Owl! Hello, sleepy friends."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.66,
+     "y": 0.585,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "flump",
+     "text": "Flump!",
+     "dur": 1.2,
+     "pause": 0.4
+    },
+    {
+     "who": "honey_pj",
+     "text": "Ooh! What made that soft flump?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Snow sliding off the roof! Flump! Down it goes."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.66,
+     "y": 0.585,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "How many sounds did we hear?",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_pj",
+     "text": "The wind, one. Ollie Owl, two. The snow going flump, three!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Three soft night sounds!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "mama",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Some sounds are loud, and some sounds are quiet."
+    },
+    {
+     "who": "mama",
+     "text": "This is loud. Clap, clap!",
+     "pause": 0.3
+    },
+    {
+     "who": "mama",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "mama",
+     "text": "And this is quiet. Tap, tap, with one little finger."
+    },
+    {
+     "who": "lulu_night",
+     "text": "Is snow loud or quiet?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Quiet! Very, very quiet!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "mama",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Your turn! Can you clap loud?",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Now tap quiet. Tap, tap, tap.",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "And put one finger on your lips. Shh!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.1,
+     "pause": 0.2
+    },
+    {
+     "who": "honey_pj",
+     "text": "Look! The snow clouds moved away. Here comes the Moon!"
+    },
+    {
+     "who": "moon",
+     "text": "Hello, little ones. Do you know why snow is so quiet?",
+     "pause": 2.0
+    },
+    {
+     "who": "moon",
+     "text": "Snow is soft and fluffy. It tucks in the whole world, like a big white blanket."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Now listen for the quietest sound of all.",
+     "pause": 0.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "What is the quietest sound?",
+     "pause": 2.0
+    },
+    {
+     "who": "moon",
+     "text": "Your own slow breathing. In, and out."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.33,
+     "y": 0.38,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Let's do snowflake breathing!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe in slowly, as the snowflake floats up.",
+     "pause": 2.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe out, shh, as it floats down.",
+     "pause": 2.4
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Now a sleepy stretch. Reach up tall, like a snowy pine tree!",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_pj",
+     "text": "Now curl up small, like a round snowball.",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Mmm. My body feels soft and sleepy now."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Time for our snowy lullaby! Sway, sway, side to side.",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Quiet, quiet, snowy night. The world is tucked in, soft and white.",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Shh, shh, close your eyes. Goodnight, snow, and goodnight, skies.",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.66,
+     "y": 0.585,
+     "scale": 0.5
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Whoo goes the wind, and hoo goes the owl.",
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "Flump goes the snow, so soft and so slow.",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe in slow, and breathe out, shh. Snuggle in your blanket, warm and snug.",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9,
+     "sleep": false
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Sing the chorus with me! Finger on your lips. Shh!",
+     "pause": 1.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Quiet, quiet, snowy night. The world is tucked in, soft and white.",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Shh, shh, close your eyes. Goodnight, snow, and goodnight, skies.",
+     "pause": 0.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yawn. Goodnight, Honey. Goodnight, quiet snow.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "tail": 1.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Float your hands down like soft snow, and say goodnight with me. Goodnight!",
+     "pause": 1.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy and Honey make a bird feeder for a brand new feathered friend!",
+     "pause": 0.6
+    },
+    {
+     "who": "moon",
+     "text": "Sweet dreams, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "banner": "Thank you for watching!",
+   "lead": 0.4,
+   "tail": 1.5,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "That's all for now, friends! Come back soon for more stories and songs on Honey Bunny Kidz. Bye bye!"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,793 @@
+{
+ "id": "ep035",
+ "title": "Lulu Lamb's Thank-You Goodnight",
+ "thumbnail": {
+  "text": "A Heart Jar?",
+  "badge": "Bedtime Story",
+  "bg": "thanks_nook",
+  "cast": [
+   {
+    "id": "lulu_night",
+    "mouth": 2,
+    "x": 0.55
+   },
+   {
+    "id": "jar3",
+    "scale": 2.0,
+    "x": 0.77,
+    "y": 0.97
+   },
+   {
+    "id": "honey_pj",
+    "x": 0.92,
+    "flip": true,
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "thanks_nook",
+   "lead": 0.2,
+   "banner": "Lulu Lamb's Thank-You Goodnight",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "heart_pink",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Look, a little paper heart! It's a thank-you heart."
+    },
+    {
+     "who": "lulu_night",
+     "text": "What are you thankful for?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Thankful means you feel happy for something you have."
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar0",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Here's our Thank-You Jar. Before bed, we put in three thank-you hearts."
+    },
+    {
+     "who": "lulu_night",
+     "text": "But I didn't get a present today. What can I say thank you for?",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar0",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "sock_red",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "I'll take a heart from the basket. Got one!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Wait! Is that a heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "It's a sock with hearts on it! Pip's red sock! Hee hee!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Silly me! That heart is a sock!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "This morning I played in the snow with my friends!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Who is that puppy in the red hat? Say his name!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "It's me, Pip Puppy! Woof woof!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "How many friends played with me? Count with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Pip, one. Dotty, two. Honey, three!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Can you wave to your friends? Wave, wave!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "jar0",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "heart_pink",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "My first thank-you! Thank you for my friends."
+    },
+    {
+     "who": "honey_pj",
+     "text": "What colour is this heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Pink! In it goes. Plop!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "soup_bowl",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 2.0,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "And at lunch, Mama made warm soup. Mmm!"
+    },
+    {
+     "who": "mama",
+     "text": "What colour is the soup?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Orange carrot soup! Blow on it first, so it's not too hot. Whoo!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yum! Can you pat your tummy? Pat, pat, pat!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "jar1",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "heart_yellow",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "My second thank-you! Thank you for my yummy food."
+    },
+    {
+     "who": "honey_pj",
+     "text": "What colour is this heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yellow, like the sunshine! Plop!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar2",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Now one more. Hmm, what's my third thank-you?",
+     "pause": 0.6
+    },
+    {
+     "who": "mama",
+     "text": "Look around you, Lulu. What do you see?",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "A warm house. A soft blanket. And a big snuggly hug!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar2",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "heart_blue",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my cosy home!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "What colour is this heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Blue! Plop!"
+    },
+    {
+     "who": "mama",
+     "text": "Can you give yourself a big hug? Squeeze!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar3",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "mama",
+     "text": "Let's count the hearts together.",
+     "pause": 0.4
+    },
+    {
+     "who": "mama",
+     "text": "How many hearts?",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "One, two, three! Pink, yellow and blue!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "jar3",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "heart_purple",
+     "x": 0.62,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Wait! I have a surprise heart, too."
+    },
+    {
+     "who": "lulu_night",
+     "text": "A surprise? What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Purple! Thank you, Lulu, for being my friend!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Oh, Honey! That makes my heart feel warm and glowy!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "jar4",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.42,
+     "scale": 0.42,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.1
+    },
+    {
+     "who": "lulu_night",
+     "text": "Look! The jar is glowing, and here comes the Moon!"
+    },
+    {
+     "who": "moon",
+     "text": "When you say thank you, two friends feel happy. Your friend, and you!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Who can you say thank you to tonight?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Into bed now. Let's do heart breathing!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Put your hand on your heart."
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe in slowly, like smelling warm soup.",
+     "pause": 2.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe out slowly, and blow it cool. Whoo.",
+     "pause": 2.4
+    },
+    {
+     "who": "honey_pj",
+     "text": "Now stretch your arms up high, and wrap them round in a cosy hug.",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Sing with me, and do the actions!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my friends, who play with me. Wave, wave!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my food, so yummy. Pat your tummy!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my home, so warm and bright. Hug yourself tight!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you, thank you, and goodnight! Blow a kiss!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "One more time, softly. Shh.",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my home, so warm and bright. Hug yourself tight!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you, thank you, and goodnight! Blow a kiss!",
+     "pause": 0.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yawn. Thank you, Honey. Goodnight.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "tail": 1.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Blow a kiss to someone you love, and say thank you. Goodnight!",
+     "pause": 1.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy makes a snow bunny. But drip, drip, where will it go?",
+     "pause": 0.6
+    },
+    {
+     "who": "moon",
+     "text": "Sweet dreams, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

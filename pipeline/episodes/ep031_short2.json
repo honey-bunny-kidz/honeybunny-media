@@ -1,0 +1,209 @@
+{
+ "id": "ep031_short2",
+ "title": "Square or Triangle? Snow Shapes with Pip Puppy",
+ "thumbnail": {
+  "text": "Square or Triangle?",
+  "badge": "Learn Shapes",
+  "bg": "snowy_meadow",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "x": 0.33
+   },
+   {
+    "id": "snowroof",
+    "x": 0.8,
+    "scale": 2.2,
+    "y": 0.74
+   },
+   {
+    "id": "snowblock",
+    "x": 0.8,
+    "scale": 2.0,
+    "y": 0.97
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "pine_clearing",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75
+    },
+    {
+     "id": "snowblock",
+     "x": 0.54,
+     "y": 0.62,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "What shape is my snow block? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A square! How many sides? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three, four! Four sides, all the same."
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75
+    },
+    {
+     "id": "snowroof",
+     "x": 0.54,
+     "y": 0.62,
+     "scale": 1.35,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "And what shape is this pointy roof?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "A triangle! Three sides, and three pointy corners!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Can you find more triangles? Look at the trees!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "The pine trees are triangles! Pointy at the top!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.54,
+     "y": 0.5,
+     "scale": 2.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "twinkle",
+     "dur": 0.9
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "This snowflake is like a star. How many points? Count!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three, four, five, six! Six points!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.75
+    },
+    {
+     "id": "snowcastle",
+     "x": 0.55,
+     "y": 0.64,
+     "scale": 0.6,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.88,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Squares, a triangle, and a star make our snow castle!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "id": "ep011_short",
+ "title": "Guess Who Breathes Like This?",
+ "thumbnail": {
+  "text": "Who Sniffs Like This?",
+  "badge": "Bedtime Story",
+  "bg": "stretch_room",
+  "cast": [
+   {
+    "id": "honey_pj",
+    "mouth": 2,
+    "scale": 1.15
+   },
+   {
+    "id": "lulu",
+    "scale": 0.85
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "stretch_room",
+   "lead": 0.3,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Guess who breathes like this? Sniff, sniff, sniff!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Hmm. Is it a puppy? Is it a kitty?"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Here's a clue. I have long ears, and I love to hop!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu",
+     "text": "It's a bunny! It's the bunny breath!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Yes! Bunnies sniff with their little noses. Let's do it together."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Sniff, sniff, sniff. Then one long breath out. Ahh.",
+     "pause": 1.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "One more time. Sniff, sniff, sniff. Ahh.",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu",
+     "text": "My body feels soft and sleepy now. Goodnight, Honey!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Goodnight, Lulu!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

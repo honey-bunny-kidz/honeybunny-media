@@ -1,0 +1,95 @@
+{
+ "id": "ep009_short2",
+ "title": "Count Mimi's Star Points",
+ "thumbnail": {
+  "text": "Count Mimi's Star!",
+  "badge": "Learn Counting",
+  "bg": "meadow",
+  "cast": [
+   {
+    "id": "mimi_star",
+    "mouth": 2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "mimi_star",
+     "x": 0.5,
+     "glow": true
+    }
+   ],
+   "lead": 0.3,
+   "lines": [
+    {
+     "who": "mimi_star",
+     "text": "How many points does my star have? Let's count!"
+    },
+    {
+     "who": "mimi_star",
+     "text": "Hold up your fingers with me. Ready?",
+     "pause": 1.5
+    },
+    {
+     "who": "mimi_star",
+     "text": "One. Two. Three.",
+     "pause": 0.6
+    },
+    {
+     "who": "mimi_star",
+     "text": "Four. Five!",
+     "pause": 0.8
+    },
+    {
+     "who": "mimi_star",
+     "text": "Five points! And what color is my star?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_star",
+     "text": "Yellow! Bright, sunny yellow!"
+    }
+   ]
+  },
+  {
+   "bg": "playroom",
+   "cast": [
+    {
+     "id": "mimi_star",
+     "x": 0.28
+    },
+    {
+     "id": "honey_berry",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Now look at me! What color is my strawberry?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Red! A star is yellow, and a strawberry is red."
+    },
+    {
+     "who": "mimi_star",
+     "text": "Can you find something yellow near you? Point to it!",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_star",
+     "text": "Super finding!"
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

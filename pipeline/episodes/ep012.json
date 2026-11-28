@@ -1,0 +1,467 @@
+{
+ "id": "ep012",
+ "title": "Pip and Mama Bunny's Rainy-Day Fort",
+ "thumbnail": {
+  "text": "Ahoy, Captain Pip!",
+  "badge": "Kids Story",
+  "bg": "fort_ship",
+  "cast": [
+   {
+    "id": "pip_captain",
+    "mouth": 2,
+    "scale": 1.1,
+    "x": 0.52
+   },
+   {
+    "id": "honey",
+    "scale": 0.9,
+    "x": 0.72
+   },
+   {
+    "id": "mama",
+    "scale": 0.8,
+    "x": 0.89
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "living_room",
+   "title": "Pip and Mama Bunny's Rainy-Day Fort",
+   "subtitle": "A Kids Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Pip and Mama Bunny's Rainy-Day Fort."
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.42
+    },
+    {
+     "id": "honey",
+     "x": 0.6
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "rain",
+     "dur": 2.5
+    },
+    {
+     "who": "narrator",
+     "text": "Pitter, patter, pitter, patter. It was a rainy day at Honey Bunny's cosy house."
+    },
+    {
+     "who": "pip",
+     "text": "Oh, rain, rain. I wanted to play in the park today."
+    },
+    {
+     "who": "honey",
+     "text": "Me too, Pip. What can we do inside?"
+    },
+    {
+     "who": "mama",
+     "text": "Hmm. I have an idea. Shall we build a cosy blanket fort?"
+    },
+    {
+     "who": "pip",
+     "text": "A fort? Yes, please! Woof, woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "What do you think we need to build a fort?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "We need two chairs, one big blanket, and lots of soft pillows!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "pip",
+     "x": 0.36
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.52,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.64,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.76,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Pip and I found the pillows. How many pillows can you count?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "One, two, three, four! Four soft pillows!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "pip",
+     "x": 0.36
+    },
+    {
+     "id": "pillow_pink",
+     "x": 0.52,
+     "scale": 1.25,
+     "glow": true
+    },
+    {
+     "id": "pillow_blue",
+     "x": 0.64,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_yellow",
+     "x": 0.76,
+     "scale": 1.25
+    },
+    {
+     "id": "pillow_green",
+     "x": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "What color is this pillow?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Pink! Pink like my bow."
+    },
+    {
+     "who": "pip",
+     "text": "And this one is blue, this one is yellow, and this one is green."
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Mama Bunny held the chairs steady, and Honey and Pip spread the big purple blanket over the top."
+    },
+    {
+     "who": "mama",
+     "text": "Grown-ups help with the chairs, so everything stays safe."
+    },
+    {
+     "who": "pip",
+     "text": "Look! It's not just a fort. It looks like a ship!"
+    },
+    {
+     "who": "honey",
+     "text": "A pillow ship! Mama made a sail from an old sheet, and a broom for the mast."
+    },
+    {
+     "who": "narrator",
+     "text": "Mama folded a paper hat, too. Guess who wants to be the captain?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_captain",
+     "text": "Me! Captain Pip, ready to sail!"
+    },
+    {
+     "who": "narrator",
+     "text": "Captain Pip piled all four pillows on his side of the ship."
+    },
+    {
+     "who": "honey",
+     "text": "Pip, may I have a pillow too? The floor is a little bit hard."
+    },
+    {
+     "who": "pip_captain",
+     "text": "Hmm. But I like all the soft pillows."
+    },
+    {
+     "who": "narrator",
+     "text": "What do you think Pip should do?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_captain",
+     "text": "I know! I can share. One for you, one for me, and two for our friends!"
+    },
+    {
+     "who": "honey",
+     "text": "Thank you, Pip! Sharing makes our ship cosy for everyone."
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Knock, knock!",
+     "pause": 0.4,
+     "sfx": "clap",
+     "dur": 1.0
+    },
+    {
+     "who": "narrator",
+     "text": "Who could that be? It's Dotty Duckling, with tiny raindrops on her feathers."
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.27
+    },
+    {
+     "id": "dotty",
+     "x": 0.5
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! Hello, friends! It's too rainy to swim in the pond today."
+    },
+    {
+     "who": "pip_captain",
+     "text": "Come aboard, Dotty! Here is a pillow for you."
+    },
+    {
+     "who": "dotty",
+     "text": "Thank you, Captain Pip! What a lovely ship."
+    },
+    {
+     "who": "pip_captain",
+     "text": "Everybody, row your arms with me! Can you row, row, row?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Row and row, here we go, over the waves so soft and slow!"
+    },
+    {
+     "who": "dotty",
+     "text": "Rock to the left, rock to the right, our pillow ship is snug and bright!"
+    },
+    {
+     "who": "pip_captain",
+     "text": "Oh! Here comes a pretend wave! Splish, splash!",
+     "pause": 0.3
+    },
+    {
+     "who": "narrator",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "splash",
+     "dur": 1.0
+    },
+    {
+     "who": "dotty",
+     "text": "I love the pretend sea! What sound does a duck make?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! You got it!"
+    }
+   ]
+  },
+  {
+   "bg": "fort_ship",
+   "cast": [
+    {
+     "id": "pip_captain",
+     "x": 0.27
+    },
+    {
+     "id": "dotty",
+     "x": 0.5
+    },
+    {
+     "id": "honey",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_captain",
+     "text": "Let's make looking circles with our hands, like a spyglass. Can you look through yours?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_captain",
+     "text": "I see, I see. Land ho! It's Sofa Island!"
+    },
+    {
+     "who": "honey",
+     "text": "Hooray! Let's sail to Sofa Island!"
+    },
+    {
+     "who": "dotty",
+     "text": "Row, row, row! We're almost there!"
+    }
+   ]
+  },
+  {
+   "bg": "living_room",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_captain",
+     "x": 0.42
+    },
+    {
+     "id": "dotty",
+     "x": 0.58
+    },
+    {
+     "id": "honey",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Welcome to Sofa Island, sailors! I have apple slices for everyone."
+    },
+    {
+     "who": "narrator",
+     "text": "Pip shared the apple slices, too. One for Honey, one for Dotty, one for Mama, and one for Pip."
+    },
+    {
+     "who": "honey",
+     "text": "Look out the window. The rain is getting softer and softer."
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a big, slow ocean breath. Breathe in, like a wave coming in.",
+     "pause": 1.6
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, like a wave going out. Whoosh.",
+     "pause": 1.6
+    },
+    {
+     "who": "pip_captain",
+     "text": "That was the best rainy day ever. Thank you for sharing the fort with me, friends!"
+    },
+    {
+     "who": "narrator",
+     "text": "On a rainy day, a blanket, some pillows, and friends who share can make a big adventure."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Bye-bye, little sailors! See you next time on Honey Bunny Kidz."
+    }
+   ]
+  }
+ ]
+}

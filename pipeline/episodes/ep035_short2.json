@@ -1,0 +1,206 @@
+{
+ "id": "ep035_short2",
+ "title": "Count Lulu Lamb's Thank-You Hearts!",
+ "thumbnail": {
+  "text": "Pink? Yellow? Blue?",
+  "badge": "Learn Colors",
+  "bg": "thanks_nook",
+  "cast": [
+   {
+    "id": "lulu_night",
+    "mouth": 2,
+    "x": 0.33
+   },
+   {
+    "id": "heart_yellow",
+    "scale": 2.2,
+    "y": 0.6,
+    "x": 0.7
+   },
+   {
+    "id": "heart_blue",
+    "scale": 1.8,
+    "y": 0.8,
+    "x": 0.78
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "thanks_nook",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "heart_pink",
+     "x": 0.62,
+     "y": 0.55,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "What colour is my first thank-you heart? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Pink! Thank you for my friends!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "sock_red",
+     "x": 0.62,
+     "y": 0.55,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Here's the next one. Wait! Is this a heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "No, it's Pip's red sock with hearts on it! Silly me!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "heart_yellow",
+     "x": 0.62,
+     "y": 0.55,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Here's the real one. What colour is this heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yellow, like sunshine! Thank you for my yummy food."
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "heart_blue",
+     "x": 0.62,
+     "y": 0.55,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "And this heart? What colour?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Blue! Thank you for my cosy home."
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "jar3",
+     "x": 0.7,
+     "y": 0.6,
+     "scale": 1.4,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "How many hearts are in my jar? Count with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "One, two, three! Three thank-yous!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "jar3",
+     "x": 0.7,
+     "y": 0.6,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "What colour heart would you choose?",
+     "pause": 1.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

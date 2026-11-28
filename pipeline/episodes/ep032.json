@@ -1,0 +1,742 @@
+{
+ "id": "ep032",
+ "title": "Lulu Lamb's Quiet Snowy Night",
+ "thumbnail": {
+  "text": "Shh! Hear That?",
+  "badge": "Bedtime Story",
+  "bg": "snow_attic",
+  "cast": [
+   {
+    "id": "lulu_night",
+    "mouth": 2
+   },
+   {
+    "id": "ollie",
+    "scale": 0.8
+   },
+   {
+    "id": "honey_pj",
+    "x": 0.86
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snow_attic",
+   "lead": 0.2,
+   "winsnow": true,
+   "banner": "Lulu Lamb's Quiet Snowy Night",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Shh! Listen. What sound does snow make?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Hmm. I can't hear anything at all!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "That's right! Snow falls very, very quietly. But it's so quiet, my eyes won't close!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Let's play the Listening Game! We stay cosy and listen to the night."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.86,
+     "scale": 0.9
+    },
+    {
+     "id": "quilt_lump",
+     "x": 0.24,
+     "y": 0.8,
+     "scale": 1.0
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Lulu? Where did you go? I only see a blanket mountain!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Can you see Lulu's ears? Point to them!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Peekaboo! It's me! I got extra cosy. Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "mama",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Is somebody giggling up here? Remember, we listen with our ears, and keep our voices soft."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Soft voices. Shh!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "mama",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Close your eyes, and listen.",
+     "pause": 0.6
+    },
+    {
+     "who": "sfx",
+     "sfx": "wind",
+     "text": "Whoo...",
+     "dur": 2.6,
+     "pause": 0.4
+    },
+    {
+     "who": "honey_pj",
+     "text": "What is that sound?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "The wind! It's whispering all around the house."
+    },
+    {
+     "who": "mama",
+     "text": "Can you whisper like the wind? Whoo.",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.66,
+     "y": 0.585,
+     "scale": 0.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo! Hoo!",
+     "dur": 1.6,
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Who says hoo hoo in the night?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "It's me, Ollie Owl! Hello, sleepy friends."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.66,
+     "y": 0.585,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "flump",
+     "text": "Flump!",
+     "dur": 1.2,
+     "pause": 0.4
+    },
+    {
+     "who": "honey_pj",
+     "text": "Ooh! What made that soft flump?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Snow sliding off the roof! Flump! Down it goes."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.66,
+     "y": 0.585,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "How many sounds did we hear?",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_pj",
+     "text": "The wind, one. Ollie Owl, two. The snow going flump, three!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Three soft night sounds!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "mama",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Some sounds are loud, and some sounds are quiet."
+    },
+    {
+     "who": "mama",
+     "text": "This is loud. Clap, clap!",
+     "pause": 0.3
+    },
+    {
+     "who": "mama",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "mama",
+     "text": "And this is quiet. Tap, tap, with one little finger."
+    },
+    {
+     "who": "lulu_night",
+     "text": "Is snow loud or quiet?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Quiet! Very, very quiet!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "mama",
+     "x": 0.86
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Your turn! Can you clap loud?",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Now tap quiet. Tap, tap, tap.",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "And put one finger on your lips. Shh!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.1,
+     "pause": 0.2
+    },
+    {
+     "who": "honey_pj",
+     "text": "Look! The snow clouds moved away. Here comes the Moon!"
+    },
+    {
+     "who": "moon",
+     "text": "Hello, little ones. Do you know why snow is so quiet?",
+     "pause": 2.0
+    },
+    {
+     "who": "moon",
+     "text": "Snow is soft and fluffy. It tucks in the whole world, like a big white blanket."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Now listen for the quietest sound of all.",
+     "pause": 0.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "What is the quietest sound?",
+     "pause": 2.0
+    },
+    {
+     "who": "moon",
+     "text": "Your own slow breathing. In, and out."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.33,
+     "y": 0.38,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Let's do snowflake breathing!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe in slowly, as the snowflake floats up.",
+     "pause": 2.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe out, shh, as it floats down.",
+     "pause": 2.4
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Now a sleepy stretch. Reach up tall, like a snowy pine tree!",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_pj",
+     "text": "Now curl up small, like a round snowball.",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Mmm. My body feels soft and sleepy now."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Time for our snowy lullaby! Sway, sway, side to side.",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Quiet, quiet, snowy night. The world is tucked in, soft and white.",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Shh, shh, close your eyes. Goodnight, snow, and goodnight, skies.",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.66,
+     "y": 0.585,
+     "scale": 0.5
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Whoo goes the wind, and hoo goes the owl.",
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "Flump goes the snow, so soft and so slow.",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe in slow, and breathe out, shh. Snuggle in your blanket, warm and snug.",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9,
+     "sleep": false
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Sing the chorus with me! Finger on your lips. Shh!",
+     "pause": 1.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Quiet, quiet, snowy night. The world is tucked in, soft and white.",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Shh, shh, close your eyes. Goodnight, snow, and goodnight, skies.",
+     "pause": 0.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yawn. Goodnight, Honey. Goodnight, quiet snow.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "tail": 1.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Float your hands down like soft snow, and say goodnight with me. Goodnight!",
+     "pause": 1.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy and Honey make a bird feeder for a brand new feathered friend!",
+     "pause": 0.6
+    },
+    {
+     "who": "moon",
+     "text": "Sweet dreams, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

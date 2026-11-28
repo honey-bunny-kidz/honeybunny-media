@@ -1,0 +1,237 @@
+{
+ "id": "ep021_short2",
+ "title": "Bath Toy Colours with Pip Puppy",
+ "thumbnail": {
+  "text": "Pip's Colour Game!",
+  "badge": "Learn Colours",
+  "bg": "bath_time",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2,
+    "scale": 1.15,
+    "x": 0.5
+   },
+   {
+    "id": "duck_toy",
+    "scale": 2.4,
+    "x": 0.17
+   },
+   {
+    "id": "boat_toy",
+    "scale": 2.2,
+    "x": 0.86
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bath_time",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.2,
+     "y": 0.6,
+     "scale": 1.5,
+     "glow": true
+    },
+    {
+     "id": "boat_toy",
+     "x": 0.8,
+     "y": 0.6,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "What colour is my little duck? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Yellow! A yellow duck!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.2,
+     "y": 0.6,
+     "scale": 1.5
+    },
+    {
+     "id": "boat_toy",
+     "x": 0.8,
+     "y": 0.6,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "And what colour is my boat? It's like the sky.",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Blue! Sail, little boat!"
+    },
+    {
+     "who": "sfx",
+     "sfx": "splash",
+     "text": "Splish!",
+     "dur": 1.0,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.2,
+     "y": 0.6,
+     "scale": 1.5
+    },
+    {
+     "id": "cup_toy",
+     "x": 0.8,
+     "y": 0.6,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Here's a cup for pouring. What colour is the cup?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Red! Yellow, blue and red!"
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    },
+    {
+     "id": "duck_toy",
+     "x": 0.2,
+     "y": 0.6,
+     "scale": 1.5,
+     "glow": true
+    },
+    {
+     "id": "cup_toy",
+     "x": 0.8,
+     "y": 0.6,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "duck_toy",
+     "sfx": "squeak",
+     "text": "Squeak, squeak!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Was that Dotty Duckling? What do you think?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_towel",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.76,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack quack! Toy ducks squeak. Real ducks say quack! Can you say quack?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_towel",
+     "text": "Quack! Hee hee!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

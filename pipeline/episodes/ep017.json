@@ -1,0 +1,694 @@
+{
+ "id": "ep017",
+ "title": "Lulu Lamb's Brush Your Teeth Song",
+ "thumbnail": {
+  "text": "Sparkly Smile Time!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "bathroom",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "scale": 1.1,
+    "x": 0.5
+   },
+   {
+    "id": "tb_lulu",
+    "scale": 2.6,
+    "x": 0.72
+   },
+   {
+    "id": "honey_pj",
+    "x": 0.89
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bathroom",
+   "title": "Lulu Lamb's Brush Your Teeth Song",
+   "subtitle": "A Sing-Along Rhyme  \u2022  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Lulu Lamb's Brush Your Teeth Song!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.48
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Good morning! Last night, Lulu Lamb had a sleepover at Honey's house."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Good morning, Lulu!"
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Good morning, Honey. Let's go and play!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.38
+    },
+    {
+     "id": "lulu",
+     "x": 0.56
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Good morning, little ones! Before we play, what do we do with a toothbrush?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "We brush our teeth!"
+    },
+    {
+     "who": "lulu",
+     "text": "Oh! But Mama Bunny, I forgot my toothbrush at home."
+    },
+    {
+     "who": "mama",
+     "text": "That's okay, Lulu. I have a little surprise for you."
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.29,
+     "y": 0.72
+    },
+    {
+     "id": "lulu",
+     "x": 0.56
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Look! A brand new toothbrush. It is lavender, with a fluffy white cloud on it."
+    },
+    {
+     "who": "mama",
+     "text": "Lavender, like a bow. Fluffy, like soft wool. Whose toothbrush is it?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.29,
+     "y": 0.72,
+     "glow": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.56
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "It's for you, Lulu! Your very own toothbrush, to keep at Honey's house."
+    },
+    {
+     "who": "lulu",
+     "text": "For me? Baa! Thank you, Mama Bunny! It matches my lavender bow!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3
+    },
+    {
+     "id": "toothpaste",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "lulu",
+     "x": 0.805,
+     "y": 0.79
+    },
+    {
+     "id": "tb_lulu_paste",
+     "x": 0.88,
+     "y": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Lulu stood on the little pink step, so she could reach the sink."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Now, the toothpaste. How much do we need? A big, big blob? Or just a tiny bit?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Just a tiny bit, as small as a pea. A grown-up helps!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.3
+    },
+    {
+     "id": "lulu_foam",
+     "x": 0.805,
+     "y": 0.79
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_foam",
+     "text": "I am ready! Brush, brush, brush. Done!"
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu brushed so fast! Little bubbles went everywhere."
+    },
+    {
+     "who": "honey_pj",
+     "text": "Hee hee! Lulu, you have a bubble beard!"
+    },
+    {
+     "who": "lulu_foam",
+     "text": "Oops! Was that too fast?"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.4
+    },
+    {
+     "id": "lulu_foam",
+     "x": 0.805,
+     "y": 0.79
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "A little too fast, Lulu. Teeth like slow, gentle brushing. Let's sing a song, and brush slowly."
+    },
+    {
+     "who": "narrator",
+     "text": "Everyone at home, hold up your finger like a toothbrush!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.32
+    },
+    {
+     "id": "tb_honey",
+     "x": 0.4,
+     "y": 0.74
+    },
+    {
+     "id": "lulu",
+     "x": 0.805,
+     "y": 0.79
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Sing with us!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Brush, brush, round and round!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Top teeth, bottom teeth, all around!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Little circles, soft and slow.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Sparkly smile, and off we go!",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.32
+    },
+    {
+     "id": "tb_honey",
+     "x": 0.4,
+     "y": 0.74
+    },
+    {
+     "id": "lulu",
+     "x": 0.805,
+     "y": 0.79
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "First, the front teeth! Show me a big smile!",
+     "pause": 2.0
+    },
+    {
+     "who": "narrator",
+     "text": "Front teeth, front teeth, smile so wide.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Little circles, side to side!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Five little circles. Count with me! One, two, three, four, five!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.32
+    },
+    {
+     "id": "tb_honey",
+     "x": 0.4,
+     "y": 0.74
+    },
+    {
+     "id": "lulu",
+     "x": 0.805,
+     "y": 0.79
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Now, the top teeth, and the bottom teeth!"
+    },
+    {
+     "who": "narrator",
+     "text": "Top teeth up, and bottom teeth down.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle your toothbrush, round and round!",
+     "pause": 0.6
+    },
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "brush",
+     "dur": 1.4
+    },
+    {
+     "who": "honey_pj",
+     "text": "Can you brush your top teeth? Now your bottom teeth?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.38
+    },
+    {
+     "id": "lulu",
+     "x": 0.805,
+     "y": 0.79
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Now, the back teeth. They help us chew apples and carrots."
+    },
+    {
+     "who": "narrator",
+     "text": "Back teeth, chewing teeth, way inside.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Open your mouth, and open wide!",
+     "pause": 0.6
+    },
+    {
+     "who": "mama",
+     "text": "Can you open wide, like a big yawn? Ahhh!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Ahhh! Brush, brush, way in the back!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.32
+    },
+    {
+     "id": "tb_honey",
+     "x": 0.4,
+     "y": 0.74
+    },
+    {
+     "id": "lulu",
+     "x": 0.805,
+     "y": 0.79
+    },
+    {
+     "id": "tb_lulu",
+     "x": 0.88,
+     "y": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Now, all together!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Brush, brush, round and round!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Top teeth, bottom teeth, all around!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Little circles, soft and slow.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Sparkly smile, and off we go!",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.38
+    },
+    {
+     "id": "lulu",
+     "x": 0.805,
+     "y": 0.79
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Last of all, spit the bubbles into the sink. Then a little sip of water, and swish."
+    },
+    {
+     "who": "narrator",
+     "text": "Spit, spit, swish, swish, all done.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Brushing teeth is so much fun!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Now let's look in the mirror. Honey, do I have a sparkly smile?"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Yes! So sparkly! Can you show me your sparkly smile too?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.22
+    },
+    {
+     "id": "lulu",
+     "x": 0.42
+    },
+    {
+     "id": "pip",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Knock, knock! Who came to play? It was Pip Puppy!"
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Good morning! Lulu, why is your smile so sparkly?"
+    },
+    {
+     "who": "lulu",
+     "text": "I brushed slowly, with a song! Sing it with us, Pip!"
+    },
+    {
+     "who": "pip",
+     "text": "Woof! I brush in the morning, and before bed too!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.28
+    },
+    {
+     "id": "lulu",
+     "x": 0.44
+    },
+    {
+     "id": "pip",
+     "x": 0.6
+    },
+    {
+     "id": "tb_pip",
+     "x": 0.68,
+     "y": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Sing it one more time, little friends!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Brush, brush, round and round!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Top teeth, bottom teeth, all around!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Little circles, soft and slow.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Sparkly smile, and off we go!",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "honey_pj",
+     "x": 0.25
+    },
+    {
+     "id": "lulu",
+     "x": 0.45
+    },
+    {
+     "id": "pip",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Brush in the morning, and before bed, with slow little circles. That's a sparkly smile!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Bye bye! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  }
+ ]
+}

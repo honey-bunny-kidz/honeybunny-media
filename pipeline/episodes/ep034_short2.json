@@ -1,0 +1,184 @@
+{
+ "id": "ep034_short2",
+ "title": "Wrong Feet! Big or Small? Pip Puppy",
+ "thumbnail": {
+  "text": "Oops! Wrong Feet!",
+  "badge": "Learn Opposites",
+  "bg": "cosy_hall",
+  "cast": [
+   {
+    "id": "pip_bootswrong",
+    "mouth": 2,
+    "x": 0.4
+   },
+   {
+    "id": "boots_red",
+    "x": 0.8,
+    "y": 0.95,
+    "scale": 1.5
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_bootswrong",
+     "x": 0.45,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bootswrong",
+     "text": "Oops! Something is funny with my boots. Can you see it?",
+     "pause": 1.4
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Look at the toes! Do they point in, or out?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "In! Pip's boots are on the wrong feet!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.45,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "pip_boots",
+     "text": "Swap! This boot on this foot, that boot on that foot. Now they point out!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "What colour are Pip's boots? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_boots",
+     "text": "Red! Red boots with a yellow star!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "prints_boot",
+     "x": 0.33,
+     "scale": 0.9,
+     "y": 0.62
+    },
+    {
+     "id": "prints_duck",
+     "x": 0.7,
+     "scale": 0.75,
+     "y": 0.66,
+     "glow": true
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.3,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.75,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "We made prints in the snow! Which prints are big?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_boots",
+     "text": "My boot prints are big!"
+    },
+    {
+     "who": "pip_boots",
+     "text": "And which prints are small?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "My little duck prints are small! Quack!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.38,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "Big stomp, little tiptoe! Can you do both?",
+     "pause": 2.0
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,433 @@
+{
+ "id": "ep010",
+ "title": "Why Doesn't Dotty Duckling Get Wet?",
+ "thumbnail": {
+  "text": "Why So Dry, Dotty?",
+  "badge": "Learn Animal Facts",
+  "bg": "rainy_garden",
+  "cast": [
+   {
+    "id": "dotty_beads",
+    "mouth": 2,
+    "x": 0.6,
+    "scale": 1.75
+   },
+   {
+    "id": "honey_rain",
+    "x": 0.88,
+    "scale": 1.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "title": "Why Doesn't Dotty Duckling Get Wet?",
+   "subtitle": "An Animal Fact Story  \u2022  Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "dotty_beads",
+     "x": 0.62
+    }
+   ],
+   "lead": 0.8,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Why Doesn't Dotty Duckling Get Wet?"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.33
+    },
+    {
+     "id": "mama",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "rain",
+     "text": "Pitter, patter, pitter, patter.",
+     "dur": 2.6,
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "It was a soft, rainy morning. Pitter, patter, went the rain."
+    },
+    {
+     "who": "honey_rain",
+     "text": "Mama, it's raining! Can we go outside and splash?"
+    },
+    {
+     "who": "mama",
+     "text": "Yes, little one! But first, what do we wear in the rain? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "A raincoat and rain boots! You look ready, Honey."
+    },
+    {
+     "who": "honey_rain",
+     "text": "My coat is yellow, and my boots are red!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's hold hands, stay together, and splash in the little puddles."
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.47
+    },
+    {
+     "id": "dotty",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Down by the pond, they saw Dotty Duckling, paddling happily in the rain."
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! Good morning, Honey! I love rainy days!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Dotty, you don't have a raincoat! Aren't you all wet?"
+    },
+    {
+     "who": "dotty",
+     "text": "Look at my feathers. Are they wet, or dry? What do you think?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "They are dry! The raindrops roll right off me!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Wow! But how? Why don't you get wet, Dotty?"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.3
+    },
+    {
+     "id": "dotty_beads",
+     "x": 0.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_beads",
+     "text": "Here is my duck secret. Near my tail, I have a tiny spot that makes a special oil."
+    },
+    {
+     "who": "dotty_beads",
+     "text": "I rub the oil on my feathers with my beak, like this. Rub, rub, rub!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Special oil? That's so clever!"
+    },
+    {
+     "who": "dotty_beads",
+     "text": "The oil keeps the water out. So the rain can't soak in. My feathers are waterproof!"
+    },
+    {
+     "who": "dotty_beads",
+     "text": "See the raindrops on my back? They sit like shiny little beads. Let's count them as they roll off. Ready?",
+     "pause": 1.2
+    },
+    {
+     "who": "dotty_beads",
+     "text": "One. Two. Three!",
+     "pause": 0.8
+    },
+    {
+     "who": "honey_rain",
+     "text": "Roll, roll, roll! Off they go!"
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.25
+    },
+    {
+     "id": "dotty_beads",
+     "x": 0.5
+    },
+    {
+     "id": "pip_drip",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_drip",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Splash! Here came Pip Puppy, hopping through the puddles."
+    },
+    {
+     "who": "pip_drip",
+     "text": "Hello, friends! Oh, my fur is all drippy!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Pip's fur gets wet, but Dotty's feathers stay dry. Everybody is made in a special way!"
+    },
+    {
+     "who": "pip_drip",
+     "text": "Do you know what puppies do when we're wet? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_drip",
+     "text": "We shake! Shake, shake, shake!"
+    },
+    {
+     "who": "pip_drip",
+     "text": "Shake with me! Wiggle your head, wiggle your arms. Shake, shake, shake!",
+     "pause": 1.5
+    },
+    {
+     "who": "dotty_beads",
+     "text": "Hee hee! Little drops everywhere!"
+    },
+    {
+     "who": "narrator",
+     "text": "Mama Bunny wrapped Pip in a soft, warm towel. Next time, Pip will wear his raincoat too."
+    }
+   ]
+  },
+  {
+   "bg": "rainy_garden",
+   "rain": true,
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.25
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "dotty",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Now let's jump in the puddles! Stomp your feet with us!"
+    },
+    {
+     "who": "honey_rain",
+     "text": "Splish, splash, puddle jump! Stomp, stomp, stomp!"
+    },
+    {
+     "who": "honey_rain",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Splish, splash, puddle jump! Hop, hop, hop!"
+    },
+    {
+     "who": "pip",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "dotty",
+     "text": "Splish, splash, one more jump! Quack, quack, quack!"
+    },
+    {
+     "who": "dotty",
+     "sfx": "splash",
+     "text": "Splash!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "honey_rain",
+     "text": "What does a duck say? Can you say it, too?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! What a great quack!"
+    }
+   ]
+  },
+  {
+   "bg": "garden_pond",
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_rain",
+     "text": "Dotty, how do you swim so fast?"
+    },
+    {
+     "who": "dotty",
+     "text": "Look at my feet! They are wide and flat, like little paddles."
+    },
+    {
+     "who": "narrator",
+     "text": "Ducks have webbed feet. There is soft skin between their toes, so they can push the water. Paddle, paddle!"
+    },
+    {
+     "who": "dotty",
+     "text": "Can you make your hands into duck feet? Paddle, paddle, paddle!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_rain",
+     "text": "Paddle, paddle! Look, I'm a duck! Quack!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.27
+    },
+    {
+     "id": "mama",
+     "x": 0.47
+    },
+    {
+     "id": "dotty",
+     "x": 0.66
+    },
+    {
+     "id": "pip",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then the rain went slow, and slower, and stopped. The sun came out to say hello."
+    },
+    {
+     "who": "honey_rain",
+     "text": "Look! A rainbow! What colors can you see?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_rain",
+     "text": "Red, orange, yellow, green, blue, and purple!"
+    },
+    {
+     "who": "dotty",
+     "text": "Rain is good for the flowers, good for the pond, and good for little ducks like me!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a big breath of fresh, rainy-day air. Breathe in, slowly.",
+     "pause": 1.5
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out. Ahhh.",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey_rain",
+     "x": 0.3
+    },
+    {
+     "id": "dotty",
+     "x": 0.55
+    },
+    {
+     "id": "pip",
+     "x": 0.78
+    }
+   ],
+   "tail": 1.6,
+   "lines": [
+    {
+     "who": "honey_rain",
+     "text": "Today I learned a duck secret! Dotty's feathers have special oil, so the rain rolls right off."
+    },
+    {
+     "who": "dotty",
+     "text": "And you have a raincoat, Honey! We both stay cosy."
+    },
+    {
+     "who": "pip",
+     "text": "And I have a big shake! Woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "Everybody is made in a special way. Thank you for splashing with us! See you next time on Honey Bunny Kidz."
+    }
+   ]
+  }
+ ]
+}

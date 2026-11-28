@@ -1,0 +1,193 @@
+{
+ "id": "ep023_short",
+ "title": "Who Sneezed?",
+ "thumbnail": {
+  "text": "Who Sneezed?",
+  "badge": "Kids Story",
+  "bg": "cosy_hall",
+  "cast": [
+   {
+    "id": "pip_bighat",
+    "mouth": 2,
+    "scale": 1.1
+   },
+   {
+    "id": "honey_cosy",
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "honey_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "pip_bighat",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bighat",
+     "text": "Ah... ah... ACHOO!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Who sneezed under the big hat? Can you guess?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "honey_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "pip_bighat",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Here's a clue. Floppy brown ears, and a waggy tail!",
+     "pause": 1.6
+    },
+    {
+     "who": "pip_bighat",
+     "text": "Woof! Who am I?",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "honey_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "pip",
+     "x": 0.66,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Peekaboo! It's me, Pip Puppy!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Bless you, Pip! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.83,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Uh-oh. My nose is tickly again! Ah... ah..."
+    },
+    {
+     "who": "mama",
+     "text": "Sneeze into your elbow, Pip. The bendy part of your arm!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_elbow",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.83,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_elbow",
+     "text": "ACHOO!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Into your elbow! Hooray, Pip!"
+    },
+    {
+     "who": "pip_elbow",
+     "text": "Can you sneeze into your elbow too? Ah... choo!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.52,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.83,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Yay! Now my friends stay cosy too!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

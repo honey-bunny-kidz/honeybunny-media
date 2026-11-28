@@ -1,0 +1,186 @@
+{
+ "id": "ep013_short3",
+ "title": "Wiggle Your Nose with Honey Bunny!",
+ "thumbnail": {
+  "text": "Wiggle Your Nose!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "sunset",
+  "cast": [
+   {
+    "id": "honey",
+    "mouth": 2,
+    "scale": 1.15
+   },
+   {
+    "id": "lulu"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "dusk_stage",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2,
+     "scale": 1.0
+    },
+    {
+     "id": "ollie",
+     "x": 0.6,
+     "y": 0.685,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Can you wiggle your nose like a bunny? Try it!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Sniff, sniff! Bunnies are quiet, but we have a special sound."
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Bunnies talk with their back feet. Thump, thump!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.2,
+     "glow": true,
+     "scale": 1.0
+    },
+    {
+     "id": "ollie",
+     "x": 0.6,
+     "y": 0.685,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny wiggles her nose.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Thump, thump, thump, and up she goes!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Now stamp your foot with me. Thump, thump, thump!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Yay! Now sing the chorus and do the moves!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.15,
+     "scale": 0.8
+    },
+    {
+     "id": "lulu",
+     "x": 0.33,
+     "scale": 0.8
+    },
+    {
+     "id": "ollie",
+     "x": 0.55,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.84,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Make a sound and sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Flap and hop and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound!",
+     "pause": 0.9
+    },
+    {
+     "who": "honey",
+     "text": "Can you turn around, and hop like me?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Hop, hop, hooray! Quiet sounds are special too!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.15,
+     "scale": 0.8
+    },
+    {
+     "id": "lulu",
+     "x": 0.33,
+     "scale": 0.8
+    },
+    {
+     "id": "ollie",
+     "x": 0.55,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.84,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

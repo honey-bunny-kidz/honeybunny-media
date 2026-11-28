@@ -1,0 +1,232 @@
+{
+ "id": "ep034_short3",
+ "title": "Stomp, Wiggle, Hop! Pip Puppy Song",
+ "thumbnail": {
+  "text": "Stomp! Hop! Freeze!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_lane",
+  "cast": [
+   {
+    "id": "pip_boots",
+    "mouth": 2,
+    "x": 0.35
+   },
+   {
+    "id": "honey_cosy",
+    "mouth": 2,
+    "x": 0.72,
+    "flip": true,
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_lane",
+   "lead": 0.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.3,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.55,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "Can you sing and stomp with me? Stand up!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip_boots",
+     "text": "Stomp in your boots! Stomp, stomp, stomp!",
+     "pause": 0.2
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 1.6
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Stomp in the snow! Here we go!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.3,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.55,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Wiggle your toes, wiggle, wiggle!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_boots",
+     "text": "Snow on my hat makes me giggle!",
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_bootsnowy",
+     "x": 0.3,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.55,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_bootsnowy",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "flump",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_bootsnowy",
+     "text": "Flump! Hee hee! Can you hop like a bunny? Hop, hop, hop!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_bootsnowy",
+     "x": 0.3,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.55,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "y": 0.66,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Slide like a duck! Wheee! And stop!",
+     "pause": 0.3,
+     "sfx": "wind",
+     "dur": 1.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Now freeze like a snowman! Can you stand very still?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "snow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.3,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.55,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "Stomp in your boots! Stomp in the snow! Here we go!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

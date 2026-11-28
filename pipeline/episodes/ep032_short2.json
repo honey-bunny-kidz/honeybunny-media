@@ -1,0 +1,191 @@
+{
+ "id": "ep032_short2",
+ "title": "Loud or Quiet? Whisper with Lulu Lamb!",
+ "thumbnail": {
+  "text": "Loud or Quiet?",
+  "badge": "Learn Opposites",
+  "bg": "stretch_room",
+  "cast": [
+   {
+    "id": "lulu_night",
+    "mouth": 2
+   },
+   {
+    "id": "honey_pj"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "stretch_room",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "scale": 0.8
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.72,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Loud or quiet? Let's play!",
+     "pause": 0.4
+    },
+    {
+     "who": "honey_pj",
+     "sfx": "clap",
+     "text": "Clap! Clap!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_night",
+     "text": "Clapping hands. Loud or quiet?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Loud!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "scale": 0.8
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.72,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Snow falling down. Loud or quiet?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Quiet! Snow is very quiet."
+    },
+    {
+     "who": "lulu_night",
+     "text": "A little whisper. Loud or quiet?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Quiet!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.25,
+     "scale": 0.7
+    },
+    {
+     "id": "snowflake",
+     "x": 0.15,
+     "y": 0.42,
+     "scale": 1.3,
+     "glow": false
+    },
+    {
+     "id": "snowflake",
+     "x": 0.33,
+     "y": 0.42,
+     "scale": 1.3,
+     "glow": false
+    },
+    {
+     "id": "snowflake",
+     "x": 0.5,
+     "y": 0.42,
+     "scale": 1.3,
+     "glow": false
+    },
+    {
+     "id": "snowflake",
+     "x": 0.67,
+     "y": 0.42,
+     "scale": 1.3,
+     "glow": false
+    },
+    {
+     "id": "snowflake",
+     "x": 0.85,
+     "y": 0.42,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Now count the snowflakes in a whisper. One, two, three, four, five.",
+     "pause": 0.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "How many snowflakes?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Five! Quiet as the snow!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "scale": 0.8
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.72,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Put a finger on your lips. Shh!",
+     "pause": 1.4
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu_night",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

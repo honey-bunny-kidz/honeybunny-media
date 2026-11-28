@@ -1,0 +1,230 @@
+{
+ "id": "ep036_short2",
+ "title": "Warm or Cold? Play with Pip Puppy!",
+ "thumbnail": {
+  "text": "Warm or Cold?",
+  "badge": "Learn Opposites",
+  "bg": "craft_kitchen",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "x": 0.32
+   },
+   {
+    "id": "snowball",
+    "x": 0.72,
+    "y": 0.75,
+    "scale": 2.4
+   },
+   {
+    "id": "milk_cup",
+    "x": 0.8,
+    "y": 0.93,
+    "scale": 2.2
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "craft_kitchen",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.17,
+     "scale": 0.65
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.5,
+     "y": 0.64,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.84,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's play Warm or Cold! A cup of cocoa. Warm or cold? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Warm! Blow on it first. Whoo!"
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.17,
+     "scale": 0.65
+    },
+    {
+     "id": "snowball",
+     "x": 0.5,
+     "y": 0.64,
+     "scale": 1.4,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.84,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "A snowball. Warm or cold?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Cold! Brrr!"
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.17,
+     "scale": 0.65
+    },
+    {
+     "id": "snow_cup",
+     "x": 0.5,
+     "y": 0.64,
+     "scale": 1.8,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.84,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Here's a cup of snow in our warm kitchen. Will it stay snow?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Let's wait. Tick, tock, tick, tock.",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.17,
+     "scale": 0.65
+    },
+    {
+     "id": "water_cup",
+     "x": 0.5,
+     "y": 0.64,
+     "scale": 1.8,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.84,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Is it snow or water now?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Water! Warm makes snow melt!"
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.25
+    },
+    {
+     "id": "waterdrop",
+     "x": 0.6,
+     "y": 0.5,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Last one! Is the sunshine warm or cold?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Warm! That's why my snow bunny melted!"
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.25
+    },
+    {
+     "id": "waterdrop",
+     "x": 0.6,
+     "y": 0.5,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

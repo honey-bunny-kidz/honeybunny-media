@@ -1,0 +1,1581 @@
+{
+ "id": "mini006",
+ "title": "Pip Puppy & Lulu Lamb: Melting Snow & Thank-You Stories for Kids (11 min) | Honey Bunny Kidz",
+ "episodes": [
+  "ep036",
+  "ep035"
+ ],
+ "thumbnail": {
+  "text": "Drip, Drop, Goodnight!",
+  "badge": "Kids Stories",
+  "bg": "snowy_park",
+  "cast": [
+   {
+    "id": "pip_nosedrip",
+    "mouth": 2,
+    "x": 0.55
+   },
+   {
+    "id": "snowbunny_melt1",
+    "x": 0.74,
+    "scale": 1.1
+   },
+   {
+    "id": "lulu_cosy",
+    "mouth": 2,
+    "x": 0.9,
+    "flip": true,
+    "scale": 0.9
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "thaw_garden",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "snow_puddle",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Huh? My snow bunny was right here! Where did she go? Guess!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "I see her yellow mittens in a puddle!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Let's find out what happened. Come on!"
+    }
+   ],
+   "banner": "Pip Puppy's Melting Snow Bunny"
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snowbunny",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "This morning, we made Sunny, my snow bunny."
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Can you see her long ears? Point to them!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Then the sun came out. Is the sun warm or cold?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Warm! Lovely, warm sunshine."
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snowbunny",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_nosedrip",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    },
+    {
+     "id": "waterdrop",
+     "x": 0.3,
+     "y": 0.52,
+     "scale": 0.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_nosedrip",
+     "text": "Drip! Something wet landed on my nose!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "What is on Pip's nose?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A water drop from the icicles! Hee hee!"
+    },
+    {
+     "who": "pip_nosedrip",
+     "text": "It tickles! Achoo!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snowbunny",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Look up at the roof. The icicles go drip, drop!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Let's count the drops. Ready?",
+     "pause": 0.4
+    },
+    {
+     "who": "honey_cosy",
+     "text": "How many drops can you count?",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "One, two, three, four, five drops!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Wiggle your fingers down, like drips. Drip, drip, drop!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snowbunny_melt1",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Oh! Sunny's ears flopped down. She looks sleepy!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "What is happening to Sunny?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "I think she's melting!"
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snowbunny_melt1",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "mama",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "That's right. The warm sun melts snow. Snow turns into water."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Can we see it happen up close?"
+    },
+    {
+     "who": "mama",
+     "text": "Yes! Let's do a little experiment in the kitchen."
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "snow_cup",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 2.4,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Here is a cup full of snow. Our kitchen is nice and warm."
+    },
+    {
+     "who": "mama",
+     "text": "Will the snow stay snow? Or melt? What do you think?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Let's wait and see. Tick, tock, tick, tock.",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "water_cup",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 2.4,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Wow! Is it snow or water now?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Water! The snow melted in the warm kitchen!"
+    },
+    {
+     "who": "mama",
+     "text": "Warm makes snow melt. Cold keeps it frozen."
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.43,
+     "y": 0.74,
+     "scale": 1.6
+    },
+    {
+     "id": "snowball",
+     "x": 0.58,
+     "y": 0.74,
+     "scale": 1.4
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's play Warm or Cold!"
+    },
+    {
+     "who": "mama",
+     "text": "A cup of cocoa. Warm or cold?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Warm! Blow on it first, whoo!"
+    },
+    {
+     "who": "mama",
+     "text": "A snowball. Warm or cold?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Cold! Brrr!"
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snowbunny_melt2",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Pip! Come quick! Sunny is getting smaller!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Drip, drip, drip. Where are the drips going?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Into the ground! Let's follow them."
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snowbunny_melt2",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    },
+    {
+     "id": "snowdrops_sleepy",
+     "x": 0.64,
+     "y": 0.88,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Shh! Look! Little white flowers, poking out of the snow."
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "They look sleepy, and thirsty."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Are their heads up or down?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Down. They need a drink."
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snowbunny_melt2",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "mama",
+     "x": 0.84,
+     "flip": true
+    },
+    {
+     "id": "snowdrops_happy",
+     "x": 0.64,
+     "y": 0.88,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.1
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Look! The flowers woke up! Their heads went up!"
+    },
+    {
+     "who": "mama",
+     "text": "They are snowdrops. The melted snow gave them a drink of water."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Sunny is helping the flowers grow!"
+    },
+    {
+     "who": "mama",
+     "text": "Can you grow like a flower? Curl up small, then reach up tall!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snow_puddle",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    },
+    {
+     "id": "snowdrops_happy",
+     "x": 0.64,
+     "y": 0.88,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "And now there's a puddle! Can I splash?"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "A little splash, with Mama watching!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "splash",
+     "dur": 1.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Splash! Quack, quack! Ducks love water!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Can you jump and splash with me? One, two, splash!",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snow_puddle",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    },
+    {
+     "id": "snowdrops_happy",
+     "x": 0.64,
+     "y": 0.88,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Now I know where Sunny went!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "She turned into water, for the flowers, and for Dotty!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "And when it gets cold again, the water can freeze, and more snow can fall."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Then we'll build Sunny again, with the same yellow mittens!"
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "snow_puddle",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    },
+    {
+     "id": "snowdrops_happy",
+     "x": 0.64,
+     "y": 0.88,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Sing the Drip Drop Song with me, and do the actions!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Drip, drop, the sun is warm. Wiggle your fingers down!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Snow turns to water, drip, drip, drop!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Into the ground, the flowers drink. Reach up tall and grow!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Splash in the puddle, one, two, three!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "snow_puddle",
+     "x": 0.45,
+     "y": 0.9,
+     "scale": 1.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.22
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.78,
+     "flip": true
+    },
+    {
+     "id": "snowdrops_happy",
+     "x": 0.64,
+     "y": 0.88,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "One more time! Wiggle and reach!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Snow turns to water, drip, drip, drop!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Into the ground, the flowers drink. Reach up tall and grow!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Splash in the puddle, one, two, three!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy and Lulu Lamb take turns on a snowy slide. Whee!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Bye bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "lead": 0.4,
+   "tail": 0.5,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Brrr, the sun is going down. Lulu, what are you thankful for today?"
+    },
+    {
+     "who": "lulu",
+     "text": "My friends! What are YOU thankful for? Tell me!",
+     "pause": 2.2
+    },
+    {
+     "who": "mimi",
+     "text": "Lovely! Are you ready for the last story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Yay! It's Lulu Lamb's Thank-You Goodnight. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "heart_pink",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Look, a little paper heart! It's a thank-you heart."
+    },
+    {
+     "who": "lulu_night",
+     "text": "What are you thankful for?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Thankful means you feel happy for something you have."
+    }
+   ],
+   "banner": "Lulu Lamb's Thank-You Goodnight"
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar0",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Here's our Thank-You Jar. Before bed, we put in three thank-you hearts."
+    },
+    {
+     "who": "lulu_night",
+     "text": "But I didn't get a present today. What can I say thank you for?",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar0",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "sock_red",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "I'll take a heart from the basket. Got one!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "Wait! Is that a heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "It's a sock with hearts on it! Pip's red sock! Hee hee!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Silly me! That heart is a sock!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "This morning I played in the snow with my friends!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Who is that puppy in the red hat? Say his name!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "It's me, Pip Puppy! Woof woof!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "How many friends played with me? Count with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Pip, one. Dotty, two. Honey, three!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Can you wave to your friends? Wave, wave!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "jar0",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "heart_pink",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "My first thank-you! Thank you for my friends."
+    },
+    {
+     "who": "honey_pj",
+     "text": "What colour is this heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Pink! In it goes. Plop!",
+     "pause": 0.3
+    },
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "soup_bowl",
+     "x": 0.5,
+     "y": 0.74,
+     "scale": 2.0,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "And at lunch, Mama made warm soup. Mmm!"
+    },
+    {
+     "who": "mama",
+     "text": "What colour is the soup?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Orange carrot soup! Blow on it first, so it's not too hot. Whoo!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yum! Can you pat your tummy? Pat, pat, pat!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "jar1",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "heart_yellow",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "My second thank-you! Thank you for my yummy food."
+    },
+    {
+     "who": "honey_pj",
+     "text": "What colour is this heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yellow, like the sunshine! Plop!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar2",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Now one more. Hmm, what's my third thank-you?",
+     "pause": 0.6
+    },
+    {
+     "who": "mama",
+     "text": "Look around you, Lulu. What do you see?",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "A warm house. A soft blanket. And a big snuggly hug!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar2",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "heart_blue",
+     "x": 0.37,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my cosy home!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "What colour is this heart?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Blue! Plop!"
+    },
+    {
+     "who": "mama",
+     "text": "Can you give yourself a big hug? Squeeze!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "jar3",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "mama",
+     "text": "Let's count the hearts together.",
+     "pause": 0.4
+    },
+    {
+     "who": "mama",
+     "text": "How many hearts?",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "One, two, three! Pink, yellow and blue!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "jar3",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "heart_purple",
+     "x": 0.62,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Wait! I have a surprise heart, too."
+    },
+    {
+     "who": "lulu_night",
+     "text": "A surprise? What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Purple! Thank you, Lulu, for being my friend!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Oh, Honey! That makes my heart feel warm and glowy!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.28
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.5,
+     "flip": true
+    },
+    {
+     "id": "jar4",
+     "x": 0.83,
+     "y": 0.7,
+     "scale": 1.3
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.42,
+     "scale": 0.42,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.1
+    },
+    {
+     "who": "lulu_night",
+     "text": "Look! The jar is glowing, and here comes the Moon!"
+    },
+    {
+     "who": "moon",
+     "text": "When you say thank you, two friends feel happy. Your friend, and you!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Who can you say thank you to tonight?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Into bed now. Let's do heart breathing!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Put your hand on your heart."
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe in slowly, like smelling warm soup.",
+     "pause": 2.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe out slowly, and blow it cool. Whoo.",
+     "pause": 2.4
+    },
+    {
+     "who": "honey_pj",
+     "text": "Now stretch your arms up high, and wrap them round in a cosy hug.",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Sing with me, and do the actions!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my friends, who play with me. Wave, wave!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my food, so yummy. Pat your tummy!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my home, so warm and bright. Hug yourself tight!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you, thank you, and goodnight! Blow a kiss!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.24,
+     "y": 0.88,
+     "scale": 0.9
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.42,
+     "y": 0.88,
+     "scale": 0.9,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.74,
+     "y": 0.47,
+     "scale": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "One more time, softly. Shh.",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my home, so warm and bright. Hug yourself tight!",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Thank you, thank you, and goodnight! Blow a kiss!",
+     "pause": 0.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Yawn. Thank you, Honey. Goodnight.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "tail": 1.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Blow a kiss to someone you love, and say thank you. Goodnight!",
+     "pause": 1.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy makes a snow bunny. But drip, drip, where will it go?",
+     "pause": 0.6
+    },
+    {
+     "who": "moon",
+     "text": "Sweet dreams, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "banner": "Thank you for watching!",
+   "lead": 0.4,
+   "tail": 1.5,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.5
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "That's all for now, friends! Come back soon for more stories and songs on Honey Bunny Kidz. Bye bye!"
+    }
+   ]
+  }
+ ]
+}

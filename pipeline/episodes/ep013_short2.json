@@ -1,0 +1,274 @@
+{
+ "id": "ep013_short2",
+ "title": "Who Says Quack? Animal Sounds with Ollie Owl",
+ "thumbnail": {
+  "text": "Match The Sounds!",
+  "badge": "Learn Animal Sounds",
+  "bg": "garden_pond",
+  "cast": [
+   {
+    "id": "ollie",
+    "mouth": 2,
+    "scale": 1.05
+   },
+   {
+    "id": "dotty",
+    "scale": 1.1
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "dusk_stage",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Who says quack? Can you find the friend?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.2,
+     "scale": 0.8,
+     "glow": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Dotty Duckling! Ducks say quack."
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack, quack! Waddle with me!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Now, who says woof? Can you point to the friend?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.8,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Pip Puppy! Puppies say woof."
+    },
+    {
+     "who": "pip",
+     "text": "Woof, woof! Wag your tail with me!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "And who says meow? Can you say it too?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.2,
+     "scale": 0.8,
+     "glow": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.8,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Meow! It's me, Mimi Kitten!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.15,
+     "scale": 0.8
+    },
+    {
+     "id": "mimi",
+     "x": 0.33,
+     "scale": 0.8
+    },
+    {
+     "id": "ollie",
+     "x": 0.55,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.84,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "How many friends did we find? Let's count!",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "One, two, three! Three friends, and three special sounds. Hoo, hoo!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.15,
+     "scale": 0.8
+    },
+    {
+     "id": "mimi",
+     "x": 0.33,
+     "scale": 0.8
+    },
+    {
+     "id": "ollie",
+     "x": 0.55,
+     "y": 0.685,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.84,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

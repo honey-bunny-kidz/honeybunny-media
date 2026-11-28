@@ -1,0 +1,780 @@
+{
+ "id": "ep031",
+ "title": "Pip and Dotty's Snow Shapes",
+ "thumbnail": {
+  "text": "A Snow Castle?!",
+  "badge": "Learn Shapes",
+  "bg": "pine_clearing",
+  "cast": [
+   {
+    "id": "pip_snowhead",
+    "mouth": 2,
+    "x": 0.68,
+    "scale": 0.95
+   },
+   {
+    "id": "snowcastle",
+    "x": 0.9,
+    "scale": 1.15,
+    "y": 0.99
+   },
+   {
+    "id": "dotty_cosy",
+    "mouth": 2,
+    "x": 0.47,
+    "scale": 0.8
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "pine_clearing",
+   "banner": "Pip and Dotty's Snow Shapes",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "snowball",
+     "x": 0.48,
+     "scale": 2.4,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Look what I made! What shape is my snowball?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A circle! Round, round, round! Quack!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "snowball",
+     "x": 0.45,
+     "scale": 1.2
+    },
+    {
+     "id": "snowball",
+     "x": 0.53,
+     "scale": 1.2
+    },
+    {
+     "id": "snowball",
+     "x": 0.49,
+     "y": 0.76,
+     "scale": 1.0
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Let's build a snow castle! It needs square blocks and a pointy roof."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Oh no! Everything I make is round. Roll, roll... another circle!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_snowhead",
+     "x": 0.22,
+     "glow": true
+    },
+    {
+     "id": "snowball",
+     "x": 0.45,
+     "scale": 1.2
+    },
+    {
+     "id": "snowball",
+     "x": 0.53,
+     "scale": 1.2
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_snowhead",
+     "text": "Plop!",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Pip! Snow fell off the pine tree, right on your hat!"
+    },
+    {
+     "who": "pip_snowhead",
+     "text": "Hee hee! Now I have a circle on my head! Is it a snow hat?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A snowball hat! Silly Pip! Shake, shake, shake!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "snowball",
+     "x": 0.36,
+     "scale": 1.1
+    },
+    {
+     "id": "snowball",
+     "x": 0.45,
+     "scale": 1.1
+    },
+    {
+     "id": "snowball",
+     "x": 0.54,
+     "scale": 1.1
+    },
+    {
+     "id": "snowball",
+     "x": 0.63,
+     "scale": 1.1,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Look at all your snowballs, Pip. How many circles? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three, four! Four round circles!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "But circles roll away. Wobble, wobble!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.28
+    },
+    {
+     "id": "box_mold",
+     "x": 0.48,
+     "scale": 1.9,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.66,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Hello, builders! Here is a square box for packing snow."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Thank you, Mama! Scoop, pat, pat, pat!",
+     "pause": 0.2,
+     "sfx": "clap",
+     "dur": 1.0
+    },
+    {
+     "who": "mama",
+     "text": "Now turn it over, and lift!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.28
+    },
+    {
+     "id": "snowblock",
+     "x": 0.48,
+     "scale": 2.3,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.66,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Wow! A snow block! It isn't round. What shape is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "It's a square! Let's count the sides. How many sides?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three, four! Four sides, all the same."
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.28,
+     "glow": true
+    },
+    {
+     "id": "snowblock",
+     "x": 0.48,
+     "scale": 2.3
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.66,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Can you draw a square in the air? Across, down, across, up!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24
+    },
+    {
+     "id": "snowcastle1",
+     "x": 0.5,
+     "scale": 1.35,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.77,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Pat, pat, lift! One block, two blocks, three blocks in a row!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A strong snow wall! One more block makes a tower. Where should it go?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24
+    },
+    {
+     "id": "snowcastle2",
+     "x": 0.5,
+     "scale": 1.35,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.77,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "On top! Now our tower needs a pointy roof. A triangle!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "A triangle has three sides. Hmm. Can you see a triangle near us?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.33,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.55,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Look at the pine trees, Pip! What shape are they?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Triangles! Pointy at the top, and wide at the bottom!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "And the little birdhouse has a triangle roof too!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.28
+    },
+    {
+     "id": "snowroof",
+     "x": 0.5,
+     "scale": 2.4,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Pat, pat, pinch! I made a snow triangle!",
+     "pause": 0.3
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Let's count its pointy corners. How many corners?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three! Three pointy corners!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Make a triangle with your hands, like a little roof!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24
+    },
+    {
+     "id": "snowcastle3",
+     "x": 0.5,
+     "scale": 1.35,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.77,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Roof on top! Our castle has squares, and a triangle!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "But the very top looks empty. What's missing?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "A star! Every castle needs a star on top!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "snowball",
+     "x": 0.48,
+     "scale": 1.0
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "I'll make a snow star! Pat, pat, pinch... oh! The points fell off!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Snow stars are tricky, Pip. Let's look up."
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.7,
+     "flip": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.5,
+     "y": 0.45,
+     "scale": 2.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "twinkle",
+     "dur": 1.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Oh! What's falling from the sky?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "A snowflake! And it looks like a little star!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Let's count its points. How many points? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three, four, five, six! Six sparkly points!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24
+    },
+    {
+     "id": "snowcastle",
+     "x": 0.5,
+     "scale": 1.35,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.77,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Look! The snowflake landed right on top of our castle!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A star from the sky! And I made round snowball windows. Circles!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Every shape helps, Pip. Just like every friend!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "snowcastle",
+     "x": 0.47,
+     "scale": 1.35
+    },
+    {
+     "id": "wildbun",
+     "x": 0.67,
+     "scale": 0.9,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Hop, hop, hop... who is coming to see our castle?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A little wild bunny! Hello, bunny friend!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "You can share our castle! There is room for everyone."
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "snowcastle",
+     "x": 0.47,
+     "scale": 1.35
+    },
+    {
+     "id": "wildbun",
+     "x": 0.67,
+     "scale": 0.9
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing the Snow Shapes Song! Draw the shapes in the air with me!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Roll a snowball, round and round, a circle rolling on the ground!",
+     "pause": 0.4
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Pat a block, one, two, three, four, a square, and then we make some more!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Three pointy corners, up so high, a triangle roof that touches the sky!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "snowcastle",
+     "x": 0.47,
+     "scale": 1.35,
+     "glow": true
+    },
+    {
+     "id": "wildbun",
+     "x": 0.67,
+     "scale": 0.9
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "A twinkly snowflake, six points bright, a star on top, oh what a sight!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Shapes in the snow, shapes in the snow!",
+     "pause": 0.3
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Circle, square, triangle, go!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "glow": true
+    },
+    {
+     "id": "snowcastle",
+     "x": 0.47,
+     "scale": 1.35
+    },
+    {
+     "id": "wildbun",
+     "x": 0.67,
+     "scale": 0.9
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.82,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Draw with me! Shapes in the snow! Circle, square, triangle, go!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Lulu Lamb listens for quiet sounds on a snowy night!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Bye bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

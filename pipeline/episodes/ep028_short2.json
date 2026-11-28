@@ -1,0 +1,249 @@
+{
+ "id": "ep028_short2",
+ "title": "Count the Puffy Birds with Pip!",
+ "thumbnail": {
+  "text": "How Many Puffy Birds?",
+  "badge": "Learn Counting",
+  "bg": "winter_farm",
+  "cast": [
+   {
+    "id": "birdie_puff",
+    "x": 0.2,
+    "y": 0.74,
+    "scale": 2.1
+   },
+   {
+    "id": "birdie_puff_pink",
+    "x": 0.8,
+    "y": 0.74,
+    "scale": 2.1
+   },
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "x": 0.5,
+    "scale": 0.8
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "winter_farm",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.25,
+     "scale": 0.75
+    },
+    {
+     "id": "birdie",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "How many little birds? Count with me!",
+     "pause": 2.2
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three! Three birds!",
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.25,
+     "scale": 0.75
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie_puff",
+     "text": "Puff!",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Whoa! They puffed up! Are they big or small now?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Big and round! Puffy feathers keep birds warm."
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.27,
+     "scale": 0.75
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "scale": 0.75,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! Is my wool thick or thin?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Thick! Thick wool keeps me cosy."
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.27,
+     "scale": 0.75
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "scale": 0.75,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Puff up like a bird! Big breath in, and puff!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "One, two, three puffy friends! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.27,
+     "scale": 0.75
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "scale": 0.75,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

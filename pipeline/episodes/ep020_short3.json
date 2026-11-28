@@ -1,0 +1,273 @@
+{
+ "id": "ep020_short3",
+ "title": "Pip Puppy's Sleepy Animal Song",
+ "thumbnail": {
+  "text": "Flap, Hop, Hoot!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "stretch_room",
+  "cast": [
+   {
+    "id": "pip_leafy",
+    "mouth": 2,
+    "x": 0.5
+   },
+   {
+    "id": "honey_pj",
+    "x": 0.2,
+    "scale": 0.8
+   },
+   {
+    "id": "ollie",
+    "x": 0.82,
+    "scale": 0.7
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "nest_tree",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.39,
+     "y": 0.32,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.61,
+     "y": 0.32,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "nest",
+     "x": 0.5,
+     "y": 0.405,
+     "scale": 1.5
+    },
+    {
+     "id": "pip",
+     "x": 0.45,
+     "scale": 0.8
+    },
+    {
+     "id": "leafpile",
+     "x": 0.45,
+     "scale": 0.75
+    },
+    {
+     "id": "honey",
+     "x": 0.78,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Can a puppy sleep in a nest? Look, I'm a birdie! Tweet tweet!"
+    },
+    {
+     "who": "pip",
+     "sfx": "crunch",
+     "text": "Crunch, crunch!",
+     "dur": 1.0,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "nest_tree",
+   "cast": [
+    {
+     "id": "birdie",
+     "x": 0.39,
+     "y": 0.32,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.61,
+     "y": 0.32,
+     "scale": 1.3,
+     "sleep": true
+    },
+    {
+     "id": "nest",
+     "x": 0.5,
+     "y": 0.405,
+     "scale": 1.5
+    },
+    {
+     "id": "pip_leafy",
+     "x": 0.45,
+     "scale": 0.8
+    },
+    {
+     "id": "honey",
+     "x": 0.78,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Achoo! Leaves on my nose!"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! Puppies sleep in a cosy bed, Pip! Let's sing and move!"
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.62,
+     "y": 0.26,
+     "scale": 0.45,
+     "sleep": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.6,
+     "y": 0.75,
+     "scale": 0.85
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.6,
+     "y": 0.78,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Birdie sleeps in a nest, nest, nest. Flap your wings with me!",
+     "pause": 1.6
+    },
+    {
+     "who": "honey",
+     "text": "Bunny in a burrow takes a rest, rest, rest. Hop, hop!",
+     "pause": 1.6
+    },
+    {
+     "who": "pip",
+     "text": "Ducky by the pond tucks in tight. Tuck in!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.62,
+     "y": 0.26,
+     "scale": 0.45,
+     "sleep": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.6,
+     "y": 0.75,
+     "scale": 0.85
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.6,
+     "y": 0.78,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Owl wakes up and says goodnight! Can you hoot? Hoo hoo!",
+     "pause": 1.6
+    },
+    {
+     "who": "pip",
+     "text": "And puppy in his basket, snug and deep. Shh, shh, it's time to sleep.",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.62,
+     "y": 0.26,
+     "scale": 0.45,
+     "sleep": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.22,
+     "scale": 0.8
+    },
+    {
+     "id": "pip",
+     "x": 0.6,
+     "y": 0.75,
+     "scale": 0.85,
+     "sleep": true
+    },
+    {
+     "id": "pet_bed",
+     "x": 0.6,
+     "y": 0.78,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

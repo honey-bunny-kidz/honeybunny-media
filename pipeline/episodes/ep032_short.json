@@ -1,0 +1,216 @@
+{
+ "id": "ep032_short",
+ "title": "What Sound Does Snow Make? Guess with Lulu!",
+ "thumbnail": {
+  "text": "What Went FLUMP?",
+  "badge": "Bedtime Story",
+  "bg": "snow_attic",
+  "cast": [
+   {
+    "id": "lulu_night",
+    "mouth": 2
+   },
+   {
+    "id": "ollie",
+    "scale": 0.8,
+    "y": 0.72,
+    "x": 0.74
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snow_attic",
+   "lead": 0.2,
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "What sound does snow make? Guess!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_pj",
+     "text": "Let's listen to the snowy night and find out!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "wind",
+     "text": "Whoo...",
+     "dur": 2.0,
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_night",
+     "text": "Is that the snow?",
+     "pause": 1.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "No! That's the wind, whispering whoo."
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.425,
+     "scale": 0.42,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "owl",
+     "text": "Hoo! Hoo!",
+     "dur": 1.4,
+     "pause": 0.3
+    },
+    {
+     "who": "lulu_night",
+     "text": "Who says hoo hoo?",
+     "pause": 1.8
+    },
+    {
+     "who": "ollie",
+     "text": "Me, Ollie Owl! Not the snow!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.425,
+     "scale": 0.42
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "sfx": "flump",
+     "text": "Flump!",
+     "dur": 1.2,
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "What went flump?",
+     "pause": 1.8
+    },
+    {
+     "who": "ollie",
+     "text": "Snow sliding off the roof!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "But falling snow makes no sound at all. It's super quiet. Shh!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu_night",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

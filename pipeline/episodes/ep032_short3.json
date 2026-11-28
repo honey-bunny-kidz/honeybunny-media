@@ -1,0 +1,209 @@
+{
+ "id": "ep032_short3",
+ "title": "Snowflake Breathing with Lulu Lamb!",
+ "thumbnail": {
+  "text": "Snowflake Breathing!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "night",
+  "cast": [
+   {
+    "id": "lulu_night",
+    "mouth": 2,
+    "x": 0.36
+   },
+   {
+    "id": "moon",
+    "scale": 0.7,
+    "y": 0.45
+   },
+   {
+    "id": "snowflake_blue",
+    "x": 0.8,
+    "y": 0.6,
+    "scale": 1.6
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snow_attic",
+   "lead": 0.2,
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 0.45
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.5,
+     "y": 0.6,
+     "scale": 1.8,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Can you breathe like a snowflake? Try it with me!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe in slowly, as the snowflake floats up.",
+     "pause": 2.2
+    },
+    {
+     "who": "lulu_night",
+     "text": "Breathe out, shh, as it floats down.",
+     "pause": 2.2
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Now sing and do the actions! Finger on your lips!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu_night",
+     "text": "Quiet, quiet, snowy night. The world is tucked in, soft and white.",
+     "pause": 0.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Shh, shh, close your eyes. Goodnight, snow, and goodnight, skies.",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 0.45
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.425,
+     "scale": 0.42
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Float your hands down, like soft snow. Down, down, down.",
+     "pause": 1.6
+    },
+    {
+     "who": "honey_pj",
+     "text": "Whoo goes the wind, and hoo goes the owl.",
+     "pause": 0.3
+    },
+    {
+     "who": "honey_pj",
+     "text": "Flump goes the snow, so soft and so slow.",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Yawn. Goodnight, quiet snow.",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu_night",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

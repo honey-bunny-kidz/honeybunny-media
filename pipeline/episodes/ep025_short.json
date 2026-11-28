@@ -1,0 +1,274 @@
+{
+ "id": "ep025_short",
+ "title": "Star or Firefly? Count with Ollie Owl",
+ "thumbnail": {
+  "text": "Star or Firefly?",
+  "badge": "Sing-Along Rhyme",
+  "bg": "star_garden_dusk",
+  "cast": [
+   {
+    "id": "pip_pj",
+    "mouth": 2,
+    "x": 0.32
+   },
+   {
+    "id": "firefly",
+    "scale": 2.0,
+    "y": 0.68,
+    "x": 0.74
+   },
+   {
+    "id": "ollie",
+    "scale": 0.8,
+    "flip": true,
+    "x": 0.78
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "star_garden_dusk",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "firefly",
+     "x": 0.55,
+     "y": 0.36,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "How many stars can I see tonight? Guess!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_pj",
+     "text": "Ooh! A little light! Is it a star? What do you think?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "firefly",
+     "x": 0.37,
+     "y": 0.585,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "firefly",
+     "sfx": "bell",
+     "text": "Blink, blink!",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Hee hee! It has wings! It's a firefly, on my nose!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.24,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.27,
+     "y": 0.14,
+     "scale": 1.2
+    },
+    {
+     "id": "star_blue",
+     "x": 0.24,
+     "y": 0.34,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "ollie",
+     "text": "Now look up high. Real stars! Count with Pip!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_pj",
+     "text": "One, two, three!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.24,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.27,
+     "y": 0.14,
+     "scale": 1.2
+    },
+    {
+     "id": "star_blue",
+     "x": 0.24,
+     "y": 0.34,
+     "scale": 1.2
+    },
+    {
+     "id": "star_friend",
+     "x": 0.36,
+     "y": 0.26,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.5,
+     "y": 0.37,
+     "scale": 1.2,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "sfx": "twinkle",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    },
+    {
+     "who": "pip_pj",
+     "text": "Four, five! How many stars, all together?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Five little stars! Hoo-hoo! Well counted!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "star_garden_dusk",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "star_friend",
+     "x": 0.13,
+     "y": 0.24,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.27,
+     "y": 0.14,
+     "scale": 1.2
+    },
+    {
+     "id": "star_blue",
+     "x": 0.24,
+     "y": 0.34,
+     "scale": 1.2
+    },
+    {
+     "id": "star_friend",
+     "x": 0.36,
+     "y": 0.26,
+     "scale": 1.2
+    },
+    {
+     "id": "star_pink",
+     "x": 0.5,
+     "y": 0.37,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_pj",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

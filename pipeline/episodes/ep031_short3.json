@@ -1,0 +1,213 @@
+{
+ "id": "ep031_short3",
+ "title": "Snow Shapes Song with Pip Puppy & Dotty",
+ "thumbnail": {
+  "text": "Draw & Sing!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_park",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "x": 0.3
+   },
+   {
+    "id": "dotty_cosy",
+    "mouth": 2,
+    "x": 0.74,
+    "flip": true,
+    "scale": 1.25
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "pine_clearing",
+   "lead": 0.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.75
+    },
+    {
+     "id": "snowcastle",
+     "x": 0.55,
+     "y": 0.64,
+     "scale": 0.6,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.88,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Can you draw shapes in the air? Get your finger ready!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing the Snow Shapes Song!"
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "snowball",
+     "x": 0.55,
+     "y": 0.62,
+     "scale": 1.3
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Roll a snowball, round and round, a circle rolling on the ground!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Draw a circle! Round and round!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75
+    },
+    {
+     "id": "snowblock",
+     "x": 0.54,
+     "y": 0.62,
+     "scale": 1.3
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Pat a block, one, two, three, four, a square, and then we make some more!",
+     "pause": 0.3
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Draw a square! Across, down, across, up!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.24,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "snowroof",
+     "x": 0.54,
+     "y": 0.62,
+     "scale": 1.35
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.84,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Three pointy corners, up so high, a triangle roof that touches the sky!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Put your hands up high, like a pointy roof!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "pine_clearing",
+   "snow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.75
+    },
+    {
+     "id": "snowcastle",
+     "x": 0.55,
+     "y": 0.64,
+     "scale": 0.6,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.88,
+     "scale": 0.78,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "A twinkly snowflake, six points bright, a star on top, oh what a sight!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Shapes in the snow, shapes in the snow! Circle, square, triangle, go!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

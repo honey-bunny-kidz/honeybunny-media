@@ -1,0 +1,1659 @@
+{
+ "id": "mini004",
+ "title": "Pip Puppy & Mimi Kitten: 2 Cosy Winter Stories for Kids (11 min) | Honey Bunny Kidz",
+ "episodes": [
+  "ep028",
+  "ep029"
+ ],
+ "thumbnail": {
+  "text": "Brrr! Cold Toes?!",
+  "badge": "Kids Stories",
+  "bg": "snowy_meadow",
+  "cast": [
+   {
+    "id": "pip_onesock",
+    "mouth": 2,
+    "x": 0.5
+   },
+   {
+    "id": "mimi_socks",
+    "mouth": 2,
+    "x": 0.72,
+    "flip": true
+   },
+   {
+    "id": "lulu_winter",
+    "mouth": 2,
+    "x": 0.9,
+    "scale": 0.85,
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "winter_farm",
+   "snow": true,
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.42
+    },
+    {
+     "id": "dotty",
+     "x": 0.56,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Brrr! Who has the warmest coat? Lulu, Dotty, or the little birds? Point to it!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Hmm! Let's find out together!"
+    }
+   ],
+   "banner": "Pip Puppy's Warm Coat Hunt"
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.36
+    },
+    {
+     "id": "mama",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Mama, my fur coat feels chilly today. Brrr!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's visit our friends and ask how they stay warm."
+    },
+    {
+     "who": "mama",
+     "text": "Stay close to me, Pip."
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Okay, Mama! But first, I need something warm!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "pip_wrapped",
+     "x": 0.42
+    },
+    {
+     "id": "mama",
+     "x": 0.76,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_wrapped",
+     "text": "Mm! Mm mm mm!",
+     "pause": 0.4
+    },
+    {
+     "who": "mama",
+     "text": "Oh, Pip! You wrapped my long scarf round and round and round!"
+    },
+    {
+     "who": "mama",
+     "text": "Where is Pip's nose? Can you see it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_wrapped",
+     "text": "It's under here! Hee hee! Too much scarf!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.34
+    },
+    {
+     "id": "lulu",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.12
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Lulu, how do you stay warm in the snow?"
+    },
+    {
+     "who": "lulu",
+     "text": "I have a fluffy coat that grows all by itself. What is my coat made of?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Wool! Soft, cosy wool!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.38
+    },
+    {
+     "id": "lulu",
+     "x": 0.6,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Can I feel it? Pat, pat, pat. Ooh! So squishy!"
+    },
+    {
+     "who": "lulu",
+     "text": "Pat, pat, pat with Pip! Pat your tummy too!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu",
+     "text": "Is my wool thick or thin?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Thick! Thick wool is like a big fluffy blanket."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.24
+    },
+    {
+     "id": "lulu",
+     "x": 0.44
+    },
+    {
+     "id": "dotty",
+     "x": 0.74,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack, quack! Hello, friends!"
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Dotty, you don't have wool. How do you stay warm?"
+    },
+    {
+     "who": "dotty",
+     "text": "Do I have fur or feathers? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Feathers! Under my top feathers, I have soft, fluffy ones."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.24
+    },
+    {
+     "id": "feather_down",
+     "x": 0.5,
+     "y": 0.62,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.74,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Look! A tiny fluffy feather. It's so light. Whoosh!",
+     "pause": 0.4,
+     "sfx": "wind",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_shiver",
+     "text": "What colour is Dotty's fluffy feather?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Yellow! Like the sun!"
+    },
+    {
+     "who": "dotty",
+     "text": "Fluffy feathers keep me warm!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.38
+    },
+    {
+     "id": "birdie",
+     "x": 0.66,
+     "y": 0.405
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.73,
+     "y": 0.405
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.8,
+     "y": 0.405
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie",
+     "text": "Tweet, tweet!",
+     "pause": 0.3,
+     "sfx": "tweet",
+     "dur": 1.1
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Look up! Little birds on the branch!"
+    },
+    {
+     "who": "dotty",
+     "text": "How many birds can you see? Count with me!",
+     "pause": 2.2
+    },
+    {
+     "who": "dotty",
+     "text": "One, two, three! Three little birds!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.38
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": true
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": true
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie_puff",
+     "text": "Puff!",
+     "pause": 0.3,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Whoa! The birds went puff! Now they look like round, fluffy balls!"
+    },
+    {
+     "who": "dotty",
+     "text": "Birds puff up their feathers to keep the warm air close."
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.37
+    },
+    {
+     "id": "dotty",
+     "x": 0.52,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Let's puff up like a bird! Big breath in, and puff!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Now flap your little wings. Flap, flap, flap!",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.36
+    },
+    {
+     "id": "mama",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Lulu has wool. Dotty has feathers. Birds puff up. I only have fur."
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Is fur a warm coat too?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Yes, Pip! Your fur is your very own coat. In winter, puppy fur grows thick and cosy."
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.3
+    },
+    {
+     "id": "mama",
+     "x": 0.55,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Pip! Pip! You forgot your hat, your scarf and your mittens!"
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Honey! Thank you! Fur and a hat. Double cosy!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.55,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Now I'm warm! What colour is my hat?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Red! And my mittens are yellow!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Rub your paws together. Rub, rub, rub! Feel them get warm?",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.1
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.48
+    },
+    {
+     "id": "dotty",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "So who has the warmest coat? Lulu, Dotty, or the birds?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "I know! The warmest is all of us, snuggled together!"
+    },
+    {
+     "who": "mama",
+     "text": "Snuggle close, everyone! Give yourself a big, warm hug too!",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.38
+    },
+    {
+     "id": "dotty",
+     "x": 0.53,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing the Warm Coat Song! Do the actions with us!"
+    },
+    {
+     "who": "lulu",
+     "text": "Little lamb has woolly wool. Baa, baa! Pat, pat, pat!",
+     "pause": 0.8
+    },
+    {
+     "who": "dotty",
+     "text": "Little duck has fluffy feathers. Quack, quack! Flap, flap, flap!",
+     "pause": 0.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Little bird goes puffy puff. Tweet, tweet! Puff, puff, puff!",
+     "pause": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Little puppy has fuzzy fur. Woof, woof! Wag, wag, wag!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.38
+    },
+    {
+     "id": "dotty",
+     "x": 0.53,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.68,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.66,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.73,
+     "y": 0.405,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.8,
+     "y": 0.405,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Warm coat, warm coat, snug as can be! A warm, cosy coat for you and me!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "snow": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.1
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.48
+    },
+    {
+     "id": "dotty",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "One more time! Wag and sing with me!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Warm coat, warm coat, snug as can be! A warm, cosy coat for you and me!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy and Mimi find warm socks for bedtime!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Stay cosy, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "lead": 0.4,
+   "tail": 0.5,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "pip_wrapped",
+     "x": 0.65,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Pip is all warm and cosy now! What do you wear when it's cold? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Brrr! Now it's getting dark. Time for bed!"
+    },
+    {
+     "who": "mimi",
+     "text": "Are you ready for our bedtime story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Yay! It's Pip Puppy and Mimi's Warm Socks Bedtime. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Ooh! Cold toes! Cold toes! Hop, hop, hop!"
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "What can I put on my cold toes? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Socks! Warm, cosy socks!"
+    }
+   ],
+   "banner": "Pip Puppy and Mimi's Warm Socks Bedtime"
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "It's my sleepover at your house, Mimi. But my toes are too chilly to sleep!"
+    },
+    {
+     "who": "mimi",
+     "text": "Don't worry, Pip. I have a basket full of socks! Meow!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "sock_basket",
+     "x": 0.6,
+     "scale": 1.0,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.12
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Wow! So many socks! Which one first?"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Pick one, Pip! Pull, pull, pull!",
+     "pause": 0.4,
+     "sfx": "bell",
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "sock_basket",
+     "x": 0.6,
+     "scale": 1.0
+    },
+    {
+     "id": "pip_sockear",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.12
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_sockear",
+     "text": "Ta-da! I'm all ready for bed!",
+     "pause": 0.4
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Hee hee! A sock on your ear? Does a sock go on your ear?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_sockear",
+     "text": "No! Socks go on your feet! Silly me!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.12
+    },
+    {
+     "id": "sock_red",
+     "x": 0.38,
+     "y": 0.62,
+     "scale": 1.19,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Let's play a sock colour game!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "What colour is this sock?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "Red! With little white hearts!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.12
+    },
+    {
+     "id": "sock_red",
+     "x": 0.3,
+     "y": 0.62,
+     "scale": 0.98
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.45,
+     "y": 0.62,
+     "scale": 1.19,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "And this one? What colour?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Yellow! With orange dots, like little oranges!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.1
+    },
+    {
+     "id": "sock_red",
+     "x": 0.24,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.36,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_green",
+     "x": 0.48,
+     "y": 0.62,
+     "scale": 1.19,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Stripy, stripy! What colour are the stripes on this sock?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "Green and white! Like a candy stick!"
+    },
+    {
+     "who": "sock_blue",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "pop",
+     "dur": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.1
+    },
+    {
+     "id": "sock_red",
+     "x": 0.24,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.36,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_green",
+     "x": 0.48,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_blue",
+     "x": 0.6,
+     "y": 0.62,
+     "scale": 1.19,
+     "glow": true
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Ooh, my favourite! Blue with yellow stars! Count the stars with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "One, two, three stars!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.18
+    },
+    {
+     "id": "sock_red",
+     "x": 0.36,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_red",
+     "x": 0.43,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.55,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Socks come in twos. Two socks make a pair!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Red and red. Is that a pair? Yes or no?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "Yes! Two red socks! A pair!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.18
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.38,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "sock_green",
+     "x": 0.48,
+     "y": 0.62,
+     "scale": 0.91
+    },
+    {
+     "id": "pip_pj_cold",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj_cold",
+     "text": "Yellow and green. Is that a pair?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "No! They don't match. Silly socks!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.14
+    },
+    {
+     "id": "sock_red",
+     "x": 0.3,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_red",
+     "x": 0.36,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.47,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.53,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_green",
+     "x": 0.64,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "sock_green",
+     "x": 0.7,
+     "y": 0.6,
+     "scale": 0.77
+    },
+    {
+     "id": "pip_onesock",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Now we have pairs! How many pairs can you count?",
+     "pause": 2.2
+    },
+    {
+     "who": "mimi_socks",
+     "text": "One, two, three pairs!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_onesock",
+     "text": "Look, I put on one blue star sock. But where is the other blue sock?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "pip_onesock",
+     "x": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_onesock",
+     "text": "Is it under the rug? No."
+    },
+    {
+     "who": "yarn",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "bell",
+     "dur": 1.2
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Listen! What is that jingle in my bed?",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "sock_blue",
+     "x": 0.36,
+     "y": 0.75,
+     "scale": 1.05,
+     "glow": true
+    },
+    {
+     "id": "yarn",
+     "x": 0.4,
+     "y": 0.77,
+     "scale": 1.4
+    },
+    {
+     "id": "pip_onesock",
+     "x": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_onesock",
+     "text": "My blue sock! It's in Mimi's bed!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Oh! My yarn ball was snuggled inside it like a little blanket! Hee hee!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.62
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "One sock, two socks! Wiggle your toes with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_socks",
+     "text": "Ahh! My toes are warm and cosy now!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Mine too!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_kitchen",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.42
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.6
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.76,
+     "y": 0.66,
+     "scale": 1.0
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.84,
+     "y": 0.66,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Who wants a warm milk cuddle before bed?"
+    },
+    {
+     "who": "pip_socks",
+     "text": "Me! Me! Pad, pad, pad in our socks!"
+    },
+    {
+     "who": "mama",
+     "text": "I made it just warm, not hot. Stay close to me."
+    },
+    {
+     "who": "mama",
+     "text": "How many cups are on the table?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Two! One for Pip, and one for me!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_kitchen",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.42
+    },
+    {
+     "id": "mimi_socks",
+     "x": 0.6
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.76,
+     "y": 0.66,
+     "scale": 1.0
+    },
+    {
+     "id": "milk_cup",
+     "x": 0.84,
+     "y": 0.66,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Mmm! What do we say to Mama Bunny?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Thank you! Meow!"
+    },
+    {
+     "who": "mama",
+     "text": "Now a big, cosy cuddle. Look, soft, sleepy snow is falling outside."
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "mimi_stretch",
+     "x": 0.34
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_stretch",
+     "text": "Time for a sleepy kitten stretch! Paws up high, high, high!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_socks",
+     "text": "Now wiggle your warm toes. Wiggle, wiggle!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "stretch_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.34
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Now slow breaths. Breathe in, like smelling warm milk.",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_socks",
+     "text": "And breathe out, slow and soft. Ahh.",
+     "pause": 2.2
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.58
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.4,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Yes, Moon! Let's sing the Warm Socks Song! Wiggle along!"
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.58
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.4,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "One sock, two socks, on my feet. Wiggle, wiggle, toes so sweet!",
+     "pause": 0.6
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Red socks, blue socks, find a pair. Warm and cosy everywhere!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.58
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "moon",
+     "x": 0.7,
+     "y": 0.4,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Warm socks, cosy socks, snug and tight. Warm socks help me sleep tonight!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "pip_socks",
+     "x": 0.62
+    },
+    {
+     "id": "mimi",
+     "x": 0.36,
+     "y": 0.8,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Warm socks, cosy socks, snug and tight. Warm socks help me sleep tonight!",
+     "pause": 0.8
+    },
+    {
+     "who": "mimi",
+     "text": "Yawn! Goodnight, Pip.",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_socks",
+     "text": "Goodnight, Mimi. Goodnight, warm toes.",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "night",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.5,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "moon",
+     "text": "Wiggle your toes and say goodnight with me. Goodnight!",
+     "pause": 1.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy counts five little snowflakes in a brand new song!",
+     "pause": 0.6
+    },
+    {
+     "who": "moon",
+     "text": "Sweet dreams, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "banner": "Thank you for watching!",
+   "lead": 0.4,
+   "tail": 1.5,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "That's all for now, friends! Come back soon for more stories and songs on Honey Bunny Kidz. Bye bye!"
+    }
+   ]
+  }
+ ]
+}

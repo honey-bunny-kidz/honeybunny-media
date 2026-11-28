@@ -1,0 +1,577 @@
+{
+ "id": "ep014",
+ "title": "Lulu Lamb's Big and Small Picnic",
+ "thumbnail": {
+  "text": "Big Or Tiny?",
+  "badge": "Learn Opposites",
+  "bg": "sunny_hill",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "scale": 1.05
+   },
+   {
+    "id": "mama",
+    "scale": 0.85,
+    "x": 0.68
+   },
+   {
+    "id": "dotty",
+    "x": 0.86
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "sunny_hill",
+   "title": "Lulu Lamb's Big and Small Picnic",
+   "subtitle": "Learn Opposites  \u2022  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Lulu Lamb's Big and Small Picnic! Let's play an opposite game together!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.22
+    },
+    {
+     "id": "basket",
+     "x": 0.38
+    },
+    {
+     "id": "honey",
+     "x": 0.58
+    },
+    {
+     "id": "lulu",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a bright, sunny morning on Sunny Hill. Mama Bunny brought a picnic basket."
+    },
+    {
+     "who": "mama",
+     "text": "Who wants to help me get our picnic ready?"
+    },
+    {
+     "who": "honey",
+     "text": "Me, me! I can help!"
+    },
+    {
+     "who": "lulu",
+     "text": "I want to help too. But I am so small."
+    },
+    {
+     "who": "mama",
+     "text": "Little Lulu, small friends can be big helpers. Let's play the Big and Small game on the way!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.2
+    },
+    {
+     "id": "ball",
+     "x": 0.45,
+     "scale": 2.0
+    },
+    {
+     "id": "ball",
+     "x": 0.63,
+     "scale": 0.7
+    },
+    {
+     "id": "honey",
+     "x": 0.82
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Look, Lulu! Two red balls. One is big, and one is small."
+    },
+    {
+     "who": "lulu",
+     "text": "Which ball is big? Can you point to the big ball?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.2
+    },
+    {
+     "id": "ball",
+     "x": 0.45,
+     "scale": 2.0,
+     "glow": true
+    },
+    {
+     "id": "ball",
+     "x": 0.63,
+     "scale": 0.7
+    },
+    {
+     "id": "honey",
+     "x": 0.82
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Yes! This ball is big. Big, big, big!"
+    },
+    {
+     "who": "honey",
+     "text": "And this ball is small. Small, small, small."
+    },
+    {
+     "who": "lulu",
+     "text": "I will carry the small ball. It is just right for me!"
+    },
+    {
+     "who": "narrator",
+     "text": "And just like that, Lulu was helping."
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.25
+    },
+    {
+     "id": "dotty",
+     "x": 0.52
+    },
+    {
+     "id": "lulu",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Dotty Duckling came waddling up the hill."
+    },
+    {
+     "who": "dotty",
+     "text": "Quack, quack! Hello, friends! Can I come to the picnic?"
+    },
+    {
+     "who": "lulu",
+     "text": "Yes, Dotty! Look at Mama Bunny and Dotty. Who is small? Can you say it?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.25
+    },
+    {
+     "id": "dotty",
+     "x": 0.52,
+     "glow": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Dotty is small! And Mama Bunny is big."
+    },
+    {
+     "who": "mama",
+     "text": "Big or small, there is room for everyone at our picnic."
+    },
+    {
+     "who": "lulu",
+     "text": "Let's make our bodies big! Stand up tall, and spread your arms wide!",
+     "pause": 1.6
+    },
+    {
+     "who": "lulu",
+     "text": "Now make your body small. Curl up like a little ball.",
+     "pause": 1.6
+    },
+    {
+     "who": "dotty",
+     "text": "Quack! That was fun!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25
+    },
+    {
+     "id": "honey",
+     "x": 0.48
+    },
+    {
+     "id": "pip",
+     "x": 0.86,
+     "y": 0.6,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Over by the slide, Pip Puppy was playing."
+    },
+    {
+     "who": "pip",
+     "text": "Woof, woof! Look at me! I climbed the ladder, step by step."
+    },
+    {
+     "who": "honey",
+     "text": "Is Pip up high, or down low? What do you think?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25
+    },
+    {
+     "id": "honey",
+     "x": 0.48
+    },
+    {
+     "id": "pip",
+     "x": 0.86,
+     "y": 0.6,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Pip is up! Up, up, up high!"
+    },
+    {
+     "who": "pip",
+     "text": "Now I sit down and slide down. Wheee!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.25
+    },
+    {
+     "id": "honey",
+     "x": 0.45
+    },
+    {
+     "id": "pip",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Now Pip is down! Down, down, down low."
+    },
+    {
+     "who": "honey",
+     "text": "Let's do it too! Reach your paws up, up, up!",
+     "pause": 1.4
+    },
+    {
+     "who": "honey",
+     "text": "Now touch the ground. Down, down, down!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Up and down is so much fun. Your turn on the slide, Honey!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22
+    },
+    {
+     "id": "snail",
+     "x": 0.5
+    },
+    {
+     "id": "pip",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Pip ran to the picnic. Zoom, zoom! Pip was very fast."
+    },
+    {
+     "who": "pip",
+     "text": "I am fast! Zoom, zoom, zoom!"
+    },
+    {
+     "who": "lulu",
+     "text": "Wait, Pip! Stop, please! Look down, by your paw.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.22
+    },
+    {
+     "id": "snail",
+     "x": 0.5,
+     "glow": true
+    },
+    {
+     "id": "pip",
+     "x": 0.78
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was a tiny snail, on the stepping stone path."
+    },
+    {
+     "who": "lulu",
+     "text": "Hello, little snail. Is the snail fast, or slow? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "The snail is slow. Slow, slow, slow."
+    },
+    {
+     "who": "pip",
+     "text": "Oh! I did not see the little snail. Thank you, Lulu. I will walk slowly here."
+    },
+    {
+     "who": "lulu",
+     "text": "I am small, so I can see small things!"
+    },
+    {
+     "who": "narrator",
+     "text": "Pip waited, and the little snail went slowly on its way."
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.16
+    },
+    {
+     "id": "lulu",
+     "x": 0.36
+    },
+    {
+     "id": "honey",
+     "x": 0.56
+    },
+    {
+     "id": "pip",
+     "x": 0.76
+    },
+    {
+     "id": "dotty",
+     "x": 0.92
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Lulu, you were a big helper today!"
+    },
+    {
+     "who": "lulu",
+     "text": "Thank you, Mama Bunny! Let's sing the Big and Small song. Do the moves with me!"
+    },
+    {
+     "who": "lulu",
+     "text": "Big, big, stretch up tall!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Small, small, curl up small!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Up, up, reach the sky!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Down, down, touch the ground!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip",
+     "text": "Fast, fast, wiggle your feet!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Slow, slow, like a snail so sweet!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Big and small, short and tall,",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "we are friends, one and all!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "basket",
+     "x": 0.36
+    },
+    {
+     "id": "lulu",
+     "x": 0.56
+    },
+    {
+     "id": "honey",
+     "x": 0.76
+    },
+    {
+     "id": "snail",
+     "x": 0.93,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Everyone sat down for the picnic. The little snail rested in the warm sun."
+    },
+    {
+     "who": "mama",
+     "text": "Let's take a calm breath together. Breathe in, big and slow.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "And breathe out, small and soft.",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu",
+     "text": "What was your favourite? Big or small, up or down, fast or slow?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "I like them all!"
+    }
+   ]
+  },
+  {
+   "bg": "sunny_hill",
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "lulu",
+     "x": 0.52
+    },
+    {
+     "id": "pip",
+     "x": 0.74
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Big or small, everyone can help, and everyone is special."
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Bye-bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  }
+ ]
+}

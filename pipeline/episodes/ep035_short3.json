@@ -1,0 +1,212 @@
+{
+ "id": "ep035_short3",
+ "title": "Hug Yourself and Sing with Lulu Lamb!",
+ "thumbnail": {
+  "text": "Hug, Wave, Kiss!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snow_attic",
+  "cast": [
+   {
+    "id": "lulu_night",
+    "mouth": 2,
+    "x": 0.42
+   },
+   {
+    "id": "moon",
+    "scale": 0.6,
+    "y": 0.66,
+    "x": 0.82
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "thanks_nook",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.35,
+     "glow": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Can you hug yourself like me? Squeeze!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_night",
+     "text": "Now let's sing the thank-you song, with actions!",
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.35
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "heart_pink",
+     "x": 0.5,
+     "y": 0.4,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my friends, who play with me. Wave, wave!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.35
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "heart_yellow",
+     "x": 0.5,
+     "y": 0.4,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my food, so yummy. Pat your tummy!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.35
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.62,
+     "flip": true
+    },
+    {
+     "id": "heart_blue",
+     "x": 0.5,
+     "y": 0.4,
+     "scale": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Thank you for my home, so warm and bright. Hug yourself tight!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Thank you, thank you, and goodnight! Blow a kiss!",
+     "pause": 1.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Who did you blow a kiss to?",
+     "pause": 1.8
+    },
+    {
+     "who": "moon",
+     "text": "Goodnight, little lamb!"
+    }
+   ]
+  },
+  {
+   "bg": "snow_attic",
+   "winsnow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.32,
+     "y": 0.76,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.68,
+     "y": 0.76,
+     "scale": 0.85,
+     "sleep": true
+    },
+    {
+     "id": "moon",
+     "x": 0.5,
+     "y": 0.31,
+     "scale": 0.45
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

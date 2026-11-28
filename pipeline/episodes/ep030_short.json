@@ -1,0 +1,360 @@
+{
+ "id": "ep030_short",
+ "title": "How Many Snowflakes Are Left? Pip Puppy",
+ "thumbnail": {
+  "text": "How Many Left?",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_garden",
+  "cast": [
+   {
+    "id": "pip_nosedrip",
+    "mouth": 2,
+    "x": 0.5
+   },
+   {
+    "id": "snowflake",
+    "scale": 2.2,
+    "x": 0.14,
+    "y": 0.6
+   },
+   {
+    "id": "snowflake_blue",
+    "scale": 1.8,
+    "x": 0.87,
+    "y": 0.56
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_garden",
+   "lead": 0.2,
+   "snow": true,
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.2,
+     "y": 0.29,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.38,
+     "y": 0.35,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.28,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.8,
+     "y": 0.34,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.5,
+     "y": 0.37,
+     "scale": 1.3
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.27,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.66,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "How many snowflakes will be left? Watch and guess!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Five little snowflakes! One, two, three, four, five!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.2,
+     "y": 0.29,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.38,
+     "y": 0.35,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.28,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.8,
+     "y": 0.34,
+     "scale": 1.3
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.27,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_flakenose",
+     "x": 0.66,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_flakenose",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "twinkle",
+     "dur": 0.9
+    },
+    {
+     "who": "pip_flakenose",
+     "text": "One landed on my nose! Hee hee, it tickles!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.2,
+     "y": 0.29,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.38,
+     "y": 0.35,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.28,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.8,
+     "y": 0.34,
+     "scale": 1.3
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.27,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_nosedrip",
+     "x": 0.66,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_nosedrip",
+     "text": "Drip!",
+     "pause": 0.2,
+     "sfx": "pop",
+     "dur": 0.6
+    },
+    {
+     "who": "pip_nosedrip",
+     "text": "It melted! How many snowflakes are left?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Four!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.2,
+     "y": 0.29,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.38,
+     "y": 0.35,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake",
+     "x": 0.62,
+     "y": 0.28,
+     "scale": 1.3
+    },
+    {
+     "id": "lulu_flake",
+     "x": 0.27,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.66,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_flake",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "twinkle",
+     "dur": 0.9
+    },
+    {
+     "who": "lulu_flake",
+     "text": "One fell on my nose! Drip!",
+     "pause": 0.2
+    },
+    {
+     "who": "pip_cosy",
+     "text": "How many now? Count them!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three! Three!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.2,
+     "y": 0.29,
+     "scale": 1.3
+    },
+    {
+     "id": "snowflake_blue",
+     "x": 0.38,
+     "y": 0.35,
+     "scale": 1.3
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Quack! One fell on my beak! Drip! How many are left?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Two little snowflakes!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_garden",
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.2,
+     "y": 0.29,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.5,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.8,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Why do they all melt? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Our noses are warm, and snow is cold! Warm makes snow go drip!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Bye bye, little snowflakes!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

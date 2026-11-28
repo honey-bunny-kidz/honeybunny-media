@@ -1,0 +1,160 @@
+{
+ "id": "ep024_short3",
+ "title": "Where's Lulu? Snowflake Song",
+ "thumbnail": {
+  "text": "Snowy Peekaboo!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_meadow",
+  "cast": [
+   {
+    "id": "lulu_flake",
+    "mouth": 2,
+    "scale": 1.15,
+    "x": 0.33
+   },
+   {
+    "id": "honey_cosy",
+    "mouth": 2,
+    "scale": 0.95,
+    "flip": true,
+    "x": 0.74
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.32,
+     "y": 0.8,
+     "scale": 0.85
+    },
+    {
+     "id": "snowdrift",
+     "x": 0.32,
+     "scale": 0.95,
+     "y": 0.8
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Where's Lulu? Can you find her in the snow?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "I see pink ears and a purple bow!"
+    }
+   ],
+   "lead": 0.2
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_flake",
+     "x": 0.32,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_flake",
+     "text": "Peekaboo! Oh! A snowflake on my nose! It tickles! Hee hee!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Silly Lulu! Let's sing the Snowflake Song!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.32,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Snowflakes falling, soft and white. Twirling, swirling, oh so light!",
+     "pause": 0.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Land on red and land on blue. One for me, and one for you!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.32,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.74,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Now you! Wiggle your fingers and twirl around like a snowflake!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Hello, hello, hello, first snow!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ],
+   "tail": 1.0
+  }
+ ]
+}

@@ -1,0 +1,1888 @@
+{
+ "id": "compilation",
+ "title": "Pip Puppy & Ollie Owl: 3 Fun Stories & Songs for Kids (12 min) | Honey Bunny Kidz",
+ "episodes": [
+  "ep019",
+  "ep004",
+  "ep018"
+ ],
+ "thumbnail": {
+  "text": "Wiggle, Swing & Rain!",
+  "badge": "Kids Stories & Songs",
+  "bg": "meadow",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2,
+    "scale": 1.05,
+    "x": 0.5
+   },
+   {
+    "id": "ollie",
+    "x": 0.76,
+    "scale": 0.9
+   },
+   {
+    "id": "cloudy",
+    "scale": 1.35,
+    "x": 0.83,
+    "y": 0.6
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 13
+    },
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Wheee! Higher, higher! Can you swing your arms like me?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Pip! Can I have a turn, please?"
+    },
+    {
+     "who": "pip",
+     "text": "Not yet! I want to swing all day long!"
+    }
+   ],
+   "lead": 0.2,
+   "banner": "Pip Puppy Takes Turns on the Swing"
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 6
+    },
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "But there is only one swing. And I want a turn too."
+    },
+    {
+     "who": "honey",
+     "text": "Me too!"
+    },
+    {
+     "who": "dotty",
+     "text": "Me three! Quack!"
+    },
+    {
+     "who": "pip",
+     "text": "One swing, and lots of friends. How many friends are waiting? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "One, two, three friends!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 4
+    },
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "I can swing all by myself! Kick, kick, kick!"
+    },
+    {
+     "who": "wind",
+     "text": "Whoosh!",
+     "sfx": "wind",
+     "dur": 1.4,
+     "pause": 0.4
+    },
+    {
+     "who": "dotty",
+     "text": "Look! The wind blew leaves all over Pip!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_leafy_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 3
+    },
+    {
+     "id": "honey",
+     "x": 0.18
+    },
+    {
+     "id": "lulu",
+     "x": 0.82
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Pfft, pfft! Tickly leaves! Who am I?"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! You're a leaf puppy!"
+    },
+    {
+     "who": "lulu",
+     "text": "A leaf puppy on a swing! Ha ha!"
+    },
+    {
+     "who": "pip",
+     "text": "Hee hee. I'm a silly leaf puppy!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "pip",
+     "x": 0.37
+    },
+    {
+     "id": "honey",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.85
+    },
+    {
+     "id": "dotty",
+     "x": 0.94,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Pip, swinging is fun. And sharing is kind. Let's take turns!"
+    },
+    {
+     "who": "pip",
+     "text": "Turns? But what if I never get another go?"
+    },
+    {
+     "who": "mama",
+     "text": "You will! Each friend gets ten pushes. Then the next friend has a turn. And then you again!"
+    },
+    {
+     "who": "mama",
+     "text": "While we wait, we stand back here, away from the swing. That keeps everyone safe."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "lulu_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 11
+    },
+    {
+     "id": "mama",
+     "x": 0.29
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.85
+    },
+    {
+     "id": "dotty",
+     "x": 0.94,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Wheee! My turn first! Thank you, Pip!"
+    },
+    {
+     "who": "mama",
+     "text": "Let's count Lulu's pushes. Can you count to ten with us?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "One, two, three, four, five."
+    },
+    {
+     "who": "honey",
+     "text": "Six, seven, eight, nine, ten!"
+    },
+    {
+     "who": "lulu",
+     "text": "Ten! That was so much fun!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.33
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.88,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Waiting is so, so long. What can I do while I wait?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "We can play a leaf game!"
+    },
+    {
+     "who": "pip",
+     "text": "A leaf game? Yes, please!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.33
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.88,
+     "scale": 0.85
+    },
+    {
+     "id": "leaf_red",
+     "x": 0.62,
+     "y": 0.62,
+     "scale": 1.6,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Look at this leaf. What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Red! Like an apple!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "honey",
+     "x": 0.2
+    },
+    {
+     "id": "lulu",
+     "x": 0.33
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.88,
+     "scale": 0.85
+    },
+    {
+     "id": "leaf_yellow",
+     "x": 0.6,
+     "y": 0.6,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "leaf_brown",
+     "x": 0.95,
+     "y": 0.55,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "And this one? What colour is my leaf?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Yellow, just like me! Quack!"
+    },
+    {
+     "who": "pip",
+     "text": "And this leaf is brown, like my floppy ears!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "honey_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 11
+    },
+    {
+     "id": "mama",
+     "x": 0.29
+    },
+    {
+     "id": "lulu",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "pip",
+     "x": 0.85
+    },
+    {
+     "id": "dotty",
+     "x": 0.94,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "My turn now! Wheee!"
+    },
+    {
+     "who": "mama",
+     "text": "Is Honey going up high, or down low?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Up high! And down low! Up and down!"
+    },
+    {
+     "who": "pip",
+     "text": "Eight, nine, ten! Honey, your turn is done!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 0
+    },
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.37,
+     "scale": 0.9
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.85
+    },
+    {
+     "id": "lulu",
+     "x": 0.94,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Now it's my turn! I'm next!"
+    },
+    {
+     "who": "dotty",
+     "text": "Oh. I'm so small. I've never been on a swing."
+    },
+    {
+     "who": "pip",
+     "text": "Hmm. Dotty waited too. Dotty, you go first! I'll cheer for you!"
+    },
+    {
+     "who": "mama",
+     "text": "Pip, that is so kind!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "dotty_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 7
+    },
+    {
+     "id": "mama",
+     "x": 0.29
+    },
+    {
+     "id": "pip",
+     "x": 0.735,
+     "flip": true
+    },
+    {
+     "id": "honey",
+     "x": 0.85
+    },
+    {
+     "id": "lulu",
+     "x": 0.94,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack, quack, wheee! I'm swinging!"
+    },
+    {
+     "who": "pip",
+     "text": "Go, Dotty, go! Can you clap for Dotty with me?",
+     "pause": 2.0
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Cheering for friends is fun too!"
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 13
+    },
+    {
+     "id": "mama",
+     "x": 0.29
+    },
+    {
+     "id": "dotty",
+     "x": 0.735,
+     "scale": 0.85
+    },
+    {
+     "id": "honey",
+     "x": 0.85,
+     "flip": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.94,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "My turn again! Wheee!"
+    },
+    {
+     "who": "pip",
+     "text": "And it feels even better, because I waited!"
+    },
+    {
+     "who": "lulu",
+     "text": "You waited so well, Pip!"
+    },
+    {
+     "who": "honey",
+     "text": "Now everyone gets to play!"
+    }
+   ],
+   "rainbow": true
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 9
+    },
+    {
+     "id": "honey",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.3,
+     "flip": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.86,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Let's sing our turn-taking song! Clap along!"
+    },
+    {
+     "who": "pip",
+     "text": "My turn, your turn, that's the way we play!"
+    },
+    {
+     "who": "lulu",
+     "text": "Count to ten, then it's you. Hip, hip, hooray!"
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "honey",
+     "text": "Wait a little, swing a little, up and down we go!"
+    },
+    {
+     "who": "dotty",
+     "text": "Sharing with my friends makes me happy so!"
+    },
+    {
+     "who": "clap",
+     "text": "Clap, clap!",
+     "sfx": "clap",
+     "dur": 1.0,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "swing_empty",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 9
+    },
+    {
+     "id": "mama",
+     "x": 0.14
+    },
+    {
+     "id": "pip",
+     "x": 0.3,
+     "flip": true
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.86,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Taking turns means everyone gets to play."
+    },
+    {
+     "who": "pip",
+     "text": "Can you say it with me? My turn, your turn!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Let's take a big swing breath. Breathe in, up high. And breathe out, down low.",
+     "pause": 1.5
+    },
+    {
+     "who": "lulu",
+     "text": "Ahhh. So calm."
+    }
+   ]
+  },
+  {
+   "bg": "autumn_swings",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_swing",
+     "x": 0.5,
+     "y": 0.255,
+     "swing": 13
+    },
+    {
+     "id": "honey",
+     "x": 0.14
+    },
+    {
+     "id": "lulu",
+     "x": 0.82,
+     "flip": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.93,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "One more time! Swing your arms and sing! My turn, your turn, that's the way we play!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy finds out where animals sleep!"
+    },
+    {
+     "who": "pip",
+     "text": "Woof woof! Bye-bye, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ],
+   "tail": 1.5
+  },
+  {
+   "bg": "garden",
+   "lead": 0.4,
+   "tail": 0.5,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "pip",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Are you ready for the next story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi",
+     "text": "Yay! It's The Wiggle Waggle Song. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.66
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "One sunny morning, Honey Bunny hopped to the rainbow meadow."
+    },
+    {
+     "who": "narrator",
+     "text": "There she met a new friend. A little puppy named Pip, with a waggy tail and a shiny blue collar."
+    },
+    {
+     "who": "pip",
+     "text": "Woof woof! Hello! I'm Pip! Do you want to play with me?"
+    },
+    {
+     "who": "honey",
+     "text": "Hello, Pip! Let's sing the Wiggle Waggle Song! Everyone can join in!"
+    },
+    {
+     "who": "pip",
+     "text": "Yay! How does it go?"
+    },
+    {
+     "who": "honey",
+     "text": "Each friend shows a fun move, and we all copy. Are you ready?"
+    },
+    {
+     "who": "pip",
+     "text": "Ready! Woof!"
+    }
+   ],
+   "banner": "The Wiggle Waggle Song"
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.12
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.5
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    },
+    {
+     "id": "pip",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Here comes the song! Everybody, sing with us!",
+     "pause": 0.9
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Clap your hands and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Then sit softly on the ground.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "day",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.35
+    },
+    {
+     "id": "pip",
+     "x": 0.68
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Me first! Watch me hop!"
+    },
+    {
+     "who": "narrator",
+     "text": "Honey Bunny hops so high.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Hop, hop, hop, up to the sky!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Can you hop like me? Hop, hop, hop! One, two, three!"
+    },
+    {
+     "who": "pip",
+     "text": "Hop, hop, hop! I can do it too!"
+    }
+   ]
+  },
+  {
+   "bg": "garden",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "honey",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack quack! My turn! Watch me waddle!"
+    },
+    {
+     "who": "narrator",
+     "text": "Dotty Duckling waddles slow.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Waddle, waddle, there we go!",
+     "pause": 0.6
+    },
+    {
+     "who": "dotty",
+     "text": "Flap your arms like little wings! Quack, quack, quack, the duckling sings!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.12
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.5
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    },
+    {
+     "id": "pip",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Now, all together!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Clap your hands and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Then sit softly on the ground.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "porch",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.28
+    },
+    {
+     "id": "lulu",
+     "x": 0.46
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Meow! My turn! I love to stretch!"
+    },
+    {
+     "who": "narrator",
+     "text": "Mimi Kitten stretches long.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Stretch up tall and hum our song.",
+     "pause": 0.6
+    },
+    {
+     "who": "mimi",
+     "text": "Now tiptoe, tiptoe, soft and slow. Tiptoe, tiptoe, round we go!"
+    }
+   ]
+  },
+  {
+   "bg": "day",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.35
+    },
+    {
+     "id": "mimi",
+     "x": 0.65
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! My turn! I can jump!"
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu Lamb jumps in the sun.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Jump, jump, jump! Oh, what fun!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Bounce like me, from one to three! Jump, jump, jump, and smile with me!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.12
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.5
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    },
+    {
+     "id": "pip",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Sing it again, little friends!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Clap your hands and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Then sit softly on the ground.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Now it's my turn! Woof woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "Pip the Puppy wags his tail.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, without fail!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip",
+     "text": "Wiggle your hips from side to side. Wiggle, waggle, nice and wide!"
+    },
+    {
+     "who": "honey",
+     "text": "Great wiggles, Pip! You are so good at waggling!"
+    },
+    {
+     "who": "pip",
+     "text": "Thank you, Honey! I'm so happy I have new friends!"
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.12
+    },
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "mimi",
+     "x": 0.5
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    },
+    {
+     "id": "pip",
+     "x": 0.88
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Hopping, waddling, stretching, jumping, and wiggling."
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend moves in their own special way. And every way is wonderful!"
+    },
+    {
+     "who": "narrator",
+     "text": "Now let's slow down, little friends. Take a big breath in.",
+     "pause": 1.4
+    },
+    {
+     "who": "narrator",
+     "text": "And breathe out, slowly. Ahhh.",
+     "pause": 1.0
+    },
+    {
+     "who": "narrator",
+     "text": "One last time, nice and soft.",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Move your body, sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Clap your hands and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Then sit softly on the ground.",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.55
+    },
+    {
+     "id": "dotty",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Thank you for singing and dancing with us!"
+    },
+    {
+     "who": "pip",
+     "text": "Bye bye! See you next time! Woof woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, bye bye! Come back soon to Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ],
+   "tail": 1.8
+  },
+  {
+   "bg": "day",
+   "lead": 0.4,
+   "tail": 0.5,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.65,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Are you ready for the last story? Say, yes!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Yay! It's Ollie Owl and the Sleepy Little Cloud. Let's watch!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Look up! Something fluffy is floating down!"
+    },
+    {
+     "who": "ollie",
+     "text": "Who is this fluffy friend? Can you guess?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "It's a little cloud!"
+    }
+   ],
+   "banner": "Ollie Owl and the Sleepy Little Cloud"
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "cloudy",
+     "text": "Hello! I'm Cloudy. Aaah. I'm so sleepy."
+    },
+    {
+     "who": "cloudy",
+     "text": "I want to sleep up high with the big clouds. But I can't float up!"
+    },
+    {
+     "who": "cloudy",
+     "text": "Up, up, up! Oh no. Down I come again."
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "cloudy",
+     "text": "Oh. Oh. Achoo!"
+    },
+    {
+     "sfx": "splash",
+     "text": "Splish!",
+     "dur": 1.0,
+     "pause": 0.4
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo! Raindrops on my head! I'm a wet little owl!"
+    },
+    {
+     "who": "honey",
+     "text": "Hee hee! Cloudy sneezed a tiny rain on Ollie!"
+    },
+    {
+     "who": "cloudy",
+     "text": "Sorry, Ollie! My tummy is SO full of raindrops."
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "That's it! Clouds are made of tiny drops of water. When a cloud is full, what falls down?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Rain! Drip, drop!"
+    },
+    {
+     "who": "cloudy",
+     "text": "But where can my rain go? I don't want to make my friends wet."
+    },
+    {
+     "who": "honey",
+     "text": "Look! Our flowers are droopy. They are thirsty!"
+    },
+    {
+     "who": "ollie",
+     "text": "How many thirsty flowers can you see? Count with me!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "One, two, three!"
+    },
+    {
+     "who": "lulu",
+     "text": "Red, yellow and... what color is the last one?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Blue!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "rain": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    },
+    {
+     "id": "flowers_thirsty",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "cloudy",
+     "text": "I can share my rain with the flowers!"
+    },
+    {
+     "sfx": "rain",
+     "text": "Pitter, patter, pitter, patter.",
+     "dur": 2.4,
+     "pause": 0.5,
+     "who": "cloudy"
+    },
+    {
+     "who": "honey",
+     "text": "Wiggle your fingers like rain! Pitter, patter!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "rainbow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then, the last bit of sunshine peeked through the raindrops, and..."
+    },
+    {
+     "who": "lulu",
+     "text": "A rainbow! Cloudy, you made a rainbow!"
+    },
+    {
+     "who": "cloudy_light",
+     "text": "Me? Wheee! And I feel light, like a feather!"
+    },
+    {
+     "who": "honey",
+     "text": "Look, the flowers are standing up tall. They're smiling!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "rainbow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.44,
+     "y": 0.47,
+     "scale": 1.3
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Sharing helped the flowers, and it helped you too, Cloudy."
+    },
+    {
+     "who": "cloudy_light",
+     "text": "Let's do a cloud stretch! Arms up high, big and fluffy.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Breathe in, and puff up big.",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Breathe out, and float down soft.",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.66,
+     "y": 0.33,
+     "scale": 0.75,
+     "sleep": true
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Up, up, up floated Cloudy, and snuggled in with the big sleepy clouds."
+    },
+    {
+     "who": "lulu",
+     "text": "Goodnight, Cloudy! Sweet dreams!"
+    }
+   ]
+  },
+  {
+   "bg": "twilight_hill",
+   "tail": 1.5,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.08
+    },
+    {
+     "id": "honey",
+     "x": 0.21
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "ollie",
+     "x": 0.86,
+     "y": 0.62,
+     "scale": 0.6
+    },
+    {
+     "id": "cloudy_light",
+     "x": 0.66,
+     "y": 0.33,
+     "scale": 0.75,
+     "sleep": true
+    },
+    {
+     "id": "flowers_happy",
+     "x": 0.44,
+     "y": 0.88,
+     "scale": 1.25
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Sing with us! Pitter, patter, little rain. Drink up, flowers, grow again!"
+    },
+    {
+     "who": "lulu",
+     "text": "Puff up, Cloudy, light and high. Float to sleep up in the sky!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy learns to take turns on the swing!"
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo-hoo! Goodnight, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "meadow",
+   "banner": "Thank you for watching!",
+   "lead": 0.4,
+   "tail": 1.5,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.5
+    },
+    {
+     "id": "mimi",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "That's all for now, friends! Share with a friend and subscribe to Honey Bunny Kidz!"
+    },
+    {
+     "who": "narrator",
+     "text": "Come back soon for more stories and songs. Bye bye!"
+    }
+   ]
+  }
+ ]
+}

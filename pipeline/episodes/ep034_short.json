@@ -1,0 +1,195 @@
+{
+ "id": "ep034_short",
+ "title": "Count Pip Puppy's Stomps!",
+ "thumbnail": {
+  "text": "How Many Stomps?",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_lane",
+  "cast": [
+   {
+    "id": "pip_boots",
+    "mouth": 2,
+    "x": 0.4
+   },
+   {
+    "id": "dotty_cosy",
+    "mouth": 2,
+    "x": 0.8,
+    "flip": true,
+    "y": 0.95
+   },
+   {
+    "id": "prints_boot",
+    "x": 0.5,
+    "y": 0.995,
+    "scale": 1.4
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_lane",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.38,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "Can you stomp like Pip? Listen and count my stomps!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 1.6
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "How many stomps? Shout it out!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_boots",
+     "text": "Three! Stomp, stomp, stomp!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "prints_boot",
+     "x": 0.5,
+     "scale": 1.2,
+     "y": 0.66,
+     "glow": true
+    },
+    {
+     "id": "pip_boots",
+     "x": 0.3,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.75,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Look! Your boots made prints in the snow!"
+    },
+    {
+     "who": "pip_boots",
+     "text": "Now a longer one. Get ready to count!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 2.6
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "How many stomps this time?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_boots",
+     "text": "Five! One, two, three, four, five!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.38,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "scale": 0.85,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Your turn! Stand up and stomp two times. Ready?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_boots",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "stomp",
+     "dur": 1.1
+    },
+    {
+     "who": "pip_boots",
+     "text": "Stomp, stomp! Great stomping!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_lane",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_boots",
+     "x": 0.38,
+     "scale": 0.85,
+     "flip": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "scale": 0.85,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_boots",
+     "text": "Stomp in your boots! Stomp in the snow! Here we go!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

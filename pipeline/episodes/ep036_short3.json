@@ -1,0 +1,175 @@
+{
+ "id": "ep036_short3",
+ "title": "Drip on Pip Puppy's Nose! Splash!",
+ "thumbnail": {
+  "text": "Drip! Splash!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "thaw_garden",
+  "cast": [
+   {
+    "id": "pip_nosedrip",
+    "mouth": 2,
+    "x": 0.38
+   },
+   {
+    "id": "dotty_cosy",
+    "mouth": 2,
+    "x": 0.76,
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "thaw_garden",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_nosedrip",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_nosedrip",
+     "text": "Drip! What landed on my nose?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "A water drop from the icicles! Hee hee!"
+    },
+    {
+     "who": "pip_nosedrip",
+     "text": "It tickles! Achoo!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "snow_puddle",
+     "x": 0.5,
+     "y": 0.7,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Look, a puddle! A little splash, with Mama watching!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "",
+     "pause": 0.3,
+     "sfx": "splash",
+     "dur": 1.0
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Splash! Quack, quack!"
+    },
+    {
+     "who": "dotty_cosy",
+     "text": "Can you jump and splash with me? One, two, splash!",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3,
+     "glow": true
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "snow_puddle",
+     "x": 0.5,
+     "y": 0.7,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Now sing the Drip Drop Song with me!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Drip, drop, the sun is warm. Wiggle your fingers down!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Snow turns to water, drip, drip, drop!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Splash in the puddle, one, two, three!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "thaw_garden",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.72,
+     "flip": true
+    },
+    {
+     "id": "snow_puddle",
+     "x": 0.5,
+     "y": 0.7,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

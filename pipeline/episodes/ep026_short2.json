@@ -1,0 +1,199 @@
+{
+ "id": "ep026_short2",
+ "title": "Build a Snow Bunny with Pip Puppy",
+ "thumbnail": {
+  "text": "Big or Small?",
+  "badge": "Learn Big & Small",
+  "bg": "snowy_park",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "x": 0.27
+   },
+   {
+    "id": "snowball",
+    "x": 0.66,
+    "scale": 2.6
+   },
+   {
+    "id": "snowball",
+    "x": 0.9,
+    "scale": 1.0
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_park",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "snowball",
+     "x": 0.55,
+     "scale": 2.3
+    },
+    {
+     "id": "snowball",
+     "x": 0.83,
+     "scale": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Two snowballs! Which one is BIG? Point to it!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "This one! And this one is small."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.85
+    },
+    {
+     "id": "snowbunny1",
+     "x": 0.62,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Big ball on the bottom, small ball on top!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "What does a bunny need on its head?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Long ears!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.85
+    },
+    {
+     "id": "snowbunny2",
+     "x": 0.62,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "How many ears? Count with me!",
+     "pause": 1.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two! Two long ears!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.85
+    },
+    {
+     "id": "snowbunny3",
+     "x": 0.62,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Now count the smile pebbles!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One, two, three, four, five! Five pebbles!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.85
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.62,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "And mittens! What colour are the mittens?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Yellow! Our snow bunny is cosy! Hooray!",
+     "pause": 0.5
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.85
+    },
+    {
+     "id": "snowbunny",
+     "x": 0.62,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

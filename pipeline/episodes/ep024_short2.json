@@ -1,0 +1,173 @@
+{
+ "id": "ep024_short2",
+ "title": "Count the Snowflakes with Lulu",
+ "thumbnail": {
+  "text": "Count To SIX!",
+  "badge": "Learn Counting",
+  "bg": "snowy_meadow",
+  "cast": [
+   {
+    "id": "lulu_cosy",
+    "mouth": 2,
+    "scale": 1.0,
+    "x": 0.3
+   },
+   {
+    "id": "mama",
+    "scale": 0.85,
+    "x": 0.76,
+    "flip": true
+   },
+   {
+    "id": "snowflake",
+    "scale": 2.4,
+    "y": 0.6,
+    "x": 0.52
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_cosy",
+     "x": 0.5,
+     "scale": 0.9
+    },
+    {
+     "id": "snowflake",
+     "x": 0.35,
+     "y": 0.645,
+     "scale": 0.7,
+     "glow": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.65,
+     "y": 0.645,
+     "scale": 0.7,
+     "glow": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.16,
+     "y": 0.5,
+     "scale": 1.0,
+     "glow": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.5,
+     "y": 0.3,
+     "scale": 1.0,
+     "glow": true
+    },
+    {
+     "id": "snowflake",
+     "x": 0.84,
+     "y": 0.5,
+     "scale": 1.0,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "How many snowflakes are falling on my red mittens?",
+     "pause": 2.2
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Let's count! One, two, three, four, five!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Five snowflakes!"
+    }
+   ],
+   "lead": 0.2
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "snowflake",
+     "x": 0.5,
+     "y": 0.42,
+     "scale": 4.2,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.78,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Now look closely at one snowflake. How many arms does it have?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Count with me! One, two, three, four, five, six!",
+     "pause": 0.4
+    },
+    {
+     "who": "mama",
+     "text": "Six arms! Every snowflake has six arms."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2,
+     "scale": 0.8
+    },
+    {
+     "id": "lulu_cosy",
+     "x": 0.78,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_cosy",
+     "text": "Can you show me six fingers?",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu_cosy",
+     "text": "Wiggle them like falling snow!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ],
+   "tail": 1.0
+  }
+ ]
+}

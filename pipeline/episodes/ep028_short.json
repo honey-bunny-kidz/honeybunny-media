@@ -1,0 +1,237 @@
+{
+ "id": "ep028_short",
+ "title": "Who Has the Warmest Coat?",
+ "thumbnail": {
+  "text": "Point to the Warmest!",
+  "badge": "Kids Story",
+  "bg": "snowy_meadow",
+  "cast": [
+   {
+    "id": "lulu",
+    "mouth": 2,
+    "x": 0.3,
+    "scale": 0.85
+   },
+   {
+    "id": "dotty",
+    "x": 0.72,
+    "flip": true,
+    "scale": 1.1
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "winter_farm",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.27,
+     "scale": 0.75
+    },
+    {
+     "id": "lulu",
+     "x": 0.72,
+     "scale": 0.75,
+     "flip": true
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": false
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_shiver",
+     "text": "Brrr! Who has the warmest coat? Point to it!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.27,
+     "scale": 0.75
+    },
+    {
+     "id": "lulu",
+     "x": 0.7,
+     "scale": 0.75,
+     "flip": true,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! I have thick, fluffy wool. It's like a blanket!"
+    },
+    {
+     "who": "pip_shiver",
+     "text": "Pat, pat. So squishy!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.27,
+     "scale": 0.75
+    },
+    {
+     "id": "feather_down",
+     "x": 0.55,
+     "y": 0.5,
+     "scale": 1.4,
+     "glow": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.74,
+     "scale": 0.9,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack! I have soft, fluffy feathers under my top feathers!"
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "cast": [
+    {
+     "id": "pip_shiver",
+     "x": 0.25,
+     "scale": 0.75
+    },
+    {
+     "id": "birdie_puff",
+     "x": 0.5,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "birdie_puff_pink",
+     "x": 0.64,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "birdie_puff_yellow",
+     "x": 0.78,
+     "y": 0.385,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie_puff",
+     "text": "Tweet, tweet!",
+     "pause": 0.3,
+     "sfx": "tweet",
+     "dur": 1.0
+    },
+    {
+     "who": "pip_shiver",
+     "text": "And the birds puff up into round, fluffy balls!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.3,
+     "scale": 0.75,
+     "glow": true
+    },
+    {
+     "id": "mama",
+     "x": 0.74,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "And your fur is your coat, Pip! Plus a red hat."
+    },
+    {
+     "who": "pip_cosy",
+     "text": "So who has the warmest coat? Guess!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "winter_farm",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.65
+    },
+    {
+     "id": "lulu",
+     "x": 0.5,
+     "scale": 0.65
+    },
+    {
+     "id": "dotty",
+     "x": 0.78,
+     "scale": 0.8,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "All of us, snuggled together! Big warm hug!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

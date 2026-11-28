@@ -1,0 +1,204 @@
+{
+ "id": "ep029_short2",
+ "title": "Is It a Pair? Count Socks with Mimi!",
+ "thumbnail": {
+  "text": "Is It a Pair?",
+  "badge": "Learn Pairs",
+  "bg": "mimi_room",
+  "cast": [
+   {
+    "id": "mimi_socks",
+    "mouth": 2,
+    "x": 0.5,
+    "scale": 1.0
+   },
+   {
+    "id": "sock_yellow",
+    "x": 0.22,
+    "y": 0.6,
+    "scale": 1.2
+   },
+   {
+    "id": "sock_yellow",
+    "x": 0.8,
+    "y": 0.6,
+    "scale": 1.2,
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.5,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_red",
+     "x": 0.38,
+     "y": 0.5,
+     "scale": 0.9
+    },
+    {
+     "id": "sock_red",
+     "x": 0.62,
+     "y": 0.5,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Red sock, red sock. Is it a pair? Yes or no?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Yes! Two socks that match make a pair!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.5,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.38,
+     "y": 0.5,
+     "scale": 0.9
+    },
+    {
+     "id": "sock_green",
+     "x": 0.62,
+     "y": 0.5,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Yellow sock, green sock. Is it a pair?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj_cold",
+     "text": "No! They don't match!"
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Silly socks! Meow!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.5,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_red",
+     "x": 0.16,
+     "y": 0.4,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_red",
+     "x": 0.27,
+     "y": 0.4,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.45,
+     "y": 0.4,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_yellow",
+     "x": 0.56,
+     "y": 0.4,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_green",
+     "x": 0.74,
+     "y": 0.4,
+     "scale": 0.7
+    },
+    {
+     "id": "sock_green",
+     "x": 0.85,
+     "y": 0.4,
+     "scale": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi_socks",
+     "text": "Now count the pairs with me!",
+     "pause": 0.4
+    },
+    {
+     "who": "mimi_socks",
+     "text": "One, two, three pairs!",
+     "pause": 1.2
+    },
+    {
+     "who": "mimi_socks",
+     "text": "And how many socks in one pair?",
+     "pause": 2.0
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Two! One for each foot!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "mimi_socks",
+     "x": 0.32,
+     "scale": 0.6
+    },
+    {
+     "id": "pip_socks",
+     "x": 0.72,
+     "scale": 0.65,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_socks",
+     "text": "Two blue socks on my feet! A pair! Hooray!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "mimi_socks",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

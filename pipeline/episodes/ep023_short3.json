@@ -1,0 +1,187 @@
+{
+ "id": "ep023_short3",
+ "title": "Achoo Song",
+ "thumbnail": {
+  "text": "Sneeze Like Dotty?",
+  "badge": "Sing-Along Rhyme",
+  "bg": "frosty_garden",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2
+   },
+   {
+    "id": "dotty",
+    "mouth": 2,
+    "scale": 1.1
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "frosty_garden",
+   "lead": 0.2,
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.83,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Do ducks have elbows? What do you think?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "No! But I have wings! Ah... ah... choo! Into my wing! Quack!"
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.52,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.83,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Hee hee! Dotty sneezes into her fluffy wing!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Let's sing the Achoo Song! Do the actions with us!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.83,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Hat on my head, my scarf is blue. Two yellow mittens, I'm cosy! Are you?",
+     "pause": 1.2
+    },
+    {
+     "who": "honey_cosy",
+     "text": "When my nose is tickly, what do I do?"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Lift my elbow! Achoo, achoo!",
+     "pause": 1.4
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_elbow",
+     "x": 0.2
+    },
+    {
+     "id": "dotty",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.83,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_elbow",
+     "text": "Achoo, achoo, into my elbow! A tissue for my nose, and off we go!",
+     "pause": 0.6
+    },
+    {
+     "who": "dotty",
+     "text": "Wash, wash, wash my paws, count to ten! Now we're cosy friends again!",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "frosty_garden",
+   "tail": 1.0,
+   "leaves": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "glow": true
+    },
+    {
+     "id": "dotty",
+     "x": 0.52
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.83,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Great singing, friends!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

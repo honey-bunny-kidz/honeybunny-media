@@ -1,0 +1,354 @@
+{
+ "id": "ep033_short2",
+ "title": "How Many Birds? Count with Pip Puppy!",
+ "thumbnail": {
+  "text": "Count the Birds!",
+  "badge": "Learn Counting",
+  "bg": "feeder_garden",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "x": 0.3,
+    "scale": 0.8
+   },
+   {
+    "id": "birdie",
+    "scale": 1.8,
+    "y": 0.66,
+    "x": 0.62
+   },
+   {
+    "id": "birdie_pink",
+    "scale": 1.8,
+    "y": 0.66,
+    "x": 0.85
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "feeder_garden",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "How many birds will come to our feeder? Let's count!",
+     "pause": 1.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Shh. Stand still like a snowman. Freeze!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "robin",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Here's Robin! What colour is Robin's tummy?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Red! That's one bird."
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0
+    },
+    {
+     "id": "birdie",
+     "x": 0.7,
+     "y": 0.355,
+     "scale": 0.9,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Another bird! What colour is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Blue! One, two. Two birds!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0
+    },
+    {
+     "id": "birdie",
+     "x": 0.7,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.31,
+     "y": 0.355,
+     "scale": 0.9,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie_pink",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "And this one? What colour?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Pink! One, two, three!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0
+    },
+    {
+     "id": "birdie",
+     "x": 0.7,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.31,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.88,
+     "y": 0.355,
+     "scale": 0.9,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "birdie_yellow",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 0.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "One more! Yellow, like the sun. Now count them all with me! How many birds?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "One, two, three, four! Four birds!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0
+    },
+    {
+     "id": "birdie",
+     "x": 0.7,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.31,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.88,
+     "y": 0.355,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Peck, peck, peck! Breakfast for everyone!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

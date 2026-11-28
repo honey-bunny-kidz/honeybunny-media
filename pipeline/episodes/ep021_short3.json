@@ -1,0 +1,200 @@
+{
+ "id": "ep021_short3",
+ "title": "Pip Puppy's Bubble Bath Song",
+ "thumbnail": {
+  "text": "Scrub-a-Dub with Pip!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "bath_time",
+  "cast": [
+   {
+    "id": "pip_towel",
+    "mouth": 2,
+    "scale": 1.0,
+    "x": 0.4
+   },
+   {
+    "id": "dotty",
+    "scale": 0.9,
+    "x": 0.8,
+    "flip": true
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bath_time",
+   "lead": 0.2,
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Can you scrub like me? Sing along!",
+     "pause": 1.4
+    },
+    {
+     "who": "pip",
+     "text": "Splish, splash, bubbles in the tub!",
+     "pause": 0.4
+    },
+    {
+     "who": "pip",
+     "text": "Rub a dub, scrub, scrub, scrub!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Wash your ears, and wash your nose. Point to your nose!",
+     "pause": 1.6
+    },
+    {
+     "who": "pip",
+     "text": "Wash your tummy, and your toes! Wiggle your toes!",
+     "pause": 1.6
+    },
+    {
+     "who": "sfx",
+     "sfx": "brush",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.5,
+     "y": 0.7
+    },
+    {
+     "id": "tub",
+     "x": 0.5,
+     "y": 0.8,
+     "scale": 0.95
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.15,
+     "y": 0.22,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.85,
+     "y": 0.22,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.13,
+     "y": 0.36,
+     "scale": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Pop the bubbles, one, two, three!",
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "sfx": "pop",
+     "text": "Pop, pop, pop!",
+     "dur": 1.1,
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "Clean and happy, look at me!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "cast": [
+    {
+     "id": "pip_towel",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_towel",
+     "text": "Now, shake like a wet puppy! Shake, shake, shake!",
+     "pause": 1.8
+    },
+    {
+     "who": "sfx",
+     "sfx": "splash",
+     "text": "",
+     "dur": 1.0,
+     "pause": 0.3
+    }
+   ]
+  },
+  {
+   "bg": "bath_time",
+   "bubbles": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_towel",
+     "x": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_towel",
+     "text": "Splish, splash, clean and fluffy! Woof!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

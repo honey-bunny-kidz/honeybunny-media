@@ -1,0 +1,163 @@
+{
+ "id": "ep035_short",
+ "title": "What's in Lulu Lamb's Jar?",
+ "thumbnail": {
+  "text": "Guess What's Inside!",
+  "badge": "Bedtime Story",
+  "bg": "thanks_nook",
+  "cast": [
+   {
+    "id": "lulu_night",
+    "mouth": 2,
+    "x": 0.36
+   },
+   {
+    "id": "jar0",
+    "scale": 2.3,
+    "x": 0.76,
+    "y": 0.86
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "thanks_nook",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "jar0",
+     "x": 0.8,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Guess what goes in my jar? It's not cookies!",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu_night",
+     "text": "Here's a clue. It's pink, and it has a smile."
+    },
+    {
+     "who": "lulu_night",
+     "text": "Can you guess now?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "heart_pink",
+     "x": 0.45,
+     "y": 0.55,
+     "scale": 1.3,
+     "glow": true
+    },
+    {
+     "id": "jar0",
+     "x": 0.8,
+     "y": 0.6,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "A paper heart! A thank-you heart!"
+    },
+    {
+     "who": "lulu_night",
+     "text": "Each heart is one thank-you. Thank you for my friends! Plop!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.52,
+     "flip": true
+    },
+    {
+     "id": "jar1",
+     "x": 0.8,
+     "y": 0.6,
+     "scale": 1.3,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_pj",
+     "text": "Now it's your turn. What are you thankful for?",
+     "pause": 2.4
+    },
+    {
+     "who": "lulu_night",
+     "text": "Lovely! Put your thank-you in the jar, too. Plop!"
+    },
+    {
+     "who": "honey_pj",
+     "text": "And I have one for Lulu. Thank you for being my friend!"
+    }
+   ]
+  },
+  {
+   "bg": "thanks_nook",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "lulu_night",
+     "x": 0.3
+    },
+    {
+     "id": "honey_pj",
+     "x": 0.52,
+     "flip": true
+    },
+    {
+     "id": "jar4",
+     "x": 0.8,
+     "y": 0.6,
+     "scale": 1.3
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu_night",
+     "text": "Saying thank you makes two friends happy!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}

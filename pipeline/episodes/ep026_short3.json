@@ -1,0 +1,202 @@
+{
+ "id": "ep026_short3",
+ "title": "Stomp, Hop and Waddle with Pip Puppy",
+ "thumbnail": {
+  "text": "Round and Round?!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "snowy_park",
+  "cast": [
+   {
+    "id": "pip_cosy",
+    "mouth": 2,
+    "x": 0.3
+   },
+   {
+    "id": "honey_cosy",
+    "mouth": 2,
+    "flip": true,
+    "x": 0.74
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "snowy_park",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "prints_loop",
+     "x": 0.58,
+     "y": 0.655,
+     "scale": 0.85,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.2,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Why is Pip going round and round? Can you guess?",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Crunch, crunch, crunch!",
+     "pause": 0.3,
+     "sfx": "crunch",
+     "dur": 1.2
+    },
+    {
+     "who": "pip_cosy",
+     "text": "I'm following paw prints... they're mine! Silly me!"
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.75,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Hee hee! Let's sing the Snow Day Song! Stand up and stomp!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Paw prints, paw prints, stomp, stomp, stomp! Puppy in the snow goes jump, jump, jump!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.75,
+     "flip": true,
+     "scale": 0.85,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Now hop like me! Bunny prints, bunny prints, hop, hop, hop! Hop in the snow and never stop!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.5,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty_cosy",
+     "text": "Now waddle! Duck prints, duck prints, waddle, waddle, wee! Waddle in the snow, follow me!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.5
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Snow day, snow day, hip hip hooray! Friends in the snow, let's play, play, play!",
+     "pause": 0.8
+    }
+   ]
+  },
+  {
+   "bg": "snowy_park",
+   "snow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.85
+    },
+    {
+     "id": "dotty_cosy",
+     "x": 0.5
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "flip": true,
+     "scale": 0.85
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "id": "ep015_short3",
+ "title": "Stretch Like a Kitten with Mimi",
+ "thumbnail": {
+  "text": "Kitty Stretch Time!",
+  "badge": "Bedtime Story",
+  "bg": "bedroom",
+  "cast": [
+   {
+    "id": "mimi",
+    "mouth": 2,
+    "scale": 1.1,
+    "x": 0.36
+   },
+   {
+    "id": "ollie",
+    "scale": 0.85,
+    "x": 0.78
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "mimi_room",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.5,
+     "y": 0.7,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Can you stretch like a sleepy kitten?",
+     "pause": 0.3
+    },
+    {
+     "who": "mimi",
+     "text": "Hi, friends! It's Mimi! Let's do my sleepy kitten stretch. Ready?"
+    },
+    {
+     "who": "mimi",
+     "text": "Stretch your arms up, up, up! Reach for the stars!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.6,
+     "y": 0.7,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.2,
+     "y": 0.74,
+     "scale": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Now wiggle your nose, like a kitten. Wiggle, wiggle!",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo! I'll try too. Wiggle, wiggle. Oops! My nose is a beak!"
+    },
+    {
+     "who": "mimi",
+     "text": "Hee hee! Silly Ollie! You can wiggle your feathers instead!"
+    },
+    {
+     "who": "ollie",
+     "text": "Wiggle, wiggle feathers! Hoo-hoo! Can you wiggle with us?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.6,
+     "y": 0.7,
+     "scale": 0.9
+    },
+    {
+     "id": "ollie",
+     "x": 0.2,
+     "y": 0.74,
+     "scale": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Stretch up high, and touch the sky.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle your nose, and curl up small.",
+     "pause": 0.4
+    },
+    {
+     "who": "mimi",
+     "text": "Now curl up small, and do a big kitten yawn. Aaah.",
+     "pause": 2.0
+    },
+    {
+     "sfx": "bell",
+     "text": "Jingle!",
+     "dur": 1.0,
+     "pause": 0.5,
+     "who": "mimi"
+    },
+    {
+     "who": "mimi",
+     "text": "My little bell says goodnight! Goodnight, friends."
+    }
+   ]
+  },
+  {
+   "bg": "mimi_room",
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.6,
+     "y": 0.7,
+     "scale": 0.9,
+     "sleep": true
+    },
+    {
+     "id": "ollie",
+     "x": 0.2,
+     "y": 0.74,
+     "scale": 0.62
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

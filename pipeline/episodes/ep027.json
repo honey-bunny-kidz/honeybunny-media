@@ -1,0 +1,642 @@
+{
+ "id": "ep027",
+ "title": "Lulu Lamb's Mitten Song",
+ "thumbnail": {
+  "text": "Mitten on My Ear?!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "cosy_hall",
+  "cast": [
+   {
+    "id": "lulu_mitear",
+    "x": 0.6,
+    "mouth": 2,
+    "scale": 1.2
+   },
+   {
+    "id": "pip_cosy",
+    "x": 0.88,
+    "flip": true,
+    "mouth": 2,
+    "scale": 0.85
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "cosy_hall",
+   "lead": 0.1,
+   "banner": "Lulu Lamb's Mitten Song",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.4
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.66,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Clap, clap!",
+     "pause": 0.2,
+     "sfx": "clap",
+     "dur": 1.0
+    },
+    {
+     "who": "lulu",
+     "text": "Hat, scarf, mittens, boots! Ready for the snow! Wiggle ten warm fingers, and off we go!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Woof! Let's go play in the snow, Lulu!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.4
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.66,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Wait! Lulu, where's your hat? Where's your scarf?"
+    },
+    {
+     "who": "lulu",
+     "text": "Oops! I forgot! It's cold outside. Can you help me get dressed?",
+     "pause": 1.8
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "lulu_mitear",
+     "x": 0.4
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.66,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "I found a red mitten! Does a mitten go on my ear?",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_cosy",
+     "text": "No, silly Lulu! Hee hee! What goes on your hands?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Mittens! Hee hee! Mittens go on my hands!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu",
+     "x": 0.42
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    },
+    {
+     "id": "hat_yellow",
+     "x": 0.88,
+     "y": 0.95,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's start at the top, Lulu. What goes on your head?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "A hat! My cosy hat!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_hat",
+     "x": 0.42,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Hat goes on my head, pull it down, down, down!",
+     "pause": 0.6
+    },
+    {
+     "who": "mama",
+     "text": "What colour is Lulu's hat?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Yellow! Like the sunshine!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Pull your hat down too. Down, down, down!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_hat",
+     "x": 0.42
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Next, my scarf! Where does a scarf go?",
+     "pause": 2.0
+    },
+    {
+     "who": "mama",
+     "text": "Round your neck. Round and round!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_hs",
+     "x": 0.42,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Scarf goes round my neck, round and round and round!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "What colour is Lulu's scarf?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Blue, with little white dots!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_hsm1",
+     "x": 0.42
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Now my mitten. How many hands do I have?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Two hands! So I need two mittens. But I only have one!"
+    },
+    {
+     "who": "mama",
+     "text": "First, let's count ten warm fingers. Hold up your hands!",
+     "pause": 1.4
+    },
+    {
+     "who": "mama",
+     "text": "One, two, three, four, five, six, seven, eight, nine, ten!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_hsm1",
+     "x": 0.42
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Where is my other red mitten? Can you see it?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hmm. Not on the bench. Not on the rug."
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_hsm1",
+     "x": 0.42
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    },
+    {
+     "id": "boots_green",
+     "x": 0.88,
+     "y": 0.95,
+     "scale": 1.5,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "mama",
+     "text": "Let's put on your boots, and then we'll look again."
+    },
+    {
+     "who": "lulu",
+     "text": "What goes on my feet?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Boots! Green boots! Left foot, right foot!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_hsm1",
+     "x": 0.42
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    },
+    {
+     "id": "boots_green",
+     "x": 0.88,
+     "y": 0.95,
+     "scale": 1.5
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Squish! Squeak!",
+     "pause": 0.3,
+     "sfx": "squeak",
+     "dur": 1.0
+    },
+    {
+     "who": "lulu",
+     "text": "Something is in my boot! What can it be? Guess!",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_hsm1",
+     "x": 0.42
+    },
+    {
+     "id": "mitten_red",
+     "x": 0.57,
+     "y": 0.8,
+     "scale": 1.6,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.74,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "My other mitten! It was hiding in my boot!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hee hee! A mitten in a boot! Silly mitten!"
+    },
+    {
+     "who": "mama",
+     "text": "Well done for looking, Lulu."
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_winter",
+     "x": 0.42,
+     "glow": true
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Mittens on my hands, thumbs go in, hooray!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Can you find your thumbs? Wiggle, wiggle!",
+     "pause": 1.8
+    },
+    {
+     "who": "lulu",
+     "text": "Boots on too! How many cosy things am I wearing? Count them!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Hat, scarf, mittens, boots. Four cosy things!"
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_winter",
+     "x": 0.42
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Now let's sing the whole Mitten Song! Do the actions with us!"
+    },
+    {
+     "who": "lulu",
+     "text": "Hat goes on my head, pull it down, down, down!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Scarf goes round my neck, round and round and round!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Mittens on my hands, thumbs go in, hooray!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Boots go on my feet, stomp, stomp, let's play!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "cosy_hall",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.12
+    },
+    {
+     "id": "lulu_winter",
+     "x": 0.42
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.7,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Hat, scarf, mittens, boots! Ready for the snow! Wiggle ten warm fingers, and off we go!",
+     "pause": 0.8
+    },
+    {
+     "who": "mama",
+     "text": "You're ready! Now we can go out in the snow together."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.36
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Crunch, crunch, crunch!",
+     "pause": 0.3,
+     "sfx": "crunch",
+     "dur": 1.4
+    },
+    {
+     "who": "lulu",
+     "text": "I'm warm and cosy, from my head to my toes!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Can you stomp in the snow like us? Stomp, stomp!",
+     "pause": 1.8
+    },
+    {
+     "who": "mama",
+     "text": "Stay close to me, my snow friends."
+    }
+   ]
+  },
+  {
+   "bg": "snowy_meadow",
+   "snow": true,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "lulu_winter",
+     "x": 0.36
+    },
+    {
+     "id": "pip_cosy",
+     "x": 0.6,
+     "flip": true
+    },
+    {
+     "id": "mama",
+     "x": 0.86,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "One more time! Wiggle your ten fingers and sing!",
+     "pause": 0.5
+    },
+    {
+     "who": "lulu",
+     "text": "Hat, scarf, mittens, boots! Ready for the snow! Wiggle ten warm fingers, and off we go!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "narrator",
+     "text": "Next time, Pip Puppy goes on a warm coat hunt!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Stay cosy, friends! See you next time on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

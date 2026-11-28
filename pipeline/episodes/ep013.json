@@ -1,0 +1,615 @@
+{
+ "id": "ep013",
+ "title": "Ollie Owl's Animal Sounds Song",
+ "thumbnail": {
+  "text": "Sing Every Sound!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "dusk_stage",
+  "cast": [
+   {
+    "id": "ollie",
+    "mouth": 2,
+    "scale": 1.1,
+    "x": 0.47
+   },
+   {
+    "id": "lulu",
+    "x": 0.67
+   },
+   {
+    "id": "pip",
+    "x": 0.86
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "dusk_stage",
+   "title": "Ollie Owl's Animal Sounds Song",
+   "subtitle": "A Sing-Along Rhyme  •  Honey Bunny Kidz",
+   "lead": 0.8,
+   "tail": 1.2,
+   "cast": [
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Honey Bunny Kidz presents: Ollie Owl's Animal Sounds Song! Get ready to sing, and move with us!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.28
+    },
+    {
+     "id": "pip",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The sun was going down. Little lanterns began to glow."
+    },
+    {
+     "who": "honey",
+     "text": "Pip, look! This big tree stump is just like a little stage!"
+    },
+    {
+     "who": "pip",
+     "text": "Woof woof! Let's sing the Wiggle Waggle Song again!"
+    },
+    {
+     "who": "sfx",
+     "text": "Hoo... hoo...",
+     "pause": 0.4,
+     "sfx": "owl",
+     "dur": 1.6
+    },
+    {
+     "who": "honey",
+     "text": "Listen! Who is that? Can you guess who says hoo, hoo?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.22
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "pip",
+     "x": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "It was Ollie Owl! He just woke up. Owls wake up when the sun goes down."
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Good evening, friends! May I sing with you?"
+    },
+    {
+     "who": "honey",
+     "text": "Yes, Ollie! Let's make a new song. Every friend makes a sound, and shows a move!"
+    },
+    {
+     "who": "ollie",
+     "text": "Then I will be the song leader, up here on the stage. Here is our new chorus!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.09
+    },
+    {
+     "id": "dotty",
+     "x": 0.22
+    },
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "pip",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Everybody, sing with us!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Make a sound and sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Flap and hop and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound!",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.24
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Me first! Owls say hoo, hoo. And we flap our soft wings."
+    },
+    {
+     "who": "narrator",
+     "text": "Ollie Owl says hoo, hoo, hoo.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Flap your wings, the way owls do!",
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Can you say hoo, hoo, and flap your arms like wings?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Wonderful flapping!"
+    },
+    {
+     "who": "ollie",
+     "text": "Owls can turn their heads very far. Can you turn your head slowly, this way, and that way?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "lulu",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "lulu",
+     "text": "Baa! Hello, Ollie! May I sing my sound next?"
+    },
+    {
+     "who": "narrator",
+     "text": "Lulu Lamb says baa, baa, baa.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Bounce up high, then la, la, la!",
+     "pause": 0.6
+    },
+    {
+     "who": "lulu",
+     "text": "Can you say baa, like a little lamb?",
+     "pause": 2.0
+    },
+    {
+     "who": "lulu",
+     "text": "Baa! Now bounce with me. Boing, boing, boing!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.28
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "pip",
+     "x": 0.76
+    }
+   ],
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "Quack quack! My turn!"
+    },
+    {
+     "who": "narrator",
+     "text": "Dotty Duckling says quack, quack, quack.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Waddle forward, waddle back!",
+     "pause": 0.6
+    },
+    {
+     "who": "dotty",
+     "text": "Can you waddle like a duck? Waddle, waddle!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Woof! Now me!"
+    },
+    {
+     "who": "narrator",
+     "text": "Pip the Puppy says woof, woof, hey!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Wag your tail and jump to play!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.09
+    },
+    {
+     "id": "dotty",
+     "x": 0.22
+    },
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "pip",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Now, all together!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Make a sound and sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Flap and hop and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound!",
+     "pause": 0.9
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "mimi",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "honey",
+     "x": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "mimi",
+     "text": "Meow! I want to sing too!"
+    },
+    {
+     "who": "narrator",
+     "text": "Mimi Kitten says meow, meow.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Stretch up tall and take a bow!",
+     "pause": 0.6
+    },
+    {
+     "who": "mimi",
+     "text": "Can you say meow, and take a little bow?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Hmm. Everyone has a big sound. But bunnies are very quiet. What is my sound, Ollie?"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    }
+   ],
+   "lines": [
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo. I have very good ears, Honey. I know two bunny sounds!"
+    },
+    {
+     "who": "ollie",
+     "text": "Bunnies wiggle their little noses. Sniff, sniff. And bunnies talk with their back feet. Thump, thump!"
+    },
+    {
+     "who": "honey",
+     "text": "Thump, thump! I can do that! That is my special sound!"
+    },
+    {
+     "who": "narrator",
+     "text": "Honey Bunny wiggles her nose.",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Thump, thump, thump, and up she goes!",
+     "pause": 0.6
+    },
+    {
+     "who": "honey",
+     "text": "Can you wiggle your nose like a bunny, and stamp your foot? Thump, thump!",
+     "pause": 2.0
+    },
+    {
+     "who": "honey",
+     "text": "Yay! Quiet sounds are special too!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.09
+    },
+    {
+     "id": "dotty",
+     "x": 0.22
+    },
+    {
+     "id": "mimi",
+     "x": 0.35
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "lulu",
+     "x": 0.66
+    },
+    {
+     "id": "pip",
+     "x": 0.84
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Sing it one more time, little friends!",
+     "pause": 0.8
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, one, two, three!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Make a sound and sing with me!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Flap and hop and turn around.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound!",
+     "pause": 0.9
+    },
+    {
+     "who": "ollie",
+     "text": "Which animal sound is your favorite? Hoo, baa, quack, woof, meow, or thump?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "I like them all! Hoo, hoo!"
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "cast": [
+    {
+     "id": "mama",
+     "x": 0.2
+    },
+    {
+     "id": "honey",
+     "x": 0.34
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "lulu",
+     "x": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The moon rose high and round. Mama Bunny came to walk the little friends home."
+    },
+    {
+     "who": "mama",
+     "text": "What a lovely song! Before we go, let's do a quiet owl breath."
+    },
+    {
+     "who": "ollie",
+     "text": "Breathe in slowly through your nose, and fill up like a fluffy owl.",
+     "pause": 1.6
+    },
+    {
+     "who": "ollie",
+     "text": "And breathe out, soft as a feather. Hoo, hoo.",
+     "pause": 1.6
+    },
+    {
+     "who": "narrator",
+     "text": "Wiggle, waggle, soft and slow.",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Goodnight, friends, it's time to go.",
+     "pause": 1.0
+    }
+   ]
+  },
+  {
+   "bg": "dusk_stage",
+   "tail": 1.8,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.5,
+     "y": 0.77
+    },
+    {
+     "id": "pip",
+     "x": 0.72
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Every friend has a special sound. Loud or quiet, every sound is wonderful!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.6
+    },
+    {
+     "who": "ollie",
+     "text": "Hoo, hoo! Goodnight! See you next time on Honey Bunny Kidz!",
+     "pause": 1.2
+    }
+   ]
+  }
+ ]
+}

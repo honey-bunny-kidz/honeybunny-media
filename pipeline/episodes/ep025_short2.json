@@ -1,0 +1,164 @@
+{
+ "id": "ep025_short2",
+ "title": "Star Shapes with Pip Puppy",
+ "thumbnail": {
+  "text": "Star Shapes!",
+  "badge": "Learn Shapes",
+  "bg": "star_garden",
+  "cast": [
+   {
+    "id": "pip_pj",
+    "mouth": 2,
+    "x": 0.3
+   },
+   {
+    "id": "stars_heart",
+    "scale": 0.75,
+    "y": 0.8,
+    "x": 0.73
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "star_garden",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "stars_triangle",
+     "x": 0.23,
+     "y": 0.4,
+     "scale": 0.75,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Stars can make shapes! What shape is this?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "A triangle! Three stars and three sides!"
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "stars_square",
+     "x": 0.23,
+     "y": 0.4,
+     "scale": 0.75,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "Four stars now. Count the sides with me!",
+     "pause": 1.8
+    },
+    {
+     "who": "pip_pj",
+     "text": "One, two, three, four. What shape is it?",
+     "pause": 2.0
+    },
+    {
+     "who": "ollie",
+     "text": "A square! Like a little box."
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "stars_heart",
+     "x": 0.23,
+     "y": 0.4,
+     "scale": 0.75,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_pj",
+     "text": "And this one? Make it with your hands!",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_pj",
+     "text": "A heart! A star heart for Mama!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "star_garden",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_pj",
+     "x": 0.3
+    },
+    {
+     "id": "ollie",
+     "x": 0.74,
+     "y": 0.45,
+     "scale": 0.5
+    },
+    {
+     "id": "stars_heart",
+     "x": 0.23,
+     "y": 0.4,
+     "scale": 0.75
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "ollie",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

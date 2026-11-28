@@ -1,0 +1,224 @@
+{
+ "id": "ep033_short",
+ "title": "Guess Who's Coming to Eat? Pip Puppy's Bird Feeder",
+ "thumbnail": {
+  "text": "Who's Coming?!",
+  "badge": "Kids Story",
+  "bg": "feeder_garden",
+  "cast": [
+   {
+    "id": "robin",
+    "mouth": 2,
+    "scale": 2.0,
+    "y": 0.8,
+    "x": 0.68
+   },
+   {
+    "id": "pip_cosy",
+    "x": 0.26,
+    "scale": 0.7
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "feeder_garden",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Guess who's coming to eat at our feeder?",
+     "pause": 2.0
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Shh! Let's listen for clues."
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "sfx",
+     "text": "Tweet, tweet!",
+     "pause": 0.3,
+     "sfx": "tweet",
+     "dur": 1.2
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Clue number one: it says tweet tweet! Is it a puppy?",
+     "pause": 1.8
+    },
+    {
+     "who": "honey_cosy",
+     "text": "No! Puppies say woof!"
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Clue number two: it has a red tummy and little wings. Who is it?",
+     "pause": 2.0
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "robin",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "tweet",
+     "dur": 0.8
+    },
+    {
+     "who": "robin",
+     "text": "It's me, Robin Redbreast! Peck, peck, peck. Yummy seeds!"
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Did you guess Robin? Hooray!"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "We made the feeder so Robin has breakfast in the snow."
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "who": "robin",
+     "text": "Thank you, friends! Tweedle, tweedle, tweet!",
+     "pause": 0.4
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

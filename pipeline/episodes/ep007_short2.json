@@ -1,0 +1,123 @@
+{
+ "id": "ep007_short2",
+ "title": "Count the Sides!",
+ "thumbnail": {
+  "text": "How Many Sides, Pip?",
+  "badge": "Learn Shapes",
+  "bg": "garden",
+  "cast": [
+   {
+    "id": "pip",
+    "mouth": 2
+   },
+   {
+    "id": "block",
+    "scale": 1.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.25
+    },
+    {
+     "id": "block",
+     "x": 0.68,
+     "scale": 1.3
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "dotty",
+     "text": "How many sides does a square have? Let's count!",
+     "pause": 0.3
+    },
+    {
+     "who": "dotty",
+     "text": "One. Two. Three. Four!",
+     "pause": 0.5
+    },
+    {
+     "who": "dotty",
+     "text": "How many sides? Can you say it?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Four sides! And what color is the block?",
+     "pause": 2.0
+    },
+    {
+     "who": "dotty",
+     "text": "Blue! A blue square with a yellow star!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "cast": [
+    {
+     "id": "pip",
+     "x": 0.25
+    },
+    {
+     "id": "sandwich",
+     "x": 0.68,
+     "scale": 1.4
+    }
+   ],
+   "lead": 0.2,
+   "tail": 0.3,
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Now the triangle sandwich! Count the corners with me.",
+     "pause": 0.3
+    },
+    {
+     "who": "pip",
+     "text": "One. Two. Three!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip",
+     "text": "How many corners does a triangle have?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip",
+     "text": "Three corners! You are so clever! Woof!"
+    }
+   ]
+  },
+  {
+   "bg": "playground",
+   "title": "Count the Sides!",
+   "subtitle": "Full story on Honey Bunny Kidz",
+   "cast": [
+    {
+     "id": "dotty",
+     "x": 0.3
+    },
+    {
+     "id": "pip",
+     "x": 0.7
+    }
+   ],
+   "lead": 0.3,
+   "tail": 1.2,
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!"
+    }
+   ]
+  }
+ ]
+}

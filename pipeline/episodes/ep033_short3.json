@@ -1,0 +1,284 @@
+{
+ "id": "ep033_short3",
+ "title": "Oops! Pip Puppy's Seedy Nose + Bird Feeder Song",
+ "thumbnail": {
+  "text": "Seedy Nose?!",
+  "badge": "Sing-Along Rhyme",
+  "bg": "craft_kitchen",
+  "cast": [
+   {
+    "id": "pip_seedy",
+    "mouth": 2,
+    "scale": 1.1
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "craft_kitchen",
+   "lead": 0.2,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.17,
+     "scale": 0.65
+    },
+    {
+     "id": "seed_bowl",
+     "x": 0.52,
+     "y": 0.64,
+     "scale": 1.4,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "What's in this bowl? Sniff, sniff, sniff!",
+     "pause": 0.2
+    },
+    {
+     "who": "pip_cosy",
+     "text": "",
+     "pause": 0.2,
+     "sfx": "pop",
+     "dur": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_seedy",
+     "x": 0.17,
+     "scale": 0.65,
+     "glow": true
+    },
+    {
+     "id": "seed_bowl",
+     "x": 0.52,
+     "y": 0.64,
+     "scale": 1.4
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Oops! What's on Pip's nose?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_seedy",
+     "text": "Bird seeds! Tweet tweet! Am I a bird now?"
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Hee hee! Silly Pip! Seeds are for the birds."
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.17,
+     "scale": 0.65
+    },
+    {
+     "id": "pinecone_butter",
+     "x": 0.52,
+     "y": 0.64,
+     "scale": 1.7,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Let's make a bird feeder! Do it with me. Smear, smear, smear!",
+     "pause": 1.4
+    }
+   ]
+  },
+  {
+   "bg": "craft_kitchen",
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.17,
+     "scale": 0.65
+    },
+    {
+     "id": "pinecone_ribbon",
+     "x": 0.52,
+     "y": 0.64,
+     "scale": 1.7,
+     "glow": true
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.84,
+     "scale": 0.62,
+     "flip": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey_cosy",
+     "text": "Roll it in seeds, roll, roll, roll! And tie a red bow!",
+     "pause": 1.2
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "snow": true,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0
+    },
+    {
+     "id": "birdie",
+     "x": 0.7,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.31,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.88,
+     "y": 0.355,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_cosy",
+     "text": "Now flap your wings and sing with us!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Tweet tweet, peck peck, one, two, three!",
+     "pause": 0.3
+    },
+    {
+     "who": "honey_cosy",
+     "text": "Breakfast in the apple tree!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Flap, flap, flap! Tweet tweet, peck peck, one, two, three! Breakfast in the apple tree!",
+     "pause": 0.6
+    }
+   ]
+  },
+  {
+   "bg": "feeder_garden",
+   "snow": true,
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "pip_cosy",
+     "x": 0.22,
+     "scale": 0.7
+    },
+    {
+     "id": "honey_cosy",
+     "x": 0.78,
+     "scale": 0.68,
+     "flip": true
+    },
+    {
+     "id": "feeder_hang",
+     "x": 0.58,
+     "y": 0.579,
+     "scale": 1.4
+    },
+    {
+     "id": "robin",
+     "x": 0.5,
+     "y": 0.355,
+     "scale": 1.0,
+     "glow": true
+    },
+    {
+     "id": "birdie",
+     "x": 0.7,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_pink",
+     "x": 0.31,
+     "y": 0.355,
+     "scale": 0.9
+    },
+    {
+     "id": "birdie_yellow",
+     "x": 0.88,
+     "y": 0.355,
+     "scale": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "pip_cosy",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 1.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "id": "ep023_short2",
+ "title": "Wash and Count",
+ "thumbnail": {
+  "text": "Wash & Count!",
+  "badge": "Learn Counting",
+  "bg": "bathroom",
+  "cast": [
+   {
+    "id": "pip_soapy",
+    "mouth": 2,
+    "scale": 1.1,
+    "x": 0.55
+   },
+   {
+    "id": "bigbubble",
+    "scale": 1.8,
+    "x": 0.15,
+    "y": 0.8
+   },
+   {
+    "id": "bigbubble",
+    "scale": 1.2,
+    "x": 0.9,
+    "y": 0.72
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "bg": "bathroom",
+   "lead": 0.2,
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.3,
+     "y": 0.33,
+     "scale": 1.4
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.52,
+     "y": 0.27,
+     "scale": 1.2
+    },
+    {
+     "id": "bigbubble",
+     "x": 0.42,
+     "y": 0.18,
+     "scale": 1.0
+    },
+    {
+     "id": "pip_soapy",
+     "x": 0.74,
+     "y": 0.695
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip_soapy",
+     "text": "How many bubbles can you count?",
+     "pause": 2.0
+    },
+    {
+     "who": "pip_soapy",
+     "text": "One, two, three! Three big bubbles!"
+    },
+    {
+     "who": "honey",
+     "sfx": "pop",
+     "text": "Pop! Pop! Pop!",
+     "dur": 1.1,
+     "pause": 0.4
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "pip_soapy",
+     "x": 0.74,
+     "y": 0.695
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Pip sneezed, so now we wash our paws. Warm water, and soap!"
+    },
+    {
+     "who": "honey",
+     "text": "Let's scrub and count to ten. Count with us!",
+     "pause": 1.0
+    },
+    {
+     "who": "pip_soapy",
+     "text": "One, two, three, four, five!",
+     "pause": 0.6
+    },
+    {
+     "who": "pip_soapy",
+     "text": "Six, seven, eight, nine, ten!"
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "bubbles": true,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "pip_soapy",
+     "x": 0.74,
+     "y": 0.695
+    }
+   ],
+   "lines": [
+    {
+     "who": "honey",
+     "text": "Scrub the fronts, the backs, and in between!"
+    },
+    {
+     "who": "pip_soapy",
+     "text": "Can you rub your hands together? Rub, rub, rub!",
+     "pause": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "bathroom",
+   "tail": 1.0,
+   "cast": [
+    {
+     "id": "honey",
+     "x": 0.25
+    },
+    {
+     "id": "pip",
+     "x": 0.74,
+     "y": 0.695,
+     "glow": true
+    }
+   ],
+   "lines": [
+    {
+     "who": "pip",
+     "text": "Rinse, and dry. Clean, clean paws! Woof!"
+    },
+    {
+     "who": "narrator",
+     "text": "Share with a friend and subscribe to Honey Bunny Kidz!",
+     "pause": 0.5
+    },
+    {
+     "who": "narrator",
+     "text": "Watch the full story on Honey Bunny Kidz!",
+     "pause": 0.8
+    }
+   ]
+  }
+ ]
+}
