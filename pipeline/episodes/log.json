@@ -3035,5 +3035,68 @@
   "buffer_post_ids": [],
   "youtube_long": "manual upload by user",
   "sonap_error": "import_media github_path: 'GitHub Bad credentials: the token Sonap is using is invalid or expired' / media_url: 'This channel uses GitHub. Connect GitHub in Library first.' / destination drive: 'Bad Request'"
+ },
+ {
+  "id": "ep037",
+  "date": "2026-11-28",
+  "type": "kids story (seasonal: taking turns on a snow slide, fast/slow, up/down, counting)",
+  "trend": "KIDS (seasonal) - calendar row 2026-11-28 (Pip Puppy and Lulu's Snow Slide); Pip lead + Lulu, Mama (no new friend); 7-beat structure 5:05 with banner cold open on Pip sledding 'fast or slow? shout it out!'; ask-and-pause x14 (fast or slow, any ideas x2, where is Pip, shake off the snow, count 5 steps, up or down, is the path clear, was Lulu fast or slow, whose turn, wave fast/slow, pat knees, wiggle, count to 3, marshmallows, blow) + funny flump into a snowdrift (snow puppy) + gentle twist (Lulu's sled gets stuck on a bump; Pip sits behind her and they slide down together) + warm cocoa + original Snow Slide Song (march, sit-hold-on, arms up wheee, my turn your turn); safety: walk on the hill, wait until the path is clear, sit feet first, Mama watching; teaser for ep038 Lulu Lamb's Sharing Gift Song; new sled_hill bg, sled sprites, cocoa_mug, render hill/move/tilt motion",
+  "title": "Pip Puppy and Lulu's Snow Slide",
+  "youtube_title": "Pip Puppy and Lulu Lamb's Snow Slide ❄️ Fast or Slow? Taking Turns | Kids Story | Honey Bunny Kidz",
+  "youtube_description": "Pip Puppy and Lulu Lamb have one little red sled and a snowy hill, so they learn to take turns, and to help each other when the sled gets stuck! ❄️\nKids count steps, learn fast and slow, up and down, and sing the Snow Slide Song.\n💛 Share with a parent who'd love this!\n\n0:00 Fast or slow? Shout it out!\n0:52 Where is Pip?\n1:15 Count the steps up the hill\n1:40 Lulu's slow, slow turn\n2:14 Pip's fast turn + Fast and Slow game\n2:50 Oh no, the sled is stuck!\n3:38 Warm cocoa with Mama\n4:04 The Snow Slide Song\n\n👍 Follow us on Facebook: https://facebook.com/1432376496625170\n\n#KidsStories #Toddlers #Preschool #WinterStories #TakingTurns #HoneyBunnyKidz",
+  "youtube_tags": [
+   "kids stories",
+   "winter stories for kids",
+   "taking turns for kids",
+   "fast and slow",
+   "up and down for kids",
+   "counting for kids",
+   "sledding cartoon",
+   "Pip Puppy",
+   "Lulu Lamb",
+   "Honey Bunny Kidz"
+  ],
+  "duration_s": 305.1,
+  "short_titles": {
+   "short": "Who Slides Faster, Pip Puppy or Lulu? #shorts",
+   "short2": "How Many Steps to the Top? Count with Lulu Lamb! (Facebook Reel)",
+   "short3": "Where's Pip? Sing the Snow Slide Song! (Facebook Reel)"
+  },
+  "short_durations_s": {
+   "short": 50.2,
+   "short2": 57.4,
+   "short3": 58.2
+  },
+  "files": [
+   "videos/ep037_full.mp4",
+   "videos/ep037_full.srt",
+   "videos/ep037_short.mp4",
+   "videos/ep037_short.srt",
+   "videos/ep037_short2.mp4",
+   "videos/ep037_short2.srt",
+   "videos/ep037_short3.mp4",
+   "videos/ep037_short3.srt"
+  ],
+  "thumbnail_files": [
+   "thumbnails/ep037_thumb.jpg",
+   "thumbnails/ep037_short_thumb.jpg",
+   "thumbnails/ep037_short2_thumb.jpg",
+   "thumbnails/ep037_short3_thumb.jpg"
+  ],
+  "thumbnail_text": "Whose Turn Now?",
+  "buffer_post_ids": [
+   "6b0aa202eb08204b2e9e7968",
+   "6b0aa203eb08204b2e9e79b3",
+   "6b0aa204166388cd1f3a0505"
+  ],
+  "buffer_posts": {
+   "fb_short3_1630": "6b0aa202eb08204b2e9e7968",
+   "fb_short2_1830": "6b0aa203eb08204b2e9e79b3",
+   "yt_short_2040": "6b0aa204166388cd1f3a0505"
+  },
+  "skipped_posts": "Only one YouTube Short (rolling-24h limit); short2/short3 not on YouTube; no FB full-video post (not a SING day).",
+  "youtube_long": "manual upload by user",
+  "sonap_error": "media_storage: github false; import_media github_path: 'GitHub is not connected.'; media_url (drive): 'Bad Request'; media_url (auto): 'This channel uses GitHub. Connect GitHub in Library first.'",
+  "note": "Full video re-encoded to 15.0 MB (crf 30, AAC-LC 96k) for a future Sonap media_url import."
  }
 ]
